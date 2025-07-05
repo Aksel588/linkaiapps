@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkAI - AI & Game Development</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .glass-header {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+        }
+        
+        /* Burger Menu Animation */
+        .burger-menu {
+            width: 24px;
+            height: 24px;
+            position: relative;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        
+        .burger-line {
+            width: 100%;
+            height: 2px;
+            background-color: #000;
+            position: absolute;
+            transition: all 0.3s ease;
+            border-radius: 1px;
+        }
+        
+        .burger-line:nth-child(1) { top: 4px; }
+        .burger-line:nth-child(2) { top: 11px; }
+        .burger-line:nth-child(3) { top: 18px; }
+        
+        .burger-menu:hover {
+            transform: scale(1.1);
+        }
+        
+        .burger-menu.active .burger-line:nth-child(1) {
+            transform: rotate(45deg);
+            top: 11px;
+        }
+        
+        .burger-menu.active .burger-line:nth-child(2) {
+            opacity: 0;
+            transform: translateX(-20px);
+        }
+        
+        .burger-menu.active .burger-line:nth-child(3) {
+            transform: rotate(-45deg);
+            top: 11px;
+        }
+        
+        .burger-menu:active {
+            transform: scale(0.95);
+        }
+        
+        /* Mobile Menu */
+        .mobile-menu {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            z-index: 40;
+            transform: translateX(-100%);
+            transition: transform 0.3s ease;
+        }
+        
+        /* Fallback for browsers without backdrop-filter support */
+        @supports not (backdrop-filter: blur(20px)) {
+            .mobile-menu {
+                background: rgba(255, 255, 255, 0.98);
+            }
+        }
+        
+        /* Mobile Menu Matte Overlay */
+        .mobile-menu::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(255,255,255,0.8) 0%, rgba(248,250,252,0.8) 100%);
+            pointer-events: none;
+            z-index: -1;
+        }
+        
+        .mobile-menu.active {
+            transform: translateX(0);
+            box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Close Icon */
+        .close-icon {
+            position: absolute;
+            top: 30px;
+            right: 30px;
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+            z-index: 50;
+            transition: transform 0.3s ease;
+        }
+        
+        .close-icon::before,
+        .close-icon::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background-color: #000;
+            top: 50%;
+            left: 0;
+            transition: all 0.3s ease;
+        }
+        
+        .close-icon::before {
+            transform: rotate(45deg);
+        }
+        
+        .close-icon::after {
+            transform: rotate(-45deg);
+        }
+        
+        .close-icon:hover {
+            transform: scale(1.1) rotate(90deg);
+        }
+        
+        .close-icon:hover::before,
+        .close-icon:hover::after {
+            background-color: #666;
+        }
+        
+        .close-icon:active {
+            transform: scale(0.95);
+        }
+        
+        /* Close button animation when menu opens */
+        .mobile-menu.active .close-icon {
+            animation: closeButtonAppear 0.5s ease forwards;
+        }
+        
+        @keyframes closeButtonAppear {
+            0% {
+                opacity: 0;
+                transform: scale(0) rotate(-180deg);
+            }
+            50% {
+                opacity: 0.5;
+                transform: scale(1.2) rotate(-90deg);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1) rotate(0deg);
+            }
+        }
+        
+        .mobile-menu-content {
+            padding: 100px 40px 40px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        
+        .mobile-menu a {
+            font-size: 2rem;
+            font-weight: 300;
+            color: #000;
+            text-decoration: none;
+            margin: 20px 0;
+            transition: color 0.3s ease;
+        }
+        
+        .mobile-menu a:hover {
+            color: #666;
+        }
+        
+        /* Responsive improvements */
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 3rem !important;
+                line-height: 1.1 !important;
+            }
+            
+            .container {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            
+            /* Mobile wallpaper image fixes */
+            .wallpaper-image {
+                height: 200px !important;
+                min-height: 200px;
+            }
+            
+        }
+        
+        @media (max-width: 640px) {
+            .hero-title {
+                font-size: 2.5rem !important;
+            }
+        }
+
+        /* Matte Background Effect */
+        .matte-bg {
+            background: linear-gradient(135deg, rgba(255,255,255,0.92) 0%, rgba(248,250,252,0.92) 50%, rgba(255,255,255,0.88) 100%);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            border: 1px solid rgba(255,255,255,0.3);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+        }
+        
+        /* Enhanced Matte Background for sections */
+        .matte-section {
+            background: linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(248,250,252,0.95) 50%, rgba(255,255,255,0.92) 100%);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255,255,255,0.4);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.06);
+        }
+        
+        /* Matte overlay for background enhancement */
+        .matte-overlay {
+            position: relative;
+        }
+        
+        .matte-overlay::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(248,250,252,0.1) 100%);
+            pointer-events: none;
+            z-index: 1;
+        }
+    </style>
+</head>
+
+<body class="bg-white text-black">
+    <!-- Header with Matte/Glass Effect -->
+    <header class="matte-bg sticky top-0 z-30 shadow-sm">
+        <div class="container mx-auto px-6 py-4 flex items-center justify-between">
+            <!-- Company Name Left -->
+            <div class="flex-shrink-0">
+                <span class="text-2xl md:text-3xl font-extrabold tracking-tight text-black">LinkAI</span>
+            </div>
+            <!-- Navigation Right -->
+            <nav class="hidden md:flex space-x-8 text-base font-medium">
+                <a href="#hero" class="text-gray-700 hover:text-black transition-colors">Home</a>
+                <a href="#about" class="text-gray-700 hover:text-black transition-colors">About</a>
+                <a href="#coming-soon" class="text-gray-700 hover:text-black transition-colors">Coming Soon</a>
+                <a href="#wallpapers" class="text-gray-700 hover:text-black transition-colors">Wallpapers</a>
+                <a href="#footer" class="text-gray-700 hover:text-black transition-colors">Contact</a>
+            </nav>
+            <!-- Mobile Menu Button -->
+            <button id="burger-menu" class="md:hidden burger-menu">
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="mobile-menu">
+        <div class="mobile-menu-content">
+            <!-- Brand Name -->
+            <div class="text-center mb-12">
+                <div class="text-3xl font-extrabold tracking-tight text-black mb-2">LinkAI</div>
+                <div class="text-sm text-gray-600">AI & Game Development</div>
+            </div>
+            
+            <!-- Navigation Links -->
+            <div class="flex-1 flex flex-col justify-center">
+                <a href="#hero" onclick="closeMobileMenu()">Home</a>
+                <a href="#about" onclick="closeMobileMenu()">About</a>
+                <a href="#coming-soon" onclick="closeMobileMenu()">Coming Soon</a>
+                <a href="#wallpapers" onclick="closeMobileMenu()">Wallpapers</a>
+                <a href="#footer" onclick="closeMobileMenu()">Contact</a>
+            </div>
+            
+            <!-- Footer Text -->
+            <div class="text-center mt-12 text-sm text-gray-500">
+                <div>Since 2025 LinkAI. All rights reserved.</div>
+                <div class="mt-1">Created by <span id="mobile-animated-aksel" class="font-semibold text-black transition-all duration-700">Aksel</span></div>
+            </div>
+        </div>
+        <button id="close-mobile-menu" class="close-icon"></button>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 via-white to-gray-50 relative overflow-hidden">
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 opacity-5">
+            <div class="absolute top-0 left-0 w-full h-full" 
+                 style="background-image: radial-gradient(circle at 20% 20%, rgba(0,0,0,0.1) 0%, transparent 50%), 
+                        radial-gradient(circle at 80% 80%, rgba(0,0,0,0.1) 0%, transparent 50%);">
+            </div>
+        </div>
+        
+        <div class="container mx-auto px-6 py-20 text-center relative z-10">
+            <!-- Main Title with Typing Animation -->
+            <div class="mb-16">
+                <h1 id="typing-hero" class="text-5xl md:text-7xl lg:text-8xl font-extrabold leading-tight text-black mb-6"></h1>
+                <div class="w-24 h-1 bg-black mx-auto mb-8"></div>
+            </div>
+            
+            <!-- Subtitle -->
+            <div class="max-w-4xl mx-auto mb-16">
+                <p class="text-xl md:text-2xl lg:text-3xl text-gray-700 font-light leading-relaxed">
+                    LinkAI is a pioneering company at the forefront of artificial intelligence and game development. 
+                    We deliver innovative solutions, immersive experiences, and cutting-edge technology to empower 
+                    businesses and inspire creativity.
+                </p>
+            </div>
+            
+            <!-- Call to Action Buttons -->
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
+                <a href="#wallpapers" class="px-8 py-4 bg-black text-white rounded-lg hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 font-semibold text-lg cursor-pointer inline-block text-center">
+                    Download Wallpapers
+                </a>
+                <a href="#coming-soon" class="px-8 py-4 border-2 border-black text-black rounded-lg hover:bg-black hover:text-white transition-all duration-300 transform hover:scale-105 font-semibold text-lg cursor-pointer inline-block text-center">
+                    Coming Soon
+                </a>
+            </div>
+            
+           
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-32 bg-gradient-to-br from-gray-50 via-white to-gray-50 relative overflow-hidden">
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute top-0 left-0 w-full h-full" 
+                 style="background-image: radial-gradient(circle at 20% 20%, rgba(0,0,0,0.1) 0%, transparent 50%), 
+                        radial-gradient(circle at 80% 80%, rgba(0,0,0,0.1) 0%, transparent 50%);">
+            </div>
+        </div>
+        
+        <div class="container mx-auto px-6 relative z-10">
+            <!-- Section Header -->
+            <div class="text-center mb-20">
+                <div class="inline-block mb-6">
+                    <span class="text-sm font-semibold text-gray-500 uppercase tracking-wider">About Us</span>
+                </div>
+                <h2 class="text-6xl md:text-7xl lg:text-8xl font-extrabold mb-8 tracking-tight">LinkAI</h2>
+                <div class="w-32 h-1 bg-black mx-auto mb-8"></div>
+                <p class="text-2xl md:text-3xl text-gray-600 max-w-4xl mx-auto font-light leading-relaxed">
+                    Where artificial intelligence meets game development innovation
+                </p>
+            </div>
+
+            <!-- Main Content -->
+            <div class="max-w-6xl mx-auto">
+                <!-- Mission Statement -->
+                <div class="text-center mb-20">
+                    <div class="matte-bg rounded-3xl p-12 shadow-xl">
+                        <h3 class="text-4xl md:text-5xl font-bold mb-8">Our Mission</h3>
+                        <p class="text-xl md:text-2xl text-gray-600 leading-relaxed max-w-4xl mx-auto">
+                            We bridge the gap between cutting-edge artificial intelligence and immersive game development, 
+                            creating innovative solutions that push the boundaries of digital entertainment and AI technology.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Three Column Layout -->
+                <div class="grid md:grid-cols-3 gap-8 mb-20">
+                    <!-- What We Do -->
+                    <div class="matte-bg rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                        <div class="text-4xl mb-6">🚀</div>
+                        <h4 class="text-2xl font-bold mb-4">What We Do</h4>
+                        <p class="text-gray-600 leading-relaxed">
+                            We specialize in developing AI-powered gaming experiences, creating intelligent systems that enhance gameplay, 
+                            and building innovative solutions that combine the best of both worlds.
+                        </p>
+                    </div>
+
+                    <!-- Our Expertise -->
+                    <div class="matte-bg rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                        <div class="text-4xl mb-6">🧠</div>
+                        <h4 class="text-2xl font-bold mb-4">Our Expertise</h4>
+                        <ul class="space-y-2 text-gray-600">
+                            <li class="flex items-center">
+                                <span class="w-1.5 h-1.5 bg-black rounded-full mr-3"></span>
+                                AI & Machine Learning
+                            </li>
+                            <li class="flex items-center">
+                                <span class="w-1.5 h-1.5 bg-black rounded-full mr-3"></span>
+                                Game Development
+                            </li>
+                            <li class="flex items-center">
+                                <span class="w-1.5 h-1.5 bg-black rounded-full mr-3"></span>
+                                Neural Networks
+                            </li>
+                            <li class="flex items-center">
+                                <span class="w-1.5 h-1.5 bg-black rounded-full mr-3"></span>
+                                Content Generation
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Our Vision -->
+                    <div class="matte-bg rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                        <div class="text-4xl mb-6">🌟</div>
+                        <h4 class="text-2xl font-bold mb-4">Our Vision</h4>
+                        <p class="text-gray-600 leading-relaxed">
+                            We envision a future where AI and gaming seamlessly integrate to create experiences that are not just 
+                            entertaining, but truly intelligent and adaptive.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Stats Section -->
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                    <div class="text-center matte-bg rounded-2xl p-8 shadow-lg">
+                        <div class="text-4xl md:text-5xl font-bold text-black mb-3">2025</div>
+                        <div class="text-gray-600 font-medium">Founded</div>
+                    </div>
+                    <div class="text-center matte-bg rounded-2xl p-8 shadow-lg">
+                        <div class="text-4xl md:text-5xl font-bold text-black mb-3">AI</div>
+                        <div class="text-gray-600 font-medium">Specialized</div>
+                    </div>
+                    <div class="text-center matte-bg rounded-2xl p-8 shadow-lg">
+                        <div class="text-4xl md:text-5xl font-bold text-black mb-3">Game</div>
+                        <div class="text-gray-600 font-medium">Development</div>
+                    </div>
+                    <div class="text-center matte-bg rounded-2xl p-8 shadow-lg">
+                        <div class="text-4xl md:text-5xl font-bold text-black mb-3">Future</div>
+                        <div class="text-gray-600 font-medium">Focused</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Typing animation with no cursor
+        const heroPhrases = [
+            'Welcome to LinkAI, Your Gateway to AI and Game Development Excellence',
+            'Coming Soon - Something Amazing is in Development',
+            'Revolutionary Game Development with Advanced AI Integration',
+            'State-of-the-Art AI Models for Next-Generation Applications',
+            'Innovative Tech Solutions for the Digital Future',
+            'Your Trusted Digital Transformation Partner in Technology',
+            'Next-Generation AI Solutions for Modern Businesses',
+            'Cutting-Edge Game Development with Professional Excellence',
+            'Machine Learning Excellence for Intelligent Applications',
+            'Creative Technology Studio Crafting Digital Experiences',
+            'Future-Ready Applications Built with Advanced Technology',
+            'Advanced AI Integration for Seamless User Experiences',
+            'Professional Game Design with Innovative Storytelling',
+            'Smart Technology Solutions for Complex Challenges',
+            'Innovation at Its Finest - Pushing Technology Boundaries',
+            'AI-Powered Development for Tomorrow\'s Digital Landscape'
+        ];
+        let phraseIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        const typingHero = document.getElementById('typing-hero');
+        let typingDelay = 80;
+        let erasingDelay = 40;
+        let nextPhraseDelay = 1200;
+        function typeLoop() {
+            const phrase = heroPhrases[phraseIndex];
+            if (!isDeleting) {
+                typingHero.textContent = phrase.substring(0, charIndex + 1);
+                charIndex++;
+                if (charIndex < phrase.length) {
+                    setTimeout(typeLoop, typingDelay);
+                } else {
+                    setTimeout(() => { isDeleting = true; typeLoop(); }, nextPhraseDelay);
+                }
+            } else {
+                typingHero.textContent = phrase.substring(0, charIndex - 1);
+                charIndex--;
+                if (charIndex > 0) {
+                    setTimeout(typeLoop, erasingDelay);
+                } else {
+                    isDeleting = false;
+                    phraseIndex = (phraseIndex + 1) % heroPhrases.length;
+                    setTimeout(typeLoop, 600);
+                }
+            }
+        }
+        setTimeout(typeLoop, 500);
+    </script>
+    
+    <script>
+        // Mobile Menu Functionality
+        const burgerMenu = document.getElementById('burger-menu');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const closeMobileMenuBtn = document.getElementById('close-mobile-menu');
+        
+        burgerMenu.addEventListener('click', function() {
+            burgerMenu.classList.toggle('active');
+            mobileMenu.classList.toggle('active');
+            document.body.style.overflow = mobileMenu.classList.contains('active') ? 'hidden' : '';
+        });
+
+        closeMobileMenuBtn.addEventListener('click', closeMobileMenu);
+        
+        function closeMobileMenu() {
+            burgerMenu.classList.remove('active');
+            mobileMenu.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+        
+        // Close mobile menu when clicking outside
+        mobileMenu.addEventListener('click', function(e) {
+            if (e.target === mobileMenu) {
+                closeMobileMenu();
+            }
+        });
+        
+        // Close mobile menu on escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && mobileMenu.classList.contains('active')) {
+                closeMobileMenu();
+            }
+        });
+        
+        // Add touch feedback for burger menu
+        burgerMenu.addEventListener('touchstart', function() {
+            this.style.transform = 'scale(0.95)';
+        });
+        
+        burgerMenu.addEventListener('touchend', function() {
+            this.style.transform = '';
+        });
+        
+        // Responsive adjustments
+        function adjustForMobile() {
+            const isMobile = window.innerWidth < 768;
+            const heroTitle = document.getElementById('typing-hero');
+            
+            if (isMobile) {
+                heroTitle.classList.add('hero-title');
+            } else {
+                heroTitle.classList.remove('hero-title');
+            }
+        }
+        
+        // Run on load and resize
+        window.addEventListener('load', function() {
+            adjustForMobile();
+            // Ensure page starts at top on refresh
+            window.scrollTo(0, 0);
+        });
+        window.addEventListener('resize', adjustForMobile);
+        
+        // Force scroll to top on page refresh
+        window.addEventListener('beforeunload', function() {
+            window.scrollTo(0, 0);
+        });
+        
+        // Additional scroll to top on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(function() {
+                window.scrollTo(0, 0);
+            }, 100);
+        });
+        
+        // Handle browser back/forward buttons
+        window.addEventListener('pageshow', function(event) {
+            if (event.persisted) {
+                window.scrollTo(0, 0);
+            }
+        });
+    </script>
+
+    <!-- Coming Soon Wallpaper Section -->
+    <section id="coming-soon" class="py-32 matte-section text-black relative overflow-hidden">
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute top-0 left-0 w-full h-full"
+                style="background-image: radial-gradient(circle at 25% 25%, rgba(0,0,0,0.05) 0%, transparent 50%), radial-gradient(circle at 75% 75%, rgba(0,0,0,0.05) 0%, transparent 50%);">
+            </div>
+        </div>
+
+        <div class="container mx-auto px-4 text-center relative z-10">
+            <!-- LinkAI Brand -->
+            <div class="mb-16">
+                <h2 class="text-8xl md:text-9xl font-extrabold tracking-tight mb-4">LinkAI</h2>
+                <div class="w-32 h-1 bg-black mx-auto mb-8"></div>
+                <p class="text-2xl md:text-3xl text-gray-600 font-light max-w-3xl mx-auto">
+                    AI & Game Development
+                </p>
+            </div>
+
+            <!-- Coming Soon -->
+            <div class="mb-16">
+                <h3 class="text-6xl md:text-7xl font-bold mb-6 tracking-wider">COMING SOON</h3>
+                <p class="text-xl md:text-2xl text-gray-600 font-medium">
+                    Something amazing is in development
+                </p>
+            </div>
+
+            <!-- Features Preview -->
+          
+
+            <!-- Progress Indicator -->
+            <div class="mt-16">
+                <div class="w-64 h-2 bg-gray-200 rounded-full mx-auto mb-4">
+                    <div class="w-1/3 h-full bg-black rounded-full animate-pulse"></div>
+                </div>
+                <p class="text-gray-500 text-sm">Development in Progress</p>
+            </div>
+
+
+        </div>
+        </div>
+    </section>
+
+    <!-- Wallpaper Showcase Section -->
+    <section id="wallpapers" class="py-32 matte-section">
+        <div class="container mx-auto px-4">
+            <!-- Section Header -->
+            <div class="text-center mb-16">
+                <h2 class="text-5xl md:text-6xl font-bold mb-6">Download Wallpapers</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    High-quality wallpapers for all your devices. Free downloads with multiple resolutions.
+                </p>
+            </div>
+
+            <!-- Container 1: Left Text, Right Image -->
+            <div class="flex flex-col lg:flex-row items-center gap-8 lg:gap-12 mb-16 lg:mb-20 matte-bg rounded-xl lg:rounded-2xl p-6 lg:p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div class="lg:w-1/2">
+                    <h3 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">AI-Powered Gaming</h3>
+                    <p class="text-base lg:text-lg text-gray-600 mb-6">
+                        Experience the future of gaming with our AI-enhanced wallpapers.
+                        Perfect blend of artificial intelligence and gaming aesthetics.
+                    </p>
+                    <div class="flex flex-wrap gap-2 lg:gap-3 mb-6">
+                        <span class="px-3 py-1 bg-black text-white rounded-full text-xs lg:text-sm">4K Resolution</span>
+                        <span class="px-3 py-1 bg-gray-200 text-gray-700 rounded-full text-xs lg:text-sm">AI Generated</span>
+                        <span class="px-3 py-1 bg-gray-200 text-gray-700 rounded-full text-xs lg:text-sm">Gaming Theme</span>
+                    </div>
+                    <div class="space-y-3 mb-6 text-sm lg:text-base">
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm text-gray-600">Desktop (4K)</span>
+                            <span class="text-sm font-medium">3840x2160 • 2.4MB</span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm text-gray-600">Mobile</span>
+                            <span class="text-sm font-medium">1080x1920 • 1.8MB</span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm text-gray-600">Ultra Wide</span>
+                            <span class="text-sm font-medium">3440x1440 • 2.1MB</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col sm:flex-row gap-3">
+                        <button class="px-6 py-3 bg-gray-200 text-gray-500 rounded-lg cursor-not-allowed text-sm lg:text-base">
+                            Coming Soon
+                        </button>
+                        <button class="px-6 py-3 bg-gray-200 text-gray-500 rounded-lg cursor-not-allowed text-sm lg:text-base">
+                            Coming Soon
+                        </button>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 w-full">
+                    <div
+                        class="wallpaper-image w-full h-64 sm:h-80 bg-gradient-to-br from-gray-100 to-gray-200 rounded-lg lg:rounded-xl shadow-lg flex items-center justify-center relative overflow-hidden">
+                        <div class="absolute inset-0 bg-black bg-opacity-10"></div>
+                        <div class="text-center">
+                            <div class="text-6xl sm:text-8xl mb-4">🎮</div>
+                            <p class="text-gray-600 font-medium text-sm lg:text-base">Gaming Wallpaper</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Container 2: Left Image, Right Text -->
+            <div class="flex flex-col lg:flex-row-reverse items-center gap-8 lg:gap-12 mb-16 lg:mb-20 matte-bg rounded-xl lg:rounded-2xl p-6 lg:p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div class="lg:w-1/2">
+                    <h3 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">Neural Networks</h3>
+                    <p class="text-base lg:text-lg text-gray-600 mb-6">
+                        Dive into the world of neural networks with our AI-themed wallpapers.
+                        Abstract designs representing the complexity of AI systems.
+                    </p>
+                    <div class="flex flex-wrap gap-2 lg:gap-3 mb-6">
+                        <span class="px-3 py-1 bg-black text-white rounded-full text-xs lg:text-sm">Abstract Design</span>
+                        <span class="px-3 py-1 bg-gray-200 text-gray-700 rounded-full text-xs lg:text-sm">Neural Patterns</span>
+                        <span class="px-3 py-1 bg-gray-200 text-gray-700 rounded-full text-xs lg:text-sm">Tech Aesthetic</span>
+                    </div>
+                    <div class="space-y-3 mb-6 text-sm lg:text-base">
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm text-gray-600">Desktop (4K)</span>
+                            <span class="text-sm font-medium">3840x2160 • 3.1MB</span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm text-gray-600">Mobile</span>
+                            <span class="text-sm font-medium">1080x1920 • 2.2MB</span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm text-gray-600">Ultra Wide</span>
+                            <span class="text-sm font-medium">3440x1440 • 2.8MB</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col sm:flex-row gap-3">
+                        <button class="px-6 py-3 bg-gray-200 text-gray-500 rounded-lg cursor-not-allowed text-sm lg:text-base">
+                            Coming Soon
+                        </button>
+                        <button class="px-6 py-3 bg-gray-200 text-gray-500 rounded-lg cursor-not-allowed text-sm lg:text-base">
+                            Coming Soon
+                        </button>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 w-full">
+                    <div
+                        class="wallpaper-image w-full h-64 sm:h-80 bg-gradient-to-br from-gray-100 to-gray-200 rounded-lg lg:rounded-xl shadow-lg flex items-center justify-center relative overflow-hidden">
+                        <div class="absolute inset-0 bg-black bg-opacity-10"></div>
+                        <div class="text-center">
+                            <div class="text-6xl sm:text-8xl mb-4">🧠</div>
+                            <p class="text-gray-600 font-medium text-sm lg:text-base">Neural Network Art</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Container 3: Left Text, Right Image -->
+            <div class="flex flex-col lg:flex-row items-center gap-12 mb-20 matte-bg rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div class="lg:w-1/2">
+                    <h3 class="text-3xl md:text-4xl font-bold mb-4">Cyberpunk Future</h3>
+                    <p class="text-lg text-gray-600 mb-6">
+                        Immerse yourself in a cyberpunk aesthetic with our futuristic wallpapers.
+                        Neon lights, digital landscapes, and advanced technology.
+                    </p>
+                    <div class="flex flex-wrap gap-3 mb-6">
+                        <span class="px-3 py-1 bg-black text-white rounded-full text-xs">Cyberpunk Style</span>
+                        <span class="px-3 py-1 bg-gray-200 text-gray-700 rounded-full text-xs">Neon Effects</span>
+                        <span class="px-3 py-1 bg-gray-200 text-gray-700 rounded-full text-xs">Futuristic</span>
+                    </div>
+                    <div class="space-y-3 mb-6">
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm text-gray-600">Desktop (4K)</span>
+                            <span class="text-sm font-medium">3840x2160 • 4.2MB</span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm text-gray-600">Mobile</span>
+                            <span class="text-sm font-medium">1080x1920 • 2.9MB</span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm text-gray-600">Ultra Wide</span>
+                            <span class="text-sm font-medium">3440x1440 • 3.7MB</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-3">
+                        <button class="px-6 py-3 bg-gray-200 text-gray-500 rounded-lg cursor-not-allowed">
+                            Coming Soon
+                        </button>
+                        <button class="px-6 py-3 bg-gray-200 text-gray-500 rounded-lg cursor-not-allowed">
+                            Coming Soon
+                        </button>
+                    </div>
+                </div>
+                <div class="lg:w-1/2">
+                    <div
+                        class="wallpaper-image w-full h-80 bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl shadow-lg flex items-center justify-center relative overflow-hidden">
+                        <div class="absolute inset-0 bg-black bg-opacity-10"></div>
+                        <div class="text-center">
+                            <div class="text-8xl mb-4">🌃</div>
+                            <p class="text-gray-600 font-medium">Cyberpunk City</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Container 4: Left Image, Right Text -->
+            <div class="flex flex-col lg:flex-row-reverse items-center gap-12 mb-20 matte-bg rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div class="lg:w-1/2">
+                    <h3 class="text-3xl md:text-4xl font-bold mb-4">Minimalist Tech</h3>
+                    <p class="text-lg text-gray-600 mb-6">
+                        Clean, minimalist designs that celebrate technology and innovation.
+                        Perfect for professionals who appreciate simplicity and elegance.
+                    </p>
+                    <div class="flex flex-wrap gap-3 mb-6">
+                        <span class="px-3 py-1 bg-black text-white rounded-full text-xs">Minimalist</span>
+                        <span class="px-3 py-1 bg-gray-200 text-gray-700 rounded-full text-xs">Professional</span>
+                        <span class="px-3 py-1 bg-gray-200 text-gray-700 rounded-full text-xs">Clean Design</span>
+                    </div>
+                    <div class="space-y-3 mb-6">
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm text-gray-600">Desktop (4K)</span>
+                            <span class="text-sm font-medium">3840x2160 • 1.8MB</span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm text-gray-600">Mobile</span>
+                            <span class="text-sm font-medium">1080x1920 • 1.3MB</span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm text-gray-600">Ultra Wide</span>
+                            <span class="text-sm font-medium">3440x1440 • 1.6MB</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-3">
+                        <button class="px-6 py-3 bg-gray-200 text-gray-500 rounded-lg cursor-not-allowed">
+                            Coming Soon
+                        </button>
+                        <button class="px-6 py-3 bg-gray-200 text-gray-500 rounded-lg cursor-not-allowed">
+                            Coming Soon
+                        </button>
+                    </div>
+                </div>
+                <div class="lg:w-1/2">
+                    <div
+                        class="wallpaper-image w-full h-80 bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl shadow-lg flex items-center justify-center relative overflow-hidden">
+                        <div class="absolute inset-0 bg-black bg-opacity-10"></div>
+                        <div class="text-center">
+                            <div class="text-8xl mb-4">⚡</div>
+                            <p class="text-gray-600 font-medium">Minimalist Tech</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Container 5: Left Text, Right Image -->
+            <div class="flex flex-col lg:flex-row items-center gap-12 matte-bg rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div class="lg:w-1/2">
+                    <h3 class="text-3xl md:text-4xl font-bold mb-4">Data Visualization</h3>
+                    <p class="text-lg text-gray-600 mb-6">
+                        Explore the beauty of data through our visualization wallpapers.
+                        Complex algorithms transformed into stunning visual art.
+                    </p>
+                    <div class="flex flex-wrap gap-3 mb-6">
+                        <span class="px-3 py-1 bg-black text-white rounded-full text-xs">Data Art</span>
+                        <span class="px-3 py-1 bg-gray-200 text-gray-700 rounded-full text-xs">Visualization</span>
+                        <span class="px-3 py-1 bg-gray-200 text-gray-700 rounded-full text-xs">Algorithmic</span>
+                    </div>
+                    <div class="space-y-3 mb-6">
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm text-gray-600">Desktop (4K)</span>
+                            <span class="text-sm font-medium">3840x2160 • 3.5MB</span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm text-gray-600">Mobile</span>
+                            <span class="text-sm font-medium">1080x1920 • 2.7MB</span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm text-gray-600">Ultra Wide</span>
+                            <span class="text-sm font-medium">3440x1440 • 3.2MB</span>
+                        </div>
+                    </div>
+                    <div class="flex gap-3">
+                        <button class="px-6 py-3 bg-gray-200 text-gray-500 rounded-lg cursor-not-allowed">
+                            Coming Soon
+                        </button>
+                        <button class="px-6 py-3 bg-gray-200 text-gray-500 rounded-lg cursor-not-allowed">
+                            Coming Soon
+                        </button>
+                    </div>
+                </div>
+                <div class="lg:w-1/2">
+                    <div
+                        class="wallpaper-image w-full h-80 bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl shadow-lg flex items-center justify-center relative overflow-hidden">
+                        <div class="absolute inset-0 bg-black bg-opacity-10"></div>
+                        <div class="text-center">
+                            <div class="text-8xl mb-4">📊</div>
+                            <p class="text-gray-600 font-medium">Data Visualization</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Download All Section -->
+            <div class="text-center mt-16 p-8 matte-bg text-black rounded-2xl shadow-xl">
+                <h3 class="text-3xl font-bold mb-4">Download Complete Collection</h3>
+                <p class="text-lg text-gray-600 mb-6">
+                    Get all 25+ wallpapers in one package. Includes all resolutions and formats.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <div class="text-center">
+                        <div class="text-2xl font-bold">25+</div>
+                        <div class="text-sm text-gray-600">Wallpapers</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-2xl font-bold">3</div>
+                        <div class="text-sm text-gray-600">Resolutions</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-2xl font-bold">85MB</div>
+                        <div class="text-sm text-gray-600">Total Size</div>
+                    </div>
+                </div>
+                <button class="mt-6 px-8 py-4 bg-black text-white rounded-lg cursor-not-allowed font-semibold hover:bg-gray-800 transition-colors">
+                    Coming Soon
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Big White Footer -->
+    <footer id="footer" class="matte-bg text-black py-16 mt-20 border-t border-gray-200">
+        <div class="container mx-auto px-4 grid md:grid-cols-4 gap-12 text-left">
+            <!-- About -->
+            <div>
+                <div class="text-2xl font-extrabold mb-4 tracking-tight">LinkAI</div>
+                <p class="text-gray-700 mb-4">LinkAI is a leading company specializing in artificial intelligence, game
+                    development, and innovative technology solutions. We bridge creativity and technology to deliver
+                    exceptional products and experiences.</p>
+            </div>
+            <!-- Services -->
+            <div>
+                <div class="text-lg font-bold mb-3">Services</div>
+                <ul class="space-y-2 text-gray-700">
+                    <li>AI Solutions</li>
+                    <li>Game Development</li>
+                    <li>Web Development</li>
+                    <li>Tech Consulting</li>
+                </ul>
+            </div>
+            <!-- Contact Info -->
+            <div>
+                <div class="text-lg font-bold mb-3">Contact</div>
+                <ul class="space-y-2 text-gray-700">
+                    <li>Email: <a href="mailto:aksel@linkaiapps.com" class="underline hover:text-black transition-colors">aksel@linkaiapps.com</a></li>
+                    <li>Location: <span class="">Worldwide</span></li>
+                </ul>
+            </div>
+            <!-- Social Links -->
+            <div>
+                <div class="text-lg font-bold mb-3">Follow Us</div>
+                <div class="flex space-x-4">
+                    <a href="#" class="hover:underline text-gray-700">Twitter</a>
+                    <a href="#" class="hover:underline text-gray-700">LinkedIn</a>
+                    <a href="#" class="hover:underline text-gray-700">GitHub</a>
+                </div>
+            </div>
+        </div>
+        <div class="container mx-auto px-4 text-center mt-12 text-gray-400 text-sm">
+            Since 2025 LinkAI. All rights reserved. | Created by <span id="animated-aksel" class="font-semibold text-black transition-all duration-700">Aksel</span>
+        </div>
+    </footer>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Dancing+Script:wght@600&family=Pacifico&family=Great+Vibes&family=Satisfy&family=Kaushan+Script&display=swap');
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        /* Ensure page starts at top on refresh */
+        body {
+            scroll-behavior: smooth;
+        }
+        
+        .font-playfair { font-family: 'Playfair Display', serif; }
+        .font-dancing { font-family: 'Dancing Script', cursive; }
+        .font-pacifico { font-family: 'Pacifico', cursive; }
+        .font-greatvibes { font-family: 'Great Vibes', cursive; }
+        .font-satisfy { font-family: 'Satisfy', cursive; }
+        .font-kaushan { font-family: 'Kaushan Script', cursive; }
+    </style>
+    <script>
+        // Font family changing animation for Aksel in footer
+        const animatedAksel = document.getElementById('animated-aksel');
+        const mobileAnimatedAksel = document.getElementById('mobile-animated-aksel');
+        const fonts = ['font-playfair', 'font-dancing', 'font-pacifico', 'font-greatvibes', 'font-satisfy', 'font-kaushan'];
+        let fontIndex = 0;
+        
+        function changeAkselFont() {
+            // Remove current font class from both elements
+            fonts.forEach(font => {
+                animatedAksel.classList.remove(font);
+                mobileAnimatedAksel.classList.remove(font);
+            });
+            // Add new font class to both elements
+            animatedAksel.classList.add(fonts[fontIndex]);
+            mobileAnimatedAksel.classList.add(fonts[fontIndex]);
+            // Move to next font
+            fontIndex = (fontIndex + 1) % fonts.length;
+            // Schedule next font change
+            setTimeout(changeAkselFont, 2000);
+        }
+        
+        // Start the font changing animation when page loads
+        window.addEventListener('load', () => {
+            setTimeout(changeAkselFont, 2000); // Start after 2 seconds
+        });
+    </script>
+</body>
+
+</html>
