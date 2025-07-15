@@ -263,10 +263,11 @@
             <!-- Navigation Right -->
             <nav class="hidden md:flex space-x-8 text-base font-medium">
                 <a href="#hero" class="text-gray-700 hover:text-black transition-colors">Home</a>
-                <a href="./post.html" class="text-gray-700 hover:text-black transition-colors">Blog</a>
                 <a href="#about" class="text-gray-700 hover:text-black transition-colors">About</a>
                 <a href="#coming-soon" class="text-gray-700 hover:text-black transition-colors">Coming Soon</a>
-                <a href="#wallpapers" class="text-gray-700 hover:text-black transition-colors">Wallpapers</a>
+                <a href="#linkai-aion" class="text-gray-700 hover:text-black transition-colors flex items-center gap-2">Library (Python)
+                    <span class="ml-1 px-2 py-0.5 text-xs font-bold rounded-full bg-green-500 text-white align-middle">new</span>
+                </a>
                 <a href="#footer" class="text-gray-700 hover:text-black transition-colors">Contact</a>
             </nav>
             <!-- Mobile Menu Button -->
@@ -291,9 +292,10 @@
             <div class="flex-1 flex flex-col justify-center">
                 <a href="#hero" onclick="closeMobileMenu()">Home</a>
                 <a href="#about" onclick="closeMobileMenu()">About</a>
-                <a href="./post.html">Blog</a>
                 <a href="#coming-soon" onclick="closeMobileMenu()">Coming Soon</a>
-                <a href="#wallpapers" onclick="closeMobileMenu()">Wallpapers</a>
+                <a href="#linkai-aion" onclick="closeMobileMenu()" class="flex items-center gap-2">Library (Python)
+                    <span class="ml-2 px-2 py-0.5 text-xs font-bold rounded-full bg-green-500 text-white align-middle">new</span>
+                </a>
                 <a href="#footer" onclick="closeMobileMenu()">Contact</a>
             </div>
             
@@ -630,282 +632,207 @@
         </div>
     </section>
 
-    <!-- Wallpaper Showcase Section -->
-    <section id="wallpapers" class="py-32 matte-section">
-        <div class="container mx-auto px-4">
-            <!-- Section Header -->
-            <div class="text-center mb-16">
-                <h2 class="text-5xl md:text-6xl font-bold mb-6">Download Wallpapers</h2>
-                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                    High-quality wallpapers for all your devices. Free downloads with multiple resolutions.
-                </p>
+    <!-- =====================
+         About LinkAI-Aion Section
+         (Features, usage, info, and more)
+         ===================== -->
+    <section id="linkai-aion" class="py-24 bg-gradient-to-br from-white via-gray-50 to-white">
+        <div class="w-full max-w-7xl mx-auto px-4">
+            <h2 class="text-6xl md:text-7xl font-extrabold tracking-tight mb-8 text-center">
+                LinkAI-Aion
+                <span class="inline-block align-middle bg-gray-900 text-white text-2xl font-bold px-6 py-2 rounded-full ml-4 shadow-sm border border-gray-300 tracking-wide" style="vertical-align: middle;">
+                    v0.1.2
+                </span>
+            </h2>
+            <p class="text-2xl md:text-3xl text-gray-600 font-light mb-12 text-center max-w-4xl mx-auto">
+                <strong>linkai-aion</strong> is a lightweight Python utility library by LinkAI for text processing, file I/O, CLI parsing, and more. Designed for developers who want clean, reusable functions to speed up their workflow. Future versions will introduce AI features built on this solid foundation.
+            </p>
+            <div class="flex flex-col items-center mb-10">
+                <div class="w-full max-w-2xl">
+                    <div class="relative group flex items-center">
+                        <code id="pip-install" class="block w-full bg-gray-900 text-green-400 rounded-xl px-6 py-4 text-xl font-mono select-all text-left">pip install linkai-aion==0.1.2</code>
+                        <button id="copy-pip" aria-label="Copy pip iupdnstall command" tabindex="0" onclick="copyPipInstall()" class="ml-4 flex items-center gap-2 px-10 py-4 rounded-xl bg-black text-white text-xl font-bold shadow hover:bg-gray-800 transition-all duration-200 group-hover:scale-105 focus:outline-none focus:ring-2 focus:ring-black">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16h8M8 12h8m-7 8h6a2 2 0 002-2V6a2 2 0 00-2-2H8a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
+                            Copy
+                        </button>
+                    </div>
+                </div>
+                <a href="https://pypi.org/project/linkai-aion/" target="_blank" class="mt-8 inline-block px-10 py-4 bg-gray-900 text-white rounded-xl font-semibold text-xl hover:bg-gray-800 transition shadow">View on PyPI</a>
             </div>
+            <!-- Features and Why Section Modern Clean Container -->
+            <div class="mt-16 max-w-5xl mx-auto bg-gray-50 rounded-2xl shadow-md border border-gray-200 p-4 sm:p-6 md:p-10 md:pt-16 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 text-base md:text-xl text-gray-700">
+                <div>
+                    <div class="font-bold mb-3 text-xl md:text-2xl">Features</div>
+                    <ul class="list-disc list-inside space-y-3">
+                        <li><b>Text Utilities:</b> <code>count_words()</code>, <code>extract_emails()</code>, <code>summarize_text()</code>, <code>highlight_keywords()</code></li>
+                        <li><b>File Handling:</b> <code>read_file()</code>, <code>write_file()</code>, <code>append_file()</code></li>
+                        <li><b>Parser Tools:</b> <code>extract_numbers()</code> from messy strings</li>
+                        <li class="italic text-gray-500">and other features...</li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="font-bold mb-3 text-xl md:text-2xl">Why LinkAI-aion?</div>
+                    <ul class="list-disc list-inside space-y-3">
+                        <li>Clean, reusable functions for everyday Python tasks</li>
+                        <li>Developer-focused, minimal dependencies</li>
+                        <li>Future-proof: built to integrate with LinkAI APIs and models</li>
+                        <li>MIT Licensed, open-source, Python 3.7+</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Other Info Section Modern Clean Container -->
+            <div class="mt-12 max-w-5xl mx-auto bg-gray-50 rounded-2xl shadow-md border border-gray-200 p-4 sm:p-6 md:p-12 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 text-base md:text-lg text-gray-700">
+                <div class="flex items-center gap-3 md:gap-4">
+                    <span class="inline-flex items-center justify-center w-9 h-9 md:w-10 md:h-10 rounded-full bg-gray-200"><svg xmlns='http://www.w3.org/2000/svg' class='h-5 w-5 md:h-6 md:w-6 text-gray-700' fill='none' viewBox='0 0 24 24' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M16 7a4 4 0 01-8 0M12 15v2m0 4h.01M6.938 17.938A8 8 0 1117.062 6.062 8 8 0 016.938 17.938z' /></svg></span>
+                    <span><b>Supported Python:</b> 3.7+</span>
+                </div>
+                <div class="flex items-center gap-3 md:gap-4">
+                    <span class="inline-flex items-center justify-center w-9 h-9 md:w-10 md:h-10 rounded-full bg-gray-200"><svg xmlns='http://www.w3.org/2000/svg' class='h-5 w-5 md:h-6 md:w-6 text-gray-700' fill='none' viewBox='0 0 24 24' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12l2 2 4-4M7 20h10a2 2 0 002-2V6a2 2 0 00-2-2H7a2 2 0 00-2 2v12a2 2 0 002 2z' /></svg></span>
+                    <span><b>License:</b> MIT</span>
+                </div>
+                <div class="flex items-center gap-3 md:gap-4">
+                    <span class="inline-flex items-center justify-center w-9 h-9 md:w-10 md:h-10 rounded-full bg-gray-200"><svg xmlns='http://www.w3.org/2000/svg' class='h-5 w-5 md:h-6 md:w-6 text-gray-700' fill='none' viewBox='0 0 24 24' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5.121 17.804A13.937 13.937 0 0112 15c2.485 0 4.797.607 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0z' /></svg></span>
+                    <span><b>Author:</b> Aksel (LinkAI)</span>
+                </div>
+                <div class="flex items-center gap-3 md:gap-4">
+                    <span class="inline-flex items-center justify-center w-9 h-9 md:w-10 md:h-10 rounded-full bg-gray-200"><svg xmlns='http://www.w3.org/2000/svg' class='h-5 w-5 md:h-6 md:w-6 text-gray-700' fill='none' viewBox='0 0 24 24' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M13 16h-1v-4h-1m4 0h-1a4 4 0 00-8 0v4a4 4 0 008 0v-4z' /></svg></span>
+                    <span>More features and AI tools coming soon!</span>
+                </div>
+            </div>
+            <!-- Usage Example Section Modern Clean Container -->
+            <div class="mt-12 max-w-5xl mx-auto bg-gray-50 rounded-2xl shadow-md border border-gray-200 p-4 sm:p-6 md:p-12">
+                <div class="flex flex-col sm:flex-row items-start sm:items-center mb-6 gap-4">
+                    <span class="inline-block bg-gray-900 text-white text-base md:text-lg font-bold rounded-full px-4 py-2 mr-0 sm:mr-4">Usage Example</span>
+                    <button id="copy-usage" onclick="copyUsageExample()" class="sm:ml-auto flex items-center gap-2 px-5 py-2 md:px-6 md:py-2 rounded-xl bg-black text-white text-sm md:text-base font-semibold shadow hover:bg-gray-800 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-black">
+                        <svg xmlns='http://www.w3.org/2000/svg' class='h-5 w-5' fill='none' viewBox='0 0 24 24' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M8 16h8M8 12h8m-7 8h6a2 2 0 002-2V6a2 2 0 00-2-2H8a2 2 0 00-2 2v12a2 2 0 002 2z' /></svg>
+                        Copy Example
+                    </button>
+                </div>
+                <pre class="bg-gray-900 bg-opacity-80 text-green-200 rounded-xl p-4 md:p-6 text-sm md:text-lg font-mono overflow-x-auto select-all" id="usage-example">from aion.text import count_words, count_lines, summarize_text, extract_emails, extract_urls, highlight_keywords
 
-            <!-- Container 1: Left Text, Right Image -->
-            <div class="flex flex-col lg:flex-row items-center gap-8 lg:gap-12 mb-16 lg:mb-20 matte-bg rounded-xl lg:rounded-2xl p-6 lg:p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
-                <div class="lg:w-1/2">
-                    <h3 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">AI-Powered Gaming</h3>
-                    <p class="text-base lg:text-lg text-gray-600 mb-6">
-                        Experience the future of gaming with our AI-enhanced wallpapers.
-                        Perfect blend of artificial intelligence and gaming aesthetics.
-                    </p>
-                    <div class="flex flex-wrap gap-2 lg:gap-3 mb-6">
-                        <span class="px-3 py-1 bg-black text-white rounded-full text-xs lg:text-sm">4K Resolution</span>
-                        <span class="px-3 py-1 bg-gray-200 text-gray-700 rounded-full text-xs lg:text-sm">AI Generated</span>
-                        <span class="px-3 py-1 bg-gray-200 text-gray-700 rounded-full text-xs lg:text-sm">Gaming Theme</span>
-                    </div>
-                    <div class="space-y-3 mb-6 text-sm lg:text-base">
-                        <div class="flex items-center justify-between">
-                            <span class="text-sm text-gray-600">Desktop (4K)</span>
-                            <span class="text-sm font-medium">3840x2160 • 2.4MB</span>
-                        </div>
-                        <div class="flex items-center justify-between">
-                            <span class="text-sm text-gray-600">Mobile</span>
-                            <span class="text-sm font-medium">1080x1920 • 1.8MB</span>
-                        </div>
-                        <div class="flex items-center justify-between">
-                            <span class="text-sm text-gray-600">Ultra Wide</span>
-                            <span class="text-sm font-medium">3440x1440 • 2.1MB</span>
-                        </div>
-                    </div>
-                    <div class="flex flex-col sm:flex-row gap-3">
-                        <button class="px-6 py-3 bg-gray-200 text-gray-500 rounded-lg cursor-not-allowed text-sm lg:text-base">
-                            Coming Soon
-                        </button>
-                        <button class="px-6 py-3 bg-gray-200 text-gray-500 rounded-lg cursor-not-allowed text-sm lg:text-base">
-                            Coming Soon
-                        </button>
-                    </div>
-                </div>
-                <div class="lg:w-1/2 w-full">
-                    <div
-                        class="wallpaper-image w-full h-64 sm:h-80 bg-gradient-to-br from-gray-100 to-gray-200 rounded-lg lg:rounded-xl shadow-lg flex items-center justify-center relative overflow-hidden">
-                        <div class="absolute inset-0 bg-black bg-opacity-10"></div>
-                        <div class="text-center">
-                            <div class="text-6xl sm:text-8xl mb-4">🎮</div>
-                            <p class="text-gray-600 font-medium text-sm lg:text-base">Gaming Wallpaper</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+sample_text = """
+Hello, this is LinkAI-Aion!
+Contact: aksel@example.com
+Website: https://linkaiapps.com
+This is a multi-line sample for testing.
+"""
 
-            <!-- Container 2: Left Image, Right Text -->
-            <div class="flex flex-col lg:flex-row-reverse items-center gap-8 lg:gap-12 mb-16 lg:mb-20 matte-bg rounded-xl lg:rounded-2xl p-6 lg:p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
-                <div class="lg:w-1/2">
-                    <h3 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">Neural Networks</h3>
-                    <p class="text-base lg:text-lg text-gray-600 mb-6">
-                        Dive into the world of neural networks with our AI-themed wallpapers.
-                        Abstract designs representing the complexity of AI systems.
-                    </p>
-                    <div class="flex flex-wrap gap-2 lg:gap-3 mb-6">
-                        <span class="px-3 py-1 bg-black text-white rounded-full text-xs lg:text-sm">Abstract Design</span>
-                        <span class="px-3 py-1 bg-gray-200 text-gray-700 rounded-full text-xs lg:text-sm">Neural Patterns</span>
-                        <span class="px-3 py-1 bg-gray-200 text-gray-700 rounded-full text-xs lg:text-sm">Tech Aesthetic</span>
-                    </div>
-                    <div class="space-y-3 mb-6 text-sm lg:text-base">
-                        <div class="flex items-center justify-between">
-                            <span class="text-sm text-gray-600">Desktop (4K)</span>
-                            <span class="text-sm font-medium">3840x2160 • 3.1MB</span>
-                        </div>
-                        <div class="flex items-center justify-between">
-                            <span class="text-sm text-gray-600">Mobile</span>
-                            <span class="text-sm font-medium">1080x1920 • 2.2MB</span>
-                        </div>
-                        <div class="flex items-center justify-between">
-                            <span class="text-sm text-gray-600">Ultra Wide</span>
-                            <span class="text-sm font-medium">3440x1440 • 2.8MB</span>
-                        </div>
-                    </div>
-                    <div class="flex flex-col sm:flex-row gap-3">
-                        <button class="px-6 py-3 bg-gray-200 text-gray-500 rounded-lg cursor-not-allowed text-sm lg:text-base">
-                            Coming Soon
-                        </button>
-                        <button class="px-6 py-3 bg-gray-200 text-gray-500 rounded-lg cursor-not-allowed text-sm lg:text-base">
-                            Coming Soon
-                        </button>
-                    </div>
-                </div>
-                <div class="lg:w-1/2 w-full">
-                    <div
-                        class="wallpaper-image w-full h-64 sm:h-80 bg-gradient-to-br from-gray-100 to-gray-200 rounded-lg lg:rounded-xl shadow-lg flex items-center justify-center relative overflow-hidden">
-                        <div class="absolute inset-0 bg-black bg-opacity-10"></div>
-                        <div class="text-center">
-                            <div class="text-6xl sm:text-8xl mb-4">🧠</div>
-                            <p class="text-gray-600 font-medium text-sm lg:text-base">Neural Network Art</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+# Count words in the sample
+print("Word count:", count_words(sample_text))
 
-            <!-- Container 3: Left Text, Right Image -->
-            <div class="flex flex-col lg:flex-row items-center gap-12 mb-20 matte-bg rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
-                <div class="lg:w-1/2">
-                    <h3 class="text-3xl md:text-4xl font-bold mb-4">Cyberpunk Future</h3>
-                    <p class="text-lg text-gray-600 mb-6">
-                        Immerse yourself in a cyberpunk aesthetic with our futuristic wallpapers.
-                        Neon lights, digital landscapes, and advanced technology.
-                    </p>
-                    <div class="flex flex-wrap gap-3 mb-6">
-                        <span class="px-3 py-1 bg-black text-white rounded-full text-xs">Cyberpunk Style</span>
-                        <span class="px-3 py-1 bg-gray-200 text-gray-700 rounded-full text-xs">Neon Effects</span>
-                        <span class="px-3 py-1 bg-gray-200 text-gray-700 rounded-full text-xs">Futuristic</span>
-                    </div>
-                    <div class="space-y-3 mb-6">
-                        <div class="flex items-center justify-between">
-                            <span class="text-sm text-gray-600">Desktop (4K)</span>
-                            <span class="text-sm font-medium">3840x2160 • 4.2MB</span>
-                        </div>
-                        <div class="flex items-center justify-between">
-                            <span class="text-sm text-gray-600">Mobile</span>
-                            <span class="text-sm font-medium">1080x1920 • 2.9MB</span>
-                        </div>
-                        <div class="flex items-center justify-between">
-                            <span class="text-sm text-gray-600">Ultra Wide</span>
-                            <span class="text-sm font-medium">3440x1440 • 3.7MB</span>
-                        </div>
-                    </div>
-                    <div class="flex gap-3">
-                        <button class="px-6 py-3 bg-gray-200 text-gray-500 rounded-lg cursor-not-allowed">
-                            Coming Soon
-                        </button>
-                        <button class="px-6 py-3 bg-gray-200 text-gray-500 rounded-lg cursor-not-allowed">
-                            Coming Soon
-                        </button>
-                    </div>
-                </div>
-                <div class="lg:w-1/2">
-                    <div
-                        class="wallpaper-image w-full h-80 bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl shadow-lg flex items-center justify-center relative overflow-hidden">
-                        <div class="absolute inset-0 bg-black bg-opacity-10"></div>
-                        <div class="text-center">
-                            <div class="text-8xl mb-4">🌃</div>
-                            <p class="text-gray-600 font-medium">Cyberpunk City</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+# Count lines in the sample
+print("Line count:", count_lines(sample_text))
 
-            <!-- Container 4: Left Image, Right Text -->
-            <div class="flex flex-col lg:flex-row-reverse items-center gap-12 mb-20 matte-bg rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
-                <div class="lg:w-1/2">
-                    <h3 class="text-3xl md:text-4xl font-bold mb-4">Minimalist Tech</h3>
-                    <p class="text-lg text-gray-600 mb-6">
-                        Clean, minimalist designs that celebrate technology and innovation.
-                        Perfect for professionals who appreciate simplicity and elegance.
-                    </p>
-                    <div class="flex flex-wrap gap-3 mb-6">
-                        <span class="px-3 py-1 bg-black text-white rounded-full text-xs">Minimalist</span>
-                        <span class="px-3 py-1 bg-gray-200 text-gray-700 rounded-full text-xs">Professional</span>
-                        <span class="px-3 py-1 bg-gray-200 text-gray-700 rounded-full text-xs">Clean Design</span>
-                    </div>
-                    <div class="space-y-3 mb-6">
-                        <div class="flex items-center justify-between">
-                            <span class="text-sm text-gray-600">Desktop (4K)</span>
-                            <span class="text-sm font-medium">3840x2160 • 1.8MB</span>
-                        </div>
-                        <div class="flex items-center justify-between">
-                            <span class="text-sm text-gray-600">Mobile</span>
-                            <span class="text-sm font-medium">1080x1920 • 1.3MB</span>
-                        </div>
-                        <div class="flex items-center justify-between">
-                            <span class="text-sm text-gray-600">Ultra Wide</span>
-                            <span class="text-sm font-medium">3440x1440 • 1.6MB</span>
-                        </div>
-                    </div>
-                    <div class="flex gap-3">
-                        <button class="px-6 py-3 bg-gray-200 text-gray-500 rounded-lg cursor-not-allowed">
-                            Coming Soon
-                        </button>
-                        <button class="px-6 py-3 bg-gray-200 text-gray-500 rounded-lg cursor-not-allowed">
-                            Coming Soon
-                        </button>
-                    </div>
-                </div>
-                <div class="lg:w-1/2">
-                    <div
-                        class="wallpaper-image w-full h-80 bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl shadow-lg flex items-center justify-center relative overflow-hidden">
-                        <div class="absolute inset-0 bg-black bg-opacity-10"></div>
-                        <div class="text-center">
-                            <div class="text-8xl mb-4">⚡</div>
-                            <p class="text-gray-600 font-medium">Minimalist Tech</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+# Summarize the sample (first 2 lines)
+print("Summary:", summarize_text(sample_text, max_lines=2))
 
-            <!-- Container 5: Left Text, Right Image -->
-            <div class="flex flex-col lg:flex-row items-center gap-12 matte-bg rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
-                <div class="lg:w-1/2">
-                    <h3 class="text-3xl md:text-4xl font-bold mb-4">Data Visualization</h3>
-                    <p class="text-lg text-gray-600 mb-6">
-                        Explore the beauty of data through our visualization wallpapers.
-                        Complex algorithms transformed into stunning visual art.
-                    </p>
-                    <div class="flex flex-wrap gap-3 mb-6">
-                        <span class="px-3 py-1 bg-black text-white rounded-full text-xs">Data Art</span>
-                        <span class="px-3 py-1 bg-gray-200 text-gray-700 rounded-full text-xs">Visualization</span>
-                        <span class="px-3 py-1 bg-gray-200 text-gray-700 rounded-full text-xs">Algorithmic</span>
-                    </div>
-                    <div class="space-y-3 mb-6">
-                        <div class="flex items-center justify-between">
-                            <span class="text-sm text-gray-600">Desktop (4K)</span>
-                            <span class="text-sm font-medium">3840x2160 • 3.5MB</span>
-                        </div>
-                        <div class="flex items-center justify-between">
-                            <span class="text-sm text-gray-600">Mobile</span>
-                            <span class="text-sm font-medium">1080x1920 • 2.7MB</span>
-                        </div>
-                        <div class="flex items-center justify-between">
-                            <span class="text-sm text-gray-600">Ultra Wide</span>
-                            <span class="text-sm font-medium">3440x1440 • 3.2MB</span>
-                        </div>
-                    </div>
-                    <div class="flex gap-3">
-                        <button class="px-6 py-3 bg-gray-200 text-gray-500 rounded-lg cursor-not-allowed">
-                            Coming Soon
-                        </button>
-                        <button class="px-6 py-3 bg-gray-200 text-gray-500 rounded-lg cursor-not-allowed">
-                            Coming Soon
-                        </button>
-                    </div>
-                </div>
-                <div class="lg:w-1/2">
-                    <div
-                        class="wallpaper-image w-full h-80 bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl shadow-lg flex items-center justify-center relative overflow-hidden">
-                        <div class="absolute inset-0 bg-black bg-opacity-10"></div>
-                        <div class="text-center">
-                            <div class="text-8xl mb-4">📊</div>
-                            <p class="text-gray-600 font-medium">Data Visualization</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+# Extract emails
+print("Emails:", extract_emails(sample_text))
 
-            <!-- Download All Section -->
-            <div class="text-center mt-16 p-8 matte-bg text-black rounded-2xl shadow-xl">
-                <h3 class="text-3xl font-bold mb-4">Download Complete Collection</h3>
-                <p class="text-lg text-gray-600 mb-6">
-                    Get all 25+ wallpapers in one package. Includes all resolutions and formats.
-                </p>
-                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                    <div class="text-center">
-                        <div class="text-2xl font-bold">25+</div>
-                        <div class="text-sm text-gray-600">Wallpapers</div>
-                    </div>
-                    <div class="text-center">
-                        <div class="text-2xl font-bold">3</div>
-                        <div class="text-sm text-gray-600">Resolutions</div>
-                    </div>
-                    <div class="text-center">
-                        <div class="text-2xl font-bold">85MB</div>
-                        <div class="text-sm text-gray-600">Total Size</div>
-                    </div>
-                </div>
-                <button class="mt-6 px-8 py-4 bg-black text-white rounded-lg cursor-not-allowed font-semibold hover:bg-gray-800 transition-colors">
-                    Coming Soon
-                </button>
+# Extract URLs
+print("URLs:", extract_urls(sample_text))
+
+# Highlight keywords
+print("Highlighted:", highlight_keywords(sample_text, ["LinkAI-Aion", "test"]))
+</pre>
             </div>
+            <!-- Snackbar for Usage Example Copy -->
+            <div id="snackbar-usage" class="fixed left-1/2 bottom-20 -translate-x-1/2 z-50 px-6 py-4 bg-black text-white text-lg font-semibold rounded-2xl shadow-lg opacity-0 pointer-events-none transition-all duration-500">Example copied!</div>
+            <style>
+                .snackbar-show {
+                    opacity: 1 !important;
+                    transform: translate(-50%, 0) scale(1.05);
+                    pointer-events: auto;
+                }
+                .snackbar-hide {
+                    opacity: 0 !important;
+                    transform: translate(-50%, 24px) scale(0.98);
+                    pointer-events: none;
+                }
+            </style>
+            <script>
+                function copyUsageExample() {
+                    const usage = document.getElementById('usage-example').textContent;
+                    if (navigator.clipboard) {
+                        navigator.clipboard.writeText(usage).then(function() {
+                            showUsageSnackbar();
+                        }, function() {
+                            fallbackCopyTextToClipboardUsage(usage);
+                        });
+                    } else {
+                        fallbackCopyTextToClipboardUsage(usage);
+                    }
+                }
+                function fallbackCopyTextToClipboardUsage(text) {
+                    const textArea = document.createElement('textarea');
+                    textArea.value = text;
+                    document.body.appendChild(textArea);
+                    textArea.focus();
+                    textArea.select();
+                    try { document.execCommand('copy'); showUsageSnackbar(); } catch (err) {}
+                    document.body.removeChild(textArea);
+                }
+                function showUsageSnackbar() {
+                    const snackbar = document.getElementById('snackbar-usage');
+                    snackbar.classList.add('snackbar-show');
+                    snackbar.classList.remove('snackbar-hide');
+                    setTimeout(function() {
+                        snackbar.classList.remove('snackbar-show');
+                        snackbar.classList.add('snackbar-hide');
+                    }, 1600);
+                }
+            </script>
         </div>
+        <!-- Snackbar for copy feedback -->
+        <div id="snackbar-copy" class="fixed left-1/2 bottom-8 -translate-x-1/2 z-50 px-6 py-4 bg-black text-white text-lg font-semibold rounded-2xl shadow-lg opacity-0 pointer-events-none transition-all duration-500">Copied to clipboard!</div>
+        <style>
+            .snackbar-show {
+                opacity: 1 !important;
+                transform: translate(-50%, 0) scale(1.05);
+                pointer-events: auto;
+            }
+            .snackbar-hide {
+                opacity: 0 !important;
+                transform: translate(-50%, 24px) scale(0.98);
+                pointer-events: none;
+            }
+        </style>
+        <script>
+            function copyPipInstall() {
+                const codeBlock = document.getElementById('pip-install');
+                let pipText = codeBlock ? codeBlock.textContent.trim() : 'pip install linkai-aion==0.1.2';
+                if (navigator.clipboard) {
+                    navigator.clipboard.writeText(pipText).then(function() {
+                        showCopySnackbar();
+                    }, function() {
+                        fallbackCopyTextToClipboard(pipText);
+                    });
+                } else {
+                    fallbackCopyTextToClipboard(pipText);
+                }
+            }
+            function fallbackCopyTextToClipboard(text) {
+                const textArea = document.createElement('textarea');
+                textArea.value = text;
+                document.body.appendChild(textArea);
+                textArea.focus();
+                textArea.select();
+                try {
+                    document.execCommand('copy');
+                    showCopySnackbar();
+                } catch (err) {}
+                document.body.removeChild(textArea);
+            }
+            function showCopySnackbar() {
+                const snackbar = document.getElementById('snackbar-copy');
+                snackbar.classList.add('snackbar-show');
+                snackbar.classList.remove('snackbar-hide');
+                setTimeout(function() {
+                    snackbar.classList.remove('snackbar-show');
+                    snackbar.classList.add('snackbar-hide');
+                }, 1600);
+            }
+        </script>
     </section>
 
     <!-- Big White Footer -->
