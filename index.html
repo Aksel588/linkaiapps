@@ -354,38 +354,9 @@
                     Get Started
                 </a>
 
-                <button onclick="openContactModal()"
-                    class="px-8 py-4 bg-white text-black border-2 border-black rounded-xl font-bold text-lg hover:bg-black hover:text-white transition-all duration-200 transform hover:scale-105 cursor-pointer inline-block text-center">
-                    Contact Us
-                </button>
+                <a href="mailto:aksel@linkaiapps.com" class="px-8 py-4 bg-white text-black border-2 border-black rounded-xl font-bold text-lg hover:bg-black hover:text-white transition-all duration-200 transform hover:scale-105 cursor-pointer inline-block text-center">Contact Us</a>
             </div>
 
-            <!-- Contact Modal -->
-            <div id="contact-modal-overlay"
-                class="fixed inset-0 bg-black bg-opacity-60 z-50 flex items-center justify-center transition-all duration-300 opacity-0 pointer-events-none"
-                tabindex="-1" aria-hidden="true">
-                <div class="bg-white rounded-2xl shadow-2xl max-w-2xl w-full p-10 md:p-16 relative">
-                    <button onclick="closeContactModal()"
-                        class="absolute top-4 right-4 text-gray-400 hover:text-black text-2xl font-bold"
-                        aria-label="Close">&times;</button>
-                    <h3 class="text-3xl font-extrabold mb-4 text-center">Contact LinkAI Team</h3>
-                    <p class="text-gray-700 text-lg mb-6 text-center">We'd love to hear from you! Whether you have
-                        questions, feedback, partnership ideas, or need support, our team is here to help.</p>
-                    <div class="bg-gray-50 rounded-xl p-6 mb-6 text-center">
-                        <div class="text-xl font-bold mb-2">Email</div>
-                        <a href="mailto:aksel@linkaiapps.com"
-                            class="text-lg text-blue-700 underline hover:text-black">aksel@linkaiapps.com</a>
-                        <div class="text-gray-500 text-base mt-2">We usually respond within 24 hours on business days.
-                        </div>
-                    </div>
-                    <div class="text-gray-700 text-base text-center mb-4">
-                        <p>For urgent matters, please mention <b>URGENT</b> in your subject line.</p>
-                        <p class="mt-2">You can also find more contact options in the footer below.</p>
-                    </div>
-                    <div class="text-center text-gray-600 mt-6">Thank you for reaching out to LinkAI!<br>We appreciate
-                        your interest and will get back to you as soon as possible.</div>
-                </div>
-            </div>
             <script>
                 function openContactModal() {
                     const overlay = document.getElementById('contact-modal-overlay');
@@ -958,49 +929,86 @@ print("Highlighted:", highlight_keywords(sample_text, ["LinkAI-Aion", "test"]))
 
     <!-- Privacy Policy Modal (Updated for LinkAI Website) -->
     <div id="privacy-policy-modal" class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-60 transition-all duration-300 opacity-0 pointer-events-none" tabindex="-1" aria-hidden="true">
-        <div class="bg-white rounded-2xl shadow-2xl max-w-2xl w-full p-4 sm:p-8 md:p-12 relative overflow-y-auto h-[98vh] sm:h-[90vh]">
-            <button onclick="closePrivacyModal()" class="absolute top-4 right-4 text-gray-400 hover:text-black text-2xl font-bold" aria-label="Close">&times;</button>
-            <h2 class="text-4xl font-extrabold mb-6 text-center">Privacy Policy</h2>
-            <p class="text-lg text-gray-700 mb-6 text-center">This Privacy Policy describes how LinkAI (linkaiapps.com) handles your information. We are committed to transparency and protecting your privacy.</p>
-            <div class="mb-6">
-                <h3 class="text-2xl font-bold mb-2">1. No User Accounts</h3>
-                <ul class="list-disc list-inside text-gray-700 ml-4">
-                    <li>We do not require you to create an account or provide personal details to use our website.</li>
-                    <li>You may contact us by email, in which case we only use your email to respond to your inquiry.</li>
-                </ul>
-            </div>
-            <div class="mb-6">
-                <h3 class="text-2xl font-bold mb-2">2. Cookies & Essential Data</h3>
-                <ul class="list-disc list-inside text-gray-700 ml-4">
-                    <li>We use only essential cookies for site functionality and security.</li>
-                    <li>No marketing or tracking cookies are used.</li>
-                    <li>You can accept or decline cookies using the cookie banner.</li>
-                </ul>
-            </div>
-            <div class="mb-6">
-                <h3 class="text-2xl font-bold mb-2">3. Analytics</h3>
-                <ul class="list-disc list-inside text-gray-700 ml-4">
-                    <li>We use simple analytics tools to understand how visitors use our site (e.g., page views, device type).</li>
-                    <li>All analytics data is anonymized and used only to improve the website experience.</li>
-                    <li>No analytics data is shared with advertisers or third parties.</li>
-                </ul>
-            </div>
-            <div class="mb-6">
-                <h3 class="text-2xl font-bold mb-2">4. Data Sharing</h3>
-                <ul class="list-disc list-inside text-gray-700 ml-4">
-                    <li>We do <b>not</b> sell, rent, or share your data with marketers or unrelated third parties.</li>
-                    <li>Data may be processed by trusted providers (e.g., web hosting) only as needed for site operation.</li>
-                </ul>
-            </div>
-            <div class="mb-6">
-                <h3 class="text-2xl font-bold mb-2">5. Your Rights</h3>
-                <ul class="list-disc list-inside text-gray-700 ml-4">
-                    <li>You may request to see, correct, or delete any personal data you have provided (such as email correspondence).</li>
-                    <li>Contact us at <a href="mailto:aksel@linkaiapps.com" class="underline hover:text-black">aksel@linkaiapps.com</a> for any privacy questions or requests.</li>
-                </ul>
+        <div class="bg-white rounded-3xl shadow-2xl border border-gray-200 w-[95vw] max-w-2xl p-0 sm:p-0 md:p-0 relative overflow-y-auto max-h-[90vh]">
+            <!-- Accent Bar -->
+            <div class="h-3 rounded-t-3xl bg-gradient-to-r from-green-400 via-blue-400 to-purple-500 w-full"></div>
+            <!-- Close Button -->
+            <button onclick="closePrivacyModal()" class="absolute top-5 right-5 text-gray-400 hover:text-black text-3xl font-extrabold z-10 bg-white bg-opacity-80 rounded-full w-12 h-12 flex items-center justify-center shadow transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-400" aria-label="Close">&times;</button>
+            <!-- Content -->
+            <div class="px-6 sm:px-10 py-10">
+                <h2 class="text-4xl font-extrabold mb-6 text-center text-gray-900 tracking-tight">Privacy Policy</h2>
+                <p class="text-lg text-gray-700 mb-8 text-center leading-relaxed">This Privacy Policy describes how LinkAI (linkaiapps.com) handles your information. We are committed to transparency and protecting your privacy.</p>
+                <div class="divide-y divide-gray-200">
+                    <div class="py-6">
+                        <h3 class="text-2xl font-bold mb-2 text-blue-700 flex items-center gap-2"><span class="inline-block w-2 h-2 bg-blue-500 rounded-full"></span>1. No User Accounts</h3>
+                        <ul class="list-disc list-inside text-gray-700 ml-4 leading-relaxed">
+                            <li>We do not require you to create an account or provide personal details to use our website.</li>
+                            <li>You may contact us by email, in which case we only use your email to respond to your inquiry.</li>
+                        </ul>
+                    </div>
+                    <div class="py-6">
+                        <h3 class="text-2xl font-bold mb-2 text-green-700 flex items-center gap-2"><span class="inline-block w-2 h-2 bg-green-500 rounded-full"></span>2. Cookies & Essential Data</h3>
+                        <ul class="list-disc list-inside text-gray-700 ml-4 leading-relaxed">
+                            <li>We use only essential cookies for site functionality and security.</li>
+                            <li>No marketing or tracking cookies are used.</li>
+                            <li>You can accept or decline cookies using the cookie banner.</li>
+                        </ul>
+                    </div>
+                    <div class="py-6">
+                        <h3 class="text-2xl font-bold mb-2 text-purple-700 flex items-center gap-2"><span class="inline-block w-2 h-2 bg-purple-500 rounded-full"></span>3. Analytics</h3>
+                        <ul class="list-disc list-inside text-gray-700 ml-4 leading-relaxed">
+                            <li>We use simple analytics tools to understand how visitors use our site (e.g., page views, device type).</li>
+                            <li>All analytics data is anonymized and used only to improve the website experience.</li>
+                            <li>No analytics data is shared with advertisers or third parties.</li>
+                        </ul>
+                    </div>
+                    <div class="py-6">
+                        <h3 class="text-2xl font-bold mb-2 text-pink-700 flex items-center gap-2"><span class="inline-block w-2 h-2 bg-pink-500 rounded-full"></span>4. Data Sharing</h3>
+                        <ul class="list-disc list-inside text-gray-700 ml-4 leading-relaxed">
+                            <li>We do <b>not</b> sell, rent, or share your data with marketers or unrelated third parties.</li>
+                            <li>Data may be processed by trusted providers (e.g., web hosting) only as needed for site operation.</li>
+                        </ul>
+                    </div>
+                    <div class="py-6">
+                        <h3 class="text-2xl font-bold mb-2 text-gray-800 flex items-center gap-2"><span class="inline-block w-2 h-2 bg-gray-500 rounded-full"></span>5. Your Rights</h3>
+                        <ul class="list-disc list-inside text-gray-700 ml-4 leading-relaxed">
+                            <li>You may request to see, correct, or delete any personal data you have provided (such as email correspondence).</li>
+                            <li>Contact us at <a href="mailto:aksel@linkaiapps.com" class="underline hover:text-black">aksel@linkaiapps.com</a> for any privacy questions or requests.</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    <style>
+@media (max-width: 700px) {
+  #privacy-policy-modal > div {
+    width: 95vw !important;
+    max-width: 95vw !important;
+    max-height: 90vh !important;
+    min-width: 0 !important;
+    min-height: 0 !important;
+    border-radius: 1rem !important;
+    padding: 0.5rem !important;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.12) !important;
+  }
+  #privacy-policy-modal button[aria-label="Close"] {
+    top: 0.5rem !important;
+    right: 0.5rem !important;
+    font-size: 2rem !important;
+  }
+}
+@media (max-width: 400px) {
+  #privacy-policy-modal > div {
+    padding: 0.25rem !important;
+  }
+  #privacy-policy-modal button[aria-label="Close"] {
+    top: 0.25rem !important;
+    right: 0.25rem !important;
+    font-size: 1.5rem !important;
+  }
+}
+</style>
     <!-- Big White Footer -->
     <footer id="footer" class="matte-bg text-black py-16 mt-20 border-t border-gray-200">
         <div class="container mx-auto px-4 grid md:grid-cols-4 gap-12 text-left">
@@ -1150,32 +1158,57 @@ print("Highlighted:", highlight_keywords(sample_text, ["LinkAI-Aion", "test"]))
         });
     </script>
     <script>
+        // Helper to manage scroll lock for all modals
+        function updateBodyScrollLock() {
+            const privacyOpen = !document.getElementById('privacy-policy-modal').classList.contains('opacity-0');
+            const contactOpen = !document.getElementById('contact-modal-overlay').classList.contains('opacity-0');
+            if (privacyOpen || contactOpen) {
+                document.body.style.overflow = 'hidden';
+            } else {
+                document.body.style.overflow = '';
+            }
+        }
         // Privacy Policy Modal logic
         function openPrivacyModal() {
             const modal = document.getElementById('privacy-policy-modal');
             modal.classList.remove('opacity-0', 'pointer-events-none');
             modal.setAttribute('aria-hidden', 'false');
-            document.body.style.overflow = 'hidden';
+            updateBodyScrollLock();
         }
         function closePrivacyModal() {
             const modal = document.getElementById('privacy-policy-modal');
             modal.classList.add('opacity-0', 'pointer-events-none');
             modal.setAttribute('aria-hidden', 'true');
-            document.body.style.overflow = '';
+            updateBodyScrollLock();
         }
-        // Close modal on Escape key
-        window.addEventListener('keydown', function(e) {
-            const modal = document.getElementById('privacy-policy-modal');
-            if (e.key === 'Escape' && !modal.classList.contains('opacity-0')) {
-                closePrivacyModal();
+        // Contact Modal logic
+        function openContactModal() {
+            const overlay = document.getElementById('contact-modal-overlay');
+            overlay.classList.remove('opacity-0', 'pointer-events-none');
+            overlay.setAttribute('aria-hidden', 'false');
+            updateBodyScrollLock();
+        }
+        function closeContactModal() {
+            const overlay = document.getElementById('contact-modal-overlay');
+            overlay.classList.add('opacity-0', 'pointer-events-none');
+            overlay.setAttribute('aria-hidden', 'true');
+            updateBodyScrollLock();
+        }
+        // Close modals on Escape key
+        window.addEventListener('keydown', function (e) {
+            const privacyModal = document.getElementById('privacy-policy-modal');
+            const contactModal = document.getElementById('contact-modal-overlay');
+            if (e.key === 'Escape') {
+                if (!privacyModal.classList.contains('opacity-0')) closePrivacyModal();
+                if (!contactModal.classList.contains('opacity-0')) closeContactModal();
             }
         });
-        // Close modal when clicking outside the content
-        window.addEventListener('mousedown', function(e) {
-            const modal = document.getElementById('privacy-policy-modal');
-            if (!modal.classList.contains('opacity-0') && e.target === modal) {
-                closePrivacyModal();
-            }
+        // Close modals when clicking outside the content
+        window.addEventListener('mousedown', function (e) {
+            const privacyModal = document.getElementById('privacy-policy-modal');
+            const contactModal = document.getElementById('contact-modal-overlay');
+            if (!privacyModal.classList.contains('opacity-0') && e.target === privacyModal) closePrivacyModal();
+            if (!contactModal.classList.contains('opacity-0') && e.target === contactModal) closeContactModal();
         });
     </script>
 </body>
