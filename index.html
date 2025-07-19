@@ -15,7 +15,7 @@
             -webkit-backdrop-filter: blur(12px);
             border-bottom: 1px solid rgba(0, 0, 0, 0.08);
         }
-        
+
         /* Burger Menu Animation */
         .burger-menu {
             width: 24px;
@@ -24,7 +24,7 @@
             cursor: pointer;
             transition: transform 0.3s ease;
         }
-        
+
         .burger-line {
             width: 100%;
             height: 2px;
@@ -33,34 +33,42 @@
             transition: all 0.3s ease;
             border-radius: 1px;
         }
-        
-        .burger-line:nth-child(1) { top: 4px; }
-        .burger-line:nth-child(2) { top: 11px; }
-        .burger-line:nth-child(3) { top: 18px; }
-        
+
+        .burger-line:nth-child(1) {
+            top: 4px;
+        }
+
+        .burger-line:nth-child(2) {
+            top: 11px;
+        }
+
+        .burger-line:nth-child(3) {
+            top: 18px;
+        }
+
         .burger-menu:hover {
             transform: scale(1.1);
         }
-        
+
         .burger-menu.active .burger-line:nth-child(1) {
             transform: rotate(45deg);
             top: 11px;
         }
-        
+
         .burger-menu.active .burger-line:nth-child(2) {
             opacity: 0;
             transform: translateX(-20px);
         }
-        
+
         .burger-menu.active .burger-line:nth-child(3) {
             transform: rotate(-45deg);
             top: 11px;
         }
-        
+
         .burger-menu:active {
             transform: scale(0.95);
         }
-        
+
         /* Mobile Menu */
         .mobile-menu {
             position: fixed;
@@ -75,14 +83,14 @@
             transform: translateX(-100%);
             transition: transform 0.3s ease;
         }
-        
+
         /* Fallback for browsers without backdrop-filter support */
         @supports not (backdrop-filter: blur(20px)) {
             .mobile-menu {
                 background: rgba(255, 255, 255, 0.98);
             }
         }
-        
+
         /* Mobile Menu Matte Overlay */
         .mobile-menu::before {
             content: '';
@@ -91,16 +99,16 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: linear-gradient(135deg, rgba(255,255,255,0.8) 0%, rgba(248,250,252,0.8) 100%);
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.8) 0%, rgba(248, 250, 252, 0.8) 100%);
             pointer-events: none;
             z-index: -1;
         }
-        
+
         .mobile-menu.active {
             transform: translateX(0);
             box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
         }
-        
+
         /* Close Icon */
         .close-icon {
             position: absolute;
@@ -112,7 +120,7 @@
             z-index: 50;
             transition: transform 0.3s ease;
         }
-        
+
         .close-icon::before,
         .close-icon::after {
             content: '';
@@ -124,48 +132,50 @@
             left: 0;
             transition: all 0.3s ease;
         }
-        
+
         .close-icon::before {
             transform: rotate(45deg);
         }
-        
+
         .close-icon::after {
             transform: rotate(-45deg);
         }
-        
+
         .close-icon:hover {
             transform: scale(1.1) rotate(90deg);
         }
-        
+
         .close-icon:hover::before,
         .close-icon:hover::after {
             background-color: #666;
         }
-        
+
         .close-icon:active {
             transform: scale(0.95);
         }
-        
+
         /* Close button animation when menu opens */
         .mobile-menu.active .close-icon {
             animation: closeButtonAppear 0.5s ease forwards;
         }
-        
+
         @keyframes closeButtonAppear {
             0% {
                 opacity: 0;
                 transform: scale(0) rotate(-180deg);
             }
+
             50% {
                 opacity: 0.5;
                 transform: scale(1.2) rotate(-90deg);
             }
+
             100% {
                 opacity: 1;
                 transform: scale(1) rotate(0deg);
             }
         }
-        
+
         .mobile-menu-content {
             padding: 100px 40px 40px;
             height: 100%;
@@ -173,7 +183,7 @@
             flex-direction: column;
             justify-content: space-between;
         }
-        
+
         .mobile-menu a {
             font-size: 2rem;
             font-weight: 300;
@@ -182,31 +192,31 @@
             margin: 20px 0;
             transition: color 0.3s ease;
         }
-        
+
         .mobile-menu a:hover {
             color: #666;
         }
-        
+
         /* Responsive improvements */
         @media (max-width: 768px) {
             .hero-title {
                 font-size: 3rem !important;
                 line-height: 1.1 !important;
             }
-            
+
             .container {
                 padding-left: 20px;
                 padding-right: 20px;
             }
-            
+
             /* Mobile wallpaper image fixes */
             .wallpaper-image {
                 height: 200px !important;
                 min-height: 200px;
             }
-            
+
         }
-        
+
         @media (max-width: 640px) {
             .hero-title {
                 font-size: 2.5rem !important;
@@ -215,27 +225,27 @@
 
         /* Matte Background Effect */
         .matte-bg {
-            background: linear-gradient(135deg, rgba(255,255,255,0.92) 0%, rgba(248,250,252,0.92) 50%, rgba(255,255,255,0.88) 100%);
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.92) 0%, rgba(248, 250, 252, 0.92) 50%, rgba(255, 255, 255, 0.88) 100%);
             backdrop-filter: blur(15px);
             -webkit-backdrop-filter: blur(15px);
-            border: 1px solid rgba(255,255,255,0.3);
+            border: 1px solid rgba(255, 255, 255, 0.3);
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
         }
-        
+
         /* Enhanced Matte Background for sections */
         .matte-section {
-            background: linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(248,250,252,0.95) 50%, rgba(255,255,255,0.92) 100%);
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(248, 250, 252, 0.95) 50%, rgba(255, 255, 255, 0.92) 100%);
             backdrop-filter: blur(20px);
             -webkit-backdrop-filter: blur(20px);
-            border: 1px solid rgba(255,255,255,0.4);
+            border: 1px solid rgba(255, 255, 255, 0.4);
             box-shadow: 0 12px 40px rgba(0, 0, 0, 0.06);
         }
-        
+
         /* Matte overlay for background enhancement */
         .matte-overlay {
             position: relative;
         }
-        
+
         .matte-overlay::before {
             content: '';
             position: absolute;
@@ -243,7 +253,7 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(248,250,252,0.1) 100%);
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(248, 250, 252, 0.1) 100%);
             pointer-events: none;
             z-index: 1;
         }
@@ -263,8 +273,10 @@
                 <a href="#hero" class="text-gray-700 hover:text-black transition-colors">Home</a>
                 <a href="#about" class="text-gray-700 hover:text-black transition-colors">About</a>
                 <a href="#coming-soon" class="text-gray-700 hover:text-black transition-colors">Coming Soon</a>
-                <a href="#linkai-aion" class="text-gray-700 hover:text-black transition-colors flex items-center gap-2">Library (Python)
-                    <span class="ml-1 px-2 py-0.5 text-xs font-bold rounded-full bg-green-500 text-white align-middle">new</span>
+                <a href="#linkai-aion"
+                    class="text-gray-700 hover:text-black transition-colors flex items-center gap-2">Library (Python)
+                    <span
+                        class="ml-1 px-2 py-0.5 text-xs font-bold rounded-full bg-green-500 text-white align-middle">new</span>
                 </a>
                 <a href="#footer" class="text-gray-700 hover:text-black transition-colors">Contact</a>
             </nav>
@@ -285,64 +297,116 @@
                 <div class="text-3xl font-extrabold tracking-tight text-black mb-2">LinkAI</div>
                 <div class="text-sm text-gray-600">AI & Game Development</div>
             </div>
-            
+
             <!-- Navigation Links -->
             <div class="flex-1 flex flex-col justify-center">
                 <a href="#hero" onclick="closeMobileMenu()">Home</a>
                 <a href="#about" onclick="closeMobileMenu()">About</a>
                 <a href="#coming-soon" onclick="closeMobileMenu()">Coming Soon</a>
                 <a href="#linkai-aion" onclick="closeMobileMenu()" class="flex items-center gap-2">Library (Python)
-                    <span class="ml-2 px-2 py-0.5 text-xs font-bold rounded-full bg-green-500 text-white align-middle">new</span>
+                    <span
+                        class="ml-2 px-2 py-0.5 text-xs font-bold rounded-full bg-green-500 text-white align-middle">new</span>
                 </a>
                 <a href="#footer" onclick="closeMobileMenu()">Contact</a>
             </div>
-            
+
             <!-- Footer Text -->
             <div class="text-center mt-12 text-sm text-gray-500">
                 <div>Since 2025 LinkAI. All rights reserved.</div>
-                <div class="mt-1">Created by <span id="mobile-animated-aksel" class="font-semibold text-black transition-all duration-700">Aksel</span></div>
+                <div class="mt-1">Created by <span id="mobile-animated-aksel"
+                        class="font-semibold text-black transition-all duration-700">Aksel</span></div>
             </div>
         </div>
         <button id="close-mobile-menu" class="close-icon"></button>
     </div>
 
     <!-- Hero Section -->
-    <section id="hero" class="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 via-white to-gray-50 relative overflow-hidden">
+    <section id="hero"
+        class="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 via-white to-gray-50 relative overflow-hidden">
         <!-- Background Pattern -->
         <div class="absolute inset-0 opacity-5">
-            <div class="absolute top-0 left-0 w-full h-full" 
-                 style="background-image: radial-gradient(circle at 20% 20%, rgba(0,0,0,0.1) 0%, transparent 50%), 
+            <div class="absolute top-0 left-0 w-full h-full" style="background-image: radial-gradient(circle at 20% 20%, rgba(0,0,0,0.1) 0%, transparent 50%), 
                         radial-gradient(circle at 80% 80%, rgba(0,0,0,0.1) 0%, transparent 50%);">
             </div>
         </div>
-        
+
         <div class="container mx-auto px-6 py-20 text-center relative z-10">
             <!-- Main Title with Typing Animation -->
             <div class="mb-16">
-                <h1 id="typing-hero" class="text-5xl md:text-7xl lg:text-8xl font-extrabold leading-tight text-black mb-6"></h1>
+                <h1 id="typing-hero"
+                    class="text-5xl md:text-7xl lg:text-8xl font-extrabold leading-tight text-black mb-6"></h1>
                 <div class="w-24 h-1 bg-black mx-auto mb-8"></div>
             </div>
-            
+
             <!-- Subtitle -->
             <div class="max-w-4xl mx-auto mb-16">
                 <p class="text-xl md:text-2xl lg:text-3xl text-gray-700 font-light leading-relaxed">
-                    LinkAI is a pioneering company at the forefront of artificial intelligence and game development. 
-                    We deliver innovative solutions, immersive experiences, and cutting-edge technology to empower 
+                    LinkAI is a pioneering company at the forefront of artificial intelligence and game development.
+                    We deliver innovative solutions, immersive experiences, and cutting-edge technology to empower
                     businesses and inspire creativity.
                 </p>
             </div>
-            
+
             <!-- Call to Action Buttons -->
             <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
-                <a href="#wallpapers" class="px-8 py-4 bg-black text-white rounded-lg hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 font-semibold text-lg cursor-pointer inline-block text-center">
-                    Download Wallpapers
+                <a href="#linkai-aion"
+                    class="px-8 py-4 bg-black text-white rounded-xl shadow font-bold text-lg hover:bg-gray-800 transition-all duration-200 transform hover:scale-105 cursor-pointer inline-block text-center">
+                    Get Started
                 </a>
-                <a href="#coming-soon" class="px-8 py-4 border-2 border-black text-black rounded-lg hover:bg-black hover:text-white transition-all duration-300 transform hover:scale-105 font-semibold text-lg cursor-pointer inline-block text-center">
-                    Coming Soon
-                </a>
+
+                <button onclick="openContactModal()"
+                    class="px-8 py-4 bg-white text-black border-2 border-black rounded-xl font-bold text-lg hover:bg-black hover:text-white transition-all duration-200 transform hover:scale-105 cursor-pointer inline-block text-center">
+                    Contact Us
+                </button>
             </div>
-            
-           
+
+            <!-- Contact Modal -->
+            <div id="contact-modal-overlay"
+                class="fixed inset-0 bg-black bg-opacity-60 z-50 flex items-center justify-center transition-all duration-300 opacity-0 pointer-events-none"
+                tabindex="-1" aria-hidden="true">
+                <div class="bg-white rounded-2xl shadow-2xl max-w-2xl w-full p-10 md:p-16 relative">
+                    <button onclick="closeContactModal()"
+                        class="absolute top-4 right-4 text-gray-400 hover:text-black text-2xl font-bold"
+                        aria-label="Close">&times;</button>
+                    <h3 class="text-3xl font-extrabold mb-4 text-center">Contact LinkAI Team</h3>
+                    <p class="text-gray-700 text-lg mb-6 text-center">We'd love to hear from you! Whether you have
+                        questions, feedback, partnership ideas, or need support, our team is here to help.</p>
+                    <div class="bg-gray-50 rounded-xl p-6 mb-6 text-center">
+                        <div class="text-xl font-bold mb-2">Email</div>
+                        <a href="mailto:aksel@linkaiapps.com"
+                            class="text-lg text-blue-700 underline hover:text-black">aksel@linkaiapps.com</a>
+                        <div class="text-gray-500 text-base mt-2">We usually respond within 24 hours on business days.
+                        </div>
+                    </div>
+                    <div class="text-gray-700 text-base text-center mb-4">
+                        <p>For urgent matters, please mention <b>URGENT</b> in your subject line.</p>
+                        <p class="mt-2">You can also find more contact options in the footer below.</p>
+                    </div>
+                    <div class="text-center text-gray-600 mt-6">Thank you for reaching out to LinkAI!<br>We appreciate
+                        your interest and will get back to you as soon as possible.</div>
+                </div>
+            </div>
+            <script>
+                function openContactModal() {
+                    const overlay = document.getElementById('contact-modal-overlay');
+                    overlay.classList.remove('opacity-0', 'pointer-events-none');
+                    overlay.setAttribute('aria-hidden', 'false');
+                }
+                function closeContactModal() {
+                    const overlay = document.getElementById('contact-modal-overlay');
+                    overlay.classList.add('opacity-0', 'pointer-events-none');
+                    overlay.setAttribute('aria-hidden', 'true');
+                }
+                // Close modal on Escape key
+                document.addEventListener('keydown', function (e) {
+                    const overlay = document.getElementById('contact-modal-overlay');
+                    if (e.key === 'Escape' && !overlay.classList.contains('opacity-0')) {
+                        closeContactModal();
+                    }
+                });
+            </script>
+
+
         </div>
     </section>
 
@@ -350,12 +414,11 @@
     <section id="about" class="py-32 bg-gradient-to-br from-gray-50 via-white to-gray-50 relative overflow-hidden">
         <!-- Background Pattern -->
         <div class="absolute inset-0 opacity-10">
-            <div class="absolute top-0 left-0 w-full h-full" 
-                 style="background-image: radial-gradient(circle at 20% 20%, rgba(0,0,0,0.1) 0%, transparent 50%), 
+            <div class="absolute top-0 left-0 w-full h-full" style="background-image: radial-gradient(circle at 20% 20%, rgba(0,0,0,0.1) 0%, transparent 50%), 
                         radial-gradient(circle at 80% 80%, rgba(0,0,0,0.1) 0%, transparent 50%);">
             </div>
         </div>
-        
+
         <div class="container mx-auto px-6 relative z-10">
             <!-- Section Header -->
             <div class="text-center mb-20">
@@ -376,8 +439,10 @@
                     <div class="matte-bg rounded-3xl p-12 shadow-xl">
                         <h3 class="text-4xl md:text-5xl font-bold mb-8">Our Mission</h3>
                         <p class="text-xl md:text-2xl text-gray-600 leading-relaxed max-w-4xl mx-auto">
-                            We bridge the gap between cutting-edge artificial intelligence and immersive game development, 
-                            creating innovative solutions that push the boundaries of digital entertainment and AI technology.
+                            We bridge the gap between cutting-edge artificial intelligence and immersive game
+                            development,
+                            creating innovative solutions that push the boundaries of digital entertainment and AI
+                            technology.
                         </p>
                     </div>
                 </div>
@@ -389,7 +454,8 @@
                         <div class="text-4xl mb-6">🚀</div>
                         <h4 class="text-2xl font-bold mb-4">What We Do</h4>
                         <p class="text-gray-600 leading-relaxed">
-                            We specialize in developing AI-powered gaming experiences, creating intelligent systems that enhance gameplay, 
+                            We specialize in developing AI-powered gaming experiences, creating intelligent systems that
+                            enhance gameplay,
                             and building innovative solutions that combine the best of both worlds.
                         </p>
                     </div>
@@ -423,7 +489,8 @@
                         <div class="text-4xl mb-6">🌟</div>
                         <h4 class="text-2xl font-bold mb-4">Our Vision</h4>
                         <p class="text-gray-600 leading-relaxed">
-                            We envision a future where AI and gaming seamlessly integrate to create experiences that are not just 
+                            We envision a future where AI and gaming seamlessly integrate to create experiences that are
+                            not just
                             entertaining, but truly intelligent and adaptive.
                         </p>
                     </div>
@@ -503,84 +570,84 @@
         }
         setTimeout(typeLoop, 500);
     </script>
-    
+
     <script>
         // Mobile Menu Functionality
         const burgerMenu = document.getElementById('burger-menu');
         const mobileMenu = document.getElementById('mobile-menu');
         const closeMobileMenuBtn = document.getElementById('close-mobile-menu');
-        
-        burgerMenu.addEventListener('click', function() {
+
+        burgerMenu.addEventListener('click', function () {
             burgerMenu.classList.toggle('active');
             mobileMenu.classList.toggle('active');
             document.body.style.overflow = mobileMenu.classList.contains('active') ? 'hidden' : '';
         });
 
         closeMobileMenuBtn.addEventListener('click', closeMobileMenu);
-        
+
         function closeMobileMenu() {
             burgerMenu.classList.remove('active');
             mobileMenu.classList.remove('active');
             document.body.style.overflow = '';
         }
-        
+
         // Close mobile menu when clicking outside
-        mobileMenu.addEventListener('click', function(e) {
+        mobileMenu.addEventListener('click', function (e) {
             if (e.target === mobileMenu) {
                 closeMobileMenu();
             }
         });
-        
+
         // Close mobile menu on escape key
-        document.addEventListener('keydown', function(e) {
+        document.addEventListener('keydown', function (e) {
             if (e.key === 'Escape' && mobileMenu.classList.contains('active')) {
                 closeMobileMenu();
             }
         });
-        
+
         // Add touch feedback for burger menu
-        burgerMenu.addEventListener('touchstart', function() {
+        burgerMenu.addEventListener('touchstart', function () {
             this.style.transform = 'scale(0.95)';
         });
-        
-        burgerMenu.addEventListener('touchend', function() {
+
+        burgerMenu.addEventListener('touchend', function () {
             this.style.transform = '';
         });
-        
+
         // Responsive adjustments
         function adjustForMobile() {
             const isMobile = window.innerWidth < 768;
             const heroTitle = document.getElementById('typing-hero');
-            
+
             if (isMobile) {
                 heroTitle.classList.add('hero-title');
             } else {
                 heroTitle.classList.remove('hero-title');
             }
         }
-        
+
         // Run on load and resize
-        window.addEventListener('load', function() {
+        window.addEventListener('load', function () {
             adjustForMobile();
             // Ensure page starts at top on refresh
             window.scrollTo(0, 0);
         });
         window.addEventListener('resize', adjustForMobile);
-        
+
         // Force scroll to top on page refresh
-        window.addEventListener('beforeunload', function() {
+        window.addEventListener('beforeunload', function () {
             window.scrollTo(0, 0);
         });
-        
+
         // Additional scroll to top on page load
-        document.addEventListener('DOMContentLoaded', function() {
-            setTimeout(function() {
+        document.addEventListener('DOMContentLoaded', function () {
+            setTimeout(function () {
                 window.scrollTo(0, 0);
             }, 100);
         });
-        
+
         // Handle browser back/forward buttons
-        window.addEventListener('pageshow', function(event) {
+        window.addEventListener('pageshow', function (event) {
             if (event.persisted) {
                 window.scrollTo(0, 0);
             }
@@ -615,7 +682,7 @@
             </div>
 
             <!-- Features Preview -->
-          
+
 
             <!-- Progress Indicator -->
             <div class="mt-16">
@@ -638,32 +705,48 @@
         <div class="w-full max-w-7xl mx-auto px-4">
             <h2 class="text-6xl md:text-7xl font-extrabold tracking-tight mb-8 text-center">
                 LinkAI-Aion
-                <span class="inline-block align-middle bg-gray-900 text-white text-2xl font-bold px-6 py-2 rounded-full ml-4 shadow-sm border border-gray-300 tracking-wide" style="vertical-align: middle;">
+                <span
+                    class="inline-block align-middle bg-gray-900 text-white text-2xl font-bold px-6 py-2 rounded-full ml-4 shadow-sm border border-gray-300 tracking-wide"
+                    style="vertical-align: middle;">
                     v0.1.2
                 </span>
             </h2>
             <p class="text-2xl md:text-3xl text-gray-600 font-light mb-12 text-center max-w-4xl mx-auto">
-                <strong>linkai-aion</strong> is a lightweight Python utility library by LinkAI for text processing, file I/O, CLI parsing, and more. Designed for developers who want clean, reusable functions to speed up their workflow. Future versions will introduce AI features built on this solid foundation.
+                <strong>linkai-aion</strong> is a lightweight Python utility library by LinkAI for text processing, file
+                I/O, CLI parsing, and more. Designed for developers who want clean, reusable functions to speed up their
+                workflow. Future versions will introduce AI features built on this solid foundation.
             </p>
             <div class="flex flex-col items-center mb-10">
                 <div class="w-full max-w-2xl">
                     <div class="relative group flex items-center">
-                        <code id="pip-install" class="block w-full bg-gray-900 text-green-400 rounded-xl px-6 py-4 text-xl font-mono select-all text-left">pip install linkai-aion==0.1.2</code>
-                        <button id="copy-pip" aria-label="Copy pip iupdnstall command" tabindex="0" onclick="copyPipInstall()" class="ml-4 flex items-center gap-2 px-10 py-4 rounded-xl bg-black text-white text-xl font-bold shadow hover:bg-gray-800 transition-all duration-200 group-hover:scale-105 focus:outline-none focus:ring-2 focus:ring-black">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16h8M8 12h8m-7 8h6a2 2 0 002-2V6a2 2 0 00-2-2H8a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>
+                        <code id="pip-install"
+                            class="block w-full bg-gray-900 text-green-400 rounded-xl px-6 py-4 text-xl font-mono select-all text-left">pip install linkai-aion==0.1.2</code>
+                        <button id="copy-pip" aria-label="Copy pip iupdnstall command" tabindex="0"
+                            onclick="copyPipInstall()"
+                            class="ml-4 flex items-center gap-2 px-10 py-4 rounded-xl bg-black text-white text-xl font-bold shadow hover:bg-gray-800 transition-all duration-200 group-hover:scale-105 focus:outline-none focus:ring-2 focus:ring-black">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-1" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M8 16h8M8 12h8m-7 8h6a2 2 0 002-2V6a2 2 0 00-2-2H8a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                            </svg>
                             Copy
                         </button>
                     </div>
                 </div>
-                <a href="https://pypi.org/project/linkai-aion/" target="_blank" class="mt-8 inline-block px-10 py-4 bg-gray-900 text-white rounded-xl font-semibold text-xl hover:bg-gray-800 transition shadow">View on PyPI</a>
+                <a href="https://pypi.org/project/linkai-aion/" target="_blank"
+                    class="mt-8 inline-block px-10 py-4 bg-gray-900 text-white rounded-xl font-semibold text-xl hover:bg-gray-800 transition shadow">View
+                    on PyPI</a>
             </div>
             <!-- Features and Why Section Modern Clean Container -->
-            <div class="mt-16 max-w-5xl mx-auto bg-gray-50 rounded-2xl shadow-md border border-gray-200 p-4 sm:p-6 md:p-10 md:pt-16 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 text-base md:text-xl text-gray-700">
+            <div
+                class="mt-16 max-w-5xl mx-auto bg-gray-50 rounded-2xl shadow-md border border-gray-200 p-4 sm:p-6 md:p-10 md:pt-16 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 text-base md:text-xl text-gray-700">
                 <div>
                     <div class="font-bold mb-3 text-xl md:text-2xl">Features</div>
                     <ul class="list-disc list-inside space-y-3">
-                        <li><b>Text Utilities:</b> <code>count_words()</code>, <code>extract_emails()</code>, <code>summarize_text()</code>, <code>highlight_keywords()</code></li>
-                        <li><b>File Handling:</b> <code>read_file()</code>, <code>write_file()</code>, <code>append_file()</code></li>
+                        <li><b>Text Utilities:</b> <code>count_words()</code>, <code>extract_emails()</code>,
+                            <code>summarize_text()</code>, <code>highlight_keywords()</code></li>
+                        <li><b>File Handling:</b> <code>read_file()</code>, <code>write_file()</code>,
+                            <code>append_file()</code></li>
                         <li><b>Parser Tools:</b> <code>extract_numbers()</code> from messy strings</li>
                         <li class="italic text-gray-500">and other features...</li>
                     </ul>
@@ -679,34 +762,68 @@
                 </div>
             </div>
             <!-- Other Info Section Modern Clean Container -->
-            <div class="mt-12 max-w-5xl mx-auto bg-gray-50 rounded-2xl shadow-md border border-gray-200 p-4 sm:p-6 md:p-12 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 text-base md:text-lg text-gray-700">
+            <div
+                class="mt-12 max-w-5xl mx-auto bg-gray-50 rounded-2xl shadow-md border border-gray-200 p-4 sm:p-6 md:p-12 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 text-base md:text-lg text-gray-700">
                 <div class="flex items-center gap-3 md:gap-4">
-                    <span class="inline-flex items-center justify-center w-9 h-9 md:w-10 md:h-10 rounded-full bg-gray-200"><svg xmlns='http://www.w3.org/2000/svg' class='h-5 w-5 md:h-6 md:w-6 text-gray-700' fill='none' viewBox='0 0 24 24' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M16 7a4 4 0 01-8 0M12 15v2m0 4h.01M6.938 17.938A8 8 0 1117.062 6.062 8 8 0 016.938 17.938z' /></svg></span>
+                    <span
+                        class="inline-flex items-center justify-center w-9 h-9 md:w-10 md:h-10 rounded-full bg-gray-200"><svg
+                            xmlns='http://www.w3.org/2000/svg' class='h-5 w-5 md:h-6 md:w-6 text-gray-700' fill='none'
+                            viewBox='0 0 24 24' stroke='currentColor'>
+                            <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2'
+                                d='M16 7a4 4 0 01-8 0M12 15v2m0 4h.01M6.938 17.938A8 8 0 1117.062 6.062 8 8 0 016.938 17.938z' />
+                        </svg></span>
                     <span><b>Supported Python:</b> 3.7+</span>
                 </div>
                 <div class="flex items-center gap-3 md:gap-4">
-                    <span class="inline-flex items-center justify-center w-9 h-9 md:w-10 md:h-10 rounded-full bg-gray-200"><svg xmlns='http://www.w3.org/2000/svg' class='h-5 w-5 md:h-6 md:w-6 text-gray-700' fill='none' viewBox='0 0 24 24' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12l2 2 4-4M7 20h10a2 2 0 002-2V6a2 2 0 00-2-2H7a2 2 0 00-2 2v12a2 2 0 002 2z' /></svg></span>
+                    <span
+                        class="inline-flex items-center justify-center w-9 h-9 md:w-10 md:h-10 rounded-full bg-gray-200"><svg
+                            xmlns='http://www.w3.org/2000/svg' class='h-5 w-5 md:h-6 md:w-6 text-gray-700' fill='none'
+                            viewBox='0 0 24 24' stroke='currentColor'>
+                            <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2'
+                                d='M9 12l2 2 4-4M7 20h10a2 2 0 002-2V6a2 2 0 00-2-2H7a2 2 0 00-2 2v12a2 2 0 002 2z' />
+                        </svg></span>
                     <span><b>License:</b> MIT</span>
                 </div>
                 <div class="flex items-center gap-3 md:gap-4">
-                    <span class="inline-flex items-center justify-center w-9 h-9 md:w-10 md:h-10 rounded-full bg-gray-200"><svg xmlns='http://www.w3.org/2000/svg' class='h-5 w-5 md:h-6 md:w-6 text-gray-700' fill='none' viewBox='0 0 24 24' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5.121 17.804A13.937 13.937 0 0112 15c2.485 0 4.797.607 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0z' /></svg></span>
+                    <span
+                        class="inline-flex items-center justify-center w-9 h-9 md:w-10 md:h-10 rounded-full bg-gray-200"><svg
+                            xmlns='http://www.w3.org/2000/svg' class='h-5 w-5 md:h-6 md:w-6 text-gray-700' fill='none'
+                            viewBox='0 0 24 24' stroke='currentColor'>
+                            <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2'
+                                d='M5.121 17.804A13.937 13.937 0 0112 15c2.485 0 4.797.607 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0z' />
+                        </svg></span>
                     <span><b>Author:</b> Aksel (LinkAI)</span>
                 </div>
                 <div class="flex items-center gap-3 md:gap-4">
-                    <span class="inline-flex items-center justify-center w-9 h-9 md:w-10 md:h-10 rounded-full bg-gray-200"><svg xmlns='http://www.w3.org/2000/svg' class='h-5 w-5 md:h-6 md:w-6 text-gray-700' fill='none' viewBox='0 0 24 24' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M13 16h-1v-4h-1m4 0h-1a4 4 0 00-8 0v4a4 4 0 008 0v-4z' /></svg></span>
+                    <span
+                        class="inline-flex items-center justify-center w-9 h-9 md:w-10 md:h-10 rounded-full bg-gray-200"><svg
+                            xmlns='http://www.w3.org/2000/svg' class='h-5 w-5 md:h-6 md:w-6 text-gray-700' fill='none'
+                            viewBox='0 0 24 24' stroke='currentColor'>
+                            <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2'
+                                d='M13 16h-1v-4h-1m4 0h-1a4 4 0 00-8 0v4a4 4 0 008 0v-4z' />
+                        </svg></span>
                     <span>More features and AI tools coming soon!</span>
                 </div>
             </div>
             <!-- Usage Example Section Modern Clean Container -->
-            <div class="mt-12 max-w-5xl mx-auto bg-gray-50 rounded-2xl shadow-md border border-gray-200 p-4 sm:p-6 md:p-12">
+            <div
+                class="mt-12 max-w-5xl mx-auto bg-gray-50 rounded-2xl shadow-md border border-gray-200 p-4 sm:p-6 md:p-12">
                 <div class="flex flex-col sm:flex-row items-start sm:items-center mb-6 gap-4">
-                    <span class="inline-block bg-gray-900 text-white text-base md:text-lg font-bold rounded-full px-4 py-2 mr-0 sm:mr-4">Usage Example</span>
-                    <button id="copy-usage" onclick="copyUsageExample()" class="sm:ml-auto flex items-center gap-2 px-5 py-2 md:px-6 md:py-2 rounded-xl bg-black text-white text-sm md:text-base font-semibold shadow hover:bg-gray-800 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-black">
-                        <svg xmlns='http://www.w3.org/2000/svg' class='h-5 w-5' fill='none' viewBox='0 0 24 24' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M8 16h8M8 12h8m-7 8h6a2 2 0 002-2V6a2 2 0 00-2-2H8a2 2 0 00-2 2v12a2 2 0 002 2z' /></svg>
+                    <span
+                        class="inline-block bg-gray-900 text-white text-base md:text-lg font-bold rounded-full px-4 py-2 mr-0 sm:mr-4">Usage
+                        Example</span>
+                    <button id="copy-usage" onclick="copyUsageExample()"
+                        class="sm:ml-auto flex items-center gap-2 px-5 py-2 md:px-6 md:py-2 rounded-xl bg-black text-white text-sm md:text-base font-semibold shadow hover:bg-gray-800 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-black">
+                        <svg xmlns='http://www.w3.org/2000/svg' class='h-5 w-5' fill='none' viewBox='0 0 24 24'
+                            stroke='currentColor'>
+                            <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2'
+                                d='M8 16h8M8 12h8m-7 8h6a2 2 0 002-2V6a2 2 0 00-2-2H8a2 2 0 00-2 2v12a2 2 0 002 2z' />
+                        </svg>
                         Copy Example
                     </button>
                 </div>
-                <pre class="bg-gray-900 bg-opacity-80 text-green-200 rounded-xl p-4 md:p-6 text-sm md:text-lg font-mono overflow-x-auto select-all" id="usage-example">from aion.text import count_words, count_lines, summarize_text, extract_emails, extract_urls, highlight_keywords
+                <pre class="bg-gray-900 bg-opacity-80 text-green-200 rounded-xl p-4 md:p-6 text-sm md:text-lg font-mono overflow-x-auto select-all"
+                    id="usage-example">from aion.text import count_words, count_lines, summarize_text, extract_emails, extract_urls, highlight_keywords
 
 sample_text = """
 Hello, this is LinkAI-Aion!
@@ -735,13 +852,16 @@ print("Highlighted:", highlight_keywords(sample_text, ["LinkAI-Aion", "test"]))
 </pre>
             </div>
             <!-- Snackbar for Usage Example Copy -->
-            <div id="snackbar-usage" class="fixed left-1/2 bottom-20 -translate-x-1/2 z-50 px-6 py-4 bg-black text-white text-lg font-semibold rounded-2xl shadow-lg opacity-0 pointer-events-none transition-all duration-500">Example copied!</div>
+            <div id="snackbar-usage"
+                class="fixed left-1/2 bottom-20 -translate-x-1/2 z-50 px-6 py-4 bg-black text-white text-lg font-semibold rounded-2xl shadow-lg opacity-0 pointer-events-none transition-all duration-500">
+                Example copied!</div>
             <style>
                 .snackbar-show {
                     opacity: 1 !important;
                     transform: translate(-50%, 0) scale(1.05);
                     pointer-events: auto;
                 }
+
                 .snackbar-hide {
                     opacity: 0 !important;
                     transform: translate(-50%, 24px) scale(0.98);
@@ -752,9 +872,9 @@ print("Highlighted:", highlight_keywords(sample_text, ["LinkAI-Aion", "test"]))
                 function copyUsageExample() {
                     const usage = document.getElementById('usage-example').textContent;
                     if (navigator.clipboard) {
-                        navigator.clipboard.writeText(usage).then(function() {
+                        navigator.clipboard.writeText(usage).then(function () {
                             showUsageSnackbar();
-                        }, function() {
+                        }, function () {
                             fallbackCopyTextToClipboardUsage(usage);
                         });
                     } else {
@@ -767,14 +887,14 @@ print("Highlighted:", highlight_keywords(sample_text, ["LinkAI-Aion", "test"]))
                     document.body.appendChild(textArea);
                     textArea.focus();
                     textArea.select();
-                    try { document.execCommand('copy'); showUsageSnackbar(); } catch (err) {}
+                    try { document.execCommand('copy'); showUsageSnackbar(); } catch (err) { }
                     document.body.removeChild(textArea);
                 }
                 function showUsageSnackbar() {
                     const snackbar = document.getElementById('snackbar-usage');
                     snackbar.classList.add('snackbar-show');
                     snackbar.classList.remove('snackbar-hide');
-                    setTimeout(function() {
+                    setTimeout(function () {
                         snackbar.classList.remove('snackbar-show');
                         snackbar.classList.add('snackbar-hide');
                     }, 1600);
@@ -782,13 +902,16 @@ print("Highlighted:", highlight_keywords(sample_text, ["LinkAI-Aion", "test"]))
             </script>
         </div>
         <!-- Snackbar for copy feedback -->
-        <div id="snackbar-copy" class="fixed left-1/2 bottom-8 -translate-x-1/2 z-50 px-6 py-4 bg-black text-white text-lg font-semibold rounded-2xl shadow-lg opacity-0 pointer-events-none transition-all duration-500">Copied to clipboard!</div>
+        <div id="snackbar-copy"
+            class="fixed left-1/2 bottom-8 -translate-x-1/2 z-50 px-6 py-4 bg-black text-white text-lg font-semibold rounded-2xl shadow-lg opacity-0 pointer-events-none transition-all duration-500">
+            Copied to clipboard!</div>
         <style>
             .snackbar-show {
                 opacity: 1 !important;
                 transform: translate(-50%, 0) scale(1.05);
                 pointer-events: auto;
             }
+
             .snackbar-hide {
                 opacity: 0 !important;
                 transform: translate(-50%, 24px) scale(0.98);
@@ -800,9 +923,9 @@ print("Highlighted:", highlight_keywords(sample_text, ["LinkAI-Aion", "test"]))
                 const codeBlock = document.getElementById('pip-install');
                 let pipText = codeBlock ? codeBlock.textContent.trim() : 'pip install linkai-aion==0.1.2';
                 if (navigator.clipboard) {
-                    navigator.clipboard.writeText(pipText).then(function() {
+                    navigator.clipboard.writeText(pipText).then(function () {
                         showCopySnackbar();
-                    }, function() {
+                    }, function () {
                         fallbackCopyTextToClipboard(pipText);
                     });
                 } else {
@@ -818,14 +941,14 @@ print("Highlighted:", highlight_keywords(sample_text, ["LinkAI-Aion", "test"]))
                 try {
                     document.execCommand('copy');
                     showCopySnackbar();
-                } catch (err) {}
+                } catch (err) { }
                 document.body.removeChild(textArea);
             }
             function showCopySnackbar() {
                 const snackbar = document.getElementById('snackbar-copy');
                 snackbar.classList.add('snackbar-show');
                 snackbar.classList.remove('snackbar-hide');
-                setTimeout(function() {
+                setTimeout(function () {
                     snackbar.classList.remove('snackbar-show');
                     snackbar.classList.add('snackbar-hide');
                 }, 1600);
@@ -833,6 +956,51 @@ print("Highlighted:", highlight_keywords(sample_text, ["LinkAI-Aion", "test"]))
         </script>
     </section>
 
+    <!-- Privacy Policy Modal (Updated for LinkAI Website) -->
+    <div id="privacy-policy-modal" class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-60 transition-all duration-300 opacity-0 pointer-events-none" tabindex="-1" aria-hidden="true">
+        <div class="bg-white rounded-2xl shadow-2xl max-w-2xl w-full p-4 sm:p-8 md:p-12 relative overflow-y-auto h-[98vh] sm:h-[90vh]">
+            <button onclick="closePrivacyModal()" class="absolute top-4 right-4 text-gray-400 hover:text-black text-2xl font-bold" aria-label="Close">&times;</button>
+            <h2 class="text-4xl font-extrabold mb-6 text-center">Privacy Policy</h2>
+            <p class="text-lg text-gray-700 mb-6 text-center">This Privacy Policy describes how LinkAI (linkaiapps.com) handles your information. We are committed to transparency and protecting your privacy.</p>
+            <div class="mb-6">
+                <h3 class="text-2xl font-bold mb-2">1. No User Accounts</h3>
+                <ul class="list-disc list-inside text-gray-700 ml-4">
+                    <li>We do not require you to create an account or provide personal details to use our website.</li>
+                    <li>You may contact us by email, in which case we only use your email to respond to your inquiry.</li>
+                </ul>
+            </div>
+            <div class="mb-6">
+                <h3 class="text-2xl font-bold mb-2">2. Cookies & Essential Data</h3>
+                <ul class="list-disc list-inside text-gray-700 ml-4">
+                    <li>We use only essential cookies for site functionality and security.</li>
+                    <li>No marketing or tracking cookies are used.</li>
+                    <li>You can accept or decline cookies using the cookie banner.</li>
+                </ul>
+            </div>
+            <div class="mb-6">
+                <h3 class="text-2xl font-bold mb-2">3. Analytics</h3>
+                <ul class="list-disc list-inside text-gray-700 ml-4">
+                    <li>We use simple analytics tools to understand how visitors use our site (e.g., page views, device type).</li>
+                    <li>All analytics data is anonymized and used only to improve the website experience.</li>
+                    <li>No analytics data is shared with advertisers or third parties.</li>
+                </ul>
+            </div>
+            <div class="mb-6">
+                <h3 class="text-2xl font-bold mb-2">4. Data Sharing</h3>
+                <ul class="list-disc list-inside text-gray-700 ml-4">
+                    <li>We do <b>not</b> sell, rent, or share your data with marketers or unrelated third parties.</li>
+                    <li>Data may be processed by trusted providers (e.g., web hosting) only as needed for site operation.</li>
+                </ul>
+            </div>
+            <div class="mb-6">
+                <h3 class="text-2xl font-bold mb-2">5. Your Rights</h3>
+                <ul class="list-disc list-inside text-gray-700 ml-4">
+                    <li>You may request to see, correct, or delete any personal data you have provided (such as email correspondence).</li>
+                    <li>Contact us at <a href="mailto:aksel@linkaiapps.com" class="underline hover:text-black">aksel@linkaiapps.com</a> for any privacy questions or requests.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <!-- Big White Footer -->
     <footer id="footer" class="matte-bg text-black py-16 mt-20 border-t border-gray-200">
         <div class="container mx-auto px-4 grid md:grid-cols-4 gap-12 text-left">
@@ -861,6 +1029,16 @@ print("Highlighted:", highlight_keywords(sample_text, ["LinkAI-Aion", "test"]))
                     <li>Location: <span class="">Worldwide</span></li>
                 </ul>
             </div>
+            <!-- Main Menu -->
+            <div>
+                <div class="text-lg font-bold mb-3">Menu</div>
+                <ul class="space-y-2 text-gray-700">
+                    <li><a href="#about" class="underline hover:text-black transition-colors">About</a></li>
+                    <li><a href="#linkai-aion" class="underline hover:text-black transition-colors">Library (Python)</a></li>
+                    <li><a href="#footer" class="underline hover:text-black transition-colors">Contact</a></li>
+                    <li><a href="#" onclick="openPrivacyModal(); return false;" class="underline hover:text-black transition-colors">Privacy Policy</a></li>
+                </ul>
+            </div>
             <!-- Social Links -->
             <div>
                 <div class="text-lg font-bold mb-3">Follow Us</div>
@@ -872,27 +1050,77 @@ print("Highlighted:", highlight_keywords(sample_text, ["LinkAI-Aion", "test"]))
             </div>
         </div>
         <div class="container mx-auto px-4 text-center mt-12 text-gray-400 text-sm">
-            Since 2025 LinkAI. All rights reserved. | Created by <span id="animated-aksel" class="font-semibold text-black transition-all duration-700">Aksel</span>
+            Since 2025 LinkAI. All rights reserved. | Created by <span id="animated-aksel"
+                class="font-semibold text-black transition-all duration-700">Aksel</span>
         </div>
     </footer>
+    <!-- Cookie Consent Banner -->
+    <div id="cookie-banner"
+        class="fixed bottom-0 left-0 w-full z-50 bg-black text-white px-4 py-6 flex flex-col md:flex-row items-center justify-between shadow-lg transition-all duration-300"
+        style="display:none;">
+        <div class="mb-4 md:mb-0 text-center md:text-left flex-1">
+            <span class="text-lg font-semibold">We use only essential cookies for site functionality. By clicking
+                Accept, you consent to our use of cookies as described in our <a href="#" onclick="openPrivacyModal(); return false;" class="underline hover:text-green-400">Privacy Policy</a>.</span>
+        </div>
+        <div class="flex gap-3 justify-center md:justify-end">
+            <button onclick="acceptCookies()"
+                class="px-6 py-2 rounded-xl bg-black text-white text-base font-bold shadow hover:bg-gray-800 transition">Accept</button>
+            <button onclick="declineCookies()"
+                class="px-6 py-2 rounded-xl bg-white text-black text-base font-bold shadow border border-gray-300 hover:bg-gray-100 transition">Decline</button>
+        </div>
+    </div>
+    <script>
+        function showCookieBanner() {
+            const consent = localStorage.getItem('cookieConsent');
+            if (!consent) {
+                document.getElementById('cookie-banner').style.display = 'flex';
+            }
+        }
+        function acceptCookies() {
+            localStorage.setItem('cookieConsent', 'accepted');
+            document.getElementById('cookie-banner').style.display = 'none';
+        }
+        function declineCookies() {
+            localStorage.setItem('cookieConsent', 'declined');
+            document.getElementById('cookie-banner').style.display = 'none';
+        }
+        window.addEventListener('DOMContentLoaded', showCookieBanner);
+    </script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Dancing+Script:wght@600&family=Pacifico&family=Great+Vibes&family=Satisfy&family=Kaushan+Script&display=swap');
-        
+
         html {
             scroll-behavior: smooth;
         }
-        
+
         /* Ensure page starts at top on refresh */
         body {
             scroll-behavior: smooth;
         }
-        
-        .font-playfair { font-family: 'Playfair Display', serif; }
-        .font-dancing { font-family: 'Dancing Script', cursive; }
-        .font-pacifico { font-family: 'Pacifico', cursive; }
-        .font-greatvibes { font-family: 'Great Vibes', cursive; }
-        .font-satisfy { font-family: 'Satisfy', cursive; }
-        .font-kaushan { font-family: 'Kaushan Script', cursive; }
+
+        .font-playfair {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .font-dancing {
+            font-family: 'Dancing Script', cursive;
+        }
+
+        .font-pacifico {
+            font-family: 'Pacifico', cursive;
+        }
+
+        .font-greatvibes {
+            font-family: 'Great Vibes', cursive;
+        }
+
+        .font-satisfy {
+            font-family: 'Satisfy', cursive;
+        }
+
+        .font-kaushan {
+            font-family: 'Kaushan Script', cursive;
+        }
     </style>
     <script>
         // Font family changing animation for Aksel in footer
@@ -900,7 +1128,7 @@ print("Highlighted:", highlight_keywords(sample_text, ["LinkAI-Aion", "test"]))
         const mobileAnimatedAksel = document.getElementById('mobile-animated-aksel');
         const fonts = ['font-playfair', 'font-dancing', 'font-pacifico', 'font-greatvibes', 'font-satisfy', 'font-kaushan'];
         let fontIndex = 0;
-        
+
         function changeAkselFont() {
             // Remove current font class from both elements
             fonts.forEach(font => {
@@ -915,10 +1143,39 @@ print("Highlighted:", highlight_keywords(sample_text, ["LinkAI-Aion", "test"]))
             // Schedule next font change
             setTimeout(changeAkselFont, 2000);
         }
-        
+
         // Start the font changing animation when page loads
         window.addEventListener('load', () => {
             setTimeout(changeAkselFont, 2000); // Start after 2 seconds
+        });
+    </script>
+    <script>
+        // Privacy Policy Modal logic
+        function openPrivacyModal() {
+            const modal = document.getElementById('privacy-policy-modal');
+            modal.classList.remove('opacity-0', 'pointer-events-none');
+            modal.setAttribute('aria-hidden', 'false');
+            document.body.style.overflow = 'hidden';
+        }
+        function closePrivacyModal() {
+            const modal = document.getElementById('privacy-policy-modal');
+            modal.classList.add('opacity-0', 'pointer-events-none');
+            modal.setAttribute('aria-hidden', 'true');
+            document.body.style.overflow = '';
+        }
+        // Close modal on Escape key
+        window.addEventListener('keydown', function(e) {
+            const modal = document.getElementById('privacy-policy-modal');
+            if (e.key === 'Escape' && !modal.classList.contains('opacity-0')) {
+                closePrivacyModal();
+            }
+        });
+        // Close modal when clicking outside the content
+        window.addEventListener('mousedown', function(e) {
+            const modal = document.getElementById('privacy-policy-modal');
+            if (!modal.classList.contains('opacity-0') && e.target === modal) {
+                closePrivacyModal();
+            }
         });
     </script>
 </body>
