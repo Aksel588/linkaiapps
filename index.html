@@ -354,7 +354,9 @@
                     Get Started
                 </a>
 
-                <a href="mailto:aksel@linkaiapps.com" class="px-8 py-4 bg-white text-black border-2 border-black rounded-xl font-bold text-lg hover:bg-black hover:text-white transition-all duration-200 transform hover:scale-105 cursor-pointer inline-block text-center">Contact Us</a>
+                <a href="mailto:aksel@linkaiapps.com"
+                    class="px-8 py-4 bg-white text-black border-2 border-black rounded-xl font-bold text-lg hover:bg-black hover:text-white transition-all duration-200 transform hover:scale-105 cursor-pointer inline-block text-center">Contact
+                    Us</a>
             </div>
 
             <script>
@@ -715,9 +717,11 @@
                     <div class="font-bold mb-3 text-xl md:text-2xl">Features</div>
                     <ul class="list-disc list-inside space-y-3">
                         <li><b>Text Utilities:</b> <code>count_words()</code>, <code>extract_emails()</code>,
-                            <code>summarize_text()</code>, <code>highlight_keywords()</code></li>
+                            <code>summarize_text()</code>, <code>highlight_keywords()</code>
+                        </li>
                         <li><b>File Handling:</b> <code>read_file()</code>, <code>write_file()</code>,
-                            <code>append_file()</code></li>
+                            <code>append_file()</code>
+                        </li>
                         <li><b>Parser Tools:</b> <code>extract_numbers()</code> from messy strings</li>
                         <li class="italic text-gray-500">and other features...</li>
                     </ul>
@@ -928,26 +932,38 @@ print("Highlighted:", highlight_keywords(sample_text, ["LinkAI-Aion", "test"]))
     </section>
 
     <!-- Privacy Policy Modal (Updated for LinkAI Website) -->
-    <div id="privacy-policy-modal" class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-60 transition-all duration-300 opacity-0 pointer-events-none" tabindex="-1" aria-hidden="true">
-        <div class="bg-white rounded-3xl shadow-2xl border border-gray-200 w-[95vw] max-w-2xl p-0 sm:p-0 md:p-0 relative overflow-y-auto max-h-[90vh]">
+    <div id="privacy-policy-modal"
+        class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-60 transition-all duration-300 opacity-0 pointer-events-none"
+        tabindex="-1" aria-hidden="true">
+        <div
+            class="bg-white rounded-3xl shadow-2xl border border-gray-200 w-full max-w-lg sm:max-w-xl md:max-w-2xl max-h-[95vh] p-0 relative flex flex-col justify-start">
             <!-- Accent Bar -->
             <div class="h-3 rounded-t-3xl bg-gradient-to-r from-green-400 via-blue-400 to-purple-500 w-full"></div>
             <!-- Close Button -->
-            <button onclick="closePrivacyModal()" class="absolute top-5 right-5 text-gray-400 hover:text-black text-3xl font-extrabold z-10 bg-white bg-opacity-80 rounded-full w-12 h-12 flex items-center justify-center shadow transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-400" aria-label="Close">&times;</button>
+            <button onclick="closePrivacyModal()"
+                class="absolute top-5 right-5 text-gray-400 hover:text-black text-3xl font-extrabold z-10 bg-white bg-opacity-80 rounded-full w-12 h-12 flex items-center justify-center shadow transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                aria-label="Close">&times;</button>
             <!-- Content -->
-            <div class="px-6 sm:px-10 py-10">
+            <div class="px-6 sm:px-10 py-10 flex-1 overflow-y-auto max-h-[80vh]">
                 <h2 class="text-4xl font-extrabold mb-6 text-center text-gray-900 tracking-tight">Privacy Policy</h2>
-                <p class="text-lg text-gray-700 mb-8 text-center leading-relaxed">This Privacy Policy describes how LinkAI (linkaiapps.com) handles your information. We are committed to transparency and protecting your privacy.</p>
+                <p class="text-lg text-gray-700 mb-8 text-center leading-relaxed">This Privacy Policy describes how
+                    LinkAI (linkaiapps.com) handles your information. We are committed to transparency and protecting
+                    your privacy.</p>
                 <div class="divide-y divide-gray-200">
                     <div class="py-6">
-                        <h3 class="text-2xl font-bold mb-2 text-blue-700 flex items-center gap-2"><span class="inline-block w-2 h-2 bg-blue-500 rounded-full"></span>1. No User Accounts</h3>
+                        <h3 class="text-2xl font-bold mb-2 text-blue-700 flex items-center gap-2"><span
+                                class="inline-block w-2 h-2 bg-blue-500 rounded-full"></span>1. No User Accounts</h3>
                         <ul class="list-disc list-inside text-gray-700 ml-4 leading-relaxed">
-                            <li>We do not require you to create an account or provide personal details to use our website.</li>
-                            <li>You may contact us by email, in which case we only use your email to respond to your inquiry.</li>
+                            <li>We do not require you to create an account or provide personal details to use our
+                                website.</li>
+                            <li>You may contact us by email, in which case we only use your email to respond to your
+                                inquiry.</li>
                         </ul>
                     </div>
                     <div class="py-6">
-                        <h3 class="text-2xl font-bold mb-2 text-green-700 flex items-center gap-2"><span class="inline-block w-2 h-2 bg-green-500 rounded-full"></span>2. Cookies & Essential Data</h3>
+                        <h3 class="text-2xl font-bold mb-2 text-green-700 flex items-center gap-2"><span
+                                class="inline-block w-2 h-2 bg-green-500 rounded-full"></span>2. Cookies & Essential
+                            Data</h3>
                         <ul class="list-disc list-inside text-gray-700 ml-4 leading-relaxed">
                             <li>We use only essential cookies for site functionality and security.</li>
                             <li>No marketing or tracking cookies are used.</li>
@@ -955,25 +971,34 @@ print("Highlighted:", highlight_keywords(sample_text, ["LinkAI-Aion", "test"]))
                         </ul>
                     </div>
                     <div class="py-6">
-                        <h3 class="text-2xl font-bold mb-2 text-purple-700 flex items-center gap-2"><span class="inline-block w-2 h-2 bg-purple-500 rounded-full"></span>3. Analytics</h3>
+                        <h3 class="text-2xl font-bold mb-2 text-purple-700 flex items-center gap-2"><span
+                                class="inline-block w-2 h-2 bg-purple-500 rounded-full"></span>3. Analytics</h3>
                         <ul class="list-disc list-inside text-gray-700 ml-4 leading-relaxed">
-                            <li>We use simple analytics tools to understand how visitors use our site (e.g., page views, device type).</li>
+                            <li>We use simple analytics tools to understand how visitors use our site (e.g., page views,
+                                device type).</li>
                             <li>All analytics data is anonymized and used only to improve the website experience.</li>
                             <li>No analytics data is shared with advertisers or third parties.</li>
                         </ul>
                     </div>
                     <div class="py-6">
-                        <h3 class="text-2xl font-bold mb-2 text-pink-700 flex items-center gap-2"><span class="inline-block w-2 h-2 bg-pink-500 rounded-full"></span>4. Data Sharing</h3>
+                        <h3 class="text-2xl font-bold mb-2 text-pink-700 flex items-center gap-2"><span
+                                class="inline-block w-2 h-2 bg-pink-500 rounded-full"></span>4. Data Sharing</h3>
                         <ul class="list-disc list-inside text-gray-700 ml-4 leading-relaxed">
-                            <li>We do <b>not</b> sell, rent, or share your data with marketers or unrelated third parties.</li>
-                            <li>Data may be processed by trusted providers (e.g., web hosting) only as needed for site operation.</li>
+                            <li>We do <b>not</b> sell, rent, or share your data with marketers or unrelated third
+                                parties.</li>
+                            <li>Data may be processed by trusted providers (e.g., web hosting) only as needed for site
+                                operation.</li>
                         </ul>
                     </div>
                     <div class="py-6">
-                        <h3 class="text-2xl font-bold mb-2 text-gray-800 flex items-center gap-2"><span class="inline-block w-2 h-2 bg-gray-500 rounded-full"></span>5. Your Rights</h3>
+                        <h3 class="text-2xl font-bold mb-2 text-gray-800 flex items-center gap-2"><span
+                                class="inline-block w-2 h-2 bg-gray-500 rounded-full"></span>5. Your Rights</h3>
                         <ul class="list-disc list-inside text-gray-700 ml-4 leading-relaxed">
-                            <li>You may request to see, correct, or delete any personal data you have provided (such as email correspondence).</li>
-                            <li>Contact us at <a href="mailto:aksel@linkaiapps.com" class="underline hover:text-black">aksel@linkaiapps.com</a> for any privacy questions or requests.</li>
+                            <li>You may request to see, correct, or delete any personal data you have provided (such as
+                                email correspondence).</li>
+                            <li>Contact us at <a href="mailto:aksel@linkaiapps.com"
+                                    class="underline hover:text-black">aksel@linkaiapps.com</a> for any privacy
+                                questions or requests.</li>
                         </ul>
                     </div>
                 </div>
@@ -981,34 +1006,111 @@ print("Highlighted:", highlight_keywords(sample_text, ["LinkAI-Aion", "test"]))
         </div>
     </div>
     <style>
-@media (max-width: 700px) {
-  #privacy-policy-modal > div {
-    width: 95vw !important;
-    max-width: 95vw !important;
-    max-height: 90vh !important;
-    min-width: 0 !important;
-    min-height: 0 !important;
-    border-radius: 1rem !important;
-    padding: 0.5rem !important;
-    box-shadow: 0 8px 32px rgba(0,0,0,0.12) !important;
-  }
-  #privacy-policy-modal button[aria-label="Close"] {
-    top: 0.5rem !important;
-    right: 0.5rem !important;
-    font-size: 2rem !important;
-  }
-}
-@media (max-width: 400px) {
-  #privacy-policy-modal > div {
-    padding: 0.25rem !important;
-  }
-  #privacy-policy-modal button[aria-label="Close"] {
-    top: 0.25rem !important;
-    right: 0.25rem !important;
-    font-size: 1.5rem !important;
-  }
-}
-</style>
+        /* Desktop/Laptop (≥1280px) */
+        @media (min-width: 1280px) {
+            #privacy-policy-modal>div {
+                width: 900px !important;
+                max-width: 900px !important;
+                max-height: 90vh !important;
+                padding: 2.5rem 3rem !important;
+                border-radius: 1.5rem !important;
+            }
+            #privacy-policy-modal .py-10 {
+                padding-top: 2.5rem !important;
+                padding-bottom: 2.5rem !important;
+            }
+            #privacy-policy-modal .px-6,
+            #privacy-policy-modal .sm\:px-10 {
+                padding-left: 3rem !important;
+                padding-right: 3rem !important;
+            }
+            #privacy-policy-modal button[aria-label="Close"] {
+                top: 1.5rem !important;
+                right: 1.5rem !important;
+                font-size: 2.25rem !important;
+                width: 3rem !important;
+                height: 3rem !important;
+            }
+        }
+        /* Laptop (1025px–1279px) */
+        @media (min-width: 1025px) and (max-width: 1279px) {
+            #privacy-policy-modal>div {
+                width: 700px !important;
+                max-width: 700px !important;
+                max-height: 90vh !important;
+                padding: 2rem 2.5rem !important;
+                border-radius: 1.25rem !important;
+            }
+            #privacy-policy-modal .py-10 {
+                padding-top: 2rem !important;
+                padding-bottom: 2rem !important;
+            }
+            #privacy-policy-modal .px-6,
+            #privacy-policy-modal .sm\:px-10 {
+                padding-left: 2.5rem !important;
+                padding-right: 2.5rem !important;
+            }
+            #privacy-policy-modal button[aria-label="Close"] {
+                top: 1rem !important;
+                right: 1rem !important;
+                font-size: 2rem !important;
+                width: 2.75rem !important;
+                height: 2.75rem !important;
+            }
+        }
+        /* Tablet (701px–1024px) */
+        @media (min-width: 701px) and (max-width: 1024px) {
+            #privacy-policy-modal>div {
+                width: 90vw !important;
+                max-width: 90vw !important;
+                max-height: 92vh !important;
+                padding: 1.25rem 1.5rem !important;
+                border-radius: 1rem !important;
+            }
+            #privacy-policy-modal .py-10 {
+                padding-top: 1.25rem !important;
+                padding-bottom: 1.25rem !important;
+            }
+            #privacy-policy-modal .px-6,
+            #privacy-policy-modal .sm\:px-10 {
+                padding-left: 1.5rem !important;
+                padding-right: 1.5rem !important;
+            }
+            #privacy-policy-modal button[aria-label="Close"] {
+                top: 0.75rem !important;
+                right: 0.75rem !important;
+                font-size: 1.5rem !important;
+                width: 2.25rem !important;
+                height: 2.25rem !important;
+            }
+        }
+        /* Mobile (≤700px) */
+        @media (max-width: 700px) {
+            #privacy-policy-modal>div {
+                width: 98vw !important;
+                max-width: 98vw !important;
+                max-height: 90vh !important;
+                padding: 0.15rem !important;
+                border-radius: 0.75rem !important;
+            }
+            #privacy-policy-modal .py-10 {
+                padding-top: 1rem !important;
+                padding-bottom: 1rem !important;
+            }
+            #privacy-policy-modal .px-6,
+            #privacy-policy-modal .sm\:px-10 {
+                padding-left: 0.5rem !important;
+                padding-right: 0.5rem !important;
+            }
+            #privacy-policy-modal button[aria-label="Close"] {
+                top: 0.1rem !important;
+                right: 0.1rem !important;
+                font-size: 1.2rem !important;
+                width: 2rem !important;
+                height: 2rem !important;
+            }
+        }
+    </style>
     <!-- Big White Footer -->
     <footer id="footer" class="matte-bg text-black py-16 mt-20 border-t border-gray-200">
         <div class="container mx-auto px-4 grid md:grid-cols-4 gap-12 text-left">
@@ -1033,7 +1135,8 @@ print("Highlighted:", highlight_keywords(sample_text, ["LinkAI-Aion", "test"]))
             <div>
                 <div class="text-lg font-bold mb-3">Contact</div>
                 <ul class="space-y-2 text-gray-700">
-                    <li>Email: <a href="mailto:aksel@linkaiapps.com" class="underline hover:text-black transition-colors">aksel@linkaiapps.com</a></li>
+                    <li>Email: <a href="mailto:aksel@linkaiapps.com"
+                            class="underline hover:text-black transition-colors">aksel@linkaiapps.com</a></li>
                     <li>Location: <span class="">Worldwide</span></li>
                 </ul>
             </div>
@@ -1042,9 +1145,11 @@ print("Highlighted:", highlight_keywords(sample_text, ["LinkAI-Aion", "test"]))
                 <div class="text-lg font-bold mb-3">Menu</div>
                 <ul class="space-y-2 text-gray-700">
                     <li><a href="#about" class="underline hover:text-black transition-colors">About</a></li>
-                    <li><a href="#linkai-aion" class="underline hover:text-black transition-colors">Library (Python)</a></li>
+                    <li><a href="#linkai-aion" class="underline hover:text-black transition-colors">Library (Python)</a>
+                    </li>
                     <li><a href="#footer" class="underline hover:text-black transition-colors">Contact</a></li>
-                    <li><a href="#" onclick="openPrivacyModal(); return false;" class="underline hover:text-black transition-colors">Privacy Policy</a></li>
+                    <li><a href="#" onclick="openPrivacyModal(); return false;"
+                            class="underline hover:text-black transition-colors">Privacy Policy</a></li>
                 </ul>
             </div>
             <!-- Social Links -->
@@ -1068,7 +1173,9 @@ print("Highlighted:", highlight_keywords(sample_text, ["LinkAI-Aion", "test"]))
         style="display:none;">
         <div class="mb-4 md:mb-0 text-center md:text-left flex-1">
             <span class="text-lg font-semibold">We use only essential cookies for site functionality. By clicking
-                Accept, you consent to our use of cookies as described in our <a href="#" onclick="openPrivacyModal(); return false;" class="underline hover:text-green-400">Privacy Policy</a>.</span>
+                Accept, you consent to our use of cookies as described in our <a href="#"
+                    onclick="openPrivacyModal(); return false;" class="underline hover:text-green-400">Privacy
+                    Policy</a>.</span>
         </div>
         <div class="flex gap-3 justify-center md:justify-end">
             <button onclick="acceptCookies()"
