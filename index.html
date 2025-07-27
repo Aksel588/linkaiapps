@@ -681,19 +681,19 @@
                 <span
                     class="inline-block align-middle bg-gray-900 text-white text-2xl font-bold px-6 py-2 rounded-full ml-4 shadow-sm border border-gray-300 tracking-wide"
                     style="vertical-align: middle;">
-                    v0.1.2
+                    v0.1.5
                 </span>
             </h2>
             <p class="text-2xl md:text-3xl text-gray-600 font-light mb-12 text-center max-w-4xl mx-auto">
                 <strong>linkai-aion</strong> is a lightweight Python utility library by LinkAI for text processing, file
                 I/O, CLI parsing, and more. Designed for developers who want clean, reusable functions to speed up their
-                workflow. Future versions will introduce AI features built on this solid foundation.
+                workflow. Smoother, Smarter, Sharper — AIon continues to evolve with cleaner utilities, faster performance, and new dev-focused features.
             </p>
             <div class="flex flex-col items-center mb-10">
                 <div class="w-full max-w-2xl">
                     <div class="relative group flex items-center">
                         <code id="pip-install"
-                            class="block w-full bg-gray-900 text-green-400 rounded-xl px-6 py-4 text-xl font-mono select-all text-left">pip install linkai-aion==0.1.2</code>
+                            class="block w-full bg-gray-900 text-green-400 rounded-xl px-6 py-4 text-xl font-mono select-all text-left">pip install linkai-aion==0.1.5</code>
                         <button id="copy-pip" aria-label="Copy pip iupdnstall command" tabindex="0"
                             onclick="copyPipInstall()"
                             class="ml-4 flex items-center gap-2 px-10 py-4 rounded-xl bg-black text-white text-xl font-bold shadow hover:bg-gray-800 transition-all duration-200 group-hover:scale-105 focus:outline-none focus:ring-2 focus:ring-black">
@@ -714,28 +714,146 @@
             <div
                 class="mt-16 max-w-5xl mx-auto bg-gray-50 rounded-2xl shadow-md border border-gray-200 p-4 sm:p-6 md:p-10 md:pt-16 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 text-base md:text-xl text-gray-700">
                 <div>
-                    <div class="font-bold mb-3 text-xl md:text-2xl">Features</div>
-                    <ul class="list-disc list-inside space-y-3">
-                        <li><b>Text Utilities:</b> <code>count_words()</code>, <code>extract_emails()</code>,
-                            <code>summarize_text()</code>, <code>highlight_keywords()</code>
-                        </li>
-                        <li><b>File Handling:</b> <code>read_file()</code>, <code>write_file()</code>,
-                            <code>append_file()</code>
-                        </li>
-                        <li><b>Parser Tools:</b> <code>extract_numbers()</code> from messy strings</li>
-                        <li class="italic text-gray-500">and other features...</li>
-                    </ul>
+                    <div class="font-bold mb-6 text-xl md:text-2xl flex items-center gap-3">
+                        Features
+                        <div class="flex-1 h-1 bg-black rounded-full"></div>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="feature-card group p-4 rounded-xl border border-gray-200 bg-white hover:shadow-lg transition-all duration-300 hover:scale-105">
+                            <div class="flex items-center gap-3 mb-2">
+                                <span class="text-xl font-bold text-gray-600">•</span>
+                                <span class="font-semibold text-gray-800">Text Utilities</span>
+                            </div>
+                            <p class="text-sm text-gray-600">count_words(), extract_emails(), summarize_text(), highlight_keywords()</p>
+                        </div>
+                        <div class="feature-card group p-4 rounded-xl border border-gray-200 bg-white hover:shadow-lg transition-all duration-300 hover:scale-105">
+                            <div class="flex items-center gap-3 mb-2">
+                                <span class="text-xl font-bold text-gray-600">•</span>
+                                <span class="font-semibold text-gray-800">File Handling</span>
+                            </div>
+                            <p class="text-sm text-gray-600">read_file(), write_file(), append_file()</p>
+                        </div>
+                        <div class="feature-card group p-4 rounded-xl border border-gray-200 bg-white hover:shadow-lg transition-all duration-300 hover:scale-105">
+                            <div class="flex items-center gap-3 mb-2">
+                                <span class="text-xl font-bold text-gray-600">•</span>
+                                <span class="font-semibold text-gray-800">File Cleaner</span>
+                            </div>
+                            <p class="text-sm text-gray-600">Automatically removes temp, unused, or duplicate files</p>
+                        </div>
+                        <div class="feature-card group p-4 rounded-xl border border-gray-200 bg-white hover:shadow-lg transition-all duration-300 hover:scale-105">
+                            <div class="flex items-center gap-3 mb-2">
+                                <span class="text-xl font-bold text-gray-600">•</span>
+                                <span class="font-semibold text-gray-800">Code Quality Analyzer</span>
+                            </div>
+                            <p class="text-sm text-gray-600">Analyze code complexity and potential issues</p>
+                        </div>
+                        <div class="feature-card group p-4 rounded-xl border border-gray-200 bg-white hover:shadow-lg transition-all duration-300 hover:scale-105">
+                            <div class="flex items-center gap-3 mb-2">
+                                <span class="text-xl font-bold text-gray-600">•</span>
+                                <span class="font-semibold text-gray-800">Advanced Search</span>
+                            </div>
+                            <p class="text-sm text-gray-600">Smart content-based search with filters</p>
+                        </div>
+                        <div class="feature-card group p-4 rounded-xl border border-gray-200 bg-white hover:shadow-lg transition-all duration-300 hover:scale-105">
+                            <div class="flex items-center gap-3 mb-2">
+                                <span class="text-xl font-bold text-gray-600">•</span>
+                                <span class="font-semibold text-gray-800">Execution Time Tracker</span>
+                            </div>
+                            <p class="text-sm text-gray-600">Measure script and function performance</p>
+                        </div>
+                        <div class="feature-card group p-4 rounded-xl border border-gray-200 bg-white hover:shadow-lg transition-all duration-300 hover:scale-105">
+                            <div class="flex items-center gap-3 mb-2">
+                                <span class="text-xl font-bold text-gray-600">•</span>
+                                <span class="font-semibold text-gray-800">Better CLI Feedback</span>
+                            </div>
+                            <p class="text-sm text-gray-600">Status colors, usage hints, and batch flags</p>
+                        </div>
+                    </div>
                 </div>
                 <div>
-                    <div class="font-bold mb-3 text-xl md:text-2xl">Why LinkAI-aion?</div>
-                    <ul class="list-disc list-inside space-y-3">
-                        <li>Clean, reusable functions for everyday Python tasks</li>
-                        <li>Developer-focused, minimal dependencies</li>
-                        <li>Future-proof: built to integrate with LinkAI APIs and models</li>
-                        <li>MIT Licensed, open-source, Python 3.7+</li>
-                    </ul>
+                    <div class="font-bold mb-6 text-xl md:text-2xl flex items-center gap-3">
+                        Why LinkAI-aion?
+                        <div class="flex-1 h-1 bg-black rounded-full"></div>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="benefit-card group p-4 rounded-xl border border-gray-200 bg-white hover:shadow-lg transition-all duration-300 hover:scale-105">
+                            <div class="flex items-center gap-3 mb-2">
+                                <span class="text-xl font-bold text-gray-600">→</span>
+                                <span class="font-semibold text-gray-800">Smoother, Smarter, Sharper</span>
+                            </div>
+                            <p class="text-sm text-gray-600">Evolving with cleaner utilities and faster performance</p>
+                        </div>
+                        <div class="benefit-card group p-4 rounded-xl border border-gray-200 bg-white hover:shadow-lg transition-all duration-300 hover:scale-105">
+                            <div class="flex items-center gap-3 mb-2">
+                                <span class="text-xl font-bold text-gray-600">→</span>
+                                <span class="font-semibold text-gray-800">Lightning Fast</span>
+                            </div>
+                            <p class="text-sm text-gray-600">Optimized performance and dev-focused features</p>
+                        </div>
+                        <div class="benefit-card group p-4 rounded-xl border border-gray-200 bg-white hover:shadow-lg transition-all duration-300 hover:scale-105">
+                            <div class="flex items-center gap-3 mb-2">
+                                <span class="text-xl font-bold text-gray-600">→</span>
+                                <span class="font-semibold text-gray-800">Swiss Army Knife</span>
+                            </div>
+                            <p class="text-sm text-gray-600">Complete toolkit for AI and automation workflows</p>
+                        </div>
+                        <div class="benefit-card group p-4 rounded-xl border border-gray-200 bg-white hover:shadow-lg transition-all duration-300 hover:scale-105">
+                            <div class="flex items-center gap-3 mb-2">
+                                <span class="text-xl font-bold text-gray-600">→</span>
+                                <span class="font-semibold text-gray-800">Future-Ready</span>
+                            </div>
+                            <p class="text-sm text-gray-600">Plugin system and extensible architecture coming soon</p>
+                        </div>
+                        <div class="benefit-card group p-4 rounded-xl border border-gray-200 bg-white hover:shadow-lg transition-all duration-300 hover:scale-105">
+                            <div class="flex items-center gap-3 mb-2">
+                                <span class="text-xl font-bold text-gray-600">→</span>
+                                <span class="font-semibold text-gray-800">Open Source</span>
+                            </div>
+                            <p class="text-sm text-gray-600">MIT Licensed, Python 3.7+, community-driven</p>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <!-- Progress & Stats Section -->
+            <div class="mt-12 max-w-5xl mx-auto bg-white rounded-2xl shadow-md border border-gray-200 p-6 sm:p-8 md:p-12">
+                <div class="text-center mb-8">
+                    <h3 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Development Progress</h3>
+                    <p class="text-lg text-gray-600">Track our journey to v0.1.6</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                    <div class="progress-card bg-white rounded-xl p-6 shadow-sm border border-gray-200">
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="text-lg font-semibold text-gray-800">v0.1.5 Complete</span>
+                            <span class="text-xl font-bold text-black">✓</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-3 mb-2">
+                            <div class="bg-black h-3 rounded-full transition-all duration-1000" style="width: 100%"></div>
+                        </div>
+                        <p class="text-sm text-gray-600">All features implemented and tested</p>
+                    </div>
+                    <div class="progress-card bg-white rounded-xl p-6 shadow-sm border border-gray-200">
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="text-lg font-semibold text-gray-800">v0.1.6 In Progress</span>
+                            <span class="text-xl font-bold text-black">⟳</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-3 mb-2">
+                            <div class="bg-black h-3 rounded-full transition-all duration-1000" style="width: 65%"></div>
+                        </div>
+                        <p class="text-sm text-gray-600">Plugin system and filesystem watchdog</p>
+                    </div>
+                    <div class="progress-card bg-white rounded-xl p-6 shadow-sm border border-gray-200">
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="text-lg font-semibold text-gray-800">Future Roadmap</span>
+                            <span class="text-xl font-bold text-black">→</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-3 mb-2">
+                            <div class="bg-black h-3 rounded-full transition-all duration-1000" style="width: 25%"></div>
+                        </div>
+                        <p class="text-sm text-gray-600">AI integration and advanced features</p>
+                    </div>
+                </div>
+            </div>
+
             <!-- Other Info Section Modern Clean Container -->
             <div
                 class="mt-12 max-w-5xl mx-auto bg-gray-50 rounded-2xl shadow-md border border-gray-200 p-4 sm:p-6 md:p-12 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 text-base md:text-lg text-gray-700">
@@ -777,7 +895,7 @@
                             <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2'
                                 d='M13 16h-1v-4h-1m4 0h-1a4 4 0 00-8 0v4a4 4 0 008 0v-4z' />
                         </svg></span>
-                    <span>More features and AI tools coming soon!</span>
+                    <span>Plugin system, filesystem watchdog, and more coming in v0.1.6!</span>
                 </div>
             </div>
             <!-- Usage Example Section Modern Clean Container -->
@@ -1235,6 +1353,70 @@ print("Highlighted:", highlight_keywords(sample_text, ["LinkAI-Aion", "test"]))
 
         .font-kaushan {
             font-family: 'Kaushan Script', cursive;
+        }
+
+        /* Visual Enhancement Animations */
+        .feature-card, .benefit-card, .progress-card {
+            transition: all 0.3s ease;
+            transform: translateY(0);
+        }
+
+        .feature-card:hover, .benefit-card:hover, .progress-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature-card:hover {
+            border-color: #000;
+            background: linear-gradient(135deg, #f8fafc 0%, #f0f0f0 100%);
+        }
+
+        .benefit-card:hover {
+            border-color: #000;
+            background: linear-gradient(135deg, #f0f0f0 0%, #e8e8e8 100%);
+        }
+
+        .progress-card:hover {
+            border-color: #000;
+            background: linear-gradient(135deg, #fafafa 0%, #f0f0f0 100%);
+        }
+
+        /* Progress bar animation */
+        .progress-card .bg-black {
+            animation: progressFill 2s ease-out;
+        }
+
+        @keyframes progressFill {
+            from { width: 0%; }
+            to { width: var(--progress-width); }
+        }
+
+        /* Gradient text effect */
+        .gradient-text {
+            background: linear-gradient(135deg, #000 0%, #333 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* Floating animation for icons */
+        .floating-icon {
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+
+        /* Pulse effect for important elements */
+        .pulse-important {
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.8; }
         }
     </style>
     <script>
