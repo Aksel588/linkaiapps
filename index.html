@@ -4,16 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LoopAI - AI Research & Development</title>
+    <title>Aqwel AI - AI Research & Development</title>
     <link rel="icon" type="image/png" href="img/logo/logoWhite.png">
     <meta name="google-adsense-account" content="ca-pub-3588785313996332">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <style>
         .glass-header {
-            background: rgba(255, 255, 255, 0.7);
+            background: rgba(255, 255, 255, 0.95);
             backdrop-filter: blur(12px);
             -webkit-backdrop-filter: blur(12px);
-            border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.2);
         }
 
         /* Burger Menu Animation */
@@ -225,20 +225,20 @@
 
         /* Matte Background Effect */
         .matte-bg {
-            background: linear-gradient(135deg, rgba(255, 255, 255, 0.92) 0%, rgba(248, 250, 252, 0.92) 50%, rgba(255, 255, 255, 0.88) 100%);
+            background: rgba(255, 255, 255, 0.98);
             backdrop-filter: blur(15px);
             -webkit-backdrop-filter: blur(15px);
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
         }
 
         /* Enhanced Matte Background for sections */
         .matte-section {
-            background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(248, 250, 252, 0.95) 50%, rgba(255, 255, 255, 0.92) 100%);
+            background: rgba(255, 255, 255, 0.98);
             backdrop-filter: blur(20px);
             -webkit-backdrop-filter: blur(20px);
-            border: 1px solid rgba(255, 255, 255, 0.4);
-            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.06);
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
         }
 
         /* Matte overlay for background enhancement */
@@ -253,7 +253,7 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(248, 250, 252, 0.1) 100%);
+            background: rgba(255, 255, 255, 0.1);
             pointer-events: none;
             z-index: 1;
         }
@@ -266,18 +266,19 @@
         <div class="container mx-auto px-6 py-4 flex items-center justify-between">
             <!-- Company Name Left -->
             <div class="flex-shrink-0">
-                <span class="text-2xl md:text-3xl font-extrabold tracking-tight text-black">LoopAI</span>
+                <span class="text-2xl md:text-3xl font-extrabold tracking-tight text-black">Aqwel AI</span>
             </div>
             <!-- Navigation Right -->
             <nav class="hidden md:flex space-x-8 text-base font-medium">
                 <a href="#hero" class="text-gray-700 hover:text-black transition-colors">Home</a>
                 <a href="#about" class="text-gray-700 hover:text-black transition-colors">About</a>
-                <a href="#coming-soon" class="text-gray-700 hover:text-black transition-colors">Coming Soon</a>
+                <a href="#docs" class="text-gray-700 hover:text-black transition-colors">Docs</a>
                 <a href="#linkai-aion"
                     class="text-gray-700 hover:text-black transition-colors flex items-center gap-2">Library (Python)
                     <span
                         class="ml-1 px-2 py-0.5 text-xs font-bold rounded-full bg-green-500 text-white align-middle">new</span>
                 </a>
+
                 <a href="#footer" class="text-gray-700 hover:text-black transition-colors">Contact</a>
             </nav>
             <!-- Mobile Menu Button -->
@@ -294,7 +295,7 @@
         <div class="mobile-menu-content">
             <!-- Brand Name -->
             <div class="text-center mb-12">
-                <div class="text-3xl font-extrabold tracking-tight text-black mb-2">LoopAI</div>
+                <div class="text-3xl font-extrabold tracking-tight text-black mb-2">Aqwel AI</div>
                 <div class="text-sm text-gray-600">AI Research & Development</div>
             </div>
 
@@ -302,17 +303,18 @@
             <div class="flex-1 flex flex-col justify-center">
                 <a href="#hero" onclick="closeMobileMenu()">Home</a>
                 <a href="#about" onclick="closeMobileMenu()">About</a>
-                <a href="#coming-soon" onclick="closeMobileMenu()">Coming Soon</a>
+                <a href="#docs" onclick="closeMobileMenu()">Docs</a>
                 <a href="#linkai-aion" onclick="closeMobileMenu()" class="flex items-center gap-2">Library (Python)
                     <span
                         class="ml-2 px-2 py-0.5 text-xs font-bold rounded-full bg-green-500 text-white align-middle">new</span>
                 </a>
+
                 <a href="#footer" onclick="closeMobileMenu()">Contact</a>
             </div>
 
             <!-- Footer Text -->
             <div class="text-center mt-12 text-sm text-gray-500">
-                <div>Since 2025 LoopAI. All rights reserved.</div>
+                <div>Since 2025 Aqwel AI. All rights reserved.</div>
                 <div class="mt-1">Created by <span id="mobile-animated-aksel"
                         class="font-semibold text-black transition-all duration-700">Aksel</span></div>
             </div>
@@ -322,11 +324,11 @@
 
     <!-- Hero Section -->
     <section id="hero"
-        class="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 via-white to-gray-50 relative overflow-hidden">
+        class="min-h-screen flex items-center justify-center bg-white relative overflow-hidden">
         <!-- Background Pattern -->
         <div class="absolute inset-0 opacity-5">
             <div class="absolute top-0 left-0 w-full h-full" style="background-image: radial-gradient(circle at 20% 20%, rgba(0,0,0,0.1) 0%, transparent 50%), 
-                        radial-gradient(circle at 80% 80%, rgba(0,0,0,0.1) 0%, transparent 50%);">
+                        radial-gradient(circle at 80% 20%, rgba(0,0,0,0.1) 0%, transparent 50%);">
             </div>
         </div>
 
@@ -341,7 +343,7 @@
             <!-- Subtitle -->
             <div class="max-w-4xl mx-auto mb-16">
                 <p class="text-xl md:text-2xl lg:text-3xl text-gray-700 font-light leading-relaxed">
-                    LoopAI is a pioneering company at the forefront of artificial intelligence research and development.
+                    Aqwel AI is a pioneering company at the forefront of artificial intelligence research and development.
                     We deliver innovative AI solutions, research breakthroughs, and cutting-edge technology to empower
                     businesses and advance the field of artificial intelligence.
                 </p>
@@ -354,7 +356,7 @@
                     Get Started
                 </a>
 
-                <a href="mailto:aksel@linkaiapps.com"
+                <a href="mailto:akseldeveloper8@gmail.com"
                     class="px-8 py-4 bg-white text-black border-2 border-black rounded-xl font-bold text-lg hover:bg-black hover:text-white transition-all duration-200 transform hover:scale-105 cursor-pointer inline-block text-center">Contact
                     Us</a>
             </div>
@@ -384,7 +386,7 @@
     </section>
 
     <!-- About Us Section -->
-    <section id="about" class="py-32 bg-gradient-to-br from-gray-50 via-white to-gray-50 relative overflow-hidden">
+    <section id="about" class="py-32 bg-white relative overflow-hidden">
         <!-- Background Pattern -->
         <div class="absolute inset-0 opacity-10">
             <div class="absolute top-0 left-0 w-full h-full" style="background-image: radial-gradient(circle at 20% 20%, rgba(0,0,0,0.1) 0%, transparent 50%), 
@@ -398,7 +400,7 @@
                 <div class="inline-block mb-6">
                     <span class="text-sm font-semibold text-gray-500 uppercase tracking-wider">About Us</span>
                 </div>
-                <h2 class="text-6xl md:text-7xl lg:text-8xl font-extrabold mb-8 tracking-tight">LoopAI</h2>
+                <h2 class="text-6xl md:text-7xl lg:text-8xl font-extrabold mb-8 tracking-tight">Aqwel AI</h2>
                 <div class="w-32 h-1 bg-black mx-auto mb-8"></div>
                 <p class="text-2xl md:text-3xl text-gray-600 max-w-4xl mx-auto font-light leading-relaxed">
                     Where artificial intelligence meets research innovation
@@ -495,7 +497,7 @@
     <script>
         // Typing animation with no cursor
         const heroPhrases = [
-            'Welcome to LoopAI, Your Gateway to AI Research and Development Excellence',
+            'Welcome to Aqwel AI, Your Gateway to AI Research and Development Excellence',
             'Coming Soon - Something Amazing is in Development',
                           'Revolutionary AI Research with Advanced Machine Learning',
             'State-of-the-Art AI Models for Next-Generation Applications',
@@ -627,60 +629,17 @@
         });
     </script>
 
-    <!-- Coming Soon Wallpaper Section -->
-    <section id="coming-soon" class="py-32 matte-section text-black relative overflow-hidden">
-        <!-- Background Pattern -->
-        <div class="absolute inset-0 opacity-10">
-            <div class="absolute top-0 left-0 w-full h-full"
-                style="background-image: radial-gradient(circle at 25% 25%, rgba(0,0,0,0.05) 0%, transparent 50%), radial-gradient(circle at 75% 75%, rgba(0,0,0,0.05) 0%, transparent 50%);">
-            </div>
-        </div>
-
-        <div class="container mx-auto px-4 text-center relative z-10">
-            <!-- LoopAI Brand -->
-            <div class="mb-16">
-                <h2 class="text-8xl md:text-9xl font-extrabold tracking-tight mb-4">LoopAI</h2>
-                <div class="w-32 h-1 bg-black mx-auto mb-8"></div>
-                <p class="text-2xl md:text-3xl text-gray-600 font-light max-w-3xl mx-auto">
-                    AI Research & Development
-                </p>
-            </div>
-
-            <!-- Coming Soon -->
-            <div class="mb-16">
-                <h3 class="text-6xl md:text-7xl font-bold mb-6 tracking-wider">COMING SOON</h3>
-                <p class="text-xl md:text-2xl text-gray-600 font-medium">
-                    Something amazing is in development
-                </p>
-            </div>
-
-            <!-- Features Preview -->
-
-
-            <!-- Progress Indicator -->
-            <div class="mt-16">
-                <div class="w-64 h-2 bg-gray-200 rounded-full mx-auto mb-4">
-                    <div class="w-1/3 h-full bg-black rounded-full animate-pulse"></div>
-                </div>
-                <p class="text-gray-500 text-sm">Development in Progress</p>
-            </div>
-
-
-        </div>
-        </div>
-    </section>
-
-   
+    
 
     <!-- Rebranding Notice Section -->
-    <section class="py-24 bg-gradient-to-br from-white via-gray-50 to-white">
+    <section class="py-24 bg-white">
         <div class="w-full max-w-7xl mx-auto px-4">
             <div class="text-center mb-16">
                 <h2 class="text-6xl md:text-7xl font-extrabold tracking-tight mb-8 text-center">
                     Rebranding Update
                 </h2>
                 <p class="text-2xl md:text-3xl text-gray-600 font-light mb-8 max-w-4xl mx-auto">
-                    <strong>LinkAI</strong> is now <strong>LoopAI</strong>
+                    <strong>LinkAI</strong> is now <strong>Aqwel AI</strong>
                 </p>
                 <p class="text-lg text-gray-500 max-w-3xl mx-auto">
                     We've updated our branding to better reflect our focus on AI research and development.
@@ -700,7 +659,7 @@
                                 <span class="text-xl font-bold text-gray-600">•</span>
                                 <span class="font-semibold text-gray-800">Company Name</span>
                             </div>
-                            <p class="text-sm text-gray-600">LinkAI → LoopAI</p>
+                            <p class="text-sm text-gray-600">LinkAI → Aqwel AI</p>
                         </div>
                         <div class="feature-card group p-4 rounded-xl border border-gray-200 bg-white hover:shadow-lg transition-all duration-300 hover:scale-105">
                             <div class="flex items-center gap-3 mb-2">
@@ -768,13 +727,13 @@
     </section>
 
     <!-- =====================
-         About LoopAI-Aion Section
+         About Aqwel AI-Aion Section
          (Features, usage, info, and more)
          ===================== -->
-    <section id="linkai-aion" class="py-24 bg-gradient-to-br from-white via-gray-50 to-white">
+    <section id="linkai-aion" class="py-24 bg-white">
         <div class="w-full max-w-7xl mx-auto px-4">
             <h2 class="text-6xl md:text-7xl font-extrabold tracking-tight mb-8 text-center">
-                LoopAI Aion
+                Aqwel AI Aion
                 <span
                     class="inline-block align-middle bg-gray-900 text-white text-2xl font-bold px-6 py-2 rounded-full ml-4 shadow-sm border border-gray-300 tracking-wide"
                     style="vertical-align: middle;">
@@ -782,7 +741,7 @@
                 </span>
             </h2>
             <p class="text-2xl md:text-3xl text-gray-600 font-light mb-12 text-center max-w-4xl mx-auto">
-                <strong>loopai-aion</strong> is an open-source Python utility library by LoopAI, designed to empower AI projects, automation tools, and productivity workflows. With this new version, we're bringing smarter tools, better performance, and more developer-friendly features than ever.
+                <strong>loopai-aion</strong> is an open-source Python utility library by Aqwel AI, designed to empower AI projects, automation tools, and productivity workflows. With this new version, we're bringing smarter tools, better performance, and more developer-friendly features than ever.
             </p>
             <div class="flex flex-col items-center mb-10">
                 <div class="w-full max-w-2xl">
@@ -801,9 +760,18 @@
                         </button>
                     </div>
                 </div>
-                <a href="https://pypi.org/project/loopai-aion/" target="_blank"
-                    class="mt-8 inline-block px-10 py-4 bg-gray-900 text-white rounded-xl font-semibold text-xl hover:bg-gray-800 transition shadow">View
-                    on PyPI</a>
+                <div class="flex flex-col sm:flex-row gap-4 mt-8">
+                    <a href="https://pypi.org/project/loopai-aion/" target="_blank"
+                        class="inline-block px-10 py-4 bg-gray-900 text-white rounded-xl font-semibold text-xl hover:bg-gray-800 transition shadow">View
+                        on PyPI</a>
+                    <a href="https://github.com/Aksel588/Aion.git" target="_blank"
+                        class="inline-block px-10 py-4 bg-black text-white rounded-xl font-semibold text-xl hover:bg-gray-800 transition shadow flex items-center justify-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 4.624-5.479 4.862.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                        View on GitHub
+                    </a>
+                </div>
             </div>
             <!-- Features and Why Section Modern Clean Container -->
             <div
@@ -867,7 +835,7 @@
                 </div>
                 <div>
                     <div class="font-bold mb-6 text-xl md:text-2xl flex items-center gap-3">
-                        Why LoopAI-aion?
+                        Why Aqwel AI-aion?
                         <div class="flex-1 h-1 bg-black rounded-full"></div>
                     </div>
                     <div class="space-y-4">
@@ -980,7 +948,7 @@
                             <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2'
                                 d='M5.121 17.804A13.937 13.937 0 0112 15c2.485 0 4.797.607 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0z' />
                         </svg></span>
-                    <span><b>Author:</b> Aksel (LoopAI)</span>
+                    <span><b>Author:</b> Aksel (Aqwel AI)</span>
                 </div>
                 <div class="flex items-center gap-3 md:gap-4">
                     <span
@@ -1033,7 +1001,7 @@ def on_change(filepath):
 watcher.watch_file_for_changes("test.txt", on_change)
 
 # Text intelligence
-sample_text = "Hello, this is LoopAI-Aion v0.1.6!"
+sample_text = "Hello, this is Aqwel AI-Aion v0.1.6!"
 print("Language:", text.detect_language(sample_text))
 print("Analysis:", text.analyze_text(sample_text))
 </pre>
@@ -1143,7 +1111,7 @@ print("Analysis:", text.analyze_text(sample_text))
         </script>
     </section>
 
-             <!-- Privacy Policy Modal (Updated for LoopAI Website) -->
+             <!-- Privacy Policy Modal (Updated for Aqwel AI Website) -->
     <div id="privacy-policy-modal"
         class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-60 transition-all duration-300 opacity-0 pointer-events-none"
         tabindex="-1" aria-hidden="true">
@@ -1159,7 +1127,7 @@ print("Analysis:", text.analyze_text(sample_text))
             <div class="px-6 sm:px-10 py-10 flex-1 overflow-y-auto max-h-[80vh]">
                 <h2 class="text-4xl font-extrabold mb-6 text-center text-gray-900 tracking-tight">Privacy Policy</h2>
                 <p class="text-lg text-gray-700 mb-8 text-center leading-relaxed">This Privacy Policy describes how
-                    LoopAI (loopaiapps.com) handles your information. We are committed to transparency and protecting
+                    Aqwel AI (loopaiapps.com) handles your information. We are committed to transparency and protecting
                     your privacy.</p>
                 <div class="divide-y divide-gray-200">
                     <div class="py-6">
@@ -1208,8 +1176,8 @@ print("Analysis:", text.analyze_text(sample_text))
                         <ul class="list-disc list-inside text-gray-700 ml-4 leading-relaxed">
                             <li>You may request to see, correct, or delete any personal data you have provided (such as
                                 email correspondence).</li>
-                            <li>Contact us at <a href="mailto:aksel@linkaiapps.com"
-                                    class="underline hover:text-black">aksel@linkaiapps.com</a> for any privacy
+                            <li>Contact us at <a href="mailto:akseldeveloper8@gmail.com"
+                                    class="underline hover:text-black">akseldeveloper8@gmail.com</a> for any privacy
                                 questions or requests.</li>
                         </ul>
                     </div>
@@ -1324,60 +1292,7 @@ print("Analysis:", text.analyze_text(sample_text))
         }
     </style>
     <!-- Big White Footer -->
-    <footer id="footer" class="matte-bg text-black py-16 mt-20 border-t border-gray-200">
-        <div class="container mx-auto px-4 grid md:grid-cols-4 gap-12 text-left">
-            <!-- About -->
-            <div>
-                <div class="text-2xl font-extrabold mb-4 tracking-tight">LoopAI</div>
-                <p class="text-gray-700 mb-4">LoopAI is a leading company specializing in artificial intelligence research, development, and innovative technology solutions. We bridge research and technology to deliver
-                    exceptional AI products and experiences.</p>
-            </div>
-            <!-- Services -->
-            <div>
-                <div class="text-lg font-bold mb-3">Services</div>
-                <ul class="space-y-2 text-gray-700">
-                    <li>AI Solutions</li>
-                                            <li>AI Research</li>
-                    <li>Web Development</li>
-                    <li>Tech Consulting</li>
-                </ul>
-            </div>
-            <!-- Contact Info -->
-            <div>
-                <div class="text-lg font-bold mb-3">Contact</div>
-                <ul class="space-y-2 text-gray-700">
-                                            <li>Email: <a href="mailto:aksel@linkaiapps.com"
-                                class="underline hover:text-black transition-colors">aksel@linkaiapps.com</a></li>
-                    <li>Location: <span class="">Worldwide</span></li>
-                </ul>
-            </div>
-            <!-- Main Menu -->
-            <div>
-                <div class="text-lg font-bold mb-3">Menu</div>
-                <ul class="space-y-2 text-gray-700">
-                    <li><a href="#about" class="underline hover:text-black transition-colors">About</a></li>
-                    <li><a href="#linkai-aion" class="underline hover:text-black transition-colors">Library (Python)</a>
-                    </li>
-                    <li><a href="#footer" class="underline hover:text-black transition-colors">Contact</a></li>
-                    <li><a href="#" onclick="openPrivacyModal(); return false;"
-                            class="underline hover:text-black transition-colors">Privacy Policy</a></li>
-                </ul>
-            </div>
-            <!-- Social Links -->
-            <div>
-                <div class="text-lg font-bold mb-3">Follow Us</div>
-                <div class="flex space-x-4">
-                    <a href="#" class="hover:underline text-gray-700">Twitter</a>
-                    <a href="#" class="hover:underline text-gray-700">LinkedIn</a>
-                    <a href="#" class="hover:underline text-gray-700">GitHub</a>
-                </div>
-            </div>
-        </div>
-        <div class="container mx-auto px-4 text-center mt-12 text-gray-400 text-sm">
-                            Since 2025 LoopAI. All rights reserved. | Created by <span id="animated-aksel"
-                class="font-semibold text-black transition-all duration-700">Aksel</span>
-        </div>
-    </footer>
+   
     <!-- Cookie Consent Banner -->
     <div id="cookie-banner"
         class="fixed bottom-0 left-0 w-full z-50 bg-black text-white px-4 py-6 flex flex-col md:flex-row items-center justify-between shadow-lg transition-all duration-300"
@@ -1593,6 +1508,208 @@ print("Analysis:", text.analyze_text(sample_text))
             if (!contactModal.classList.contains('opacity-0') && e.target === contactModal) closeContactModal();
         });
     </script>
+
+    <!-- Discord Server Coming Soon -->
+    <section class="py-24 bg-white text-black">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6">Join Our Community</h2>
+                <p class="text-xl text-black max-w-3xl mx-auto">Connect with AI researchers, developers, and enthusiasts in our Discord server</p>
+            </div>
+            
+            <div class="max-w-4xl mx-auto bg-white rounded-2xl p-8 border border-black shadow-lg">
+                <div class="flex flex-col lg:flex-row items-center gap-8">
+                    <div class="flex-shrink-0">
+                        <div class="w-24 h-24 bg-black rounded-2xl flex items-center justify-center">
+                            <svg class="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515a.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0a12.64 12.64 0 0 0-.617-1.25a.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057a19.9 19.9 0 0 0 5.993 3.03a.078.078 0 0 0 .084-.028a14.09 14.09 0 0 0 1.226-1.994a.076.076 0 0 0-.041-.106a13.107 13.107 0 0 1-1.872-.892a.077.077 0 0 1-.008-.128a10.2 10.2 0 0 0 .372-.292a.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127a12.299 12.299 0 0 1-1.873.892a.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028a19.839 19.839 0 0 0 6.002-3.03a.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.956-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.955-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.946 2.418-2.157 2.418z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    
+                    <div class="flex-1 text-center lg:text-left">
+                        <h3 class="text-2xl font-bold mb-4">Discord Server Coming Soon</h3>
+                        <p class="text-black mb-6">Our Discord community will be the hub for AI discussions, project collaborations, and real-time updates on Aqwel AI developments.</p>
+                        
+                        <div class="space-y-3 mb-6">
+                            <div class="flex items-center justify-center lg:justify-start gap-3">
+                                <span class="w-2 h-2 bg-black rounded-full"></span>
+                                <span class="text-sm text-black">AI Research Discussions</span>
+                            </div>
+                            <div class="flex items-center justify-center lg:justify-start gap-3">
+                                <span class="w-2 h-2 bg-black rounded-full"></span>
+                                <span class="text-sm text-black">Project Collaboration</span>
+                            </div>
+                            <div class="flex items-center justify-center lg:justify-start gap-3">
+                                <span class="w-2 h-2 bg-black rounded-full"></span>
+                                <span class="text-sm text-black">Live Updates & Announcements</span>
+                            </div>
+                        </div>
+                        
+                        <div class="inline-block px-6 py-3 bg-black text-white font-semibold rounded-lg">
+                            Coming Soon - Join Waitlist
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Aion Library Update -->
+    <section class="py-24 bg-white text-black">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6">Aion Library Update</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">The latest version of our AI research library with enhanced capabilities and new features</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h3 class="text-3xl font-bold mb-6">Aion v0.1.7</h3>
+                    <div class="space-y-4 mb-8">
+                        <div class="flex items-start gap-3">
+                            <span class="w-2 h-2 bg-black rounded-full mt-2 flex-shrink-0"></span>
+                            <div>
+                                <h4 class="font-semibold">Enhanced Neural Network Models</h4>
+                                <p class="text-gray-600">Improved performance and accuracy across all model architectures</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <span class="w-2 h-2 bg-black rounded-full mt-2 flex-shrink-0"></span>
+                            <div>
+                                <h4 class="font-semibold">New Research Tools</h4>
+                                <p class="text-gray-600">Advanced analytics and visualization capabilities for AI research</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <span class="w-2 h-2 bg-black rounded-full mt-2 flex-shrink-0"></span>
+                            <div>
+                                <h4 class="font-semibold">Community Contributions</h4>
+                                <p class="text-gray-600">Open-source contributions from global AI researchers</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="flex gap-4">
+                        <div class="px-6 py-3 bg-black text-white font-semibold rounded-lg">
+                            Download Now
+                        </div>
+                        <div class="px-6 py-3 border-2 border-black text-black font-semibold rounded-lg">
+                            View Documentation
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-100 rounded-2xl p-8">
+                    <div class="text-center">
+                        <div class="w-20 h-20 bg-black rounded-2xl mx-auto mb-4 flex items-center justify-center">
+                            <span class="text-white text-2xl font-bold">A</span>
+                        </div>
+                        <h4 class="text-xl font-bold mb-2">Aion Library</h4>
+                        <p class="text-gray-600 mb-4">AI Research & Development Framework</p>
+                        <div class="text-sm text-gray-500">
+                            <div>Version: 2.1.0</div>
+                            <div>Last Updated: December 2024</div>
+                            <div>Downloads: 10K+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+    <!-- Docs Section -->
+    <section id="docs" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-4">Documentation</h2>
+            </div>
+            
+            <div class="max-w-3xl mx-auto">
+                <div class="space-y-4">
+                    <!-- Documentation -->
+                    <div class="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
+                        <div class="text-center">
+                            <h3 class="text-xl font-bold text-black mb-2">Documentation</h3>
+                            <p class="text-sm text-gray-500 mb-4">Access guides and resources</p>
+                            <a href="#" class="inline-block px-6 py-3 bg-black text-white font-semibold rounded-lg hover:bg-gray-800 transition-colors">
+                                View Docs
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Coming Soon -->
+                    <div class="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
+                        <div class="text-center">
+                            <h3 class="text-xl font-bold text-black mb-2">Coming Soon</h3>
+                            <p class="text-sm text-gray-500 mb-4">Future products and features</p>
+                            <span class="inline-block px-6 py-3 bg-gray-100 text-gray-600 font-semibold rounded-lg">
+                                Q2 2025
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="bg-white text-black py-16 mt-20 border-t border-black">
+        <div class="container mx-auto px-4 grid md:grid-cols-5 gap-8 text-left">
+            <!-- About -->
+            <div class="md:col-span-2">
+                <div class="text-2xl font-extrabold mb-4 tracking-tight">Aqwel AI</div>
+                <p class="text-black mb-4 leading-relaxed">Aqwel AI is a leading company specializing in artificial intelligence research, development, and innovative technology solutions. We bridge research and technology to deliver exceptional AI products and experiences.</p>
+            </div>
+            
+            <!-- Services -->
+            <div>
+                <div class="text-lg font-bold mb-3">Services</div>
+                <ul class="space-y-2 text-black">
+                    <li><a href="#linkai-aion" class="hover:text-gray-600 transition-colors">AI Solutions</a></li>
+                    <li><a href="#about" class="hover:text-gray-600 transition-colors">AI Research</a></li>
+                    <li><a href="#docs" class="hover:text-gray-600 transition-colors">Documentation</a></li>
+                    <li><a href="#footer" class="hover:text-gray-600 transition-colors">Tech Consulting</a></li>
+                </ul>
+            </div>
+            
+            <!-- Quick Links -->
+            <div>
+                <div class="text-lg font-bold mb-3">Quick Links</div>
+                <ul class="space-y-2 text-black">
+                    <li><a href="#hero" class="hover:text-gray-600 transition-colors">Home</a></li>
+                    <li><a href="#about" class="hover:text-gray-600 transition-colors">About</a></li>
+                    <li><a href="#linkai-aion" class="hover:text-gray-600 transition-colors">Library (Python)</a></li>
+                    <li><a href="#docs" class="hover:text-gray-600 transition-colors">Documentation</a></li>
+                </ul>
+            </div>
+            
+            <!-- Contact Info -->
+            <div>
+                <div class="text-lg font-bold mb-3">Contact</div>
+                <ul class="space-y-2 text-black">
+                    <li>Email: <a href="mailto:akseldeveloper8@gmail.com" class="underline hover:text-gray-600 transition-colors">akseldeveloper8@gmail.com</a></li>
+                    <li>Location: <span>Worldwide</span></li>
+                </ul>
+                
+                <!-- Social Links -->
+                <div class="mt-6">
+                    <div class="text-sm font-semibold mb-2">Follow Us</div>
+                    <div class="flex space-x-3">
+                        <a href="#" class="hover:text-gray-600 transition-colors">Twitter</a>
+                        <a href="#" class="hover:text-gray-600 transition-colors">LinkedIn</a>
+                        <a href="#" class="hover:text-gray-600 transition-colors">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container mx-auto px-4 text-center mt-12 pt-8 border-t border-gray-200">
+            <div class="text-black text-sm">
+                Since 2025 Aqwel AI. All rights reserved. | Created by <span id="animated-aksel" class="font-semibold text-black transition-all duration-700">Aksel</span>
+            </div>
+        </div>
+    </footer>
+
 </body>
 
 </html>
