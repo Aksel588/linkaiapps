@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Our Mission | Careers at Aqwel AI</title>
+    <meta name="description" content="Join Aqwel AI's mission to build safe artificial intelligence. Explore career opportunities in AI research, development, and innovation." />
+    <meta name="keywords" content="aqwel ai careers, AI jobs, artificial intelligence careers, tech jobs, AI research positions, machine learning jobs" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aqwel.ai/careers">
+    <meta property="og:title" content="Join Our Mission | Careers at Aqwel AI">
+    <meta property="og:description" content="Join Aqwel AI's mission to build safe artificial intelligence. Explore career opportunities in AI research, development, and innovation.">
+    <meta property="og:image" content="https://aqwel.ai/images/logo_website.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://aqwel.ai/careers">
+    <meta property="twitter:title" content="Join Our Mission | Careers at Aqwel AI">
+    <meta property="twitter:description" content="Join Aqwel AI's mission to build safe artificial intelligence. Explore career opportunities in AI research, development, and innovation.">
+    <meta property="twitter:image" content="https://aqwel.ai/images/logo_website.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="min-h-screen bg-white">
+    <!-- Header -->
+    <nav class="bg-white border-b border-gray-200 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <a href="../index.html" class="flex items-center space-x-3 group">
+                        <div class="relative">
+                            <div class="w-10 h-10 rounded-2xl bg-black flex items-center justify-center p-2 group-hover:scale-105 transition-transform duration-200">
+                                <img src="../images/logo_website.png" alt="Aqwel AI Logo" class="w-6 h-6">
+                            </div>
+                        </div>
+                        <span class="text-xl md:text-2xl font-bold text-gray-900">Aqwel AI</span>
+                    </a>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="../index.html" class="px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors" data-page="home">Home</a>
+                    <a href="about.html" class="px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors" data-page="about">About</a>
+                    <a href="docs.html" class="px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors" data-page="docs">Docs</a>
+                    <a href="research.html" class="px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors" data-page="research">Research</a>
+                    <a href="safety.html" class="px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors" data-page="safety">Safety</a>
+                    <a href="careers.html" class="px-3 py-2 text-sm font-medium text-gray-900 font-semibold" data-page="careers">Careers</a>
+                    <a href="mailto:aqwelai.company@gmail.com?subject=Get Started with Aqwel AI" class="bg-gray-900 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-800 transition-colors">Get Started</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-600 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 transition-colors duration-200" aria-expanded="false" aria-label="Open main menu">
+                        <span class="sr-only">Open main menu</span>
+                        <!-- Hamburger Icon -->
+                        <svg id="hamburger-icon" class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                        <!-- Close Icon -->
+                        <svg id="close-icon" class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="md:hidden transition-all duration-300 ease-in-out max-h-0 opacity-0 overflow-hidden">
+                <div class="px-2 pt-2 pb-3 space-y-1 bg-white border-t border-gray-200 relative z-40">
+                    <a href="../index.html" class="block px-3 py-3 text-base font-medium rounded-lg text-gray-600 hover:text-gray-900 hover:bg-gray-50 transition-colors duration-200" data-page="home">Home</a>
+                    <a href="about.html" class="block px-3 py-3 text-base font-medium rounded-lg text-gray-600 hover:text-gray-900 hover:bg-gray-50 transition-colors duration-200" data-page="about">About</a>
+                    <a href="docs.html" class="block px-3 py-3 text-base font-medium rounded-lg text-gray-600 hover:text-gray-900 hover:bg-gray-50 transition-colors duration-200" data-page="docs">Docs</a>
+                    <a href="research.html" class="block px-3 py-3 text-base font-medium rounded-lg text-gray-600 hover:text-gray-900 hover:bg-gray-50 transition-colors duration-200" data-page="research">Research</a>
+                    <a href="safety.html" class="block px-3 py-3 text-base font-medium rounded-lg text-gray-600 hover:text-gray-900 hover:bg-gray-50 transition-colors duration-200" data-page="safety">Safety</a>
+                    <a href="careers.html" class="block px-3 py-3 text-base font-medium rounded-lg text-gray-900 bg-gray-100 font-semibold" data-page="careers">Careers</a>
+                    <div class="pt-4 pb-2">
+                        <a href="mailto:aqwelai.company@gmail.com?subject=Get Started with Aqwel AI" class="block w-full bg-gray-900 text-white text-center px-4 py-3 rounded-lg text-base font-medium hover:bg-gray-800 transition-colors duration-200">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="min-h-screen bg-white">
+        <!-- Hero Section -->
+        <section class="py-20 bg-gray-50">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+                    Join Our Mission
+                </h1>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Help us build the future of AI research. Join a team of passionate innovators working on cutting-edge technology that will shape tomorrow's world.
+                </p>
+            </div>
+        </section>
+
+        <!-- Why Work With Us -->
+        <section class="py-20">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                        Why Work at Aqwel AI?
+                    </h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                        Be part of a mission-driven company that's pushing the boundaries of AI research and development.
+                    </p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-200">
+                        <div class="w-16 h-16 bg-gray-100 rounded-xl flex items-center justify-center mb-6">
+                            <svg class="w-8 h-8 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Cutting-Edge Research</h3>
+                        <p class="text-gray-600">
+                            Work on the most exciting problems in AI, from space exploration to healthcare, with access to state-of-the-art tools and resources.
+                        </p>
+                    </div>
+                    
+                    <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-200">
+                        <div class="w-16 h-16 bg-gray-100 rounded-xl flex items-center justify-center mb-6">
+                            <svg class="w-8 h-8 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Collaborative Culture</h3>
+                        <p class="text-gray-600">
+                            Join a diverse, inclusive team where your ideas matter. We foster collaboration, creativity, and continuous learning.
+                        </p>
+                    </div>
+                    
+                    <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-200">
+                        <div class="w-16 h-16 bg-gray-100 rounded-xl flex items-center justify-center mb-6">
+                            <svg class="w-8 h-8 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Open Source Impact</h3>
+                        <p class="text-gray-600">
+                            Contribute to open-source projects that benefit the global AI community. Your work will have a real impact on researchers worldwide.
+                        </p>
+                    </div>
+                    
+                    <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-200">
+                        <div class="w-16 h-16 bg-gray-100 rounded-xl flex items-center justify-center mb-6">
+                            <svg class="w-8 h-8 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Flexible Work</h3>
+                        <p class="text-gray-600">
+                            Enjoy flexible working hours, remote work options, and a healthy work-life balance that supports your personal and professional growth.
+                        </p>
+                    </div>
+                    
+                    <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-200">
+                        <div class="w-16 h-16 bg-gray-100 rounded-xl flex items-center justify-center mb-6">
+                            <svg class="w-8 h-8 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Learning & Growth</h3>
+                        <p class="text-gray-600">
+                            Access to conferences, courses, and mentorship opportunities. We invest in your professional development and career advancement.
+                        </p>
+                    </div>
+                    
+                    <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-200">
+                        <div class="w-16 h-16 bg-gray-100 rounded-xl flex items-center justify-center mb-6">
+                            <svg class="w-8 h-8 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Mission-Driven</h3>
+                        <p class="text-gray-600">
+                            Be part of something bigger. Help us advance AI research in space, mathematics, and healthcare to benefit humanity.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Open Positions -->
+        <section class="py-20 bg-gray-50">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                        Open Positions
+                    </h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                        We're always looking for talented individuals to join our team. Check back soon for new opportunities.
+                    </p>
+                </div>
+                
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-200 p-12 text-center">
+                    <div class="w-20 h-20 bg-gray-100 rounded-xl flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-10 h-10 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2-2v2m8 0V6a2 2 0 012 2v6a2 2 0 01-2 2H6a2 2 0 01-2-2V8a2 2 0 012-2V6" />
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">No Open Positions</h3>
+                    <p class="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
+                        We don't have any open positions at the moment, but we're always interested in hearing from talented individuals who share our mission. Feel free to reach out to us.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                        <a href="mailto:aqwelai.company@gmail.com?subject=General Application" class="bg-gray-900 text-white px-6 py-3 rounded-lg font-medium hover:bg-gray-800 transition-colors">
+                            Send Us Your Resume
+                        </a>
+                        <a href="https://www.linkedin.com/company/aqwelaiofficial/" target="_blank" rel="noopener noreferrer" class="border border-gray-300 text-gray-700 px-6 py-3 rounded-lg font-medium hover:bg-gray-50 transition-colors">
+                            Follow Us on LinkedIn
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Company Culture -->
+        <section class="py-20">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                        Our Culture
+                    </h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                        We believe in creating an environment where everyone can thrive and contribute to our mission.
+                    </p>
+                </div>
+                
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                    <div class="space-y-8">
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-gray-900 rounded-full flex items-center justify-center mr-6 mt-1 flex-shrink-0">
+                                <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">Innovation First</h3>
+                                <p class="text-gray-600">We encourage creative thinking and bold ideas. Every team member has a voice in shaping our future.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-gray-900 rounded-full flex items-center justify-center mr-6 mt-1 flex-shrink-0">
+                                <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">Continuous Learning</h3>
+                                <p class="text-gray-600">We invest in your growth with learning opportunities, conferences, and mentorship programs.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-gray-900 rounded-full flex items-center justify-center mr-6 mt-1 flex-shrink-0">
+                                <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">Work-Life Balance</h3>
+                                <p class="text-gray-600">We believe in sustainable productivity. Flexible hours and remote work options support your well-being.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="space-y-8">
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-gray-900 rounded-full flex items-center justify-center mr-6 mt-1 flex-shrink-0">
+                                <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">Diversity & Inclusion</h3>
+                                <p class="text-gray-600">We celebrate diverse perspectives and create an inclusive environment where everyone belongs.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-gray-900 rounded-full flex items-center justify-center mr-6 mt-1 flex-shrink-0">
+                                <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">Open Communication</h3>
+                                <p class="text-gray-600">Transparent communication and regular feedback help us grow together as a team.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-12 h-12 bg-gray-900 rounded-full flex items-center justify-center mr-6 mt-1 flex-shrink-0">
+                                <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">Impact-Driven</h3>
+                                <p class="text-gray-600">Every project we work on has the potential to make a real difference in the world.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits -->
+        <section class="py-20 bg-gray-50">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                        Benefits & Perks
+                    </h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                        We offer comprehensive benefits to support your health, happiness, and professional growth.
+                    </p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-200">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">Health & Wellness</h3>
+                        <ul class="space-y-2 text-gray-600">
+                            <li>• Comprehensive health insurance</li>
+                            <li>• Mental health support</li>
+                            <li>• Wellness stipend</li>
+                            <li>• Flexible PTO</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-200">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">Professional Development</h3>
+                        <ul class="space-y-2 text-gray-600">
+                            <li>• Conference attendance</li>
+                            <li>• Learning budget</li>
+                            <li>• Mentorship programs</li>
+                            <li>• Skill development courses</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-200">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">Work Environment</h3>
+                        <ul class="space-y-2 text-gray-600">
+                            <li>• Remote-first culture</li>
+                            <li>• Flexible hours</li>
+                            <li>• Modern equipment</li>
+                            <li>• Collaborative tools</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-200">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">Financial</h3>
+                        <ul class="space-y-2 text-gray-600">
+                            <li>• Competitive salary</li>
+                            <li>• Equity participation</li>
+                            <li>• Performance bonuses</li>
+                            <li>• Retirement planning</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-200">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">Team & Culture</h3>
+                        <ul class="space-y-2 text-gray-600">
+                            <li>• Team building events</li>
+                            <li>• Company retreats</li>
+                            <li>• Recognition programs</li>
+                            <li>• Open source contributions</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-200">
+                        <h3 class="text-xl font-bold text-gray-900 mb-4">Technology</h3>
+                        <ul class="space-y-2 text-gray-600">
+                            <li>• Latest hardware</li>
+                            <li>• Software licenses</li>
+                            <li>• Cloud computing access</li>
+                            <li>• Research resources</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-20">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                    Ready to Join Us?
+                </h2>
+                <p class="text-xl text-gray-600 mb-8">
+                    Don't see a position that fits? We're always interested in hearing from talented individuals who share our mission.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="mailto:aqwelai.company@gmail.com?subject=General Application" class="bg-gray-900 text-white px-8 py-3 rounded-lg font-medium hover:bg-gray-800 transition-colors">
+                        Send Us Your Resume
+                    </a>
+                    <a href="https://www.linkedin.com/company/aqwelaiofficial/" target="_blank" rel="noopener noreferrer" class="border border-gray-300 text-gray-900 px-8 py-3 rounded-lg font-medium hover:bg-gray-50 transition-colors">
+                        Follow Us on LinkedIn
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-gray-200 py-8 sm:py-12">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Mobile-first grid layout -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+                <!-- Brand Section - Full width on mobile -->
+                <div class="sm:col-span-2 lg:col-span-1">
+                    <div class="flex items-center space-x-3 mb-4 sm:mb-6">
+                        <div class="w-8 h-8 rounded-xl bg-black flex items-center justify-center p-1.5">
+                            <img src="../images/logo_website.png" alt="Aqwel AI Logo" class="w-5 h-5">
+                        </div>
+                        <span class="text-lg font-bold text-gray-900">Aqwel AI</span>
+                    </div>
+                    <p class="text-sm text-gray-600 mb-4 sm:mb-6 max-w-xs">
+                        Building safe artificial general intelligence that benefits all of humanity.
+                    </p>
+                </div>
+                
+                <!-- Company Section -->
+                <div>
+                    <h4 class="text-sm font-semibold text-gray-900 mb-3 sm:mb-4">Company</h4>
+                    <ul class="space-y-2 sm:space-y-3">
+                        <li><a href="about.html" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">About</a></li>
+                        <li><a href="#" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Blog</a></li>
+                        <li><a href="careers.html" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Careers</a></li>
+                        <li><a href="#" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Charter</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Research Section -->
+                <div>
+                    <h4 class="text-sm font-semibold text-gray-900 mb-3 sm:mb-4">Research</h4>
+                    <ul class="space-y-2 sm:space-y-3">
+                        <li><a href="research.html" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Research</a></li>
+                        <li><a href="safety.html" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Safety</a></li>
+                        <li><a href="#" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Papers</a></li>
+                        <li><a href="#" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Models</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Community Section -->
+                <div>
+                    <h4 class="text-sm font-semibold text-gray-900 mb-3 sm:mb-4">Community</h4>
+                    <ul class="space-y-2 sm:space-y-3">
+                        <li><a href="https://github.com/Aqwel-AI" target="_blank" rel="noopener noreferrer" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/company/aqwelaiofficial/" target="_blank" rel="noopener noreferrer" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">LinkedIn</a></li>
+                        <li><a href="#" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">YouTube</a></li>
+                        <li><a href="#" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Help Center</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Bottom section with better mobile layout -->
+            <div class="border-t border-gray-200 mt-8 sm:mt-12 pt-6 sm:pt-8">
+                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center space-y-4 sm:space-y-0">
+                    <p class="text-sm text-gray-600 order-2 sm:order-1">
+                        © 2025 Aqwel AI. All rights reserved.
+                    </p>
+                    <div class="flex flex-wrap gap-4 sm:gap-6 order-1 sm:order-2">
+                        <a href="#" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Privacy Policy</a>
+                        <a href="#" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Terms of Use</a>
+                        <a href="#" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../js/components.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>

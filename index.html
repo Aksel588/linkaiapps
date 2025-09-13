@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aqwel AI - Safe Artificial General Intelligence | Advanced AI Research</title>
+    <meta name="description" content="Aqwel AI is building safe artificial general intelligence that benefits all of humanity. Advanced AI models for natural language processing, code generation, machine learning research, and creative applications. 175+ functions across 12 modules.">
+    <meta name="keywords" content="artificial intelligence, AI, machine learning, natural language processing, code generation, safe AI, AGI, artificial general intelligence, AI research, AI safety, deep learning, neural networks, data science, AI library, Python AI, machine learning library, AI development, intelligent systems, AI innovation, research AI, AI tools, artificial intelligence research, AI technology, machine learning tools, AI programming, intelligent automation, AI algorithms, cognitive computing, AI solutions, advanced AI">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Aqwel AI - Safe Artificial General Intelligence | Advanced AI Research">
+    <meta property="og:description" content="Building safe artificial general intelligence that benefits all of humanity. Advanced AI models for natural language processing, code generation, machine learning research, and creative applications.">
+    <meta property="og:image" content="https://aqwel.ai/logo_website.png">
+    <meta property="og:url" content="https://aqwel.ai">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Aqwel AI - Safe Artificial General Intelligence">
+    <meta name="twitter:description" content="Building safe artificial general intelligence that benefits all of humanity. Advanced AI research and development.">
+    <meta name="twitter:image" content="https://aqwel.ai/logo_website.png">
+    <meta name="twitter:site" content="@aqwelai">
+    <meta name="twitter:creator" content="@aqwelai">
+    
+    <!-- Additional Meta Tags -->
+    <link rel="canonical" href="https://aqwel.ai">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="bingbot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'sans': ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Aqwel AI",
+        "alternateName": "Aqwel Artificial Intelligence",
+        "url": "https://aqwel.ai",
+        "logo": "https://aqwel.ai/logo_website.png",
+        "description": "Aqwel AI is building safe artificial general intelligence that benefits all of humanity. Advanced AI models for natural language processing, code generation, machine learning research, and creative applications.",
+        "foundingDate": "2024",
+        "founders": [
+            {
+                "@type": "Person",
+                "name": "Aksel Aghajanyan",
+                "url": "https://linkedin.com/in/aksel-aghajanyan"
+            }
+        ],
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+1-XXX-XXX-XXXX",
+            "contactType": "customer service",
+            "email": "aqwelai.company@gmail.com",
+            "availableLanguage": "English"
+        },
+        "sameAs": [
+            "https://github.com/Aqwel-AI",
+            "https://www.linkedin.com/company/aqwelaiofficial/",
+            "https://x.com/AkselDeveloper"
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "US"
+        },
+        "knowsAbout": [
+            "Artificial Intelligence",
+            "Machine Learning",
+            "Natural Language Processing",
+            "Deep Learning",
+            "Neural Networks",
+            "AI Safety",
+            "Code Generation",
+            "Data Science"
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "AI Research Tools and Libraries",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "SoftwareApplication",
+                        "name": "Aqwel-Aion Research Library",
+                        "description": "Comprehensive AI library featuring 175+ functions across 12 modules for AI research, machine learning, and data science workflows",
+                        "applicationCategory": "DeveloperApplication",
+                        "operatingSystem": "Python",
+                        "offers": {
+                            "@type": "Offer",
+                            "price": "0",
+                            "priceCurrency": "USD"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+    </script>
+</head>
+<body class="min-h-screen bg-white font-sans">
+    <!-- Header -->
+    <nav class="bg-white border-b border-gray-200 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <a href="index.html" class="flex items-center space-x-3 group">
+                        <div class="relative">
+                            <div class="w-10 h-10 rounded-2xl bg-black flex items-center justify-center p-2 group-hover:scale-105 transition-transform duration-200">
+                                <img src="images/logo_website.png" alt="Aqwel AI Logo" class="w-6 h-6">
+                            </div>
+                        </div>
+                        <span class="text-xl md:text-2xl font-bold text-gray-900">Aqwel AI</span>
+                    </a>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="px-3 py-2 text-sm font-medium text-gray-900 font-semibold" data-page="home">Home</a>
+                    <a href="pages/about.html" class="px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors" data-page="about">About</a>
+                    <a href="pages/docs.html" class="px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors" data-page="docs">Docs</a>
+                    <a href="pages/research.html" class="px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors" data-page="research">Research</a>
+                    <a href="pages/safety.html" class="px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors" data-page="safety">Safety</a>
+                    <a href="pages/careers.html" class="px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors" data-page="careers">Careers</a>
+                    <a href="mailto:aqwelai.company@gmail.com?subject=Get Started with Aqwel AI" class="bg-gray-900 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-800 transition-colors">Get Started</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-600 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 transition-colors duration-200" aria-expanded="false" aria-label="Open main menu">
+                        <span class="sr-only">Open main menu</span>
+                        <!-- Hamburger Icon -->
+                        <svg id="hamburger-icon" class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                        <!-- Close Icon -->
+                        <svg id="close-icon" class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="md:hidden transition-all duration-300 ease-in-out max-h-0 opacity-0 overflow-hidden">
+                <div class="px-2 pt-2 pb-3 space-y-1 bg-white border-t border-gray-200 relative z-40">
+                    <a href="index.html" class="block px-3 py-3 text-base font-medium rounded-lg text-gray-900 bg-gray-100 font-semibold" data-page="home">Home</a>
+                    <a href="pages/about.html" class="block px-3 py-3 text-base font-medium rounded-lg text-gray-600 hover:text-gray-900 hover:bg-gray-50 transition-colors duration-200" data-page="about">About</a>
+                    <a href="pages/docs.html" class="block px-3 py-3 text-base font-medium rounded-lg text-gray-600 hover:text-gray-900 hover:bg-gray-50 transition-colors duration-200" data-page="docs">Docs</a>
+                    <a href="pages/research.html" class="block px-3 py-3 text-base font-medium rounded-lg text-gray-600 hover:text-gray-900 hover:bg-gray-50 transition-colors duration-200" data-page="research">Research</a>
+                    <a href="pages/safety.html" class="block px-3 py-3 text-base font-medium rounded-lg text-gray-600 hover:text-gray-900 hover:bg-gray-50 transition-colors duration-200" data-page="safety">Safety</a>
+                    <a href="pages/careers.html" class="block px-3 py-3 text-base font-medium rounded-lg text-gray-600 hover:text-gray-900 hover:bg-gray-50 transition-colors duration-200" data-page="careers">Careers</a>
+                    <div class="pt-4 pb-2">
+                        <a href="mailto:aqwelai.company@gmail.com?subject=Get Started with Aqwel AI" class="block w-full bg-gray-900 text-white text-center px-4 py-3 rounded-lg text-base font-medium hover:bg-gray-800 transition-colors duration-200">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="min-h-screen bg-white">
+        <!-- Hero Section -->
+        <section class="relative min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8">
+            <div class="max-w-6xl mx-auto py-24">
+                <div class="text-center">
+                    <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-gray-900 mb-12 leading-tight tracking-tight font-tt-interphases">
+                        AI is the key to unlocking the deepest mysteries of the universe
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-600 mb-16 max-w-4xl mx-auto leading-relaxed font-light">
+                        Aqwel AI is building safe artificial general intelligence that benefits all of humanity. 
+                        Our mission is to ensure that AI systems are aligned with human values.
+                    </p>
+                    
+                    <!-- CTA Buttons -->
+                    <div class="flex flex-col sm:flex-row gap-6 justify-center">
+                        <button id="try-aqwel-btn" class="bg-gray-900 text-white font-medium py-4 px-8 rounded-full hover:bg-gray-800 transition-all duration-300 text-lg cursor-pointer">
+                            Try Aqwel AI
+                        </button>
+                        <button id="view-examples-btn" class="border border-gray-300 text-gray-700 font-medium py-4 px-8 rounded-full hover:bg-gray-50 transition-all duration-300 text-lg cursor-pointer">
+                            View Examples
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="py-32 bg-gray-50">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-20">
+                    <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+                        Powerful capabilities
+                    </h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                        Our AI models are designed to understand and generate human-like text, 
+                        making them useful for a wide range of applications.
+                    </p>
+                </div>
+                
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                    <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-200">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-900 mb-3">Natural Language Processing</h3>
+                                <p class="text-gray-600 leading-relaxed">
+                                    Advanced language understanding and generation capabilities that can help with writing, 
+                                    analysis, coding, math, and much more.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-200">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-900 mb-3">Code Generation</h3>
+                                <p class="text-gray-600 leading-relaxed">
+                                    Generate, edit, and debug code in multiple programming languages with intelligent 
+                                    suggestions and explanations.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-200">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-900 mb-3">Safe & Reliable</h3>
+                                <p class="text-gray-600 leading-relaxed">
+                                    Built with safety in mind, our models are designed to be helpful, harmless, 
+                                    and honest in their responses.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-200">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-900 mb-3">Creative Applications</h3>
+                                <p class="text-gray-600 leading-relaxed">
+                                    From creative writing to brainstorming ideas, our AI can assist with 
+                                    a wide range of creative and analytical tasks.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Demo & Resources Section -->
+        <section class="py-16 sm:py-20 lg:py-24 bg-gray-50">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12 sm:mb-16 lg:mb-20">
+                    <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
+                        See Aqwel AI in Action
+                    </h2>
+                    <p class="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                        Explore our latest demos, presentations, and resources to learn more about our technology and vision.
+                    </p>
+                </div>
+                
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-12">
+                    <!-- Video Demo -->
+                    <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-sm border border-gray-200">
+                        <div class="flex flex-col sm:flex-row items-start space-y-4 sm:space-y-0 sm:space-x-4">
+                            <div class="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1m4 0h1m-6 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                            </div>
+                            <div class="flex-1 w-full">
+                                <h3 class="text-lg sm:text-xl font-semibold text-gray-900 mb-3">Product Demo</h3>
+                                <p class="text-sm sm:text-base text-gray-600 leading-relaxed mb-4 sm:mb-6">
+                                    Watch our latest product demonstration showcasing Aqwel AI's capabilities 
+                                    in real-world scenarios and use cases.
+                                </p>
+                                <div class="space-y-2 sm:space-y-3">
+                                    <a href="#" class="block w-full bg-gray-900 text-white text-center py-3 px-4 sm:px-6 rounded-lg hover:bg-gray-800 transition-colors duration-200 font-medium text-sm sm:text-base">
+                                        Watch Demo Video
+                                    </a>
+                                    <a href="#" class="block w-full border border-gray-300 text-gray-700 text-center py-3 px-4 sm:px-6 rounded-lg hover:bg-gray-50 transition-colors duration-200 font-medium text-sm sm:text-base">
+                                        Try Interactive Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pitch Deck -->
+                    <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-sm border border-gray-200">
+                        <div class="flex flex-col sm:flex-row items-start space-y-4 sm:space-y-0 sm:space-x-4">
+                            <div class="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                                </svg>
+                            </div>
+                            <div class="flex-1 w-full">
+                                <h3 class="text-lg sm:text-xl font-semibold text-gray-900 mb-3">Pitch Deck</h3>
+                                <p class="text-sm sm:text-base text-gray-600 leading-relaxed mb-4 sm:mb-6">
+                                    Download our comprehensive pitch deck to learn about our mission, 
+                                    technology, market opportunity, and investment details.
+                                </p>
+                                <div class="space-y-2 sm:space-y-3">
+                                    <a href="#" class="block w-full bg-gray-900 text-white text-center py-3 px-4 sm:px-6 rounded-lg hover:bg-gray-800 transition-colors duration-200 font-medium text-sm sm:text-base">
+                                        View Pitch Deck
+                                    </a>
+                                    <a href="#" class="block w-full border border-gray-300 text-gray-700 text-center py-3 px-4 sm:px-6 rounded-lg hover:bg-gray-50 transition-colors duration-200 font-medium text-sm sm:text-base">
+                                        Download PDF
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-32 bg-white">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-24">
+                    <h2 class="text-5xl md:text-6xl font-bold text-gray-900 mb-8 tracking-tight">
+                        Our mission
+                    </h2>
+                    <p class="text-2xl text-gray-600 max-w-4xl mx-auto font-light leading-relaxed">
+                        Aqwel AI's mission is to ensure that artificial general intelligence (AGI) 
+                        benefits all of humanity. We are building safe, beneficial AI systems.
+                    </p>
+                </div>
+                
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+                    <div class="text-center">
+                        <div class="w-20 h-20 bg-gray-50 rounded-3xl flex items-center justify-center mx-auto mb-8">
+                            <svg class="w-10 h-10 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-6">Safety First</h3>
+                        <p class="text-lg text-gray-600 leading-relaxed font-light">
+                            We prioritize safety in AI development, ensuring our systems are aligned 
+                            with human values and beneficial to society.
+                        </p>
+                    </div>
+
+                    <div class="text-center">
+                        <div class="w-20 h-20 bg-gray-50 rounded-3xl flex items-center justify-center mx-auto mb-8">
+                            <svg class="w-10 h-10 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-6">Innovation</h3>
+                        <p class="text-lg text-gray-600 leading-relaxed font-light">
+                            We push the boundaries of what's possible with AI, developing cutting-edge 
+                            technologies that solve real-world problems.
+                        </p>
+                    </div>
+
+                    <div class="text-center">
+                        <div class="w-20 h-20 bg-gray-50 rounded-3xl flex items-center justify-center mx-auto mb-8">
+                            <svg class="w-10 h-10 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-6">Collaboration</h3>
+                        <p class="text-lg text-gray-600 leading-relaxed font-light">
+                            We work with researchers, policymakers, and organizations worldwide to 
+                            ensure AI development benefits everyone.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Investors Section -->
+        <section id="investors" class="py-32 bg-white">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-24">
+                    <h2 class="text-5xl md:text-6xl font-bold text-gray-900 mb-8 tracking-tight">
+                        Seeking Investment Partners
+                    </h2>
+                    <p class="text-2xl text-gray-600 max-w-4xl mx-auto font-light leading-relaxed">
+                        We're looking for visionary investors who share our mission to build safe, 
+                        beneficial AI that benefits all of humanity.
+                    </p>
+                </div>
+
+                <div class="bg-gradient-to-r from-gray-900 to-gray-800 rounded-3xl p-12 md:p-16 text-white shadow-2xl">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                        <div>
+                            <h3 class="text-4xl font-bold mb-8 tracking-tight">Join Our Journey</h3>
+                            <p class="text-xl text-gray-200 mb-8 leading-relaxed font-light">
+                                Aqwel AI is seeking strategic investors to accelerate our mission of building 
+                                safe artificial intelligence for space, mathematics, and health research. We're looking for partners who understand 
+                                the transformative potential of AI and share our commitment to safety and alignment.
+                            </p>
+                            
+                            <div class="mb-8">
+                                <h4 class="text-2xl font-semibold text-white mb-6">Why Partner With Us?</h4>
+                                <div class="space-y-4">
+                                    <div class="flex items-center space-x-3">
+                                        <svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M5 13l4 4L19 7" />
+                                        </svg>
+                                        <span class="text-gray-200">Proven foundation – Our first product, Aion, is already live and growing.</span>
+                                    </div>
+                                    <div class="flex items-center space-x-3">
+                                        <svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M5 13l4 4L19 7" />
+                                        </svg>
+                                        <span class="text-gray-200">Global vision – Targeting the trillion-dollar markets of space, science, and health.</span>
+                                    </div>
+                                    <div class="flex items-center space-x-3">
+                                        <svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M5 13l4 4L19 7" />
+                                        </svg>
+                                        <span class="text-gray-200">Dedicated team – Young, ambitious, and mission-driven innovators.</span>
+                                    </div>
+                                    <div class="flex items-center space-x-3">
+                                        <svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M5 13l4 4L19 7" />
+                                        </svg>
+                                        <span class="text-gray-200">Safety-first approach – Responsible AI and alignment built into our work.</span>
+                                    </div>
+                                    <div class="flex items-center space-x-3">
+                                        <svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M5 13l4 4L19 7" />
+                                        </svg>
+                                        <span class="text-gray-200">Massive opportunity – AI-powered science and research are the next frontier.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6">
+                            <h4 class="text-xl font-semibold mb-4">Investment Opportunity</h4>
+                            <div class="space-y-3">
+                                <div class="flex justify-between">
+                                    <span class="text-gray-300">Funding Round:</span>
+                                    <span class="text-white font-medium">Pre-Seed</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span class="text-gray-300">Target Raise:</span>
+                                    <span class="text-white font-medium">$50,000</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span class="text-gray-300">Use of Funds:</span>
+                                    <span class="text-white font-medium">Product development, cloud infrastructure, branding, and early growth</span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span class="text-gray-300">Minimum Investment:</span>
+                                    <span class="text-white font-medium">$5,000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Aion Library Section -->
+        <section class="py-32 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-5xl md:text-6xl font-bold text-gray-900 mb-8 tracking-tight">
+                        Aqwel AI Aion v0.1.7
+                    </h2>
+                    <p class="text-2xl text-gray-600 max-w-5xl mx-auto mb-12 font-light leading-relaxed">
+                        Aion is an open-source Python utility library by Aqwel AI, designed to empower AI research, 
+                        machine learning development, and advanced data science workflows.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-6 justify-center mb-16">
+                        <code class="bg-gray-900 text-green-400 px-8 py-4 rounded-full font-mono text-lg">
+                            pip install aqwel-aion
+                        </code>
+                        <a href="https://pypi.org/project/aqwel-aion/" target="_blank" rel="noopener noreferrer" class="bg-gray-900 text-white px-8 py-4 rounded-full font-medium hover:bg-gray-800 transition-all duration-300 text-lg">
+                            View on PyPI
+                        </a>
+                        <a href="https://github.com/aqwel-ai/aion" target="_blank" rel="noopener noreferrer" class="border border-gray-300 text-gray-700 px-8 py-4 rounded-full font-medium hover:bg-gray-50 transition-all duration-300 text-lg">
+                            View on GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Features Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+                    <div class="bg-white p-8 rounded-3xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
+                        <div class="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center mb-6">
+                            <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-4">Complete Mathematics & ML Library</h3>
+                        <p class="text-gray-600 mb-4">71+ mathematical functions for AI/ML research</p>
+                        <ul class="text-sm text-gray-500 space-y-1">
+                            <li>• Advanced Statistics & ML Tools</li>
+                            <li>• Signal Processing & FFT</li>
+                            <li>• Data Science Pipeline Tools</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white p-8 rounded-3xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
+                        <div class="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center mb-6">
+                            <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-4">AI Research Capabilities</h3>
+                        <p class="text-gray-600 mb-4">Text embeddings, prompt engineering, code analysis</p>
+                        <ul class="text-sm text-gray-500 space-y-1">
+                            <li>• Text Embeddings & Similarity</li>
+                            <li>• 11+ AI Prompt Templates</li>
+                            <li>• Model Evaluation Metrics</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white p-8 rounded-3xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
+                        <div class="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center mb-6">
+                            <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-4">Professional Documentation</h3>
+                        <p class="text-gray-600 mb-4">Automated PDF generation for research papers</p>
+                        <ul class="text-sm text-gray-500 space-y-1">
+                            <li>• Research Paper Templates</li>
+                            <li>• API Documentation</li>
+                            <li>• User Guides & Tutorials</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white p-8 rounded-3xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
+                        <div class="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center mb-6">
+                            <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-4">Enhanced Development Tools</h3>
+                        <p class="text-gray-600 mb-4">Advanced file management, real-time monitoring, Git integration</p>
+                        <ul class="text-sm text-gray-500 space-y-1">
+                            <li>• Real-time Monitoring</li>
+                            <li>• Git Integration</li>
+                            <li>• 30+ Language Support</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white p-8 rounded-3xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
+                        <div class="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center mb-6">
+                            <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-4">Signal Processing</h3>
+                        <p class="text-gray-600 mb-4">FFT, convolution, filtering, and frequency analysis</p>
+                        <ul class="text-sm text-gray-500 space-y-1">
+                            <li>• FFT & Convolution</li>
+                            <li>• Filtering & Analysis</li>
+                            <li>• Frequency Processing</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white p-8 rounded-3xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
+                        <div class="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center mb-6">
+                            <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-4">Revolutionary Features</h3>
+                        <p class="text-gray-600 mb-4">The most comprehensive AI research library ever created</p>
+                        <ul class="text-sm text-gray-500 space-y-1">
+                            <li>• 175+ Mathematical Functions</li>
+                            <li>• 96/100 Quality Score</li>
+                            <li>• Production Ready</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Why Choose Aion -->
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-200 p-8 mb-16">
+                    <h3 class="text-3xl font-bold text-gray-900 mb-8 text-center">Why Aqwel AI-aion?</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                        <div class="text-center">
+                            <div class="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <svg class="w-8 h-8 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                                </svg>
+                            </div>
+                            <h4 class="font-semibold text-gray-900 mb-2">Revolutionary Breakthrough</h4>
+                            <p class="text-sm text-gray-600">Now the most comprehensive AI research library available</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <svg class="w-8 h-8 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                                </svg>
+                            </div>
+                            <h4 class="font-semibold text-gray-900 mb-2">World-Class Mathematics</h4>
+                            <p class="text-sm text-gray-600">175+ mathematical functions for AI/ML research</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <svg class="w-8 h-8 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                                </svg>
+                            </div>
+                            <h4 class="font-semibold text-gray-900 mb-2">Complete Research Pipeline</h4>
+                            <p class="text-sm text-gray-600">From data to publication-ready results</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                                <svg class="w-8 h-8 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                                </svg>
+                            </div>
+                            <h4 class="font-semibold text-gray-900 mb-2">Production Ready</h4>
+                            <p class="text-sm text-gray-600">96/100 quality score with enterprise-grade reliability</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Library Statistics -->
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-200 p-8 mb-16">
+                    <div class="flex items-center justify-center mb-8">
+                        <div class="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center mr-4">
+                            <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-3xl font-bold text-gray-900">Library Statistics</h3>
+                    </div>
+                    <p class="text-center text-gray-600 mb-8">v0.1.7 represents a quantum leap in AI research tools</p>
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                        <div class="text-center">
+                            <div class="text-4xl font-bold text-gray-900 mb-2">13</div>
+                            <div class="text-gray-600">Core Modules</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-4xl font-bold text-gray-900 mb-2">175+</div>
+                            <div class="text-gray-600">Functions</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-4xl font-bold text-gray-900 mb-2">96/100</div>
+                            <div class="text-gray-600">Quality Score</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-4xl font-bold text-gray-900 mb-2">30+</div>
+                            <div class="text-gray-600">Languages</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="py-32 bg-gray-50">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-5xl md:text-6xl font-bold text-gray-900 mb-8 tracking-tight">
+                        Frequently Asked Questions
+                    </h2>
+                    <p class="text-2xl text-gray-600 max-w-4xl mx-auto font-light leading-relaxed">
+                        Find answers to common questions about Aqwel AI. Can't find what you're looking for? 
+                        Contact our support team.
+                    </p>
+                </div>
+
+                <div class="space-y-4" id="faq-container">
+                    <!-- FAQ items will be populated by JavaScript -->
+                </div>
+
+                <!-- Contact Support -->
+                <div class="mt-16 text-center">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-4">
+                        Still Have Questions?
+                    </h3>
+                    <p class="text-gray-600 mb-8">
+                        Our support team is here to help. Get in touch and we'll get back to you as soon as possible.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                        <a href="mailto:support@aqwel.ai" class="bg-gray-900 text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors duration-200">
+                            Contact Support
+                        </a>
+                        <a href="/docs" class="border border-gray-300 text-gray-700 px-6 py-3 rounded-lg hover:bg-gray-50 transition-colors duration-200">
+                            View Documentation
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-gray-200 py-8 sm:py-12">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Mobile-first grid layout -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+                <!-- Brand Section - Full width on mobile -->
+                <div class="sm:col-span-2 lg:col-span-1">
+                    <div class="flex items-center space-x-3 mb-4 sm:mb-6">
+                        <div class="w-8 h-8 rounded-xl bg-black flex items-center justify-center p-1.5">
+                            <img src="images/logo_website.png" alt="Aqwel AI Logo" class="w-5 h-5">
+                        </div>
+                        <span class="text-lg font-bold text-gray-900">Aqwel AI</span>
+                    </div>
+                    <p class="text-sm text-gray-600 mb-4 sm:mb-6 max-w-xs">
+                        Building safe artificial general intelligence that benefits all of humanity.
+                    </p>
+                </div>
+                
+                <!-- Company Section -->
+                <div>
+                    <h4 class="text-sm font-semibold text-gray-900 mb-3 sm:mb-4">Company</h4>
+                    <ul class="space-y-2 sm:space-y-3">
+                        <li><a href="pages/about.html" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">About</a></li>
+                        <li><a href="#" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Blog</a></li>
+                        <li><a href="pages/careers.html" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Careers</a></li>
+                        <li><a href="#" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Charter</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Research Section -->
+                <div>
+                    <h4 class="text-sm font-semibold text-gray-900 mb-3 sm:mb-4">Research</h4>
+                    <ul class="space-y-2 sm:space-y-3">
+                        <li><a href="pages/research.html" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Research</a></li>
+                        <li><a href="pages/safety.html" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Safety</a></li>
+                        <li><a href="#" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Papers</a></li>
+                        <li><a href="#" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Models</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Community Section -->
+                <div>
+                    <h4 class="text-sm font-semibold text-gray-900 mb-3 sm:mb-4">Community</h4>
+                    <ul class="space-y-2 sm:space-y-3">
+                        <li><a href="https://github.com/Aqwel-AI" target="_blank" rel="noopener noreferrer" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/company/aqwelaiofficial/" target="_blank" rel="noopener noreferrer" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">LinkedIn</a></li>
+                        <li><a href="#" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">YouTube</a></li>
+                        <li><a href="#" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Help Center</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Bottom section with better mobile layout -->
+            <div class="border-t border-gray-200 mt-8 sm:mt-12 pt-6 sm:pt-8">
+                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center space-y-4 sm:space-y-0">
+                    <p class="text-sm text-gray-600 order-2 sm:order-1">
+                        © 2025 Aqwel AI. All rights reserved.
+                    </p>
+                    <div class="flex flex-wrap gap-4 sm:gap-6 order-1 sm:order-2">
+                        <a href="#" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Privacy Policy</a>
+                        <a href="#" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Terms of Use</a>
+                        <a href="#" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/components.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
