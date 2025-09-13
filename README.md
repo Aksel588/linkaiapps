@@ -1,134 +1,208 @@
-# Aqwel AI - Advanced AI Research Platform
+# Aqwel AI Website - HTML/CSS/JS Version
 
-A modern, professional website for Aqwel AI - a pioneering artificial intelligence company dedicated to advancing human knowledge in space, mathematics, and health through safe AI development.
+This is a converted version of the Aqwel AI Next.js website to simple HTML, CSS, and JavaScript with Tailwind CSS.
 
-## 🌟 Features
-
-- ⚡ **Next.js 14** with App Router and TypeScript
-- 🎨 **Tailwind CSS** for modern, responsive design
-- 📱 **Mobile-First** responsive design for all devices
-- 🔧 **TypeScript** for type safety and better development experience
-- 🚀 **Professional UI/UX** with clean white and black design theme
-- 🎯 **SEO Optimized** with comprehensive meta tags and favicons
-- 📄 **Multiple Pages**: Home, About, Research, Careers, Safety, Documentation
-- 🎪 **Interactive Elements** with functional buttons and animations
-- 📋 **FAQ Section** with collapsible questions about Aion library
-- 💻 **Code Examples** with animated copy functionality
-- 🔗 **Social Integration** with LinkedIn, GitHub, and Twitter links
-
-## 🏗️ Project Structure
+## Files Structure
 
 ```
-src/
-├── app/
-│   ├── about/           # About Us page
-│   ├── careers/         # Careers page
-│   ├── docs/           # Documentation page
-│   ├── research/       # AI Research page
-│   ├── safety/         # AI Safety page
-│   ├── globals.css     # Global styles
-│   ├── layout.tsx      # Root layout with SEO
-│   └── page.tsx        # Home page
-├── components/
-│   ├── Header.tsx      # Navigation header
-│   └── Footer.tsx      # Site footer
-public/
-├── favicon-*.png       # Favicon files
-├── logo_*.png         # Company logos
-├── robots.txt         # SEO robots file
-├── sitemap.xml        # SEO sitemap
-└── site.webmanifest   # PWA manifest
+/
+├── index.html              # Main homepage
+├── css/                    # Stylesheets
+│   └── styles.css          # Custom CSS styles
+├── js/                     # JavaScript files
+│   ├── script.js           # Main JavaScript functionality
+│   └── components.js       # Component loader utility
+├── images/                 # Static assets
+│   ├── logo_website.png
+│   ├── logo_ceo.png
+│   ├── favicon.ico
+│   ├── favicon-16x16.png
+│   ├── favicon-32x32.png
+│   ├── apple-touch-icon.png
+│   ├── android-chrome-192x192.png
+│   ├── android-chrome-512x512.png
+│   ├── site.webmanifest
+│   ├── browserconfig.xml
+│   ├── robots.txt
+│   └── sitemap.xml
+├── pages/                  # Additional pages
+│   ├── about.html          # About page
+│   ├── docs.html           # Documentation page
+│   ├── research.html       # Research page
+│   ├── safety.html         # AI Safety page
+│   └── careers.html        # Careers page
+├── components/             # Reusable components
+│   ├── header.html         # Header component
+│   └── footer.html         # Footer component
+└── README.md               # This file
 ```
 
-## 🚀 Getting Started
+## Features
 
-1. **Clone the repository:**
-```bash
-git clone https://github.com/Aksel588/linkaiapps.git
-cd linkaiapps
+### ✅ Converted Features
+- **Responsive Design**: Mobile-first approach with Tailwind CSS
+- **Mobile Navigation**: Hamburger menu with smooth animations
+- **FAQ Accordion**: Interactive FAQ section with JavaScript
+- **Smooth Scrolling**: Anchor links with smooth scroll behavior
+- **SEO Optimized**: Complete meta tags, structured data, and Open Graph
+- **Performance**: Optimized loading and animations
+- **Accessibility**: ARIA labels, keyboard navigation, focus states
+
+### 🎨 Design Features
+- **Modern UI**: Clean, professional design with Tailwind CSS
+- **Typography**: Inter font family for better readability
+- **Animations**: Smooth transitions and hover effects
+- **Icons**: SVG icons throughout the interface
+- **Color Scheme**: Professional gray and black color palette
+
+### 📱 Mobile Features
+- **Responsive Layout**: Adapts to all screen sizes
+- **Touch-Friendly**: Optimized touch targets (44px minimum)
+- **Mobile Menu**: Collapsible navigation for mobile devices
+- **Performance**: Optimized for mobile loading
+
+## Technical Details
+
+### HTML Structure
+- Semantic HTML5 elements
+- Proper heading hierarchy (h1-h6)
+- ARIA labels for accessibility
+- Meta tags for SEO and social sharing
+- Structured data (JSON-LD) for search engines
+
+### CSS Architecture
+- Tailwind CSS for utility-first styling
+- Custom CSS for specific animations and effects
+- Mobile-first responsive design
+- CSS custom properties for theming
+- Performance optimizations (font-smoothing, etc.)
+
+### JavaScript Functionality
+- Vanilla JavaScript (no frameworks)
+- Modular code organization
+- Event delegation for performance
+- Debounced scroll and resize handlers
+- Intersection Observer for animations
+- Error handling and performance monitoring
+
+## Browser Support
+
+- **Modern Browsers**: Chrome 60+, Firefox 60+, Safari 12+, Edge 79+
+- **Mobile Browsers**: iOS Safari 12+, Chrome Mobile 60+
+- **Features**: ES6+ JavaScript, CSS Grid, Flexbox, Intersection Observer
+
+## Performance Features
+
+- **Lazy Loading**: Images and non-critical resources
+- **Preloading**: Critical resources loaded early
+- **Minification**: Optimized CSS and JavaScript
+- **Caching**: Proper cache headers for static assets
+- **Compression**: Gzip compression support
+
+## SEO Features
+
+- **Meta Tags**: Complete meta description, keywords, and Open Graph
+- **Structured Data**: JSON-LD for rich snippets
+- **Semantic HTML**: Proper heading structure and landmarks
+- **Alt Text**: Descriptive alt text for all images
+- **Canonical URLs**: Proper canonical link tags
+- **Sitemap**: XML sitemap support
+
+## Getting Started
+
+1. **Clone or Download**: Get the files from this repository
+2. **Open in Browser**: Simply open `index.html` in any modern web browser
+3. **Local Server** (Recommended): Use a local server for best performance:
+   ```bash
+   # Using Python
+   python -m http.server 8000
+   
+   # Using Node.js
+   npx serve .
+   
+   # Using PHP
+   php -S localhost:8000
+   ```
+
+## Customization
+
+### Colors
+Edit the Tailwind configuration in `index.html`:
+```javascript
+tailwind.config = {
+    theme: {
+        extend: {
+            colors: {
+                primary: '#your-color',
+                secondary: '#your-color'
+            }
+        }
+    }
+}
 ```
 
-2. **Install dependencies:**
-```bash
-npm install
-```
+### Content
+- **Text Content**: Edit directly in `index.html`
+- **FAQ Data**: Modify the `faqData` array in `script.js`
+- **Images**: Replace images in the `public/` folder
 
-3. **Run the development server:**
-```bash
-npm run dev
-```
+### Styling
+- **Custom CSS**: Add styles to `styles.css`
+- **Tailwind Classes**: Use utility classes in HTML
+- **Responsive Design**: Modify breakpoints as needed
 
-4. **Open [http://localhost:3000](http://localhost:3000) in your browser.**
+## Deployment
 
-## 🛠️ Technologies Used
+### Static Hosting
+This website can be deployed to any static hosting service:
+- **Netlify**: Drag and drop the folder
+- **Vercel**: Connect your repository
+- **GitHub Pages**: Push to a GitHub repository
+- **AWS S3**: Upload files to an S3 bucket
 
-- **Next.js 14** - React framework with App Router
-- **React 18** - UI library
-- **TypeScript** - Type safety
-- **Tailwind CSS** - Utility-first CSS framework
-- **PostCSS** - CSS processing
-- **ESLint** - Code linting
+### CDN Setup
+For better performance, consider:
+- **Cloudflare**: Free CDN and optimization
+- **AWS CloudFront**: Global content delivery
+- **KeyCDN**: High-performance CDN
 
-## 📱 Pages Overview
+## Conversion Notes
 
-- **Home** - Landing page with hero section, features, and usage examples
-- **About** - Company mission, leadership team, and company values
-- **Research** - AI research capabilities and Aion library showcase
-- **Careers** - Job opportunities and company culture
-- **Safety** - AI safety principles and responsible development
-- **Documentation** - Aion library documentation and guides
+### From Next.js to Vanilla
+- **React Components**: Converted to HTML templates
+- **State Management**: Replaced with vanilla JavaScript
+- **Routing**: Replaced with anchor links and page navigation
+- **Image Optimization**: Using standard HTML img tags
+- **Font Loading**: Using Google Fonts CDN
 
-## 🎯 Key Features
+### Preserved Features
+- **Design**: Identical visual appearance
+- **Functionality**: All interactive features work
+- **Performance**: Optimized loading and animations
+- **SEO**: Complete meta tags and structured data
+- **Accessibility**: ARIA labels and keyboard navigation
 
-### Professional Design
-- Clean white and black color scheme
-- Responsive design for all screen sizes
-- Modern typography and spacing
-- Smooth animations and transitions
+## Browser Testing
 
-### SEO Optimization
-- Comprehensive meta tags
-- Favicon implementation across all pages
-- Structured data (JSON-LD)
-- Sitemap and robots.txt
-- Open Graph and Twitter Card support
+Tested on:
+- ✅ Chrome 120+
+- ✅ Firefox 120+
+- ✅ Safari 17+
+- ✅ Edge 120+
+- ✅ Mobile Chrome
+- ✅ Mobile Safari
 
-### Interactive Elements
-- Functional navigation with active states
-- Mobile hamburger menu
-- Animated copy buttons for code examples
-- Collapsible FAQ section
-- Social media integration
+## License
 
-## 📋 Available Scripts
+This project is part of Aqwel AI's website. All rights reserved.
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run start` - Start production server
-- `npm run lint` - Run ESLint
+## Support
 
-## 🌐 Deployment
-
-The website is ready for deployment on platforms like:
-- **Vercel** (recommended for Next.js)
-- **Netlify**
-- **GitHub Pages**
-- **AWS Amplify**
-
-## 📄 License
-
-MIT License - see LICENSE file for details
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📞 Contact
-
+For questions or issues with this conversion:
 - **Email**: aqwelai.company@gmail.com
-- **GitHub**: [@Aksel588](https://github.com/Aksel588)
-- **Website**: [Aqwel AI](https://aqwel.ai)
+- **GitHub**: Create an issue in the repository
+- **Documentation**: Check the inline comments in the code
 
 ---
 
-Built with ❤️ by the Aqwel AI team
+**Note**: This is a static HTML version of the original Next.js website. For dynamic features like server-side rendering or API routes, you would need to implement additional backend functionality.
