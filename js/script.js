@@ -42,6 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initializeFAQ();
     initializeScrollHandlers();
     initializeButtonHandlers();
+    initializeDarkMode();
 });
 
 // Mobile Menu Functionality
@@ -289,8 +290,8 @@ document.addEventListener('keydown', function(event) {
 // Preload critical resources
 function preloadResources() {
     const criticalImages = [
-        'public/logo_website.png',
-        'public/favicon.ico'
+        'images/logo_website.png',
+        'images/favicon.ico'
     ];
     
     criticalImages.forEach(src => {
@@ -319,6 +320,86 @@ if ('performance' in window) {
 window.addEventListener('error', function(event) {
     console.error('JavaScript error:', event.error);
 });
+
+// Dark Mode Functionality
+function initializeDarkMode() {
+    const darkModeToggle = document.getElementById('dark-mode-toggle');
+    const mobileDarkModeToggle = document.getElementById('mobile-dark-mode-toggle');
+    const sunIcon = document.getElementById('sun-icon');
+    const moonIcon = document.getElementById('moon-icon');
+    const darkModeText = document.getElementById('dark-mode-text');
+    
+    // Check for saved theme preference or default to light mode
+    const savedTheme = localStorage.getItem('theme');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const isDarkMode = savedTheme === 'dark' || (!savedTheme && prefersDark);
+    
+    // Apply initial theme
+    if (isDarkMode) {
+        document.documentElement.classList.add('dark');
+        updateDarkModeIcons(true);
+    } else {
+        document.documentElement.classList.remove('dark');
+        updateDarkModeIcons(false);
+    }
+    
+    // Desktop toggle
+    if (darkModeToggle) {
+        darkModeToggle.addEventListener('click', toggleDarkMode);
+    }
+    
+    // Mobile toggle
+    if (mobileDarkModeToggle) {
+        mobileDarkModeToggle.addEventListener('click', toggleDarkMode);
+    }
+    
+    // Listen for system theme changes
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+        if (!localStorage.getItem('theme')) {
+            if (e.matches) {
+                document.documentElement.classList.add('dark');
+                updateDarkModeIcons(true);
+            } else {
+                document.documentElement.classList.remove('dark');
+                updateDarkModeIcons(false);
+            }
+        }
+    });
+}
+
+function toggleDarkMode() {
+    const isDarkMode = document.documentElement.classList.contains('dark');
+    
+    if (isDarkMode) {
+        document.documentElement.classList.remove('dark');
+        localStorage.setItem('theme', 'light');
+        updateDarkModeIcons(false);
+    } else {
+        document.documentElement.classList.add('dark');
+        localStorage.setItem('theme', 'dark');
+        updateDarkModeIcons(true);
+    }
+}
+
+function updateDarkModeIcons(isDarkMode) {
+    const sunIcon = document.getElementById('sun-icon');
+    const moonIcon = document.getElementById('moon-icon');
+    const darkModeText = document.getElementById('dark-mode-text');
+    
+    if (sunIcon && moonIcon) {
+        if (isDarkMode) {
+            sunIcon.classList.remove('hidden');
+            moonIcon.classList.add('hidden');
+        } else {
+            sunIcon.classList.add('hidden');
+            moonIcon.classList.remove('hidden');
+        }
+    }
+    
+    if (darkModeText) {
+        darkModeText.textContent = isDarkMode ? 'Light Mode' : 'Dark Mode';
+    }
+}
 
 // Service Worker registration (if available)
 if ('serviceWorker' in navigator) {

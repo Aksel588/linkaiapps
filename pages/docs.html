@@ -29,34 +29,55 @@
 
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+        }
+    </script>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
-<body class="min-h-screen bg-white">
+<body class="min-h-screen bg-white dark:bg-black">
     <!-- Header -->
-    <nav class="bg-white border-b border-gray-200 sticky top-0 z-50">
+    <nav class="bg-white dark:bg-black border-b border-gray-200 dark:border-gray-800 sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between items-center h-16">
-                <!-- Logo -->
+            <div class="flex items-center justify-between h-16">
+                <!-- Logo (Left) -->
                 <div class="flex items-center">
                     <a href="../index.html" class="flex items-center space-x-3 group">
                         <div class="relative">
-                            <div class="w-10 h-10 rounded-2xl bg-black flex items-center justify-center p-2 group-hover:scale-105 transition-transform duration-200">
-                                <img src="../images/logo_website.png" alt="Aqwel AI Logo" class="w-6 h-6">
+                            <div class="w-10 h-10 rounded-2xl bg-black flex items-center justify-center p-2 group-hover:scale-110 transition-transform duration-300 ease-in-out">
+                                <img src="../images/logo_website.png" alt="Aqwel AI Logo" class="w-6 h-6 group-hover:scale-105 transition-transform duration-300 ease-in-out">
                             </div>
                         </div>
-                        <span class="text-xl md:text-2xl font-bold text-gray-900">Aqwel AI</span>
+                        <span class="text-xl font-bold text-gray-900 dark:text-white group-hover:scale-105 transition-transform duration-300 ease-in-out">Aqwel AI</span>
                     </a>
                 </div>
 
-                <!-- Desktop Navigation -->
-                <div class="hidden md:flex items-center space-x-8">
-                    <a href="../index.html" class="px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors" data-page="home">Home</a>
-                    <a href="about.html" class="px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors" data-page="about">About</a>
-                    <a href="docs.html" class="px-3 py-2 text-sm font-medium text-gray-900 font-semibold" data-page="docs">Docs</a>
-                    <a href="research.html" class="px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors" data-page="research">Research</a>
-                    <a href="safety.html" class="px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors" data-page="safety">Safety</a>
-                    <a href="careers.html" class="px-3 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors" data-page="careers">Careers</a>
-                    <a href="mailto:aqwelai.company@gmail.com?subject=Get Started with Aqwel AI" class="bg-gray-900 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-800 transition-colors">Get Started</a>
+                <!-- Desktop Navigation (Center) -->
+                <div class="hidden md:flex items-center space-x-6 lg:space-x-8 flex-1 justify-center">
+                    <a href="../index.html" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors" data-page="home">Home</a>
+                    <a href="about.html" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors" data-page="about">About</a>
+                    <a href="docs.html" class="px-3 py-2 text-sm font-medium text-gray-900 dark:text-white font-semibold" data-page="docs">Docs</a>
+                    <a href="research.html" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors" data-page="research">Research</a>
+                    <a href="safety.html" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors" data-page="safety">Safety</a>
+                    <a href="careers.html" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors" data-page="careers">Careers</a>
+                </div>
+
+                <!-- Right Side Actions -->
+                <div class="hidden md:flex items-center space-x-3 lg:space-x-4">
+                    <!-- Dark Mode Toggle -->
+                    <button id="dark-mode-toggle" class="p-2 rounded-lg text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors" aria-label="Toggle dark mode">
+                        <!-- Sun icon (visible in dark mode) -->
+                        <svg id="sun-icon" class="hidden w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                        </svg>
+                        <!-- Moon icon (visible in light mode) -->
+                        <svg id="moon-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                        </svg>
+                    </button>
+                    
+                    <a href="mailto:aqwelai.company@gmail.com?subject=Get Started with Aqwel AI" class="bg-gray-900 dark:bg-white text-white dark:text-black px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-800 dark:hover:bg-gray-100 transition-colors">Get Started</a>
                 </div>
 
                 <!-- Mobile Menu Button -->
@@ -77,48 +98,64 @@
 
             <!-- Mobile Menu -->
             <div id="mobile-menu" class="md:hidden transition-all duration-300 ease-in-out max-h-0 opacity-0 overflow-hidden">
-                <div class="px-2 pt-2 pb-3 space-y-1 bg-white border-t border-gray-200 relative z-40">
-                    <a href="../index.html" class="block px-3 py-3 text-base font-medium rounded-lg text-gray-600 hover:text-gray-900 hover:bg-gray-50 transition-colors duration-200" data-page="home">Home</a>
-                    <a href="about.html" class="block px-3 py-3 text-base font-medium rounded-lg text-gray-600 hover:text-gray-900 hover:bg-gray-50 transition-colors duration-200" data-page="about">About</a>
-                    <a href="docs.html" class="block px-3 py-3 text-base font-medium rounded-lg text-gray-900 bg-gray-100 font-semibold" data-page="docs">Docs</a>
-                    <a href="research.html" class="block px-3 py-3 text-base font-medium rounded-lg text-gray-600 hover:text-gray-900 hover:bg-gray-50 transition-colors duration-200" data-page="research">Research</a>
-                    <a href="safety.html" class="block px-3 py-3 text-base font-medium rounded-lg text-gray-600 hover:text-gray-900 hover:bg-gray-50 transition-colors duration-200" data-page="safety">Safety</a>
-                    <a href="careers.html" class="block px-3 py-3 text-base font-medium rounded-lg text-gray-600 hover:text-gray-900 hover:bg-gray-50 transition-colors duration-200" data-page="careers">Careers</a>
+                <div class="px-2 pt-2 pb-3 space-y-1 bg-white dark:bg-black border-t border-gray-200 dark:border-gray-800 relative z-40">
+                    <a href="../index.html" class="block px-3 py-3 text-base font-medium rounded-lg text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200" data-page="home">Home</a>
+                    <a href="about.html" class="block px-3 py-3 text-base font-medium rounded-lg text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200" data-page="about">About</a>
+                    <a href="docs.html" class="block px-3 py-3 text-base font-medium rounded-lg text-gray-900 dark:text-white bg-gray-100 dark:bg-gray-800 font-semibold" data-page="docs">Docs</a>
+                    <a href="research.html" class="block px-3 py-3 text-base font-medium rounded-lg text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200" data-page="research">Research</a>
+                    <a href="safety.html" class="block px-3 py-3 text-base font-medium rounded-lg text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200" data-page="safety">Safety</a>
+                    <a href="careers.html" class="block px-3 py-3 text-base font-medium rounded-lg text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200" data-page="careers">Careers</a>
+                    
+                    <!-- Mobile Dark Mode Toggle -->
+                    <div class="px-3 py-3">
+                        <button id="mobile-dark-mode-toggle" class="flex items-center space-x-3 w-full text-left text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors duration-200">
+                            <!-- Sun icon (visible in dark mode) -->
+                            <svg id="mobile-sun-icon" class="hidden w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                            </svg>
+                            <!-- Moon icon (visible in light mode) -->
+                            <svg id="mobile-moon-icon" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                            </svg>
+                            <span id="mobile-dark-mode-text">Dark Mode</span>
+                        </button>
+                    </div>
+                    
                     <div class="pt-4 pb-2">
-                        <a href="mailto:aqwelai.company@gmail.com?subject=Get Started with Aqwel AI" class="block w-full bg-gray-900 text-white text-center px-4 py-3 rounded-lg text-base font-medium hover:bg-gray-800 transition-colors duration-200">Get Started</a>
+                        <a href="mailto:aqwelai.company@gmail.com?subject=Get Started with Aqwel AI" class="block w-full bg-gray-900 dark:bg-white text-white dark:text-gray-900 text-center px-4 py-3 rounded-lg text-base font-medium hover:bg-gray-800 dark:hover:bg-gray-100 transition-colors duration-200">Get Started</a>
                     </div>
                 </div>
             </div>
         </div>
     </nav>
 
-    <main class="min-h-screen bg-white flex items-center justify-center">
+    <main class="min-h-screen bg-white dark:bg-black flex items-center justify-center">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center">
-                <div class="w-24 h-24 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-8">
-                    <svg class="w-12 h-12 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div class="w-24 h-24 bg-gray-100 dark:bg-gray-800 rounded-full flex items-center justify-center mx-auto mb-8">
+                    <svg class="w-12 h-12 text-gray-600 dark:text-gray-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                     </svg>
                 </div>
                 
-                <h1 class="text-6xl md:text-7xl font-bold text-gray-900 mb-8 font-tt-interphases">
+                <h1 class="text-6xl md:text-7xl font-bold text-gray-900 dark:text-white mb-8 font-tt-interphases">
                     Documentation
                 </h1>
                 
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-600 mb-8">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-600 dark:text-gray-300 mb-8">
                     Coming Soon
                 </h2>
                 
-                <p class="text-xl text-gray-500 mb-12 max-w-2xl mx-auto leading-relaxed">
+                <p class="text-xl text-gray-500 dark:text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
                     We're working hard to bring you comprehensive documentation for Aqwel AI. 
                     Stay tuned for detailed guides, API references, and examples.
                 </p>
                 
                 <div class="flex flex-col sm:flex-row gap-6 justify-center">
-                    <a href="../index.html" class="bg-gray-900 text-white font-medium py-4 px-8 rounded-full hover:bg-gray-800 transition-all duration-300 text-lg">
+                    <a href="../index.html" class="bg-gray-900 dark:bg-white text-white dark:text-gray-900 font-medium py-4 px-8 rounded-full hover:bg-gray-800 dark:hover:bg-gray-100 transition-all duration-300 text-lg">
                         Back to Home
                     </a>
-                    <a href="about.html" class="border border-gray-300 text-gray-700 font-medium py-4 px-8 rounded-full hover:bg-gray-50 transition-all duration-300 text-lg">
+                    <a href="about.html" class="border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 font-medium py-4 px-8 rounded-full hover:bg-gray-50 dark:hover:bg-gray-800 transition-all duration-300 text-lg">
                         Learn More
                     </a>
                 </div>
@@ -127,7 +164,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="bg-white border-t border-gray-200 py-8 sm:py-12">
+    <footer class="bg-white dark:bg-black border-t border-gray-200 dark:border-gray-800 py-8 sm:py-12">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <!-- Mobile-first grid layout -->
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
@@ -137,57 +174,57 @@
                         <div class="w-8 h-8 rounded-xl bg-black flex items-center justify-center p-1.5">
                             <img src="../images/logo_website.png" alt="Aqwel AI Logo" class="w-5 h-5">
                         </div>
-                        <span class="text-lg font-bold text-gray-900">Aqwel AI</span>
+                        <span class="text-lg font-bold text-gray-900 dark:text-white">Aqwel AI</span>
                     </div>
-                    <p class="text-sm text-gray-600 mb-4 sm:mb-6 max-w-xs">
+                    <p class="text-sm text-gray-600 dark:text-gray-300 mb-4 sm:mb-6 max-w-xs">
                         Building safe artificial general intelligence that benefits all of humanity.
                     </p>
                 </div>
                 
                 <!-- Company Section -->
                 <div>
-                    <h4 class="text-sm font-semibold text-gray-900 mb-3 sm:mb-4">Company</h4>
+                    <h4 class="text-sm font-semibold text-gray-900 dark:text-white mb-3 sm:mb-4">Company</h4>
                     <ul class="space-y-2 sm:space-y-3">
-                        <li><a href="about.html" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">About</a></li>
-                        <li><a href="#" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Blog</a></li>
-                        <li><a href="careers.html" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Careers</a></li>
-                        <li><a href="#" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Charter</a></li>
+                        <li><a href="about.html" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">About</a></li>
+                        <li><a href="#" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">Blog</a></li>
+                        <li><a href="careers.html" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">Careers</a></li>
+                        <li><a href="#" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">Charter</a></li>
                     </ul>
                 </div>
                 
                 <!-- Research Section -->
                 <div>
-                    <h4 class="text-sm font-semibold text-gray-900 mb-3 sm:mb-4">Research</h4>
+                    <h4 class="text-sm font-semibold text-gray-900 dark:text-white mb-3 sm:mb-4">Research</h4>
                     <ul class="space-y-2 sm:space-y-3">
-                        <li><a href="research.html" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Research</a></li>
-                        <li><a href="safety.html" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Safety</a></li>
-                        <li><a href="#" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Papers</a></li>
-                        <li><a href="#" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Models</a></li>
+                        <li><a href="research.html" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">Research</a></li>
+                        <li><a href="safety.html" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">Safety</a></li>
+                        <li><a href="#" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">Papers</a></li>
+                        <li><a href="#" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">Models</a></li>
                     </ul>
                 </div>
                 
                 <!-- Community Section -->
                 <div>
-                    <h4 class="text-sm font-semibold text-gray-900 mb-3 sm:mb-4">Community</h4>
+                    <h4 class="text-sm font-semibold text-gray-900 dark:text-white mb-3 sm:mb-4">Community</h4>
                     <ul class="space-y-2 sm:space-y-3">
-                        <li><a href="https://github.com/Aqwel-AI" target="_blank" rel="noopener noreferrer" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">GitHub</a></li>
-                        <li><a href="https://www.linkedin.com/company/aqwelaiofficial/" target="_blank" rel="noopener noreferrer" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">LinkedIn</a></li>
-                        <li><a href="#" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">YouTube</a></li>
-                        <li><a href="#" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Help Center</a></li>
+                        <li><a href="https://github.com/Aqwel-AI" target="_blank" rel="noopener noreferrer" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/company/aqwelaiofficial/" target="_blank" rel="noopener noreferrer" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">LinkedIn</a></li>
+                        <li><a href="#" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">YouTube</a></li>
+                        <li><a href="#" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">Help Center</a></li>
                     </ul>
                 </div>
             </div>
             
             <!-- Bottom section with better mobile layout -->
-            <div class="border-t border-gray-200 mt-8 sm:mt-12 pt-6 sm:pt-8">
+            <div class="border-t border-gray-200 dark:border-gray-800 mt-8 sm:mt-12 pt-6 sm:pt-8">
                 <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center space-y-4 sm:space-y-0">
-                    <p class="text-sm text-gray-600 order-2 sm:order-1">
+                    <p class="text-sm text-gray-600 dark:text-gray-300 order-2 sm:order-1">
                         © 2025 Aqwel AI. All rights reserved.
                     </p>
                     <div class="flex flex-wrap gap-4 sm:gap-6 order-1 sm:order-2">
-                        <a href="#" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Privacy Policy</a>
-                        <a href="#" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Terms of Use</a>
-                        <a href="#" class="text-sm text-gray-600 hover:text-gray-900 transition-colors">Cookie Policy</a>
+                        <a href="#" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">Privacy Policy</a>
+                        <a href="#" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">Terms of Use</a>
+                        <a href="#" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">Cookie Policy</a>
                     </div>
                 </div>
             </div>
@@ -197,5 +234,6 @@
     <!-- Scripts -->
     <script src="../js/components.js"></script>
     <script src="../js/script.js"></script>
+    
 </body>
 </html>

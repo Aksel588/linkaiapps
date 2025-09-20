@@ -6,6 +6,12 @@ class ComponentLoader {
 
     async loadComponent(componentName, containerId) {
         try {
+            // Check if we're running on file:// protocol (local development)
+            if (window.location.protocol === 'file:') {
+                console.log(`Skipping component loading for ${componentName} on file:// protocol`);
+                return null;
+            }
+            
             const response = await fetch(`components/${componentName}.html`);
             if (!response.ok) {
                 throw new Error(`Failed to load component: ${componentName}`);
@@ -50,6 +56,16 @@ class ComponentLoader {
     }
 
     async loadAllComponents() {
+        // Check if we're running on file:// protocol (local development)
+        if (window.location.protocol === 'file:') {
+            console.log('Skipping component loading on file:// protocol - using embedded headers/footers');
+            // Still set active navigation state
+            this.setActiveNavigation();
+            // Initialize dark mode after navigation is set
+            this.initializeDarkMode();
+            return;
+        }
+        
         await Promise.all([
             this.loadHeader(),
             this.loadFooter()
@@ -57,6 +73,8 @@ class ComponentLoader {
         
         // Set active navigation state after components are loaded
         this.setActiveNavigation();
+        // Initialize dark mode after navigation is set
+        this.initializeDarkMode();
     }
 
     setActiveNavigation() {
@@ -78,13 +96,73 @@ class ComponentLoader {
         navLinks.forEach(link => {
             const page = link.getAttribute('data-page');
             if (page === currentPage) {
-                link.classList.remove('text-gray-600', 'hover:text-gray-900');
-                link.classList.add('text-gray-900', 'font-semibold');
+                // Active page styling - respect dark mode
+                link.classList.remove('text-gray-600', 'hover:text-gray-900', 'dark:text-gray-300', 'dark:hover:text-white');
+                link.classList.add('text-gray-900', 'dark:text-white', 'font-semibold');
             } else {
-                link.classList.remove('text-gray-900', 'font-semibold');
-                link.classList.add('text-gray-600', 'hover:text-gray-900');
+                // Inactive page styling - respect dark mode
+                link.classList.remove('text-gray-900', 'dark:text-white', 'font-semibold');
+                link.classList.add('text-gray-600', 'hover:text-gray-900', 'dark:text-gray-300', 'dark:hover:text-white');
             }
         });
+    }
+
+    initializeDarkMode() {
+        // Check if dark mode is already initialized
+        if (window.darkModeInitialized) {
+            return;
+        }
+
+        const darkModeToggle = document.getElementById('dark-mode-toggle');
+        const mobileDarkModeToggle = document.getElementById('mobile-dark-mode-toggle');
+        const sunIcon = document.getElementById('sun-icon');
+        const moonIcon = document.getElementById('moon-icon');
+        const darkModeText = document.getElementById('dark-mode-text');
+        const html = document.documentElement;
+        
+        // Check for saved theme preference or default to light mode
+        const currentTheme = localStorage.getItem('theme') || 
+            (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        
+        // Apply the current theme
+        if (currentTheme === 'dark') {
+            html.classList.add('dark');
+            this.updateIcons(true);
+        } else {
+            this.updateIcons(false);
+        }
+        
+        // Update icon visibility
+        this.updateIcons = (isDark) => {
+            if (sunIcon && moonIcon) {
+                sunIcon.classList.toggle('hidden', !isDark);
+                moonIcon.classList.toggle('hidden', isDark);
+            }
+            if (darkModeText) {
+                darkModeText.textContent = isDark ? 'Light Mode' : 'Dark Mode';
+            }
+        };
+        
+        // Toggle function
+        const toggleDarkMode = () => {
+            html.classList.toggle('dark');
+            const isDark = html.classList.contains('dark');
+            localStorage.setItem('theme', isDark ? 'dark' : 'light');
+            this.updateIcons(isDark);
+            // Re-apply navigation styling after theme change
+            setTimeout(() => this.setActiveNavigation(), 100);
+        };
+        
+        // Add event listeners
+        if (darkModeToggle) {
+            darkModeToggle.addEventListener('click', toggleDarkMode);
+        }
+        if (mobileDarkModeToggle) {
+            mobileDarkModeToggle.addEventListener('click', toggleDarkMode);
+        }
+
+        // Mark as initialized
+        window.darkModeInitialized = true;
     }
 }
 
