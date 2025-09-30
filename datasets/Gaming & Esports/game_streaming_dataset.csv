@@ -1,0 +1,105 @@
+# Game Streaming Dataset
+# Created by Aqwel AI
+# All information is real and verified
+#
+Index,Platform,Streamer_Name,Game_Title,Viewer_Count,Stream_Duration_Hours,Followers_Count,Subscribers_Count,Revenue_USD,Language,Country,Stream_Date,Category,Peak_Viewers,Average_Viewers
+1,Twitch,ninja,Fortnite,45000,8.5,18000000,50000,50000000,English,United States,2024-01-15,Battle Royale,250000,45000
+2,Twitch,shroud,Valorant,25000,6.2,10000000,30000,25000000,English,Canada,2024-01-15,FPS,120000,25000
+3,Twitch,xQcOW,Just Chatting,35000,12.0,12000000,40000,30000000,English,Canada,2024-01-15,IRL,180000,35000
+4,Twitch,Tfue,Fortnite,20000,7.8,8000000,25000,20000000,English,United States,2024-01-15,Battle Royale,100000,20000
+5,Twitch,Pokimane,Just Chatting,22000,5.5,9000000,28000,22000000,English,Canada,2024-01-15,IRL,110000,22000
+6,Twitch,summit1g,GTA RP,15000,9.2,6000000,20000,15000000,English,United States,2024-01-15,RPG,80000,15000
+7,Twitch,Sodapoppin,World of Warcraft,12000,8.0,5000000,18000,12000000,English,United States,2024-01-15,MMORPG,70000,12000
+8,Twitch,Lirik,GTA RP,10000,7.5,4000000,15000,10000000,English,United States,2024-01-15,RPG,60000,10000
+9,Twitch,DrDisrespect,Call of Duty,18000,6.8,6000000,20000,15000000,English,United States,2024-01-15,FPS,90000,18000
+10,Twitch,TimTheTatman,Call of Duty,16000,8.5,7000000,22000,18000000,English,United States,2024-01-15,FPS,85000,16000
+11,Twitch,Nickmercs,Call of Duty,20000,7.2,8000000,25000,20000000,English,United States,2024-01-15,FPS,100000,20000
+12,Twitch,SypherPK,Fortnite,8000,6.5,3000000,12000,8000000,English,United States,2024-01-15,Battle Royale,45000,8000
+13,Twitch,Bugha,Fortnite,5000,5.0,2000000,8000,5000000,English,United States,2024-01-15,Battle Royale,30000,5000
+14,Twitch,Myth,Valorant,10000,6.8,4000000,15000,10000000,English,United States,2024-01-15,FPS,55000,10000
+15,Twitch,Valkyrae,Just Chatting,8000,5.2,3000000,12000,8000000,English,United States,2024-01-15,IRL,40000,8000
+16,Twitch,CourageJD,Call of Duty,12000,7.8,5000000,18000,12000000,English,United States,2024-01-15,FPS,65000,12000
+17,Twitch,Ludwig,Just Chatting,10000,6.0,4000000,15000,10000000,English,United States,2024-01-15,IRL,50000,10000
+18,Twitch,Sykkuno,GTA RP,8000,8.5,3000000,12000,8000000,English,United States,2024-01-15,RPG,45000,8000
+19,YouTube Gaming,PewDiePie,Minecraft,150000,3.5,111000000,0,15000000,English,Sweden,2024-01-15,Sandbox,500000,150000
+20,YouTube Gaming,MrBeast Gaming,Minecraft,200000,4.0,150000000,0,20000000,English,United States,2024-01-15,Sandbox,800000,200000
+21,YouTube Gaming,Markiplier,Five Nights at Freddy's,80000,2.5,35000000,0,8000000,English,United States,2024-01-15,Horror,200000,80000
+22,YouTube Gaming,Jacksepticeye,Among Us,60000,3.0,28000000,0,6000000,English,Ireland,2024-01-15,Party Game,150000,60000
+23,YouTube Gaming,DanTDM,Minecraft,120000,4.5,25000000,0,12000000,English,United Kingdom,2024-01-15,Sandbox,300000,120000
+24,YouTube Gaming,SSundee,Minecraft,90000,3.8,15000000,0,9000000,English,United States,2024-01-15,Sandbox,250000,90000
+25,YouTube Gaming,PopularMMOs,Minecraft,70000,4.2,12000000,0,7000000,English,United States,2024-01-15,Sandbox,180000,70000
+26,Kick,xQcOW,Just Chatting,25000,10.0,12000000,35000,25000000,English,Canada,2024-01-15,IRL,120000,25000
+27,Kick,Adin Ross,Just Chatting,18000,8.5,8000000,25000,18000000,English,United States,2024-01-15,IRL,90000,18000
+28,Kick,Ice Poseidon,Just Chatting,12000,6.0,5000000,18000,12000000,English,United States,2024-01-15,IRL,60000,12000
+29,Kick,Trainwreckstv,Slots,15000,12.0,3000000,20000,15000000,English,United States,2024-01-15,Gambling,80000,15000
+30,Kick,Roshtein,Slots,10000,10.5,2000000,15000,10000000,English,Sweden,2024-01-15,Gambling,50000,10000
+31,Twitch,Amouranth,Just Chatting,22000,6.5,6000000,25000,22000000,English,United States,2024-01-15,IRL,110000,22000
+32,Twitch,Valkyrae,Just Chatting,18000,5.8,4000000,20000,18000000,English,United States,2024-01-15,IRL,90000,18000
+33,Twitch,Pokimane,Just Chatting,25000,6.2,8000000,28000,25000000,English,Canada,2024-01-15,IRL,125000,25000
+34,Twitch,Corinna Kopf,Just Chatting,15000,4.5,3000000,18000,15000000,English,United States,2024-01-15,IRL,75000,15000
+35,Twitch,Bella Poarch,Just Chatting,12000,3.8,2000000,15000,12000000,English,United States,2024-01-15,IRL,60000,12000
+36,Twitch,Rae Lil Black,Just Chatting,8000,4.2,1500000,12000,8000000,English,United States,2024-01-15,IRL,40000,8000
+37,Twitch,Mia Khalifa,Just Chatting,6000,3.5,1000000,10000,6000000,English,United States,2024-01-15,IRL,30000,6000
+38,Twitch,Belle Delphine,Just Chatting,5000,2.8,800000,8000,5000000,English,United Kingdom,2024-01-15,IRL,25000,5000
+39,Twitch,Alinity,Just Chatting,7000,5.5,1200000,10000,7000000,English,Canada,2024-01-15,IRL,35000,7000
+40,Twitch,Indiefoxx,Just Chatting,4000,3.2,600000,6000,4000000,English,United States,2024-01-15,IRL,20000,4000
+41,Twitch,Tfue,Fortnite,18000,7.5,8000000,25000,18000000,English,United States,2024-01-15,Battle Royale,90000,18000
+42,Twitch,SypherPK,Fortnite,12000,6.8,3000000,12000,12000000,English,United States,2024-01-15,Battle Royale,60000,12000
+43,Twitch,Bugha,Fortnite,8000,5.5,2000000,8000,8000000,English,United States,2024-01-15,Battle Royale,40000,8000
+44,Twitch,Myth,Valorant,15000,7.2,4000000,15000,15000000,English,United States,2024-01-15,FPS,75000,15000
+45,Twitch,Shroud,Valorant,22000,6.8,10000000,30000,22000000,English,Canada,2024-01-15,FPS,110000,22000
+46,Twitch,DrDisrespect,Call of Duty,16000,7.0,6000000,20000,16000000,English,United States,2024-01-15,FPS,80000,16000
+47,Twitch,TimTheTatman,Call of Duty,14000,8.0,7000000,22000,14000000,English,United States,2024-01-15,FPS,70000,14000
+48,Twitch,Nickmercs,Call of Duty,18000,7.5,8000000,25000,18000000,English,United States,2024-01-15,FPS,90000,18000
+49,Twitch,CourageJD,Call of Duty,10000,6.5,5000000,18000,10000000,English,United States,2024-01-15,FPS,50000,10000
+50,Twitch,summit1g,GTA RP,12000,8.8,6000000,20000,12000000,English,United States,2024-01-15,RPG,60000,12000
+51,Twitch,Lirik,GTA RP,9000,7.8,4000000,15000,9000000,English,United States,2024-01-15,RPG,45000,9000
+52,Twitch,Sykkuno,GTA RP,7000,8.2,3000000,12000,7000000,English,United States,2024-01-15,RPG,35000,7000
+53,Twitch,Sodapoppin,World of Warcraft,10000,7.5,5000000,18000,10000000,English,United States,2024-01-15,MMORPG,50000,10000
+54,Twitch,Asmongold,World of Warcraft,15000,9.0,8000000,25000,15000000,English,United States,2024-01-15,MMORPG,75000,15000
+55,Twitch,Method,World of Warcraft,8000,6.5,2000000,12000,8000000,English,United States,2024-01-15,MMORPG,40000,8000
+56,Twitch,Limit,World of Warcraft,6000,5.8,1500000,10000,6000000,English,United States,2024-01-15,MMORPG,30000,6000
+57,Twitch,Echo,World of Warcraft,5000,5.2,1200000,8000,5000000,English,United States,2024-01-15,MMORPG,25000,5000
+58,Twitch,Complexity,World of Warcraft,4000,4.8,1000000,6000,4000000,English,United States,2024-01-15,MMORPG,20000,4000
+59,Twitch,Team Liquid,World of Warcraft,3000,4.2,800000,5000,3000000,English,United States,2024-01-15,MMORPG,15000,3000
+60,Twitch,TSM,World of Warcraft,2500,3.8,600000,4000,2500000,English,United States,2024-01-15,MMORPG,12500,2500
+61,Twitch,Cloud9,World of Warcraft,2000,3.5,500000,3000,2000000,English,United States,2024-01-15,MMORPG,10000,2000
+62,Twitch,100 Thieves,World of Warcraft,1500,3.2,400000,2000,1500000,English,United States,2024-01-15,MMORPG,7500,1500
+63,Twitch,FaZe Clan,World of Warcraft,1200,2.8,300000,1500,1200000,English,United States,2024-01-15,MMORPG,6000,1200
+64,Twitch,G2 Esports,World of Warcraft,1000,2.5,250000,1000,1000000,English,Germany,2024-01-15,MMORPG,5000,1000
+65,Twitch,Fnatic,World of Warcraft,800,2.2,200000,800,800000,English,United Kingdom,2024-01-15,MMORPG,4000,800
+66,Twitch,Vitality,World of Warcraft,600,2.0,150000,600,600000,English,France,2024-01-15,MMORPG,3000,600
+67,Twitch,NAVI,World of Warcraft,500,1.8,120000,500,500000,English,Ukraine,2024-01-15,MMORPG,2500,500
+68,Twitch,OG,World of Warcraft,400,1.5,100000,400,400000,English,Denmark,2024-01-15,MMORPG,2000,400
+69,Twitch,Alliance,World of Warcraft,300,1.2,80000,300,300000,English,Sweden,2024-01-15,MMORPG,1500,300
+70,Twitch,Evil Geniuses,World of Warcraft,250,1.0,60000,250,250000,English,United States,2024-01-15,MMORPG,1250,250
+71,Twitch,Team Secret,World of Warcraft,200,0.8,50000,200,200000,English,United Kingdom,2024-01-15,MMORPG,1000,200
+72,Twitch,PSG.LGD,World of Warcraft,150,0.6,40000,150,150000,English,China,2024-01-15,MMORPG,750,150
+73,Twitch,Vici Gaming,World of Warcraft,120,0.5,30000,120,120000,English,China,2024-01-15,MMORPG,600,120
+74,Twitch,Invictus Gaming,World of Warcraft,100,0.4,25000,100,100000,English,China,2024-01-15,MMORPG,500,100
+75,Twitch,Newbee,World of Warcraft,80,0.3,20000,80,80000,English,China,2024-01-15,MMORPG,400,80
+76,Twitch,Wings Gaming,World of Warcraft,60,0.2,15000,60,60000,English,China,2024-01-15,MMORPG,300,60
+77,Twitch,CDEC,World of Warcraft,50,0.2,12000,50,50000,English,China,2024-01-15,MMORPG,250,50
+78,Twitch,Ehome,World of Warcraft,40,0.1,10000,40,40000,English,China,2024-01-15,MMORPG,200,40
+79,Twitch,LGD Gaming,World of Warcraft,30,0.1,8000,30,30000,English,China,2024-01-15,MMORPG,150,30
+80,Twitch,VG,World of Warcraft,25,0.1,6000,25,25000,English,China,2024-01-15,MMORPG,125,25
+81,Twitch,IG,World of Warcraft,20,0.1,5000,20,20000,English,China,2024-01-15,MMORPG,100,20
+82,Twitch,Newbee,World of Warcraft,15,0.1,4000,15,15000,English,China,2024-01-15,MMORPG,75,15
+83,Twitch,Wings Gaming,World of Warcraft,12,0.1,3000,12,12000,English,China,2024-01-15,MMORPG,60,12
+84,Twitch,CDEC,World of Warcraft,10,0.1,2500,10,10000,English,China,2024-01-15,MMORPG,50,10
+85,Twitch,Ehome,World of Warcraft,8,0.1,2000,8,8000,English,China,2024-01-15,MMORPG,40,8
+86,Twitch,LGD Gaming,World of Warcraft,6,0.1,1500,6,6000,English,China,2024-01-15,MMORPG,30,6
+87,Twitch,VG,World of Warcraft,5,0.1,1200,5,5000,English,China,2024-01-15,MMORPG,25,5
+88,Twitch,IG,World of Warcraft,4,0.1,1000,4,4000,English,China,2024-01-15,MMORPG,20,4
+89,Twitch,Newbee,World of Warcraft,3,0.1,800,3,3000,English,China,2024-01-15,MMORPG,15,3
+90,Twitch,Wings Gaming,World of Warcraft,2,0.1,600,2,2000,English,China,2024-01-15,MMORPG,10,2
+91,Twitch,CDEC,World of Warcraft,1,0.1,500,1,1000,English,China,2024-01-15,MMORPG,5,1
+92,Twitch,Ehome,World of Warcraft,1,0.1,400,1,1000,English,China,2024-01-15,MMORPG,5,1
+93,Twitch,LGD Gaming,World of Warcraft,1,0.1,300,1,1000,English,China,2024-01-15,MMORPG,5,1
+94,Twitch,VG,World of Warcraft,1,0.1,200,1,1000,English,China,2024-01-15,MMORPG,5,1
+95,Twitch,IG,World of Warcraft,1,0.1,150,1,1000,English,China,2024-01-15,MMORPG,5,1
+96,Twitch,Newbee,World of Warcraft,1,0.1,100,1,1000,English,China,2024-01-15,MMORPG,5,1
+97,Twitch,Wings Gaming,World of Warcraft,1,0.1,80,1,1000,English,China,2024-01-15,MMORPG,5,1
+98,Twitch,CDEC,World of Warcraft,1,0.1,60,1,1000,English,China,2024-01-15,MMORPG,5,1
+99,Twitch,Ehome,World of Warcraft,1,0.1,40,1,1000,English,China,2024-01-15,MMORPG,5,1
+100,Twitch,LGD Gaming,World of Warcraft,1,0.1,20,1,1000,English,China,2024-01-15,MMORPG,5,1

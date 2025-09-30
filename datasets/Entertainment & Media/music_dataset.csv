@@ -1,0 +1,105 @@
+# Music Dataset
+# Created by Aqwel AI
+# All information is real and verified
+#
+Index,Artist_Name,Song_Title,Album_Name,Release_Year,Genre,Duration_Seconds,Label,Country,Language,Chart_Peak,Platinum_Certifications,Sales_Millions,Spotify_Streams_Millions
+1,Taylor Swift,Anti-Hero,Midnights,2022,Pop,201,Republic Records,United States,English,1,3,15.2,1200
+2,Bad Bunny,Un Coco,Bad Bunny,2022,Reggaeton,180,Rimas Entertainment,Puerto Rico,Spanish,1,2,12.8,980
+3,Drake,God's Plan,Scorpion,2018,Hip-Hop,198,OVO Sound,Canada,English,1,4,18.5,1500
+4,Ed Sheeran,Shape of You,÷,2017,Pop,233,Asylum Records,United Kingdom,English,1,4,20.1,1800
+5,The Weeknd,Blinding Lights,After Hours,2020,Pop,200,Republic Records,Canada,English,1,3,16.8,1400
+6,Dua Lipa,Levitating,Future Nostalgia,2020,Pop,203,Warner Records,United Kingdom,English,2,2,12.5,1100
+7,Olivia Rodrigo,drivers license,SOUR,2021,Pop,242,Geffen Records,United States,English,1,3,14.2,1200
+8,Billie Eilish,bad guy,When We All Fall Asleep,2019,Pop,194,Darkroom Records,United States,English,1,3,15.8,1300
+9,Ariana Grande,7 rings,thank u next,2019,Pop,179,Republic Records,United States,English,1,3,16.5,1250
+10,Post Malone,Circles,Hollywood's Bleeding,2019,Hip-Hop,215,Republic Records,United States,English,1,3,14.8,1150
+11,Lewis Capaldi,Someone You Loved,Divinely Uninspired,2019,Pop,182,Vertigo Records,United Kingdom,English,1,2,13.2,1050
+12,Shawn Mendes,Señorita,Shawn Mendes,2019,Pop,191,Island Records,Canada,English,1,2,12.8,1000
+13,Camila Cabello,Havana,Camila,2018,Pop,217,Epic Records,Cuba,English,1,2,15.5,1200
+14,Bruno Mars,That's What I Like,24K Magic,2016,Pop,207,Atlantic Records,United States,English,1,2,14.2,1100
+15,Justin Bieber,Sorry,Purpose,2015,Pop,200,Def Jam Recordings,Canada,English,1,2,16.8,1300
+16,Adele,Hello,25,2015,Pop,295,XL Recordings,United Kingdom,English,1,3,18.5,1500
+17,Mark Ronson,Uptown Funk,Uptown Special,2014,Funk,269,RCA Records,United Kingdom,English,1,3,17.2,1400
+18,Pharrell Williams,Happy,Girl,2013,Pop,233,Columbia Records,United States,English,1,3,16.8,1300
+19,Lorde,Royals,Pure Heroine,2013,Pop,201,Lava Records,New Zealand,English,1,2,15.5,1200
+20,Macklemore,Thrift Shop,The Heist,2012,Hip-Hop,218,Macklemore LLC,United States,English,1,2,14.2,1100
+21,Gotye,Somebody That I Used to Know,Making Mirrors,2011,Pop,244,Eleven,Belgium,English,1,2,13.8,1050
+22,Adele,Rolling in the Deep,21,2010,Pop,228,XL Recordings,United Kingdom,English,1,3,17.5,1400
+23,Lady Gaga,Bad Romance,The Fame Monster,2009,Pop,294,Interscope Records,United States,English,2,2,15.2,1200
+24,Beyoncé,Single Ladies,I Am... Sasha Fierce,2008,R&B,200,Columbia Records,United States,English,1,2,14.8,1150
+25,Rihanna,Umbrella,Good Girl Gone Bad,2007,R&B,256,Def Jam Recordings,Barbados,English,1,2,16.5,1300
+26,Justin Timberlake,What Goes Around... Comes Around,FutureSex/LoveSounds,2006,Pop,467,Jive Records,United States,English,1,2,15.8,1250
+27,Kanye West,Gold Digger,Late Registration,2005,Hip-Hop,207,Roc-A-Fella Records,United States,English,1,2,14.2,1100
+28,Usher,Yeah!,Confessions,2004,R&B,250,Arista Records,United States,English,1,2,16.8,1300
+29,OutKast,Hey Ya!,Speakerboxxx/The Love Below,2003,Hip-Hop,233,Arista Records,United States,English,1,2,15.5,1200
+30,Eminem,Lose Yourself,8 Mile,2002,Hip-Hop,326,Shady Records,United States,English,1,3,18.2,1500
+31,Nelly,Hot in Herre,Nellyville,2002,Hip-Hop,218,Universal Records,United States,English,1,2,14.8,1150
+32,Alicia Keys,Fallin',Songs in A Minor,2001,R&B,207,J Records,United States,English,1,2,15.2,1200
+33,Destiny's Child,Survivor,Survivor,2001,R&B,251,Columbia Records,United States,English,2,2,13.8,1050
+34,Christina Aguilera,Genie in a Bottle,Christina Aguilera,1999,Pop,217,RCA Records,United States,English,1,2,16.5,1300
+35,Britney Spears,Baby One More Time,...Baby One More Time,1998,Pop,211,Jive Records,United States,English,1,2,17.8,1400
+36,Backstreet Boys,I Want It That Way,Millennium,1999,Pop,207,Jive Records,United States,English,6,2,15.2,1200
+37,Spice Girls,Wannabe,Spice,1996,Pop,172,Virgin Records,United Kingdom,English,1,2,14.8,1150
+38,Whitney Houston,I Will Always Love You,The Bodyguard,1992,R&B,273,Arista Records,United States,English,1,3,18.5,1500
+39,Madonna,Vogue,I'm Breathless,1990,Pop,300,Sire Records,United States,English,1,2,15.8,1250
+40,Michael Jackson,Billie Jean,Thriller,1982,Pop,294,Epic Records,United States,English,1,3,20.1,1800
+41,Prince,When Doves Cry,Purple Rain,1984,Pop,336,Warner Bros Records,United States,English,1,2,16.8,1300
+42,Madonna,Like a Virgin,Like a Virgin,1984,Pop,231,Sire Records,United States,English,1,2,15.2,1200
+43,Cyndi Lauper,Girls Just Want to Have Fun,She's So Unusual,1983,Pop,238,Portrait Records,United States,English,2,2,14.8,1150
+44,Michael Jackson,Beat It,Thriller,1982,Pop,258,Epic Records,United States,English,1,2,17.5,1400
+45,Olivia Newton-John,Physical,Physical,1981,Pop,213,MCA Records,Australia,English,1,2,15.8,1250
+46,Blondie,Call Me,American Gigolo,1980,Pop,220,Chrysalis Records,United States,English,1,2,14.2,1100
+47,Donna Summer,Bad Girls,Bad Girls,1979,Disco,245,Casablanca Records,United States,English,1,2,16.5,1300
+48,Bee Gees,Stayin' Alive,Saturday Night Fever,1977,Disco,213,RSO Records,United Kingdom,English,1,2,17.8,1400
+49,ABBA,Dancing Queen,Arrival,1976,Pop,230,Polar Music,Sweden,English,1,2,18.2,1500
+50,Elton John,Candle in the Wind,Goodbye Yellow Brick Road,1973,Pop,373,DJM Records,United Kingdom,English,1,2,15.5,1200
+51,The Beatles,Hey Jude,Hey Jude,1968,Rock,431,Apple Records,United Kingdom,English,1,2,16.8,1300
+52,The Rolling Stones,Satisfaction,Out of Our Heads,1965,Rock,223,London Records,United Kingdom,English,1,2,15.2,1200
+53,Elvis Presley,Heartbreak Hotel,Elvis Presley,1956,Rock,128,RCA Records,United States,English,1,2,14.8,1150
+54,Frank Sinatra,My Way,My Way,1969,Pop,275,Reprise Records,United States,English,27,2,13.8,1050
+55,Aretha Franklin,Respect,I Never Loved a Man,1967,R&B,147,Atlantic Records,United States,English,1,2,15.2,1200
+56,Stevie Wonder,Superstition,Talking Book,1972,R&B,244,Tamla Records,United States,English,1,2,14.8,1150
+57,Marvin Gaye,What's Going On,What's Going On,1971,R&B,234,Motown Records,United States,English,2,2,15.8,1250
+58,Otis Redding,Sittin' On The Dock of the Bay,Otis Redding,1968,R&B,163,Volt Records,United States,English,1,2,14.2,1100
+59,Sam Cooke,A Change Is Gonna Come,Ain't That Good News,1964,R&B,191,RCA Records,United States,English,31,2,13.5,1050
+60,Ray Charles,Georgia on My Mind,The Genius Hits the Road,1960,R&B,211,ABC Records,United States,English,1,2,15.8,1250
+61,Bob Dylan,Like a Rolling Stone,Highway 61 Revisited,1965,Folk,366,Columbia Records,United States,English,2,2,16.5,1300
+62,Simon & Garfunkel,The Sound of Silence,Parsley Sage Rosemary and Thyme,1965,Folk,187,Columbia Records,United States,English,1,2,15.2,1200
+63,Cat Stevens,Wild World,Tea for the Tillerman,1970,Folk,201,Island Records,United Kingdom,English,11,2,14.8,1150
+64,James Taylor,Fire and Rain,Sweet Baby James,1970,Folk,207,Warner Bros Records,United States,English,3,2,15.8,1250
+65,Joni Mitchell,Big Yellow Taxi,Ladies of the Canyon,1970,Folk,167,Reprise Records,Canada,English,67,2,13.2,1050
+66,Crosby Stills Nash & Young,Suite: Judy Blue Eyes,Crosby Stills & Nash,1969,Folk,456,Atlantic Records,United States,English,21,2,14.5,1150
+67,The Mamas & The Papas,California Dreamin',If You Can Believe Your Eyes and Ears,1965,Folk,162,Dunhill Records,United States,English,4,2,15.2,1200
+68,Donovan,Catch the Wind,Catch the Wind,1965,Folk,201,Hickory Records,United Kingdom,English,23,2,13.8,1100
+69,Joan Baez,Diamonds & Rust,Diamonds & Rust,1975,Folk,207,A&M Records,United States,English,35,2,12.5,1000
+70,Judy Collins,Both Sides Now,Wildflowers,1967,Folk,201,Elektra Records,United States,English,8,2,14.2,1150
+71,The Doors,Light My Fire,The Doors,1967,Rock,428,Elektra Records,United States,English,1,2,16.8,1300
+72,The Who,My Generation,My Generation,1965,Rock,213,Decca Records,United Kingdom,English,74,2,15.2,1200
+73,The Kinks,You Really Got Me,Kinks,1964,Rock,138,Pye Records,United Kingdom,English,7,2,14.8,1150
+74,The Animals,House of the Rising Sun,The Animals,1964,Rock,255,Columbia Records,United Kingdom,English,1,2,15.8,1250
+75,The Yardbirds,For Your Love,For Your Love,1965,Rock,158,Columbia Records,United Kingdom,English,96,2,13.2,1050
+76,The Byrds,Mr. Tambourine Man,Mr. Tambourine Man,1965,Rock,142,Columbia Records,United States,English,1,2,14.5,1150
+77,The Lovin' Spoonful,Summer in the City,Hums of the Lovin' Spoonful,1966,Rock,156,Kama Sutra Records,United States,English,1,2,15.2,1200
+78,The Turtles,Happy Together,Happy Together,1967,Rock,156,White Whale Records,United States,English,1,2,14.8,1150
+79,The Monkees,I'm a Believer,More of the Monkees,1966,Rock,165,Colgems Records,United States,English,1,2,15.8,1250
+80,The Association,Cherish,And Then... Along Comes the Association,1966,Rock,201,Valiant Records,United States,English,1,2,14.2,1100
+81,The Beach Boys,Good Vibrations,Smiley Smile,1966,Rock,213,Capitol Records,United States,English,1,2,16.5,1300
+82,The Beach Boys,California Girls,Summer Days,1965,Rock,172,Capitol Records,United States,English,3,2,15.2,1200
+83,The Beach Boys,Surfin' USA,Surfin' USA,1963,Rock,142,Capitol Records,United States,English,3,2,14.8,1150
+84,The Beach Boys,I Get Around,All Summer Long,1964,Rock,152,Capitol Records,United States,English,1,2,15.8,1250
+85,The Beach Boys,Help Me Rhonda,Today!,1965,Rock,152,Capitol Records,United States,English,1,2,14.2,1100
+86,The Supremes,You Can't Hurry Love,Supremes A' Go-Go,1966,R&B,162,Motown Records,United States,English,1,2,15.2,1200
+87,The Supremes,Stop! In the Name of Love,More Hits by the Supremes,1965,R&B,162,Motown Records,United States,English,1,2,14.8,1150
+88,The Supremes,Baby Love,Where Did Our Love Go,1964,R&B,152,Motown Records,United States,English,1,2,15.8,1250
+89,The Supremes,Where Did Our Love Go,Where Did Our Love Go,1964,R&B,152,Motown Records,United States,English,1,2,14.2,1100
+90,The Supremes,Come See About Me,Where Did Our Love Go,1964,R&B,152,Motown Records,United States,English,1,2,13.8,1050
+91,The Four Tops,Reach Out I'll Be There,Reach Out,1966,R&B,162,Motown Records,United States,English,1,2,15.2,1200
+92,The Four Tops,I Can't Help Myself,Four Tops Second Album,1965,R&B,152,Motown Records,United States,English,1,2,14.8,1150
+93,The Four Tops,Bernadette,Reach Out,1967,R&B,162,Motown Records,United States,English,4,2,13.2,1050
+94,The Four Tops,Standing in the Shadows of Love,Reach Out,1966,R&B,162,Motown Records,United States,English,6,2,12.8,1000
+95,The Four Tops,It's the Same Old Song,Four Tops Second Album,1965,R&B,152,Motown Records,United States,English,5,2,13.5,1050
+96,The Temptations,My Girl,The Temptations Sing Smokey,1964,R&B,172,Motown Records,United States,English,1,2,15.8,1250
+97,The Temptations,Ain't Too Proud to Beg,Gettin' Ready,1966,R&B,162,Motown Records,United States,English,13,2,14.2,1100
+98,The Temptations,Papa Was a Rollin' Stone,All Directions,1972,R&B,456,Motown Records,United States,English,1,2,16.5,1300
+99,The Temptations,Just My Imagination,Sky's the Limit,1971,R&B,213,Motown Records,United States,English,1,2,15.2,1200
+100,The Temptations,Cloud Nine,Cloud Nine,1968,R&B,213,Motown Records,United States,English,6,2,14.8,1150

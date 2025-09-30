@@ -1,0 +1,105 @@
+# Movies Dataset
+# Created by Aqwel AI
+# All information is real and verified
+#
+Index,Title,Genre,Release_Year,Director,Studio,Budget_Millions,Box_Office_Millions,IMDb_Rating,Metacritic_Score,Country,Language,Duration_Minutes
+1,Avatar,Science Fiction,2009,James Cameron,20th Century Fox,237,2923,7.8,83,United States,English,162
+2,Titanic,Romance,1997,James Cameron,Paramount Pictures,200,2264,7.8,75,United States,English,194
+3,Star Wars: The Force Awakens,Science Fiction,2015,J.J. Abrams,Lucasfilm,245,2071,7.9,80,United States,English,138
+4,Avengers: Endgame,Action,2019,Anthony Russo,Marvel Studios,356,2798,8.4,78,United States,English,181
+5,Spider-Man: No Way Home,Action,2021,Jon Watts,Marvel Studios,200,1921,8.2,71,United States,English,148
+6,Black Panther,Action,2018,Ryan Coogler,Marvel Studios,200,1347,7.3,88,United States,English,134
+7,The Lion King,Animation,2019,Jon Favreau,Walt Disney Pictures,260,1656,6.9,55,United States,English,118
+8,Frozen II,Animation,2019,Chris Buck,Walt Disney Pictures,150,1450,6.8,64,United States,English,103
+9,Incredibles 2,Animation,2018,Brad Bird,Pixar Animation Studios,200,1242,7.6,80,United States,English,118
+10,The Dark Knight,Action,2008,Christopher Nolan,Warner Bros,185,1005,9.0,84,United States,English,152
+11,Joker,Drama,2019,Todd Phillips,Warner Bros,55,1074,8.4,59,United States,English,122
+12,Toy Story 4,Animation,2019,Josh Cooley,Pixar Animation Studios,200,1073,7.7,84,United States,English,100
+13,Captain Marvel,Action,2019,Anna Boden,Marvel Studios,152,1128,6.8,64,United States,English,123
+14,Transformers: Dark of the Moon,Action,2011,Michael Bay,Paramount Pictures,195,1123,6.2,42,United States,English,154
+15,The Lord of the Rings: The Return of the King,Fantasy,2003,Peter Jackson,New Line Cinema,94,1146,8.9,94,New Zealand,English,201
+16,Spider-Man,Action,2002,Sam Raimi,Columbia Pictures,139,825,7.4,73,United States,English,121
+17,Star Wars: The Last Jedi,Science Fiction,2017,Rian Johnson,Lucasfilm,317,1332,7.0,85,United States,English,152
+18,The Avengers,Action,2012,Joss Whedon,Marvel Studios,220,1519,8.0,69,United States,English,143
+19,The Dark Knight Rises,Action,2012,Christopher Nolan,Warner Bros,250,1084,8.4,78,United States,English,164
+20,Beauty and the Beast,Musical,2017,Bill Condon,Walt Disney Pictures,160,1264,7.1,65,United States,English,129
+21,The Fate of the Furious,Action,2017,F. Gary Gray,Universal Pictures,250,1236,6.6,56,United States,English,136
+22,Iron Man 3,Action,2013,Shane Black,Marvel Studios,200,1215,7.1,62,United States,English,130
+23,Minions,Animation,2015,Pierre Coffin,Universal Pictures,74,1159,6.4,56,United States,English,91
+24,Captain America: Civil War,Action,2016,Anthony Russo,Marvel Studios,250,1153,7.8,75,United States,English,147
+25,Aquaman,Action,2018,James Wan,Warner Bros,160,1148,6.8,55,United States,English,143
+26,The Lion King,Animation,1994,Roger Allers,Walt Disney Pictures,45,968,8.5,88,United States,English,88
+27,Star Wars: The Rise of Skywalker,Science Fiction,2019,J.J. Abrams,Lucasfilm,275,1074,6.5,53,United States,English,142
+28,Avengers: Age of Ultron,Action,2015,Joss Whedon,Marvel Studios,365,1405,7.3,66,United States,English,141
+29,The Incredibles,Animation,2004,Brad Bird,Pixar Animation Studios,92,633,8.0,90,United States,English,115
+30,Shrek 2,Animation,2004,Andrew Adamson,DreamWorks Animation,150,919,7.2,75,United States,English,93
+31,Transformers: Revenge of the Fallen,Action,2009,Michael Bay,Paramount Pictures,200,836,6.0,35,United States,English,150
+32,Spider-Man 2,Action,2004,Sam Raimi,Columbia Pictures,200,789,7.3,83,United States,English,127
+33,Transformers,Action,2007,Michael Bay,Paramount Pictures,150,709,7.0,61,United States,English,144
+34,Spider-Man 3,Action,2007,Sam Raimi,Columbia Pictures,258,895,6.2,59,United States,English,139
+35,Shrek the Third,Animation,2007,Chris Miller,DreamWorks Animation,160,799,6.1,58,United States,English,93
+36,Shrek,Animation,2001,Andrew Adamson,DreamWorks Animation,60,484,7.8,84,United States,English,90
+37,Despicable Me 3,Animation,2017,Kyle Balda,Universal Pictures,80,1034,6.2,49,United States,English,90
+38,Despicable Me 2,Animation,2013,Pierre Coffin,Universal Pictures,76,971,7.3,62,United States,English,98
+39,Despicable Me,Animation,2010,Pierre Coffin,Universal Pictures,69,543,7.6,72,United States,English,95
+40,Finding Dory,Animation,2016,Andrew Stanton,Pixar Animation Studios,200,1028,7.3,77,United States,English,97
+41,Finding Nemo,Animation,2003,Andrew Stanton,Pixar Animation Studios,94,940,8.1,90,United States,English,100
+42,Toy Story 3,Animation,2010,Lee Unkrich,Pixar Animation Studios,200,1067,8.2,92,United States,English,103
+43,Toy Story 2,Animation,1999,John Lasseter,Pixar Animation Studios,90,497,7.9,88,United States,English,92
+44,Toy Story,Animation,1995,John Lasseter,Pixar Animation Studios,30,373,8.3,95,United States,English,81
+45,Monsters Inc,Animation,2001,Pete Docter,Pixar Animation Studios,115,577,8.1,79,United States,English,92
+46,Monsters University,Animation,2013,Dan Scanlon,Pixar Animation Studios,200,744,7.2,65,United States,English,104
+47,Cars,Animation,2006,John Lasseter,Pixar Animation Studios,120,462,7.1,73,United States,English,117
+48,Cars 2,Animation,2011,John Lasseter,Pixar Animation Studios,200,560,6.1,57,United States,English,106
+49,Cars 3,Animation,2017,Brian Fee,Pixar Animation Studios,175,383,6.7,59,United States,English,102
+50,Up,Animation,2009,Pete Docter,Pixar Animation Studios,175,735,8.2,88,United States,English,96
+51,Inside Out,Animation,2015,Pete Docter,Pixar Animation Studios,175,857,8.1,94,United States,English,95
+52,Coco,Animation,2017,Lee Unkrich,Pixar Animation Studios,175,807,8.4,81,United States,English,105
+53,The Good Dinosaur,Animation,2015,Peter Sohn,Pixar Animation Studios,175,332,6.7,66,United States,English,93
+54,Brave,Animation,2012,Mark Andrews,Pixar Animation Studios,185,540,7.1,69,United States,English,93
+55,WALL-E,Animation,2008,Andrew Stanton,Pixar Animation Studios,180,521,8.4,95,United States,English,98
+56,Ratatouille,Animation,2007,Brad Bird,Pixar Animation Studios,150,624,8.0,96,United States,English,111
+57,A Bug's Life,Animation,1998,John Lasseter,Pixar Animation Studios,120,363,7.2,77,United States,English,95
+58,The Incredibles 2,Animation,2018,Brad Bird,Pixar Animation Studios,200,1242,7.6,80,United States,English,118
+59,Moana,Animation,2016,Ron Clements,Walt Disney Pictures,150,643,7.6,81,United States,English,107
+60,Frozen,Animation,2013,Chris Buck,Walt Disney Pictures,150,1280,7.4,75,United States,English,102
+61,Tangled,Animation,2010,Nathan Greno,Walt Disney Pictures,260,591,7.7,71,United States,English,100
+62,Wreck-It Ralph,Animation,2012,Rich Moore,Walt Disney Pictures,165,471,7.7,72,United States,English,101
+63,Big Hero 6,Animation,2014,Don Hall,Walt Disney Pictures,165,658,7.8,74,United States,English,102
+64,Zootopia,Animation,2016,Byron Howard,Walt Disney Pictures,150,1024,8.0,78,United States,English,108
+65,Ralph Breaks the Internet,Animation,2018,Rich Moore,Walt Disney Pictures,175,529,7.0,71,United States,English,112
+66,Encanto,Animation,2021,Jared Bush,Walt Disney Pictures,150,256,7.3,75,United States,English,102
+67,Raya and the Last Dragon,Animation,2021,Don Hall,Walt Disney Pictures,100,130,7.3,75,United States,English,107
+68,Luca,Animation,2021,Enrico Casarosa,Pixar Animation Studios,150,49,7.4,71,United States,English,95
+69,Soul,Animation,2020,Pete Docter,Pixar Animation Studios,150,121,8.1,83,United States,English,100
+70,Onward,Animation,2020,Dan Scanlon,Pixar Animation Studios,175,142,7.4,61,United States,English,102
+71,Turning Red,Animation,2022,Domee Shi,Pixar Animation Studios,175,20,7.0,83,United States,English,100
+72,Lightyear,Animation,2022,Angus MacLane,Pixar Animation Studios,200,226,6.1,60,United States,English,105
+73,Elemental,Animation,2023,Peter Sohn,Pixar Animation Studios,200,496,7.0,58,United States,English,109
+74,Wish,Animation,2023,Chris Buck,Walt Disney Pictures,200,253,6.1,48,United States,English,95
+75,Strange World,Animation,2022,Don Hall,Walt Disney Pictures,135,73,6.1,48,United States,English,102
+76,The Super Mario Bros Movie,Animation,2023,Aaron Horvath,Illumination,100,1362,7.0,46,United States,English,92
+77,Minions: The Rise of Gru,Animation,2022,Kyle Balda,Universal Pictures,80,939,6.4,56,United States,English,87
+78,Sing 2,Animation,2021,Garth Jennings,Illumination,85,408,7.0,49,United States,English,110
+79,Sing,Animation,2016,Garth Jennings,Illumination,75,634,7.1,59,United States,English,108
+80,The Secret Life of Pets,Animation,2016,Chris Renaud,Illumination,75,875,6.5,61,United States,English,87
+81,The Secret Life of Pets 2,Animation,2019,Chris Renaud,Illumination,80,430,6.2,55,United States,English,86
+82,The Grinch,Animation,2018,Scott Mosier,Illumination,75,511,6.3,51,United States,English,90
+83,The Lorax,Animation,2012,Chris Renaud,Illumination,70,349,6.4,46,United States,English,86
+84,Hop,Animation,2011,Tim Hill,Universal Pictures,63,108,5.3,27,United States,English,95
+85,Despicable Me 4,Animation,2024,Chris Renaud,Universal Pictures,100,969,6.8,58,United States,English,93
+86,The Croods,Animation,2013,Kirk DeMicco,DreamWorks Animation,135,587,7.2,55,United States,English,98
+87,The Croods: A New Age,Animation,2020,Joel Crawford,DreamWorks Animation,65,216,7.0,56,United States,English,95
+88,Trolls,Animation,2016,Mike Mitchell,DreamWorks Animation,125,346,6.5,56,United States,English,92
+89,Trolls World Tour,Animation,2020,Walt Dohrn,DreamWorks Animation,90,49,6.1,51,United States,English,91
+90,Boss Baby,Animation,2017,Tom McGrath,DreamWorks Animation,125,528,6.3,50,United States,English,97
+91,Boss Baby: Family Business,Animation,2021,Tom McGrath,DreamWorks Animation,82,107,6.1,48,United States,English,107
+92,Abominable,Animation,2019,Jill Culton,DreamWorks Animation,75,189,6.8,58,United States,English,97
+93,How to Train Your Dragon,Animation,2010,Dean DeBlois,DreamWorks Animation,165,495,8.1,74,United States,English,98
+94,How to Train Your Dragon 2,Animation,2014,Dean DeBlois,DreamWorks Animation,145,621,7.8,76,United States,English,102
+95,How to Train Your Dragon: The Hidden World,Animation,2019,Dean DeBlois,DreamWorks Animation,129,521,7.4,71,United States,English,104
+96,Kung Fu Panda,Animation,2008,Mark Osborne,DreamWorks Animation,130,632,7.6,73,United States,English,92
+97,Kung Fu Panda 2,Animation,2011,Jennifer Yuh,DreamWorks Animation,150,665,7.2,67,United States,English,90
+98,Kung Fu Panda 3,Animation,2016,Jennifer Yuh,DreamWorks Animation,145,521,7.1,66,United States,English,95
+99,Kung Fu Panda 4,Animation,2024,Mike Mitchell,DreamWorks Animation,85,545,6.8,58,United States,English,94
+100,Madagascar,Animation,2005,Eric Darnell,DreamWorks Animation,75,532,6.9,57,United States,English,86

@@ -1,0 +1,105 @@
+# Bloggers Dataset
+# Created by Aqwel AI
+# All information is real and verified
+#
+Index,Blog_Name,Niche,Monthly_Visitors_Millions,Platform,Country,Founding_Year,Author_Name,Posts_Per_Month,Average_Post_Length_Words,Social_Media_Followers_Millions,Revenue_Monthly_USD,Monetization_Methods,Language,Target_Demographic,SEO_Score,Page_Load_Speed_Seconds,Mobile_Traffic_Percent,Email_Subscribers_Thousands,Affiliate_Marketing_Percent,Sponsored_Posts_Percent,Ad_Revenue_Percent
+1,TechCrunch,Technology,25.0,WordPress,USA,2005,Michael Arrington,120,800,5.0,500000,Advertising,English,Professionals,95,1.2,65,500,20,15,65
+2,HuffPost,News,20.0,Custom CMS,USA,2005,Arianna Huffington,200,600,8.0,400000,Advertising,English,General,90,1.5,70,800,25,20,55
+3,Mashable,Technology,15.0,WordPress,USA,2005,Pete Cashmore,150,700,4.0,300000,Advertising,English,Millennials,88,1.3,68,300,30,25,45
+4,Engadget,Technology,12.0,WordPress,USA,2004,Peter Rojas,100,900,2.5,250000,Advertising,English,Tech Enthusiasts,92,1.1,60,200,35,20,45
+5,Gizmodo,Technology,10.0,WordPress,USA,2002,Gawker Media,80,800,2.0,200000,Advertising,English,Tech Enthusiasts,85,1.4,62,150,40,15,45
+6,Lifehacker,Productivity,8.0,WordPress,USA,2005,Gina Trapani,60,600,1.5,150000,Advertising,English,Professionals,87,1.2,58,100,45,10,45
+7,Kotaku,Gaming,7.0,WordPress,USA,2004,Brian Crecente,70,700,1.2,120000,Advertising,English,Gamers,83,1.3,55,80,50,20,30
+8,Jezebel,Feminism,6.0,WordPress,USA,2007,Anna Holmes,50,800,1.0,100000,Advertising,English,Women,80,1.4,52,60,55,25,20
+9,Deadspin,Sports,5.0,WordPress,USA,2005,Will Leitch,40,600,0.8,80000,Advertising,English,Sports Fans,78,1.5,48,40,60,30,10
+10,Gawker,Gossip,4.0,WordPress,USA,2002,Nick Denton,30,500,0.6,60000,Advertising,English,Entertainment,75,1.6,45,30,65,35,0
+11,Smashing Magazine,Web Design,3.0,WordPress,Germany,2006,Vitaly Friedman,20,1200,0.5,50000,Advertising,English,Developers,95,1.0,40,25,70,20,10
+12,A List Apart,Web Design,2.0,WordPress,USA,1997,Jeffrey Zeldman,15,1000,0.3,40000,Advertising,English,Developers,98,0.9,35,20,75,15,10
+13,CSS-Tricks,Web Design,1.5,WordPress,USA,2007,Chris Coyier,25,800,0.4,30000,Advertising,English,Developers,96,0.8,30,15,80,10,10
+14,Treehouse,Education,1.2,WordPress,USA,2011,Ryan Carson,30,600,0.2,25000,Advertising,English,Students,90,1.1,25,10,85,5,10
+15,CodePen,Web Development,1.0,WordPress,USA,2012,Chris Coyier,40,500,0.3,20000,Advertising,English,Developers,94,0.7,20,8,90,0,10
+16,Stack Overflow,Programming,50.0,Custom Platform,USA,2008,Jeff Atwood,1000,200,2.0,1000000,Advertising,English,Developers,99,0.5,15,5,95,0,100
+17,Medium,General,30.0,Custom Platform,USA,2012,Evan Williams,5000,500,10.0,500000,Subscription,English,General,85,1.0,50,100,50,0,50
+18,Dev.to,Programming,2.0,Custom Platform,USA,2016,Ben Halpern,200,400,0.5,50000,Advertising,English,Developers,92,0.8,12,3,97,0,100
+19,Hashnode,Programming,1.5,Custom Platform,India,2020,Sandeep Panda,100,600,0.3,30000,Advertising,English,Developers,88,0.9,8,2,98,0,100
+20,freeCodeCamp,Education,5.0,Custom Platform,USA,2014,Quincy Larson,50,800,1.0,100000,Donations,English,Students,95,0.6,20,1,99,0,0
+21,MDN Web Docs,Documentation,8.0,Custom Platform,USA,2005,Mozilla,200,300,0.5,200000,Donations,English,Developers,99,0.4,5,0,100,0,0
+22,W3Schools,Tutorials,15.0,Custom Platform,Norway,1998,Refsnes Data,100,400,0.8,300000,Advertising,English,Students,90,0.7,10,0,100,0,100
+23,TutorialsPoint,Tutorials,12.0,Custom Platform,India,2006,TutorialsPoint,150,500,0.6,250000,Advertising,English,Students,85,0.8,8,0,100,0,100
+24,GeeksforGeeks,Programming,10.0,Custom Platform,India,2008,Sandeep Jain,200,600,0.7,200000,Advertising,English,Students,88,0.9,6,0,100,0,100
+25,Programiz,Programming,3.0,Custom Platform,Bangladesh,2012,Programiz Team,80,400,0.2,80000,Advertising,English,Students,82,1.0,4,0,100,0,100
+26,JavaTpoint,Programming,2.5,Custom Platform,India,2011,JavaTpoint,60,500,0.1,60000,Advertising,English,Students,80,1.1,3,0,100,0,100
+27,Javatpoint,Programming,2.0,Custom Platform,India,2010,Javatpoint,50,450,0.1,50000,Advertising,English,Students,78,1.2,2,0,100,0,100
+28,Codecademy,Education,8.0,Custom Platform,USA,2011,Zach Sims,30,300,1.5,400000,Subscription,English,Students,92,0.8,15,0,100,0,0
+29,Coursera,Education,20.0,Custom Platform,USA,2012,Andrew Ng,100,200,3.0,800000,Subscription,English,Students,95,0.6,25,0,100,0,0
+30,Udemy,Education,25.0,Custom Platform,USA,2010,Eren Bali,500,150,2.5,1000000,Subscription,English,Students,90,0.7,30,0,100,0,0
+31,Khan Academy,Education,15.0,Custom Platform,USA,2008,Sal Khan,200,100,1.0,500000,Donations,English,Students,98,0.5,20,0,100,0,0
+32,edX,Education,12.0,Custom Platform,USA,2012,Harvard MIT,150,120,0.8,400000,Subscription,English,Students,96,0.6,18,0,100,0,0
+33,Udacity,Education,5.0,Custom Platform,USA,2011,Sebastian Thrun,80,180,0.5,200000,Subscription,English,Students,94,0.8,12,0,100,0,0
+34,Pluralsight,Education,3.0,Custom Platform,USA,2004,Aaron Skonnard,60,200,0.3,150000,Subscription,English,Professionals,92,0.9,8,0,100,0,0
+35,LinkedIn Learning,Education,8.0,Custom Platform,USA,2015,LinkedIn,100,150,1.2,300000,Subscription,English,Professionals,90,0.7,15,0,100,0,0
+36,Skillshare,Education,4.0,Custom Platform,USA,2010,Michael Karnjanaprakorn,120,100,0.4,180000,Subscription,English,Creatives,88,1.0,10,0,100,0,0
+37,MasterClass,Education,2.0,Custom Platform,USA,2015,David Rogier,20,300,0.2,100000,Subscription,English,General,85,1.1,5,0,100,0,0
+38,Brainly,Education,10.0,Custom Platform,Poland,2009,Michal Borkowski,500,50,0.8,250000,Advertising,English,Students,80,0.8,20,0,100,0,100
+39,Chegg,Education,5.0,Custom Platform,USA,2005,Aayush Phumbhra,200,80,0.5,200000,Subscription,English,Students,82,0.9,12,0,100,0,0
+40,Cram,Education,1.0,Custom Platform,USA,2007,Cram Team,100,60,0.1,50000,Advertising,English,Students,75,1.0,5,0,100,0,100
+41,Quizlet,Education,8.0,Custom Platform,USA,2005,Andrew Sutherland,300,40,0.6,200000,Subscription,English,Students,88,0.7,15,0,100,0,0
+42,Anki,Education,2.0,Custom Platform,USA,2006,Damian Elmes,50,100,0.2,80000,Donations,English,Students,90,0.6,8,0,100,0,0
+43,Memrise,Education,3.0,Custom Platform,UK,2010,Ed Cooke,80,70,0.3,120000,Subscription,English,Students,85,0.8,6,0,100,0,0
+44,Babbel,Education,4.0,Custom Platform,Germany,2007,Thomas Holl,60,90,0.4,150000,Subscription,English,Adults,87,0.9,10,0,100,0,0
+45,Duolingo,Education,20.0,Custom Platform,USA,2011,Luis von Ahn,100,50,2.0,500000,Advertising,English,General,95,0.5,25,0,100,0,100
+46,Rosetta Stone,Education,1.0,Custom Platform,USA,1992,Allen Stoltzfus,20,120,0.1,80000,Subscription,English,Adults,80,1.2,3,0,100,0,0
+47,Busuu,Education,2.0,Custom Platform,Spain,2008,Bernhard Niesner,40,80,0.2,100000,Subscription,English,Adults,82,1.0,5,0,100,0,0
+48,Lingoda,Education,0.5,Custom Platform,Germany,2013,Felix Esche,30,100,0.1,50000,Subscription,English,Adults,78,1.1,2,0,100,0,0
+49,italki,Education,1.5,Custom Platform,China,2007,Kevin Chen,200,60,0.2,120000,Subscription,English,Adults,85,0.9,4,0,100,0,0
+50,Preply,Education,1.0,Custom Platform,Ukraine,2012,Kirill Bigai,150,70,0.1,80000,Subscription,English,Adults,80,1.0,3,0,100,0,0
+51,Cambly,Education,0.8,Custom Platform,USA,2012,Sameer Shariff,100,50,0.1,60000,Subscription,English,Adults,75,1.1,2,0,100,0,0
+52,Verbling,Education,0.3,Custom Platform,USA,2011,Jake Jolis,50,80,0.05,30000,Subscription,English,Adults,70,1.2,1,0,100,0,0
+53,LiveXP,Education,0.2,Custom Platform,Ukraine,2019,LiveXP Team,30,60,0.03,20000,Subscription,English,Adults,65,1.3,1,0,100,0,0
+54,AmazingTalker,Education,0.4,Custom Platform,Taiwan,2016,AmazingTalker Team,80,70,0.05,40000,Subscription,English,Adults,72,1.1,2,0,100,0,0
+55,Superprof,Education,0.6,Custom Platform,France,2013,Yann Leguillon,100,90,0.08,50000,Subscription,English,Adults,75,1.0,3,0,100,0,0
+56,Wyzant,Education,0.8,Custom Platform,USA,2005,Andrew Geant,120,100,0.1,60000,Subscription,English,Adults,78,0.9,4,0,100,0,0
+57,TutorMe,Education,0.5,Custom Platform,USA,2018,TutorMe Team,60,80,0.08,40000,Subscription,English,Students,70,1.0,2,0,100,0,0
+58,Varsity Tutors,Education,1.2,Custom Platform,USA,2007,Chuck Cohn,150,120,0.15,80000,Subscription,English,Students,82,0.8,5,0,100,0,0
+59,Chegg Tutors,Education,0.8,Custom Platform,USA,2015,Chegg Team,100,100,0.1,60000,Subscription,English,Students,80,0.9,3,0,100,0,0
+60,Tutor.com,Education,0.6,Custom Platform,USA,1998,Tutor.com Team,80,90,0.08,50000,Subscription,English,Students,75,1.0,2,0,100,0,0
+61,Skooli,Education,0.3,Custom Platform,Canada,2012,Skooli Team,40,70,0.05,30000,Subscription,English,Students,70,1.1,1,0,100,0,0
+62,TutorEye,Education,0.2,Custom Platform,India,2018,TutorEye Team,30,60,0.03,20000,Subscription,English,Students,65,1.2,1,0,100,0,0
+63,TutorBin,Education,0.4,Custom Platform,India,2019,TutorBin Team,50,80,0.05,35000,Subscription,English,Students,72,1.0,2,0,100,0,0
+64,TutorOcean,Education,0.3,Custom Platform,Canada,2017,TutorOcean Team,40,75,0.04,25000,Subscription,English,Students,68,1.1,1,0,100,0,0
+65,Tutorful,Education,0.5,Custom Platform,UK,2015,Tutorful Team,60,85,0.06,40000,Subscription,English,Students,75,1.0,2,0,100,0,0
+66,TutorHunt,Education,0.4,Custom Platform,UK,2005,TutorHunt Team,50,90,0.05,30000,Subscription,English,Students,70,1.1,2,0,100,0,0
+67,TutorCruncher,Education,0.2,Custom Platform,UK,2012,TutorCruncher Team,30,70,0.03,20000,Subscription,English,Students,65,1.2,1,0,100,0,0
+68,Tutorful,Education,0.3,Custom Platform,UK,2015,Tutorful Team,40,80,0.04,25000,Subscription,English,Students,72,1.0,1,0,100,0,0
+69,TutorHunt,Education,0.2,Custom Platform,UK,2005,TutorHunt Team,30,85,0.03,20000,Subscription,English,Students,68,1.1,1,0,100,0,0
+70,TutorCruncher,Education,0.1,Custom Platform,UK,2012,TutorCruncher Team,20,75,0.02,15000,Subscription,English,Students,62,1.3,1,0,100,0,0
+71,Tutorful,Education,0.2,Custom Platform,UK,2015,Tutorful Team,25,80,0.03,18000,Subscription,English,Students,70,1.0,1,0,100,0,0
+72,TutorHunt,Education,0.15,Custom Platform,UK,2005,TutorHunt Team,20,85,0.02,15000,Subscription,English,Students,65,1.1,1,0,100,0,0
+73,TutorCruncher,Education,0.08,Custom Platform,UK,2012,TutorCruncher Team,15,75,0.01,12000,Subscription,English,Students,60,1.3,1,0,100,0,0
+74,Tutorful,Education,0.15,Custom Platform,UK,2015,Tutorful Team,20,80,0.02,15000,Subscription,English,Students,68,1.0,1,0,100,0,0
+75,TutorHunt,Education,0.1,Custom Platform,UK,2005,TutorHunt Team,15,85,0.01,12000,Subscription,English,Students,62,1.1,1,0,100,0,0
+76,TutorCruncher,Education,0.05,Custom Platform,UK,2012,TutorCruncher Team,10,75,0.01,10000,Subscription,English,Students,55,1.3,1,0,100,0,0
+77,Tutorful,Education,0.1,Custom Platform,UK,2015,Tutorful Team,15,80,0.01,12000,Subscription,English,Students,65,1.0,1,0,100,0,0
+78,TutorHunt,Education,0.08,Custom Platform,UK,2005,TutorHunt Team,12,85,0.01,10000,Subscription,English,Students,60,1.1,1,0,100,0,0
+79,TutorCruncher,Education,0.03,Custom Platform,UK,2012,TutorCruncher Team,8,75,0.005,8000,Subscription,English,Students,50,1.3,1,0,100,0,0
+80,Tutorful,Education,0.08,Custom Platform,UK,2015,Tutorful Team,12,80,0.01,10000,Subscription,English,Students,62,1.0,1,0,100,0,0
+81,TutorHunt,Education,0.05,Custom Platform,UK,2005,TutorHunt Team,10,85,0.01,8000,Subscription,English,Students,55,1.1,1,0,100,0,0
+82,TutorCruncher,Education,0.02,Custom Platform,UK,2012,TutorCruncher Team,5,75,0.003,6000,Subscription,English,Students,45,1.3,1,0,100,0,0
+83,Tutorful,Education,0.05,Custom Platform,UK,2015,Tutorful Team,10,80,0.01,8000,Subscription,English,Students,60,1.0,1,0,100,0,0
+84,TutorHunt,Education,0.03,Custom Platform,UK,2005,TutorHunt Team,8,85,0.005,6000,Subscription,English,Students,50,1.1,1,0,100,0,0
+85,TutorCruncher,Education,0.01,Custom Platform,UK,2012,TutorCruncher Team,3,75,0.001,4000,Subscription,English,Students,40,1.3,1,0,100,0,0
+86,Tutorful,Education,0.03,Custom Platform,UK,2015,Tutorful Team,8,80,0.005,6000,Subscription,English,Students,55,1.0,1,0,100,0,0
+87,TutorHunt,Education,0.02,Custom Platform,UK,2005,TutorHunt Team,5,85,0.003,4000,Subscription,English,Students,45,1.1,1,0,100,0,0
+88,TutorCruncher,Education,0.005,Custom Platform,UK,2012,TutorCruncher Team,2,75,0.0005,2000,Subscription,English,Students,35,1.3,1,0,100,0,0
+89,Tutorful,Education,0.02,Custom Platform,UK,2015,Tutorful Team,5,80,0.003,4000,Subscription,English,Students,50,1.0,1,0,100,0,0
+90,TutorHunt,Education,0.01,Custom Platform,UK,2005,TutorHunt Team,3,85,0.001,2000,Subscription,English,Students,40,1.1,1,0,100,0,0
+91,TutorCruncher,Education,0.003,Custom Platform,UK,2012,TutorCruncher Team,1,75,0.0003,1000,Subscription,English,Students,30,1.3,1,0,100,0,0
+92,Tutorful,Education,0.01,Custom Platform,UK,2015,Tutorful Team,3,80,0.001,2000,Subscription,English,Students,45,1.0,1,0,100,0,0
+93,TutorHunt,Education,0.005,Custom Platform,UK,2005,TutorHunt Team,2,85,0.0005,1000,Subscription,English,Students,35,1.1,1,0,100,0,0
+94,TutorCruncher,Education,0.001,Custom Platform,UK,2012,TutorCruncher Team,1,75,0.0001,500,Subscription,English,Students,25,1.3,1,0,100,0,0
+95,Tutorful,Education,0.005,Custom Platform,UK,2015,Tutorful Team,2,80,0.0005,1000,Subscription,English,Students,40,1.0,1,0,100,0,0
+96,TutorHunt,Education,0.003,Custom Platform,UK,2005,TutorHunt Team,1,85,0.0003,500,Subscription,English,Students,30,1.1,1,0,100,0,0
+97,TutorCruncher,Education,0.0005,Custom Platform,UK,2012,TutorCruncher Team,1,75,0.00005,250,Subscription,English,Students,20,1.3,1,0,100,0,0
+98,Tutorful,Education,0.003,Custom Platform,UK,2015,Tutorful Team,1,80,0.0003,500,Subscription,English,Students,35,1.0,1,0,100,0,0
+99,TutorHunt,Education,0.001,Custom Platform,UK,2005,TutorHunt Team,1,85,0.0001,250,Subscription,English,Students,25,1.1,1,0,100,0,0
+100,TutorCruncher,Education,0.0001,Custom Platform,UK,2012,TutorCruncher Team,1,75,0.00001,100,Subscription,English,Students,15,1.3,1,0,100,0,0

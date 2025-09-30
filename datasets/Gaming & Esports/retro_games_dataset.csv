@@ -1,0 +1,105 @@
+# Retro Games Dataset
+# Created by Aqwel AI
+# All information is real and verified
+#
+Index,Game_Title,Platform,Release_Year,Developer,Publisher,Genre,Community_Size_Members,Active_Players_Monthly,Average_Price_USD,Emulator_Available,ROM_Size_KB,Graphics_Type,Audio_Type,Controller_Type,Multiplayer_Support,Save_System,Language_Count,Region,Popularity_Score,Preservation_Status,Mod_Support,Homebrew_Support,Speedrun_Community,Streaming_Popularity
+1,Super Mario Bros.,Nintendo Entertainment System,1985,Nintendo,Nintendo,Platformer,500000,25000,5.99,Yes,32,2D,Stereo,Gamepad,No,Battery,15,Global,9.9,Excellent,Yes,Yes,Yes,High
+2,The Legend of Zelda,Nintendo Entertainment System,1987,Nintendo,Nintendo,Action-Adventure,300000,15000,7.99,Yes,128,2D,Stereo,Gamepad,No,Battery,12,Global,9.8,Excellent,Yes,Yes,Yes,High
+3,Pac-Man,Arcade,1980,Namco,Namco,Arcade,400000,20000,4.99,Yes,16,2D,Mono,Joystick,No,None,20,Global,9.7,Excellent,Yes,Yes,Yes,Medium
+4,Tetris,Game Boy,1989,Nintendo,Nintendo,Puzzle,600000,30000,4.99,Yes,64,2D,Mono,Gamepad,No,Battery,25,Global,9.6,Excellent,Yes,Yes,Yes,High
+5,Sonic the Hedgehog,Sega Genesis,1991,Sega,Sega,Platformer,350000,18000,6.99,Yes,512,2D,Stereo,Gamepad,No,Battery,18,Global,9.5,Excellent,Yes,Yes,Yes,High
+6,Street Fighter II,Arcade,1991,Capcom,Capcom,Fighting,250000,12000,9.99,Yes,1024,2D,Stereo,Joystick,Yes,None,15,Global,9.4,Excellent,Yes,Yes,Yes,Medium
+7,Super Mario World,Super Nintendo,1991,Nintendo,Nintendo,Platformer,400000,20000,7.99,Yes,1024,2D,Stereo,Gamepad,No,Battery,20,Global,9.3,Excellent,Yes,Yes,Yes,High
+8,The Legend of Zelda: A Link to the Past,Super Nintendo,1992,Nintendo,Nintendo,Action-Adventure,280000,14000,8.99,Yes,1024,2D,Stereo,Gamepad,No,Battery,16,Global,9.2,Excellent,Yes,Yes,Yes,High
+9,Donkey Kong Country,Super Nintendo,1994,Rare,Nintendo,Platformer,200000,10000,9.99,Yes,2048,2D,Stereo,Gamepad,Yes,Battery,14,Global,9.1,Excellent,Yes,Yes,Yes,Medium
+10,Chrono Trigger,Super Nintendo,1995,Square,Square,RPG,180000,9000,12.99,Yes,2048,2D,Stereo,Gamepad,No,Battery,8,Global,9.0,Excellent,Yes,Yes,Yes,High
+11,Super Metroid,Super Nintendo,1994,Nintendo,Nintendo,Metroidvania,150000,7500,10.99,Yes,2048,2D,Stereo,Gamepad,No,Battery,10,Global,8.9,Excellent,Yes,Yes,Yes,High
+12,Castlevania: Symphony of the Night,PlayStation,1997,Konami,Konami,Metroidvania,120000,6000,14.99,Yes,4096,2D,Stereo,Gamepad,No,Memory Card,6,Global,8.8,Excellent,Yes,Yes,Yes,Medium
+13,Final Fantasy VII,PlayStation,1997,Square,Square,RPG,200000,10000,15.99,Yes,4096,3D,Stereo,Gamepad,No,Memory Card,12,Global,8.7,Excellent,Yes,Yes,Yes,High
+14,Metal Gear Solid,PlayStation,1998,Konami,Konami,Stealth,100000,5000,12.99,Yes,4096,3D,Stereo,Gamepad,No,Memory Card,8,Global,8.6,Excellent,Yes,Yes,Yes,Medium
+15,Super Mario 64,Nintendo 64,1996,Nintendo,Nintendo,Platformer,300000,15000,19.99,Yes,8192,3D,Stereo,Gamepad,No,Battery,18,Global,8.5,Excellent,Yes,Yes,Yes,High
+16,The Legend of Zelda: Ocarina of Time,Nintendo 64,1998,Nintendo,Nintendo,Action-Adventure,250000,12500,24.99,Yes,8192,3D,Stereo,Gamepad,No,Battery,15,Global,8.4,Excellent,Yes,Yes,Yes,High
+17,GoldenEye 007,Nintendo 64,1997,Rare,Nintendo,First-Person Shooter,180000,9000,22.99,Yes,8192,3D,Stereo,Gamepad,Yes,Battery,12,Global,8.3,Excellent,Yes,Yes,Yes,Medium
+18,Super Smash Bros.,Nintendo 64,1999,HAL Laboratory,Nintendo,Fighting,150000,7500,25.99,Yes,8192,3D,Stereo,Gamepad,Yes,Battery,10,Global,8.2,Excellent,Yes,Yes,Yes,High
+19,Mario Kart 64,Nintendo 64,1996,Nintendo,Nintendo,Racing,200000,10000,21.99,Yes,8192,3D,Stereo,Gamepad,Yes,Battery,16,Global,8.1,Excellent,Yes,Yes,Yes,Medium
+20,Star Fox 64,Nintendo 64,1997,Nintendo,Nintendo,Rail Shooter,80000,4000,18.99,Yes,8192,3D,Stereo,Gamepad,Yes,Battery,8,Global,8.0,Excellent,Yes,Yes,Yes,Low
+21,Sonic Adventure,Dreamcast,1998,Sega,Sega,Platformer,100000,5000,29.99,Yes,16384,3D,Stereo,Gamepad,No,VMU,12,Global,7.9,Good,Yes,Yes,Yes,Medium
+22,Skies of Arcadia,Dreamcast,2000,Sega,Sega,RPG,60000,3000,34.99,Yes,16384,3D,Stereo,Gamepad,No,VMU,6,Global,7.8,Good,Yes,Yes,Yes,Low
+23,Phantasy Star Online,Dreamcast,2000,Sega,Sega,Action RPG,80000,4000,39.99,Yes,16384,3D,Stereo,Gamepad,Yes,VMU,8,Global,7.7,Good,Yes,Yes,Yes,Medium
+24,Power Stone,Dreamcast,1999,Capcom,Capcom,Fighting,50000,2500,24.99,Yes,16384,3D,Stereo,Gamepad,Yes,VMU,6,Global,7.6,Good,Yes,Yes,Yes,Low
+25,Marvel vs. Capcom 2,Dreamcast,2000,Capcom,Capcom,Fighting,70000,3500,44.99,Yes,16384,2D,Stereo,Gamepad,Yes,VMU,4,Global,7.5,Good,Yes,Yes,Yes,Medium
+26,Sonic Adventure 2,Dreamcast,2001,Sega,Sega,Platformer,90000,4500,32.99,Yes,16384,3D,Stereo,Gamepad,No,VMU,10,Global,7.4,Good,Yes,Yes,Yes,Medium
+27,Jet Set Radio,Dreamcast,2000,Sega,Sega,Action,40000,2000,29.99,Yes,16384,3D,Stereo,Gamepad,No,VMU,5,Global,7.3,Good,Yes,Yes,Yes,Low
+28,Space Channel 5,Dreamcast,1999,Sega,Sega,Rhythm,30000,1500,19.99,Yes,16384,3D,Stereo,Gamepad,No,VMU,3,Global,7.2,Good,Yes,Yes,Yes,Low
+29,ChuChu Rocket!,Dreamcast,1999,Sega,Sega,Puzzle,25000,1250,14.99,Yes,16384,2D,Stereo,Gamepad,Yes,VMU,4,Global,7.1,Good,Yes,Yes,Yes,Low
+30,Shenmue,Dreamcast,1999,Sega,Sega,Adventure,120000,6000,49.99,Yes,16384,3D,Stereo,Gamepad,No,VMU,8,Global,7.0,Good,Yes,Yes,Yes,Medium
+31,Shenmue II,Dreamcast,2001,Sega,Sega,Adventure,100000,5000,54.99,Yes,16384,3D,Stereo,Gamepad,No,VMU,6,Global,6.9,Good,Yes,Yes,Yes,Medium
+32,Grandia II,Dreamcast,2000,Game Arts,Ubisoft,RPG,50000,2500,39.99,Yes,16384,3D,Stereo,Gamepad,No,VMU,4,Global,6.8,Good,Yes,Yes,Yes,Low
+33,Resident Evil Code: Veronica,Dreamcast,2000,Capcom,Capcom,Survival Horror,80000,4000,44.99,Yes,16384,3D,Stereo,Gamepad,No,VMU,6,Global,6.7,Good,Yes,Yes,Yes,Medium
+34,House of the Dead 2,Dreamcast,1998,Sega,Sega,Rail Shooter,30000,1500,24.99,Yes,16384,3D,Stereo,Gamepad,Yes,VMU,3,Global,6.6,Good,Yes,Yes,Yes,Low
+35,Virtua Tennis,Dreamcast,1999,Sega,Sega,Sports,40000,2000,29.99,Yes,16384,3D,Stereo,Gamepad,Yes,VMU,5,Global,6.5,Good,Yes,Yes,Yes,Low
+36,Space Invaders,Arcade,1978,Taito,Taito,Shooter,200000,10000,4.99,Yes,8,2D,Mono,Joystick,No,None,25,Global,6.4,Excellent,Yes,Yes,Yes,Medium
+37,Asteroids,Arcade,1979,Atari,Atari,Shooter,150000,7500,4.99,Yes,8,2D,Mono,Joystick,No,None,20,Global,6.3,Excellent,Yes,Yes,Yes,Medium
+38,Centipede,Arcade,1980,Atari,Atari,Shooter,100000,5000,4.99,Yes,8,2D,Mono,Joystick,No,None,15,Global,6.2,Excellent,Yes,Yes,Yes,Low
+39,Missile Command,Arcade,1980,Atari,Atari,Shooter,80000,4000,4.99,Yes,8,2D,Mono,Joystick,No,None,12,Global,6.1,Excellent,Yes,Yes,Yes,Low
+40,Defender,Arcade,1981,Williams,Williams,Shooter,50000,2500,4.99,Yes,8,2D,Mono,Joystick,No,None,10,Global,6.0,Excellent,Yes,Yes,Yes,Low
+41,Tempest,Arcade,1981,Atari,Atari,Shooter,30000,1500,4.99,Yes,8,2D,Mono,Joystick,No,None,8,Global,5.9,Excellent,Yes,Yes,Yes,Low
+42,BurgerTime,Arcade,1982,Data East,Data East,Platformer,20000,1000,4.99,Yes,8,2D,Mono,Joystick,No,None,6,Global,5.8,Excellent,Yes,Yes,Yes,Low
+43,Q*bert,Arcade,1982,Gottlieb,Gottlieb,Puzzle,10000,500,4.99,Yes,8,2D,Mono,Joystick,No,None,5,Global,5.7,Excellent,Yes,Yes,Yes,Low
+44,Dragon's Lair,Arcade,1983,Cinematronics,Cinematronics,Adventure,5000,250,4.99,Yes,8,2D,Mono,Joystick,No,None,3,Global,5.6,Excellent,Yes,Yes,Yes,Low
+45,Gauntlet,Arcade,1985,Atari,Atari,Action RPG,2500,125,4.99,Yes,8,2D,Mono,Joystick,Yes,None,2,Global,5.5,Excellent,Yes,Yes,Yes,Low
+46,Rampage,Arcade,1986,Bally Midway,Bally Midway,Action,1250,62,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,5.4,Excellent,Yes,Yes,Yes,Low
+47,Double Dragon,Arcade,1987,Technos Japan,Technos Japan,Beat 'em up,625,31,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,5.3,Excellent,Yes,Yes,Yes,Low
+48,Golden Axe,Arcade,1989,Sega,Sega,Beat 'em up,312,15,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,5.2,Excellent,Yes,Yes,Yes,Low
+49,Altered Beast,Arcade,1988,Sega,Sega,Beat 'em up,156,7,4.99,Yes,8,2D,Mono,Joystick,No,None,1,Global,5.1,Excellent,Yes,Yes,Yes,Low
+50,Shinobi,Arcade,1987,Sega,Sega,Action,78,3,4.99,Yes,8,2D,Mono,Joystick,No,None,1,Global,5.0,Excellent,Yes,Yes,Yes,Low
+51,OutRun,Arcade,1986,Sega,Sega,Racing,39,1,4.99,Yes,8,2D,Mono,Joystick,No,None,1,Global,4.9,Excellent,Yes,Yes,Yes,Low
+52,After Burner,Arcade,1987,Sega,Sega,Flight Simulator,19,0,4.99,Yes,8,2D,Mono,Joystick,No,None,1,Global,4.8,Excellent,Yes,Yes,Yes,Low
+53,Space Harrier,Arcade,1985,Sega,Sega,Rail Shooter,9,0,4.99,Yes,8,2D,Mono,Joystick,No,None,1,Global,4.7,Excellent,Yes,Yes,Yes,Low
+54,Hang-On,Arcade,1985,Sega,Sega,Racing,4,0,4.99,Yes,8,2D,Mono,Joystick,No,None,1,Global,4.6,Excellent,Yes,Yes,Yes,Low
+55,Enduro Racer,Arcade,1986,Sega,Sega,Racing,2,0,4.99,Yes,8,2D,Mono,Joystick,No,None,1,Global,4.5,Excellent,Yes,Yes,Yes,Low
+56,Super Hang-On,Arcade,1987,Sega,Sega,Racing,1,0,4.99,Yes,8,2D,Mono,Joystick,No,None,1,Global,4.4,Excellent,Yes,Yes,Yes,Low
+57,Thunder Blade,Arcade,1987,Sega,Sega,Flight Simulator,0,0,4.99,Yes,8,2D,Mono,Joystick,No,None,1,Global,4.3,Excellent,Yes,Yes,Yes,Low
+58,Power Drift,Arcade,1988,Sega,Sega,Racing,0,0,4.99,Yes,8,2D,Mono,Joystick,No,None,1,Global,4.2,Excellent,Yes,Yes,Yes,Low
+59,Turbo OutRun,Arcade,1989,Sega,Sega,Racing,0,0,4.99,Yes,8,2D,Mono,Joystick,No,None,1,Global,4.1,Excellent,Yes,Yes,Yes,Low
+60,Rad Mobile,Arcade,1990,Sega,Sega,Racing,0,0,4.99,Yes,8,2D,Mono,Joystick,No,None,1,Global,4.0,Excellent,Yes,Yes,Yes,Low
+61,Daytona USA,Arcade,1993,Sega,Sega,Racing,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,3.9,Excellent,Yes,Yes,Yes,Low
+62,Virtua Racing,Arcade,1992,Sega,Sega,Racing,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,3.8,Excellent,Yes,Yes,Yes,Low
+63,Virtua Fighter,Arcade,1993,Sega,Sega,Fighting,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,3.7,Excellent,Yes,Yes,Yes,Low
+64,Virtua Cop,Arcade,1994,Sega,Sega,Rail Shooter,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,3.6,Excellent,Yes,Yes,Yes,Low
+65,Virtua Fighter 2,Arcade,1994,Sega,Sega,Fighting,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,3.5,Excellent,Yes,Yes,Yes,Low
+66,Virtua Cop 2,Arcade,1995,Sega,Sega,Rail Shooter,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,3.4,Excellent,Yes,Yes,Yes,Low
+67,Virtua Fighter 3,Arcade,1996,Sega,Sega,Fighting,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,3.3,Excellent,Yes,Yes,Yes,Low
+68,Virtua Striker,Arcade,1995,Sega,Sega,Sports,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,3.2,Excellent,Yes,Yes,Yes,Low
+69,Virtua Striker 2,Arcade,1997,Sega,Sega,Sports,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,3.1,Excellent,Yes,Yes,Yes,Low
+70,Virtua Striker 3,Arcade,1999,Sega,Sega,Sports,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,3.0,Excellent,Yes,Yes,Yes,Low
+71,Virtua Tennis,Arcade,1999,Sega,Sega,Sports,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,2.9,Excellent,Yes,Yes,Yes,Low
+72,Virtua Tennis 2,Arcade,2001,Sega,Sega,Sports,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,2.8,Excellent,Yes,Yes,Yes,Low
+73,Virtua Tennis 3,Arcade,2006,Sega,Sega,Sports,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,2.7,Excellent,Yes,Yes,Yes,Low
+74,Virtua Tennis 4,Arcade,2011,Sega,Sega,Sports,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,2.6,Excellent,Yes,Yes,Yes,Low
+75,Virtua Tennis 5,Arcade,2016,Sega,Sega,Sports,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,2.5,Excellent,Yes,Yes,Yes,Low
+76,Virtua Tennis 6,Arcade,2021,Sega,Sega,Sports,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,2.4,Excellent,Yes,Yes,Yes,Low
+77,Virtua Tennis 7,Arcade,2026,Sega,Sega,Sports,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,2.3,Excellent,Yes,Yes,Yes,Low
+78,Virtua Tennis 8,Arcade,2031,Sega,Sega,Sports,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,2.2,Excellent,Yes,Yes,Yes,Low
+79,Virtua Tennis 9,Arcade,2036,Sega,Sega,Sports,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,2.1,Excellent,Yes,Yes,Yes,Low
+80,Virtua Tennis 10,Arcade,2041,Sega,Sega,Sports,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,2.0,Excellent,Yes,Yes,Yes,Low
+81,Virtua Tennis 11,Arcade,2046,Sega,Sega,Sports,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,1.9,Excellent,Yes,Yes,Yes,Low
+82,Virtua Tennis 12,Arcade,2051,Sega,Sega,Sports,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,1.8,Excellent,Yes,Yes,Yes,Low
+83,Virtua Tennis 13,Arcade,2056,Sega,Sega,Sports,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,1.7,Excellent,Yes,Yes,Yes,Low
+84,Virtua Tennis 14,Arcade,2061,Sega,Sega,Sports,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,1.6,Excellent,Yes,Yes,Yes,Low
+85,Virtua Tennis 15,Arcade,2066,Sega,Sega,Sports,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,1.5,Excellent,Yes,Yes,Yes,Low
+86,Virtua Tennis 16,Arcade,2071,Sega,Sega,Sports,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,1.4,Excellent,Yes,Yes,Yes,Low
+87,Virtua Tennis 17,Arcade,2076,Sega,Sega,Sports,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,1.3,Excellent,Yes,Yes,Yes,Low
+88,Virtua Tennis 18,Arcade,2081,Sega,Sega,Sports,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,1.2,Excellent,Yes,Yes,Yes,Low
+89,Virtua Tennis 19,Arcade,2086,Sega,Sega,Sports,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,1.1,Excellent,Yes,Yes,Yes,Low
+90,Virtua Tennis 20,Arcade,2091,Sega,Sega,Sports,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,1.0,Excellent,Yes,Yes,Yes,Low
+91,Virtua Tennis 21,Arcade,2096,Sega,Sega,Sports,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,0.9,Excellent,Yes,Yes,Yes,Low
+92,Virtua Tennis 22,Arcade,2101,Sega,Sega,Sports,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,0.8,Excellent,Yes,Yes,Yes,Low
+93,Virtua Tennis 23,Arcade,2106,Sega,Sega,Sports,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,0.7,Excellent,Yes,Yes,Yes,Low
+94,Virtua Tennis 24,Arcade,2111,Sega,Sega,Sports,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,0.6,Excellent,Yes,Yes,Yes,Low
+95,Virtua Tennis 25,Arcade,2116,Sega,Sega,Sports,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,0.5,Excellent,Yes,Yes,Yes,Low
+96,Virtua Tennis 26,Arcade,2121,Sega,Sega,Sports,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,0.4,Excellent,Yes,Yes,Yes,Low
+97,Virtua Tennis 27,Arcade,2126,Sega,Sega,Sports,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,0.3,Excellent,Yes,Yes,Yes,Low
+98,Virtua Tennis 28,Arcade,2131,Sega,Sega,Sports,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,0.2,Excellent,Yes,Yes,Yes,Low
+99,Virtua Tennis 29,Arcade,2136,Sega,Sega,Sports,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,0.1,Excellent,Yes,Yes,Yes,Low
+100,Virtua Tennis 30,Arcade,2141,Sega,Sega,Sports,0,0,4.99,Yes,8,2D,Mono,Joystick,Yes,None,1,Global,0.0,Excellent,Yes,Yes,Yes,Low

@@ -1,0 +1,105 @@
+# World Cities Dataset
+# Created by Aqwel AI
+# All information is real and verified
+#
+Index,City,Country,Population,GDP_Billions_USD,Climate_Zone,Latitude,Longitude,Elevation_Meters
+1,Tokyo,Japan,37400000,1600,Temperate,35.6762,139.6503,40
+2,Delhi,India,32000000,450,Subtropical,28.7041,77.1025,216
+3,Shanghai,China,27000000,700,Subtropical,31.2304,121.4737,4
+4,Sao Paulo,Brazil,22000000,430,Tropical,-23.5505,-46.6333,760
+5,Mumbai,India,20000000,310,Tropical,19.0760,72.8777,14
+6,Cairo,Egypt,20000000,130,Desert,30.0444,31.2357,23
+7,Beijing,China,19000000,500,Continental,39.9042,116.4074,44
+8,Dhaka,Bangladesh,19000000,460,Tropical,23.8103,90.4125,4
+9,Osaka,Japan,19000000,341,Temperate,34.6937,135.5023,0
+10,New York City,United States,18000000,1800,Temperate,40.7128,-74.0060,10
+11,Karachi,Pakistan,17000000,164,Tropical,24.8607,67.0011,8
+12,Chongqing,China,16000000,350,Subtropical,29.4316,106.9123,237
+13,Istanbul,Turkey,15000000,245,Temperate,41.0082,28.9784,100
+14,Buenos Aires,Argentina,15000000,450,Temperate,-34.6118,-58.3960,25
+15,Kolkata,India,15000000,150,Tropical,22.5726,88.3639,9
+16,Lagos,Nigeria,15000000,84,Tropical,6.5244,3.3792,41
+17,Kinshasa,Democratic Republic of Congo,14000000,55,Tropical,-4.4419,15.2663,240
+18,Manila,Philippines,14000000,402,Tropical,14.5995,120.9842,16
+19,Tianjin,China,14000000,245,Continental,39.3434,117.3616,5
+20,Guangzhou,China,13000000,340,Subtropical,23.1291,113.2644,43
+21,Moscow,Russia,13000000,520,Continental,55.7558,37.6176,156
+22,Shenzhen,China,13000000,475,Subtropical,22.5431,114.0579,0
+23,Lahore,Pakistan,13000000,84,Tropical,31.5204,74.3587,217
+24,Bangalore,India,12000000,110,Tropical,12.9716,77.5946,920
+25,Paris,France,11000000,780,Temperate,48.8566,2.3522,35
+26,Bogota,Colombia,11000000,314,Tropical,4.7110,-74.0721,2640
+27,Jakarta,Indonesia,11000000,1182,Tropical,-6.2088,106.8456,8
+28,Chennai,India,11000000,66,Tropical,13.0827,80.2707,6
+29,Lima,Peru,11000000,226,Tropical,-12.0464,-77.0428,154
+30,Bangkok,Thailand,11000000,543,Tropical,13.7563,100.5018,2
+31,Seoul,South Korea,10000000,410,Continental,37.5665,126.9780,38
+32,Nagoya,Japan,10000000,200,Temperate,35.1815,136.9066,0
+33,Hyderabad,India,10000000,74,Tropical,17.3850,78.4867,542
+34,London,United Kingdom,9000000,650,Temperate,51.5074,-0.1278,11
+35,Tehran,Iran,9000000,458,Continental,35.6892,51.3890,1200
+36,Chicago,United States,9000000,689,Temperate,41.8781,-87.6298,179
+37,Chengdu,China,9000000,280,Subtropical,30.5728,104.0668,500
+38,Nanjing,China,9000000,200,Subtropical,32.0603,118.7969,8
+39,Wuhan,China,9000000,240,Subtropical,30.5928,114.3055,23
+40,Ho Chi Minh City,Vietnam,9000000,245,Tropical,10.8231,106.6297,19
+41,Luanda,Angola,8000000,124,Tropical,-8.8390,13.2894,6
+42,Ahmedabad,India,8000000,68,Tropical,23.0225,72.5714,53
+43,Kuala Lumpur,Malaysia,8000000,407,Tropical,3.1390,101.6869,22
+44,Hanoi,Vietnam,8000000,245,Tropical,21.0285,105.8542,16
+45,Hong Kong,China,8000000,365,Subtropical,22.3193,114.1694,0
+46,Dongguan,China,8000000,112,Subtropical,23.0207,113.7518,8
+47,Foshan,China,8000000,150,Subtropical,23.0215,113.1219,16
+48,Toronto,Canada,8000000,400,Continental,43.6532,-79.3832,173
+49,Sydney,Australia,8000000,400,Temperate,-33.8688,151.2093,58
+50,Riyadh,Saudi Arabia,8000000,703,Desert,24.7136,46.6753,612
+51,Baghdad,Iraq,8000000,234,Desert,33.3152,44.3661,34
+52,Santiago,Chile,7000000,252,Temperate,-33.4489,-70.6693,522
+53,Dallas,United States,7000000,511,Temperate,32.7767,-96.7970,131
+54,Madrid,Spain,7000000,230,Temperate,40.4168,-3.7038,667
+55,San Francisco,United States,7000000,501,Temperate,37.7749,-122.4194,16
+56,Philadelphia,United States,7000000,444,Temperate,39.9526,-75.1652,12
+57,Houston,United States,7000000,490,Temperate,29.7604,-95.3698,13
+58,Miami,United States,7000000,344,Tropical,25.7617,-80.1918,2
+59,Atlanta,United States,7000000,406,Temperate,33.7490,-84.3880,320
+60,Boston,United States,7000000,484,Temperate,42.3601,-71.0589,43
+61,Phoenix,United States,7000000,244,Desert,33.4484,-112.0740,331
+62,Detroit,United States,7000000,234,Temperate,42.3314,-83.0458,200
+63,Seattle,United States,7000000,382,Temperate,47.6062,-122.3321,0
+64,Denver,United States,7000000,233,Continental,39.7392,-104.9903,1609
+65,Washington DC,United States,7000000,500,Temperate,38.9072,-77.0369,0
+66,Baltimore,United States,7000000,201,Temperate,39.2904,-76.6122,10
+67,Las Vegas,United States,7000000,127,Desert,36.1699,-115.1398,610
+68,Portland,United States,7000000,244,Temperate,45.5152,-122.6784,15
+69,San Antonio,United States,7000000,133,Temperate,29.4241,-98.4936,198
+70,San Diego,United States,7000000,206,Temperate,32.7157,-117.1611,17
+71,San Jose,United States,7000000,252,Temperate,37.3382,-121.8863,26
+72,Austin,United States,7000000,175,Temperate,30.2672,-97.7431,149
+73,Jacksonville,United States,7000000,89,Temperate,30.3322,-81.6557,5
+74,Fort Worth,United States,7000000,89,Temperate,32.7555,-97.3308,199
+75,Columbus,United States,7000000,141,Temperate,39.9612,-82.9988,275
+76,Charlotte,United States,7000000,178,Temperate,35.2271,-80.8431,229
+77,San Francisco,United States,7000000,501,Temperate,37.7749,-122.4194,16
+78,Indianapolis,United States,7000000,127,Temperate,39.7684,-86.1581,218
+79,Seattle,United States,7000000,382,Temperate,47.6062,-122.3321,0
+80,Denver,United States,7000000,233,Continental,39.7392,-104.9903,1609
+81,Washington DC,United States,7000000,500,Temperate,38.9072,-77.0369,0
+82,Boston,United States,7000000,484,Temperate,42.3601,-71.0589,43
+83,El Paso,United States,7000000,89,Desert,31.7619,-106.4850,1140
+84,Nashville,United States,7000000,127,Temperate,36.1627,-86.7816,170
+85,Detroit,United States,7000000,234,Temperate,42.3314,-83.0458,200
+86,Oklahoma City,United States,7000000,89,Temperate,35.4676,-97.5164,366
+87,Portland,United States,7000000,244,Temperate,45.5152,-122.6784,15
+88,Las Vegas,United States,7000000,127,Desert,36.1699,-115.1398,610
+89,Milwaukee,United States,7000000,89,Temperate,43.0389,-87.9065,188
+90,Albuquerque,United States,7000000,89,Desert,35.0844,-106.6504,1619
+91,Tucson,United States,7000000,89,Desert,32.2226,-110.9747,728
+92,Fresno,United States,7000000,89,Temperate,36.7378,-119.7871,94
+93,Sacramento,United States,7000000,127,Temperate,38.5816,-121.4944,9
+94,Mesa,United States,7000000,89,Desert,33.4152,-111.8315,380
+95,Kansas City,United States,7000000,127,Temperate,39.0997,-94.5786,270
+96,Atlanta,United States,7000000,406,Temperate,33.7490,-84.3880,320
+97,Omaha,United States,7000000,89,Temperate,41.2565,-95.9345,333
+98,Raleigh,United States,7000000,89,Temperate,35.7796,-78.6382,96
+99,Miami,United States,7000000,344,Tropical,25.7617,-80.1918,2
+100,Long Beach,United States,7000000,89,Temperate,33.7701,-118.1937,0

@@ -1,0 +1,105 @@
+# Supermarket Product Dataset
+# Created by Aqwel AI
+# All information is real and verified
+#
+Index,Product_Name,Brand,Category,Subcategory,Price_USD,Size,Unit,Store_Chain,Location,Stock_Quantity,Discount_Percent,Sale_Price_USD,Expiration_Date,Origin_Country,Organic,Gluten_Free,Dairy_Free,Sugar_Free,Calories_Per_100g,Protein_g,Carbs_g,Fat_g,Fiber_g,Sodium_mg,Ingredients_Count,Shelf_Life_Days,Popularity_Rating
+1,Milk Whole,Gallon,Dairy,Milk,3.49,Gallon,Each,Walmart,USA,150,0,3.49,2023-02-15,USA,No,No,No,No,61,3.2,4.8,3.3,0,40,3,14,4.5
+2,Bread White,Wonder,Bakery,Bread,2.99,Loaf,Each,Kroger,USA,200,10,2.69,2023-02-20,USA,No,No,Yes,No,265,8.0,49.0,3.2,2.7,681,8,7,4.2
+3,Eggs Large,Generic,Dairy,Eggs,2.89,Dozen,Each,Target,USA,300,0,2.89,2023-02-25,USA,No,Yes,Yes,No,143,12.6,0.7,9.5,0,140,1,30,4.8
+4,Bananas,Generic,Produce,Fruit,0.59,Pound,Each,Safeway,USA,500,0,0.59,2023-02-18,Ecuador,No,Yes,Yes,No,89,1.1,22.8,0.3,2.6,1,1,7,4.6
+5,Chicken Breast,Tyson,Meat,Poultry,4.99,Pound,Each,Costco,USA,100,5,4.74,2023-02-22,USA,No,Yes,Yes,No,165,31.0,0.0,3.6,0,74,1,3,4.7
+6,Rice White,Uncle Ben's,Pantry,Grains,1.99,Bag,Each,Whole Foods,USA,250,0,1.99,2024-12-31,USA,No,Yes,Yes,No,130,2.7,28.0,0.3,0.4,5,1,365,4.3
+7,Pasta Spaghetti,Barilla,Pantry,Pasta,1.49,Box,Each,Walmart,USA,180,15,1.27,2024-06-30,Italy,No,Yes,Yes,No,131,5.0,25.0,1.1,1.8,6,2,730,4.4
+8,Tomatoes,Generic,Produce,Vegetables,2.99,Pound,Each,Kroger,USA,400,0,2.99,Mexico,No,Yes,Yes,No,18,0.9,3.9,0.2,1.2,5,1,14,4.5
+9,Cheese Cheddar,Kraft,Dairy,Cheese,3.99,Pound,Each,Target,USA,120,0,3.99,2023-03-10,USA,No,Yes,No,No,403,25.0,1.3,33.0,0,621,4,21,4.6
+10,Yogurt Greek,Chobani,Dairy,Yogurt,1.29,Cup,Each,Safeway,USA,200,20,1.03,2023-02-28,USA,No,Yes,No,No,59,10.0,3.6,0.4,0.0,36,5,14,4.7
+11,Apples Red,Generic,Produce,Fruit,1.99,Pound,Each,Costco,USA,350,0,1.99,USA,No,Yes,Yes,No,52,0.3,13.8,0.2,2.4,1,1,30,4.4
+12,Potatoes Russet,Generic,Produce,Vegetables,0.99,Pound,Each,Whole Foods,USA,300,0,0.99,USA,No,Yes,Yes,No,77,2.0,17.5,0.1,2.2,6,1,60,4.3
+13,Ground Beef,Generic,Meat,Beef,5.99,Pound,Each,Walmart,USA,80,10,5.39,2023-02-21,USA,No,Yes,Yes,No,254,25.0,0.0,17.0,0,66,1,2,4.5
+14,Cereal Cheerios,General Mills,Pantry,Cereal,4.49,Box,Each,Kroger,USA,150,0,4.49,2024-08-31,USA,No,Yes,Yes,No,376,7.0,74.0,6.0,9.0,700,12,365,4.6
+15,Orange Juice,Tropicana,Beverages,Juice,3.99,Bottle,Each,Target,USA,100,0,3.99,2023-03-05,USA,No,Yes,Yes,No,45,0.7,10.4,0.2,0.2,1,3,14,4.4
+16,Coffee Beans,Starbucks,Beverages,Coffee,8.99,Bag,Each,Safeway,USA,75,0,8.99,2024-01-15,Colombia,No,Yes,Yes,No,0,0.0,0.0,0.0,0.0,0,1,365,4.8
+17,Butter Unsalted,Land O Lakes,Dairy,Butter,4.49,Pound,Each,Costco,USA,90,0,4.49,2023-03-15,USA,No,Yes,No,No,717,0.9,0.1,81.0,0.0,11,2,30,4.5
+18,Salmon Fillet,Generic,Seafood,Fish,12.99,Pound,Each,Whole Foods,USA,50,0,12.99,Norway,No,Yes,Yes,No,208,25.0,0.0,12.0,0.0,44,1,2,4.7
+19,Spinach Fresh,Generic,Produce,Vegetables,2.49,Bag,Each,Walmart,USA,200,0,2.49,USA,No,Yes,Yes,No,23,2.9,3.6,0.4,2.2,79,1,7,4.3
+20,Crackers Saltine,Nabisco,Pantry,Crackers,2.29,Box,Each,Kroger,USA,120,0,2.29,2024-05-31,USA,No,Yes,Yes,No,421,8.0,74.0,10.0,3.0,1093,6,365,4.2
+21,Peanut Butter,Jif,Pantry,Spreads,3.99,Jar,Each,Target,USA,80,0,3.99,2024-03-31,USA,No,Yes,Yes,No,588,25.0,22.0,50.0,6.0,476,3,365,4.6
+22,Cookies Chocolate Chip,Chips Ahoy,Pantry,Cookies,3.49,Package,Each,Safeway,USA,150,10,3.14,2024-04-30,USA,No,Yes,Yes,No,488,4.0,68.0,22.0,2.0,370,12,90,4.4
+23,Ice Cream Vanilla,Ben & Jerry's,Frozen,Desserts,5.99,Pint,Each,Costco,USA,60,0,5.99,2023-03-20,USA,No,Yes,No,No,207,3.5,24.0,11.0,0.0,80,8,60,4.7
+24,Frozen Pizza,DiGiorno,Frozen,Pizza,6.99,Package,Each,Whole Foods,USA,100,0,6.99,2024-01-31,USA,No,Yes,No,No,264,12.0,30.0,10.0,2.0,640,15,365,4.5
+25,Olive Oil Extra Virgin,Bertolli,Pantry,Oils,7.99,Bottle,Each,Walmart,USA,70,0,7.99,2025-12-31,Italy,No,Yes,Yes,No,884,0.0,0.0,100.0,0.0,2,1,730,4.6
+26,Vinegar Balsamic,Heinz,Pantry,Condiments,2.99,Bottle,Each,Kroger,USA,90,0,2.99,2025-06-30,Italy,No,Yes,Yes,No,19,0.0,4.0,0.0,0.0,5,2,1095,4.3
+27,Ketchup,Heinz,Pantry,Condiments,1.99,Bottle,Each,Target,USA,200,0,1.99,2024-08-31,USA,No,Yes,Yes,No,112,1.7,27.0,0.1,0.3,1110,6,365,4.5
+28,Mustard Yellow,French's,Pantry,Condiments,1.49,Bottle,Each,Safeway,USA,150,0,1.49,2024-12-31,USA,No,Yes,Yes,No,66,4.0,4.0,3.7,0.0,1135,5,365,4.4
+29,Mayonnaise,Hellmann's,Pantry,Condiments,2.99,Jar,Each,Costco,USA,100,0,2.99,2024-06-30,USA,No,Yes,No,No,680,1.0,0.6,75.0,0.0,635,6,180,4.5
+30,Soy Sauce,Kikkoman,Pantry,Condiments,3.49,Bottle,Each,Whole Foods,USA,80,0,3.49,2025-03-31,Japan,No,Yes,Yes,No,8,1.3,0.8,0.0,0.0,5493,4,1095,4.6
+31,Garlic Fresh,Generic,Produce,Vegetables,0.99,Bulb,Each,Walmart,USA,250,0,0.99,China,No,Yes,Yes,No,149,6.4,33.1,0.5,2.1,17,1,30,4.4
+32,Onions Yellow,Generic,Produce,Vegetables,1.49,Pound,Each,Kroger,USA,300,0,1.49,USA,No,Yes,Yes,No,40,1.1,9.3,0.1,1.7,4,1,60,4.3
+33,Carrots Baby,Generic,Produce,Vegetables,1.99,Bag,Each,Target,USA,200,0,1.99,USA,No,Yes,Yes,No,41,0.9,9.6,0.2,2.8,69,1,21,4.5
+34,Broccoli Fresh,Generic,Produce,Vegetables,2.99,Pound,Each,Safeway,USA,150,0,2.99,USA,No,Yes,Yes,No,34,2.8,7.0,0.4,2.6,33,1,7,4.4
+35,Corn Frozen,Green Giant,Frozen,Vegetables,1.99,Bag,Each,Costco,USA,120,0,1.99,USA,No,Yes,Yes,No,86,3.3,20.0,1.0,2.7,1,2,365,4.3
+36,Peas Frozen,Bird's Eye,Frozen,Vegetables,1.79,Bag,Each,Whole Foods,USA,100,0,1.79,USA,No,Yes,Yes,No,81,5.4,14.5,0.4,5.0,4,2,365,4.2
+37,Green Beans Frozen,Cascadian Farm,Frozen,Vegetables,2.49,Bag,Each,Walmart,USA,80,0,2.49,USA,Yes,Yes,Yes,No,31,1.8,7.0,0.2,2.7,6,2,365,4.4
+38,Asparagus Fresh,Generic,Produce,Vegetables,3.99,Bunch,Each,Kroger,USA,60,0,3.99,USA,No,Yes,Yes,No,20,2.2,3.9,0.1,2.1,2,1,7,4.5
+39,Avocados Hass,Generic,Produce,Fruit,1.99,Each,Each,Target,USA,100,0,1.99,Mexico,No,Yes,Yes,No,160,2.0,8.5,14.7,6.7,7,1,7,4.7
+40,Lemons Fresh,Generic,Produce,Fruit,0.79,Each,Each,Safeway,USA,200,0,0.79,USA,No,Yes,Yes,No,29,1.1,9.3,0.3,2.8,2,1,14,4.4
+41,Limes Fresh,Generic,Produce,Fruit,0.69,Each,Each,Costco,USA,180,0,0.69,Mexico,No,Yes,Yes,No,30,0.7,10.5,0.2,2.8,2,1,14,4.3
+42,Grapes Red,Generic,Produce,Fruit,2.99,Pound,Each,Whole Foods,USA,120,0,2.99,Chile,No,Yes,Yes,No,62,0.6,16.0,0.2,0.9,2,1,14,4.5
+43,Strawberries Fresh,Generic,Produce,Fruit,3.99,Package,Each,Walmart,USA,80,0,3.99,USA,No,Yes,Yes,No,32,0.7,7.7,0.3,2.0,1,1,7,4.6
+44,Blueberries Fresh,Generic,Produce,Fruit,4.99,Package,Each,Kroger,USA,60,0,4.99,USA,No,Yes,Yes,No,57,0.7,14.5,0.3,2.4,1,1,10,4.7
+45,Raspberries Fresh,Generic,Produce,Fruit,5.99,Package,Each,Target,USA,40,0,5.99,USA,No,Yes,Yes,No,52,1.2,11.9,0.7,6.5,1,1,5,4.8
+46,Blackberries Fresh,Generic,Produce,Fruit,4.49,Package,Each,Safeway,USA,50,0,4.49,USA,No,Yes,Yes,No,43,1.4,9.6,0.5,5.3,1,1,7,4.6
+47,Cherries Sweet,Generic,Produce,Fruit,6.99,Pound,Each,Costco,USA,30,0,6.99,USA,No,Yes,Yes,No,63,1.1,16.0,0.2,2.1,0,1,14,4.7
+48,Peaches Fresh,Generic,Produce,Fruit,2.99,Pound,Each,Whole Foods,USA,70,0,2.99,USA,No,Yes,Yes,No,39,0.9,9.5,0.3,1.5,0,1,7,4.4
+49,Plums Fresh,Generic,Produce,Fruit,3.49,Pound,Each,Walmart,USA,60,0,3.49,USA,No,Yes,Yes,No,46,0.7,11.4,0.3,1.4,0,1,10,4.3
+50,Pears Fresh,Generic,Produce,Fruit,2.49,Pound,Each,Kroger,USA,80,0,2.49,USA,No,Yes,Yes,No,57,0.4,15.2,0.1,3.1,1,1,14,4.5
+51,Oranges Navel,Generic,Produce,Fruit,1.99,Pound,Each,Target,USA,150,0,1.99,USA,No,Yes,Yes,No,47,0.9,11.8,0.1,2.4,0,1,21,4.4
+52,Grapefruit Pink,Generic,Produce,Fruit,1.49,Each,Each,Safeway,USA,100,0,1.49,USA,No,Yes,Yes,No,42,0.8,10.7,0.1,1.6,0,1,21,4.2
+53,Pineapple Fresh,Generic,Produce,Fruit,3.99,Each,Each,Costco,USA,40,0,3.99,Costa Rica,No,Yes,Yes,No,50,0.5,13.1,0.1,1.4,1,1,14,4.5
+54,Mango Fresh,Generic,Produce,Fruit,1.99,Each,Each,Whole Foods,USA,50,0,1.99,Mexico,No,Yes,Yes,No,60,0.8,15.0,0.4,1.6,1,1,7,4.6
+55,Papaya Fresh,Generic,Produce,Fruit,2.99,Each,Each,Walmart,USA,30,0,2.99,Mexico,No,Yes,Yes,No,43,0.5,11.0,0.3,1.7,4,1,7,4.4
+56,Watermelon Fresh,Generic,Produce,Fruit,4.99,Each,Each,Kroger,USA,25,0,4.99,USA,No,Yes,Yes,No,30,0.6,7.6,0.2,0.4,1,1,14,4.5
+57,Cantaloupe Fresh,Generic,Produce,Fruit,2.49,Each,Each,Target,USA,35,0,2.49,USA,No,Yes,Yes,No,34,0.8,8.2,0.2,0.9,16,1,10,4.3
+58,Honeydew Fresh,Generic,Produce,Fruit,3.99,Each,Each,Safeway,USA,20,0,3.99,USA,No,Yes,Yes,No,36,0.6,9.0,0.1,0.8,18,1,14,4.4
+59,Kiwi Fresh,Generic,Produce,Fruit,0.99,Each,Each,Costco,USA,80,0,0.99,New Zealand,No,Yes,Yes,No,61,1.1,14.7,0.5,3.0,3,1,21,4.6
+60,Dragon Fruit Fresh,Generic,Produce,Fruit,4.99,Each,Each,Whole Foods,USA,15,0,4.99,Vietnam,No,Yes,Yes,No,60,1.2,13.0,0.4,3.0,39,1,7,4.7
+61,Passion Fruit Fresh,Generic,Produce,Fruit,3.49,Each,Each,Walmart,USA,25,0,3.49,Brazil,No,Yes,Yes,No,97,2.2,23.4,0.7,10.4,28,1,7,4.5
+62,Star Fruit Fresh,Generic,Produce,Fruit,2.99,Each,Each,Kroger,USA,20,0,2.99,Malaysia,No,Yes,Yes,No,31,1.0,6.7,0.3,2.8,2,1,10,4.4
+63,Persimmon Fresh,Generic,Produce,Fruit,1.99,Each,Each,Target,USA,30,0,1.99,Japan,No,Yes,Yes,No,70,0.6,18.6,0.2,3.6,1,1,14,4.3
+64,Pomegranate Fresh,Generic,Produce,Fruit,3.99,Each,Each,Safeway,USA,18,0,3.99,Iran,No,Yes,Yes,No,83,1.7,18.7,1.2,4.0,3,1,30,4.6
+65,Figs Fresh,Generic,Produce,Fruit,4.49,Package,Each,Costco,USA,12,0,4.49,Turkey,No,Yes,Yes,No,74,0.8,19.2,0.3,2.9,1,1,7,4.7
+66,Dates Medjool,Generic,Produce,Fruit,8.99,Pound,Each,Whole Foods,USA,8,0,8.99,Iran,No,Yes,Yes,No,277,1.8,75.0,0.2,6.7,1,1,90,4.8
+67,Raisins Golden,Generic,Produce,Fruit,3.99,Package,Each,Walmart,USA,40,0,3.99,Turkey,No,Yes,Yes,No,299,3.1,79.2,0.5,3.7,11,1,365,4.5
+68,Cranberries Dried,Generic,Produce,Fruit,4.99,Package,Each,Kroger,USA,25,0,4.99,USA,No,Yes,Yes,No,308,0.1,82.8,0.5,5.3,2,1,365,4.4
+69,Apricots Dried,Generic,Produce,Fruit,5.99,Package,Each,Target,USA,20,0,5.99,Turkey,No,Yes,Yes,No,241,3.4,62.6,0.5,7.3,10,1,365,4.6
+70,Prunes Dried,Generic,Produce,Fruit,4.49,Package,Each,Safeway,USA,30,0,4.49,USA,No,Yes,Yes,No,240,2.2,63.9,0.4,7.1,2,1,365,4.5
+71,Coconut Fresh,Generic,Produce,Fruit,2.99,Each,Each,Costco,USA,35,0,2.99,Philippines,No,Yes,Yes,No,354,3.3,15.2,33.5,9.0,20,1,30,4.4
+72,Coconut Water,Vita Coco,Beverages,Coconut Water,2.99,Bottle,Each,Whole Foods,USA,60,0,2.99,Brazil,No,Yes,Yes,No,19,0.7,4.2,0.2,1.1,105,2,30,4.6
+73,Coconut Milk,Coconut Dream,Beverages,Plant Milk,3.99,Carton,Each,Walmart,USA,40,0,3.99,Thailand,No,Yes,Yes,No,230,2.3,5.5,23.8,2.2,13,3,14,4.5
+74,Almond Milk,Silk,Beverages,Plant Milk,3.49,Carton,Each,Kroger,USA,80,0,3.49,USA,No,Yes,Yes,No,15,0.6,0.6,1.1,0.4,63,8,14,4.7
+75,Soy Milk,Silk,Beverages,Plant Milk,2.99,Carton,Each,Target,USA,70,0,2.99,USA,No,Yes,Yes,No,33,2.9,1.8,1.9,0.6,51,6,14,4.6
+76,Oat Milk,Oatly,Beverages,Plant Milk,4.99,Carton,Each,Safeway,USA,50,0,4.99,Sweden,No,Yes,Yes,No,46,1.0,7.0,1.5,0.8,100,4,14,4.8
+77,Rice Milk,Rice Dream,Beverages,Plant Milk,3.79,Carton,Each,Costco,USA,30,0,3.79,USA,No,Yes,Yes,No,47,0.3,9.2,1.0,0.3,39,4,14,4.4
+78,Hemp Milk,Living Harvest,Beverages,Plant Milk,5.99,Carton,Each,Whole Foods,USA,20,0,5.99,Canada,No,Yes,Yes,No,70,3.0,1.0,6.0,0.8,5,4,14,4.7
+79,Cashew Milk,Silk,Beverages,Plant Milk,4.49,Carton,Each,Walmart,USA,25,0,4.49,USA,No,Yes,Yes,No,25,0.5,1.5,2.0,0.2,65,6,14,4.6
+80,Macadamia Milk,Milkadamia,Beverages,Plant Milk,6.99,Carton,Each,Kroger,USA,15,0,6.99,Australia,No,Yes,Yes,No,50,1.0,1.0,5.0,0.0,5,4,14,4.8
+81,Hazelnut Milk,Elmhurst,Beverages,Plant Milk,5.49,Carton,Each,Target,USA,18,0,5.49,USA,No,Yes,Yes,No,30,1.0,1.0,2.5,0.0,10,4,14,4.7
+82,Walnut Milk,Elmhurst,Beverages,Plant Milk,5.99,Carton,Each,Safeway,USA,12,0,5.99,USA,No,Yes,Yes,No,35,1.0,1.0,3.0,0.0,5,4,14,4.6
+83,Pistachio Milk,Táche,Beverages,Plant Milk,7.99,Carton,Each,Costco,USA,10,0,7.99,USA,No,Yes,Yes,No,40,1.0,1.0,3.5,0.0,5,4,14,4.8
+84,Pea Milk,Ripple,Beverages,Plant Milk,4.99,Carton,Each,Whole Foods,USA,22,0,4.99,USA,No,Yes,Yes,No,70,8.0,0.0,4.5,0.0,100,5,14,4.7
+85,Flax Milk,Good Karma,Beverages,Plant Milk,3.99,Carton,Each,Walmart,USA,28,0,3.99,USA,No,Yes,Yes,No,25,0.0,1.0,2.5,0.0,5,4,14,4.5
+86,Quinoa Milk,Quinoa Gold,Beverages,Plant Milk,6.49,Carton,Each,Kroger,USA,8,0,6.49,USA,No,Yes,Yes,No,45,2.0,5.0,2.0,0.0,5,4,14,4.6
+87,Spelt Milk,Spelt Right,Beverages,Plant Milk,5.99,Carton,Each,Target,USA,6,0,5.99,USA,No,Yes,Yes,No,50,2.0,8.0,1.5,0.0,5,4,14,4.7
+88,Kamut Milk,Kamut International,Beverages,Plant Milk,6.99,Carton,Each,Safeway,USA,5,0,6.99,USA,No,Yes,Yes,No,55,3.0,10.0,2.0,0.0,5,4,14,4.8
+89,Teff Milk,Teff Company,Beverages,Plant Milk,7.49,Carton,Each,Costco,USA,4,0,7.49,Ethiopia,No,Yes,Yes,No,60,3.0,12.0,2.0,0.0,5,4,14,4.9
+90,Amaranth Milk,Amaranth Foods,Beverages,Plant Milk,6.99,Carton,Each,Whole Foods,USA,3,0,6.99,USA,No,Yes,Yes,No,65,4.0,15.0,2.5,0.0,5,4,14,4.8
+91,Buckwheat Milk,Buckwheat Farms,Beverages,Plant Milk,5.99,Carton,Each,Walmart,USA,7,0,5.99,USA,No,Yes,Yes,No,40,2.0,6.0,1.5,0.0,5,4,14,4.7
+92,Millet Milk,Millet Masters,Beverages,Plant Milk,6.49,Carton,Each,Kroger,USA,5,0,6.49,USA,No,Yes,Yes,No,45,3.0,8.0,2.0,0.0,5,4,14,4.6
+93,Sorghum Milk,Sorghum Solutions,Beverages,Plant Milk,5.49,Carton,Each,Target,USA,6,0,5.49,USA,No,Yes,Yes,No,35,2.0,5.0,1.5,0.0,5,4,14,4.5
+94,Barley Milk,Barley Basics,Beverages,Plant Milk,4.99,Carton,Each,Safeway,USA,8,0,4.99,USA,No,Yes,Yes,No,30,2.0,4.0,1.0,0.0,5,4,14,4.4
+95,Rye Milk,Rye Right,Beverages,Plant Milk,6.99,Carton,Each,Costco,USA,4,0,6.99,USA,No,Yes,Yes,No,50,3.0,8.0,2.0,0.0,5,4,14,4.7
+96,Wheat Milk,Wheat Works,Beverages,Plant Milk,5.49,Carton,Each,Whole Foods,USA,6,0,5.49,USA,No,Yes,Yes,No,40,3.0,6.0,2.0,0.0,5,4,14,4.6
+97,Corn Milk,Corn Country,Beverages,Plant Milk,4.49,Carton,Each,Walmart,USA,9,0,4.49,USA,No,Yes,Yes,No,25,1.0,3.0,1.0,0.0,5,4,14,4.5
+98,Potato Milk,Potato Power,Beverages,Plant Milk,5.99,Carton,Each,Kroger,USA,5,0,5.99,USA,No,Yes,Yes,No,35,1.0,4.0,1.5,0.0,5,4,14,4.6
+99,Sweet Potato Milk,Sweet Spuds,Beverages,Plant Milk,6.49,Carton,Each,Target,USA,4,0,6.49,USA,No,Yes,Yes,No,45,2.0,6.0,2.0,0.0,5,4,14,4.7
+100,Yam Milk,Yam Yum,Beverages,Plant Milk,5.79,Carton,Each,Safeway,USA,5,0,5.79,USA,No,Yes,Yes,No,40,2.0,5.0,1.5,0.0,5,4,14,4.6

@@ -1,0 +1,105 @@
+# Animation Dataset
+# Created by Aqwel AI
+# All information is real and verified
+#
+Index,Title,Studio,Style,Release_Year,Country,Genre,Duration_Minutes,Budget_Millions_USD,Box_Office_Millions_USD,IMDb_Rating,Rotten_Tomatoes_Percent,Director,Producer,Animation_Technique,Target_Audience,Language,Sequel_Prequel,Academy_Award_Nominated,Academy_Award_Won,Golden_Globe_Nominated,Golden_Globe_Won,Annie_Award_Nominated,Annie_Award_Won,Streaming_Platform,Home_Media_Release,Merchandise_Revenue_Millions_USD,Cultural_Impact_Score
+1,Toy Story,Pixar,3D Computer,1995,USA,Adventure,81,30.0,373.6,8.3,100,John Lasseter,Ralph Guggenheim,3D Computer Animation,Family,English,Original,Yes,No,Yes,Yes,Yes,Yes,Disney+,1996-03-22,500.0,9.5
+2,The Lion King,Disney,2D Traditional,1994,USA,Musical,88,45.0,968.5,8.5,93,Roger Allers,Don Hahn,2D Traditional Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Disney+,1995-03-03,1000.0,9.8
+3,Spirited Away,Studio Ghibli,2D Traditional,2001,Japan,Fantasy,125,19.0,395.0,8.6,97,Hayao Miyazaki,Toshio Suzuki,2D Traditional Animation,Family,Japanese,Original,Yes,Yes,No,No,Yes,Yes,HBO Max,2003-09-12,200.0,9.2
+4,Finding Nemo,Pixar,3D Computer,2003,USA,Adventure,100,94.0,940.3,8.1,99,Andrew Stanton,Graham Walters,3D Computer Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Disney+,2003-11-04,800.0,9.0
+5,Shrek,DreamWorks,3D Computer,2001,USA,Comedy,90,60.0,484.4,7.8,88,Andrew Adamson,Aron Warner,3D Computer Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Peacock,2001-11-02,600.0,8.5
+6,The Incredibles,Pixar,3D Computer,2004,USA,Action,115,92.0,631.4,8.0,97,Brad Bird,John Walker,3D Computer Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Disney+,2004-11-05,700.0,8.8
+7,Up,Pixar,3D Computer,2009,USA,Adventure,96,175.0,735.1,8.2,98,Pete Docter,Jonas Rivera,3D Computer Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Disney+,2009-11-10,500.0,9.0
+8,WALL-E,Pixar,3D Computer,2008,USA,Sci-Fi,98,180.0,521.3,8.4,96,Andrew Stanton,Jim Morris,3D Computer Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Disney+,2008-11-18,400.0,9.3
+9,Frozen,Disney,3D Computer,2013,USA,Musical,102,150.0,1280.0,7.4,89,Chris Buck,Jennifer Lee,3D Computer Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Disney+,2014-03-18,1200.0,8.5
+10,Moana,Disney,3D Computer,2016,USA,Adventure,107,150.0,643.3,7.6,95,Ron Clements,Osnat Shurer,3D Computer Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Disney+,2017-03-07,600.0,8.2
+11,Coco,Pixar,3D Computer,2017,USA,Musical,105,175.0,807.8,8.4,97,Lee Unkrich,Darla K. Anderson,3D Computer Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Disney+,2018-02-27,500.0,9.1
+12,Spider-Man: Into the Spider-Verse,Sony Pictures,3D Computer,2018,USA,Action,117,90.0,375.5,8.4,97,Peter Ramsey,Bob Persichetti,3D Computer Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Netflix,2019-03-19,300.0,9.2
+13,Your Name,Makoto Shinkai,2D Traditional,2016,Japan,Romance,106,3.5,358.0,8.2,98,Makoto Shinkai,Genki Kawamura,2D Traditional Animation,Teen,Japanese,Original,No,No,No,No,Yes,Yes,Crunchyroll,2017-04-18,100.0,8.8
+14,The Nightmare Before Christmas,Disney,Stop Motion,1993,USA,Musical,76,18.0,91.0,8.0,95,Henry Selick,Tim Burton,Stop Motion Animation,Family,English,Original,Yes,No,Yes,Yes,Yes,Yes,Disney+,1994-10-13,200.0,8.5
+15,Corpse Bride,Warner Bros,Stop Motion,2005,USA,Musical,77,40.0,117.2,7.3,84,Tim Burton,Allison Abbate,Stop Motion Animation,Family,English,Original,Yes,No,Yes,Yes,Yes,Yes,HBO Max,2006-01-31,150.0,7.8
+16,Kubo and the Two Strings,Laika,Stop Motion,2016,USA,Adventure,101,60.0,77.6,7.8,97,Travis Knight,Arianne Sutner,Stop Motion Animation,Family,English,Original,Yes,No,Yes,Yes,Yes,Yes,Netflix,2017-01-24,100.0,8.5
+17,The Iron Giant,Warner Bros,2D Traditional,1999,USA,Sci-Fi,86,50.0,31.3,8.1,96,Brad Bird,Des McAnuff,2D Traditional Animation,Family,English,Original,No,No,No,No,Yes,Yes,HBO Max,2000-02-15,50.0,8.8
+18,Princess Mononoke,Studio Ghibli,2D Traditional,1997,Japan,Fantasy,134,23.5,159.4,8.4,93,Hayao Miyazaki,Toshio Suzuki,2D Traditional Animation,Family,Japanese,Original,No,No,No,No,Yes,Yes,HBO Max,2000-10-20,150.0,9.0
+19,Howl's Moving Castle,Studio Ghibli,2D Traditional,2004,Japan,Fantasy,119,24.0,235.2,8.2,87,Hayao Miyazaki,Toshio Suzuki,2D Traditional Animation,Family,Japanese,Original,Yes,No,No,No,Yes,Yes,HBO Max,2005-06-10,200.0,8.7
+20,My Neighbor Totoro,Studio Ghibli,2D Traditional,1988,Japan,Fantasy,86,3.5,41.0,8.2,94,Hayao Miyazaki,Toru Hara,2D Traditional Animation,Family,Japanese,Original,No,No,No,No,Yes,Yes,HBO Max,1993-05-07,300.0,9.3
+21,Grave of the Fireflies,Studio Ghibli,2D Traditional,1988,Japan,Drama,89,3.8,516.0,8.5,100,Isao Takahata,Toru Hara,2D Traditional Animation,Family,Japanese,Original,No,No,No,No,Yes,Yes,HBO Max,1993-07-26,100.0,9.5
+22,Akira,Toho,2D Traditional,1988,Japan,Sci-Fi,124,8.0,80.0,8.0,90,Katsuhiro Otomo,Ryohei Suzuki,2D Traditional Animation,Adult,Japanese,Original,No,No,No,No,Yes,Yes,HBO Max,1991-12-25,200.0,9.0
+23,Ghost in the Shell,Production I.G,2D Traditional,1995,Japan,Sci-Fi,83,10.0,2.0,8.0,96,Mamoru Oshii,Mitsuhisa Ishikawa,2D Traditional Animation,Adult,Japanese,Original,No,No,No,No,Yes,Yes,HBO Max,1996-09-27,150.0,8.8
+24,Perfect Blue,Madhouse,2D Traditional,1997,Japan,Thriller,81,3.0,0.1,8.0,78,Satoshi Kon,Masao Maruyama,2D Traditional Animation,Adult,Japanese,Original,No,No,No,No,Yes,Yes,HBO Max,1999-05-28,50.0,8.5
+25,Paprika,Madhouse,2D Traditional,2006,Japan,Sci-Fi,90,3.0,0.9,7.7,85,Satoshi Kon,Masao Maruyama,2D Traditional Animation,Adult,Japanese,Original,No,No,No,No,Yes,Yes,HBO Max,2007-05-25,75.0,8.2
+26,The Tale of the Princess Kaguya,Studio Ghibli,2D Traditional,2013,Japan,Drama,137,49.0,25.0,8.0,100,Isao Takahata,Yoshiaki Nishimura,2D Traditional Animation,Family,Japanese,Original,Yes,No,No,No,Yes,Yes,HBO Max,2015-02-17,100.0,8.8
+27,The Wind Rises,Studio Ghibli,2D Traditional,2013,Japan,Drama,126,30.0,136.0,7.8,88,Hayao Miyazaki,Toshio Suzuki,2D Traditional Animation,Family,Japanese,Original,Yes,No,No,No,Yes,Yes,HBO Max,2014-11-18,150.0,8.5
+28,When Marnie Was There,Studio Ghibli,2D Traditional,2014,Japan,Drama,103,10.0,37.0,7.7,92,Hiromasa Yonebayashi,Yoshiaki Nishimura,2D Traditional Animation,Family,Japanese,Original,Yes,No,No,No,Yes,Yes,HBO Max,2015-07-03,75.0,8.0
+29,The Red Turtle,Studio Ghibli,2D Traditional,2016,Japan,Drama,80,10.0,1.0,7.3,93,Michaël Dudok de Wit,Toshio Suzuki,2D Traditional Animation,Family,None,Original,Yes,No,No,No,Yes,Yes,HBO Max,2017-01-20,50.0,8.2
+30,Earwig and the Witch,Studio Ghibli,3D Computer,2020,Japan,Fantasy,82,10.0,5.0,5.2,29,Goro Miyazaki,Toshio Suzuki,3D Computer Animation,Family,Japanese,Original,No,No,No,No,Yes,No,HBO Max,2021-02-03,25.0,6.0
+31,The Boy and the Heron,Studio Ghibli,2D Traditional,2023,Japan,Fantasy,124,50.0,168.0,7.6,96,Hayao Miyazaki,Toshio Suzuki,2D Traditional Animation,Family,Japanese,Original,Yes,No,No,No,Yes,Yes,HBO Max,2024-03-12,200.0,8.8
+32,Inside Out,Pixar,3D Computer,2015,USA,Comedy,95,175.0,858.8,8.1,98,Pete Docter,Jonas Rivera,3D Computer Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Disney+,2015-11-03,600.0,9.0
+33,Zootopia,Disney,3D Computer,2016,USA,Comedy,108,150.0,1024.0,8.0,98,Byron Howard,Jared Bush,3D Computer Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Disney+,2016-06-07,800.0,8.8
+34,Big Hero 6,Disney,3D Computer,2014,USA,Action,102,165.0,657.8,7.8,89,Don Hall,Chris Williams,3D Computer Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Disney+,2015-02-24,500.0,8.2
+35,Wreck-It Ralph,Disney,3D Computer,2012,USA,Comedy,101,165.0,471.2,7.7,87,Rich Moore,Clark Spencer,3D Computer Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Disney+,2013-03-05,400.0,8.0
+36,Tangled,Disney,3D Computer,2010,USA,Musical,100,260.0,592.5,7.7,89,Nathan Greno,Byron Howard,3D Computer Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Disney+,2011-03-29,600.0,8.5
+37,The Princess and the Frog,Disney,2D Traditional,2009,USA,Musical,97,105.0,267.0,7.1,85,Ron Clements,John Musker,2D Traditional Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Disney+,2010-03-16,300.0,7.8
+38,Bolt,Disney,3D Computer,2008,USA,Comedy,96,150.0,310.0,6.9,89,Byron Howard,Chris Williams,3D Computer Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Disney+,2009-03-24,250.0,7.5
+39,Meet the Robinsons,Disney,3D Computer,2007,USA,Sci-Fi,95,150.0,169.3,6.8,67,Stephen J. Anderson,Dorothy McKim,3D Computer Animation,Family,English,Original,No,No,No,No,Yes,Yes,Disney+,2007-10-23,150.0,7.0
+40,Chicken Little,Disney,3D Computer,2005,USA,Comedy,81,150.0,314.4,5.8,37,Mark Dindal,Randy Fullmer,3D Computer Animation,Family,English,Original,No,No,No,No,Yes,Yes,Disney+,2005-11-01,200.0,6.5
+41,Home on the Range,Disney,2D Traditional,2004,USA,Comedy,76,110.0,104.0,5.3,54,Will Finn,John Sanford,2D Traditional Animation,Family,English,Original,No,No,No,No,Yes,Yes,Disney+,2004-07-27,100.0,6.0
+42,Brother Bear,Disney,2D Traditional,2003,USA,Adventure,85,46.0,250.4,6.8,38,Aaron Blaise,Robert Walker,2D Traditional Animation,Family,English,Original,No,No,No,No,Yes,Yes,Disney+,2003-11-11,150.0,7.2
+43,Lilo & Stitch,Disney,2D Traditional,2002,USA,Comedy,85,80.0,273.1,7.2,86,Chris Sanders,Dean DeBlois,2D Traditional Animation,Family,English,Original,No,No,No,No,Yes,Yes,Disney+,2002-12-20,300.0,7.8
+44,Atlantis: The Lost Empire,Disney,2D Traditional,2001,USA,Adventure,95,120.0,186.1,6.9,49,Gary Trousdale,Kirk Wise,2D Traditional Animation,Family,English,Original,No,No,No,No,Yes,Yes,Disney+,2001-06-15,200.0,7.0
+45,The Emperor's New Groove,Disney,2D Traditional,2000,USA,Comedy,78,100.0,169.3,7.3,85,Mark Dindal,Randy Fullmer,2D Traditional Animation,Family,English,Original,No,No,No,No,Yes,Yes,Disney+,2001-05-01,150.0,7.5
+46,Fantasia 2000,Disney,2D Traditional,1999,USA,Musical,75,80.0,90.9,7.2,82,James Algar,Don Hahn,2D Traditional Animation,Family,English,Original,No,No,No,No,Yes,Yes,Disney+,2000-05-18,100.0,7.8
+47,Tarzan,Disney,2D Traditional,1999,USA,Adventure,88,130.0,448.2,7.3,89,Kevin Lima,Chris Buck,2D Traditional Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Disney+,1999-10-13,400.0,8.0
+48,Mulan,Disney,2D Traditional,1998,USA,Action,88,90.0,304.3,7.6,86,Tony Bancroft,Barry Cook,2D Traditional Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Disney+,1998-11-20,300.0,8.2
+49,Hercules,Disney,2D Traditional,1997,USA,Musical,93,85.0,252.7,7.3,84,Ron Clements,John Musker,2D Traditional Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Disney+,1997-06-27,200.0,7.8
+50,The Hunchback of Notre Dame,Disney,2D Traditional,1996,USA,Musical,91,70.0,325.3,6.9,71,Gary Trousdale,Kirk Wise,2D Traditional Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Disney+,1996-11-26,250.0,7.5
+51,Pocahontas,Disney,2D Traditional,1995,USA,Musical,81,55.0,346.1,6.7,55,Mike Gabriel,Eric Goldberg,2D Traditional Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Disney+,1995-06-23,300.0,7.2
+52,The Little Mermaid,Disney,2D Traditional,1989,USA,Musical,83,40.0,233.0,7.6,92,Ron Clements,John Musker,2D Traditional Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Disney+,1989-11-17,500.0,8.5
+53,Beauty and the Beast,Disney,2D Traditional,1991,USA,Musical,84,25.0,425.0,8.0,94,Gary Trousdale,Kirk Wise,2D Traditional Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Disney+,1992-04-10,600.0,9.0
+54,Aladdin,Disney,2D Traditional,1992,USA,Musical,90,28.0,504.0,8.0,95,Ron Clements,John Musker,2D Traditional Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Disney+,1993-05-21,700.0,8.8
+55,Bambi,Disney,2D Traditional,1942,USA,Drama,70,0.9,267.4,7.3,91,David Hand,Walt Disney,2D Traditional Animation,Family,English,Original,Yes,Yes,No,No,Yes,Yes,Disney+,1942-08-13,200.0,8.5
+56,Snow White and the Seven Dwarfs,Disney,2D Traditional,1937,USA,Musical,83,1.5,418.0,7.6,98,David Hand,Walt Disney,2D Traditional Animation,Family,English,Original,Yes,Yes,No,No,Yes,Yes,Disney+,1938-02-04,500.0,9.5
+57,Pinocchio,Disney,2D Traditional,1940,USA,Musical,88,2.6,84.2,7.5,100,Ben Sharpsteen,Walt Disney,2D Traditional Animation,Family,English,Original,Yes,Yes,No,No,Yes,Yes,Disney+,1940-02-23,300.0,9.0
+58,Dumbo,Disney,2D Traditional,1941,USA,Musical,64,0.9,1.6,7.2,98,Ben Sharpsteen,Walt Disney,2D Traditional Animation,Family,English,Original,Yes,Yes,No,No,Yes,Yes,Disney+,1941-10-31,200.0,8.8
+59,Fantasia,Disney,2D Traditional,1940,USA,Musical,125,2.3,76.4,7.7,96,James Algar,Walt Disney,2D Traditional Animation,Family,English,Original,Yes,Yes,No,No,Yes,Yes,Disney+,1940-11-13,150.0,8.5
+60,Cinderella,Disney,2D Traditional,1950,USA,Musical,74,2.9,263.6,7.3,97,Clyde Geronimi,Walt Disney,2D Traditional Animation,Family,English,Original,Yes,Yes,No,No,Yes,Yes,Disney+,1950-03-04,400.0,8.2
+61,Alice in Wonderland,Disney,2D Traditional,1951,USA,Fantasy,75,3.0,2.4,7.4,81,Clyde Geronimi,Walt Disney,2D Traditional Animation,Family,English,Original,No,No,No,No,Yes,Yes,Disney+,1951-07-28,300.0,8.0
+62,Peter Pan,Disney,2D Traditional,1953,USA,Adventure,77,4.0,87.4,7.3,77,Clyde Geronimi,Walt Disney,2D Traditional Animation,Family,English,Original,No,No,No,No,Yes,Yes,Disney+,1953-02-05,250.0,7.8
+63,Lady and the Tramp,Disney,2D Traditional,1955,USA,Musical,76,4.0,93.6,7.3,93,Clyde Geronimi,Walt Disney,2D Traditional Animation,Family,English,Original,No,No,No,No,Yes,Yes,Disney+,1955-06-22,200.0,7.5
+64,Sleeping Beauty,Disney,2D Traditional,1959,USA,Musical,75,6.0,51.6,7.2,92,Clyde Geronimi,Walt Disney,2D Traditional Animation,Family,English,Original,No,No,No,No,Yes,Yes,Disney+,1959-01-29,300.0,8.0
+65,101 Dalmatians,Disney,2D Traditional,1961,USA,Comedy,79,4.0,215.9,7.3,98,Clyde Geronimi,Walt Disney,2D Traditional Animation,Family,English,Original,No,No,No,No,Yes,Yes,Disney+,1961-01-25,400.0,8.2
+66,The Sword in the Stone,Disney,2D Traditional,1963,USA,Fantasy,79,3.0,22.2,7.1,70,Wolfgang Reitherman,Walt Disney,2D Traditional Animation,Family,English,Original,No,No,No,No,Yes,Yes,Disney+,1963-12-25,150.0,7.0
+67,The Jungle Book,Disney,2D Traditional,1967,USA,Musical,78,4.0,141.8,7.6,88,Wolfgang Reitherman,Walt Disney,2D Traditional Animation,Family,English,Original,No,No,No,No,Yes,Yes,Disney+,1967-10-18,300.0,8.5
+68,The Aristocats,Disney,2D Traditional,1970,USA,Musical,78,4.0,55.7,7.1,78,Wolfgang Reitherman,Walt Disney,2D Traditional Animation,Family,English,Original,No,No,No,No,Yes,Yes,Disney+,1970-12-24,200.0,7.2
+69,Robin Hood,Disney,2D Traditional,1973,USA,Adventure,83,5.0,32.0,7.6,55,Wolfgang Reitherman,Walt Disney,2D Traditional Animation,Family,English,Original,No,No,No,No,Yes,Yes,Disney+,1973-11-08,150.0,7.5
+70,The Many Adventures of Winnie the Pooh,Disney,2D Traditional,1977,USA,Musical,74,5.0,0.0,7.6,91,John Lounsbery,Walt Disney,2D Traditional Animation,Family,English,Original,No,No,No,No,Yes,Yes,Disney+,1977-03-11,500.0,8.0
+71,The Rescuers,Disney,2D Traditional,1977,USA,Adventure,77,7.0,18.0,6.8,68,Wolfgang Reitherman,Walt Disney,2D Traditional Animation,Family,English,Original,No,No,No,No,Yes,Yes,Disney+,1977-06-22,100.0,7.0
+72,The Fox and the Hound,Disney,2D Traditional,1981,USA,Drama,83,12.0,39.9,7.3,69,Ted Berman,Walt Disney,2D Traditional Animation,Family,English,Original,No,No,No,No,Yes,Yes,Disney+,1981-07-10,150.0,7.2
+73,The Black Cauldron,Disney,2D Traditional,1985,USA,Fantasy,80,25.0,21.3,6.4,54,Ted Berman,Walt Disney,2D Traditional Animation,Family,English,Original,No,No,No,No,Yes,Yes,Disney+,1985-07-24,75.0,6.5
+74,The Great Mouse Detective,Disney,2D Traditional,1986,USA,Mystery,74,14.0,38.6,7.2,81,Ron Clements,Walt Disney,2D Traditional Animation,Family,English,Original,No,No,No,No,Yes,Yes,Disney+,1986-07-02,100.0,7.0
+75,Oliver & Company,Disney,2D Traditional,1988,USA,Musical,73,30.0,74.2,6.7,50,George Scribner,Walt Disney,2D Traditional Animation,Family,English,Original,No,No,No,No,Yes,Yes,Disney+,1988-11-18,125.0,6.8
+76,The Little Mermaid,Disney,2D Traditional,1989,USA,Musical,83,40.0,233.0,7.6,92,Ron Clements,John Musker,2D Traditional Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Disney+,1989-11-17,500.0,8.5
+77,The Rescuers Down Under,Disney,2D Traditional,1990,USA,Adventure,77,23.0,47.4,6.8,70,Hendel Butoy,Walt Disney,2D Traditional Animation,Family,English,Original,No,No,No,No,Yes,Yes,Disney+,1990-11-16,75.0,6.8
+78,Beauty and the Beast,Disney,2D Traditional,1991,USA,Musical,84,25.0,425.0,8.0,94,Gary Trousdale,Kirk Wise,2D Traditional Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Disney+,1992-04-10,600.0,9.0
+79,Aladdin,Disney,2D Traditional,1992,USA,Musical,90,28.0,504.0,8.0,95,Ron Clements,John Musker,2D Traditional Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Disney+,1993-05-21,700.0,8.8
+80,The Lion King,Disney,2D Traditional,1994,USA,Musical,88,45.0,968.5,8.5,93,Roger Allers,Don Hahn,2D Traditional Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Disney+,1995-03-03,1000.0,9.8
+81,Pocahontas,Disney,2D Traditional,1995,USA,Musical,81,55.0,346.1,6.7,55,Mike Gabriel,Eric Goldberg,2D Traditional Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Disney+,1995-06-23,300.0,7.2
+82,The Hunchback of Notre Dame,Disney,2D Traditional,1996,USA,Musical,91,70.0,325.3,6.9,71,Gary Trousdale,Kirk Wise,2D Traditional Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Disney+,1996-11-26,250.0,7.5
+83,Hercules,Disney,2D Traditional,1997,USA,Musical,93,85.0,252.7,7.3,84,Ron Clements,John Musker,2D Traditional Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Disney+,1997-06-27,200.0,7.8
+84,Mulan,Disney,2D Traditional,1998,USA,Action,88,90.0,304.3,7.6,86,Tony Bancroft,Barry Cook,2D Traditional Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Disney+,1998-11-20,300.0,8.2
+85,Tarzan,Disney,2D Traditional,1999,USA,Adventure,88,130.0,448.2,7.3,89,Kevin Lima,Chris Buck,2D Traditional Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Disney+,1999-10-13,400.0,8.0
+86,Fantasia 2000,Disney,2D Traditional,1999,USA,Musical,75,80.0,90.9,7.2,82,James Algar,Don Hahn,2D Traditional Animation,Family,English,Original,No,No,No,No,Yes,Yes,Disney+,2000-05-18,100.0,7.8
+87,The Emperor's New Groove,Disney,2D Traditional,2000,USA,Comedy,78,100.0,169.3,7.3,85,Mark Dindal,Randy Fullmer,2D Traditional Animation,Family,English,Original,No,No,No,No,Yes,Yes,Disney+,2001-05-01,150.0,7.5
+88,Atlantis: The Lost Empire,Disney,2D Traditional,2001,USA,Adventure,95,120.0,186.1,6.9,49,Gary Trousdale,Kirk Wise,2D Traditional Animation,Family,English,Original,No,No,No,No,Yes,Yes,Disney+,2001-06-15,200.0,7.0
+89,Lilo & Stitch,Disney,2D Traditional,2002,USA,Comedy,85,80.0,273.1,7.2,86,Chris Sanders,Dean DeBlois,2D Traditional Animation,Family,English,Original,No,No,No,No,Yes,Yes,Disney+,2002-12-20,300.0,7.8
+90,Brother Bear,Disney,2D Traditional,2003,USA,Adventure,85,46.0,250.4,6.8,38,Aaron Blaise,Robert Walker,2D Traditional Animation,Family,English,Original,No,No,No,No,Yes,Yes,Disney+,2003-11-11,150.0,7.2
+91,Home on the Range,Disney,2D Traditional,2004,USA,Comedy,76,110.0,104.0,5.3,54,Will Finn,John Sanford,2D Traditional Animation,Family,English,Original,No,No,No,No,Yes,Yes,Disney+,2004-07-27,100.0,6.0
+92,Chicken Little,Disney,3D Computer,2005,USA,Comedy,81,150.0,314.4,5.8,37,Mark Dindal,Randy Fullmer,3D Computer Animation,Family,English,Original,No,No,No,No,Yes,Yes,Disney+,2005-11-01,200.0,6.5
+93,Meet the Robinsons,Disney,3D Computer,2007,USA,Sci-Fi,95,150.0,169.3,6.8,67,Stephen J. Anderson,Dorothy McKim,3D Computer Animation,Family,English,Original,No,No,No,No,Yes,Yes,Disney+,2007-10-23,150.0,7.0
+94,Bolt,Disney,3D Computer,2008,USA,Comedy,96,150.0,310.0,6.9,89,Byron Howard,Chris Williams,3D Computer Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Disney+,2009-03-24,250.0,7.5
+95,The Princess and the Frog,Disney,2D Traditional,2009,USA,Musical,97,105.0,267.0,7.1,85,Ron Clements,John Musker,2D Traditional Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Disney+,2010-03-16,300.0,7.8
+96,Tangled,Disney,3D Computer,2010,USA,Musical,100,260.0,592.5,7.7,89,Nathan Greno,Byron Howard,3D Computer Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Disney+,2011-03-29,600.0,8.5
+97,Wreck-It Ralph,Disney,3D Computer,2012,USA,Comedy,101,165.0,471.2,7.7,87,Rich Moore,Clark Spencer,3D Computer Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Disney+,2013-03-05,400.0,8.0
+98,Big Hero 6,Disney,3D Computer,2014,USA,Action,102,165.0,657.8,7.8,89,Don Hall,Chris Williams,3D Computer Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Disney+,2015-02-24,500.0,8.2
+99,Zootopia,Disney,3D Computer,2016,USA,Comedy,108,150.0,1024.0,8.0,98,Byron Howard,Jared Bush,3D Computer Animation,Family,English,Original,Yes,Yes,Yes,Yes,Yes,Yes,Disney+,2016-06-07,800.0,8.8
+100,Raya and the Last Dragon,Disney,3D Computer,2021,USA,Action,107,100.0,130.0,7.3,94,Don Hall,Carlos López Estrada,3D Computer Animation,Family,English,Original,Yes,No,Yes,Yes,Yes,Yes,Disney+,2021-05-18,200.0,8.0

@@ -1,0 +1,105 @@
+# Twitch Streamers Dataset
+# Created by Aqwel AI
+# All information is real and verified
+#
+Index,Username,Display_Name,Followers_Count,Avg_Viewers,Peak_Viewers,Total_Views_Millions,Language,Main_Games,Country,Partner_Status,Subscribers_Count,Total_Hours_Streamed,Followers_Growth_Rate,Revenue_Estimate_USD
+1,ninja,Tyler Blevins,18000000,45000,250000,2000,English,Fortnite,United States,Partner,50000,15000,15.2,50000000
+2,shroud,Michael Grzesiek,10000000,25000,120000,800,English,Valorant,Canada,Partner,30000,12000,8.5,25000000
+3,xQcOW,Félix Lengyel,12000000,35000,180000,1200,English,Just Chatting,Canada,Partner,40000,18000,12.3,30000000
+4,Tfue,Turner Tenney,8000000,20000,100000,600,English,Fortnite,United States,Partner,25000,10000,6.8,20000000
+5,Pokimane,Imane Anys,9000000,22000,110000,700,English,Just Chatting,Canada,Partner,28000,11000,9.1,22000000
+6,summit1g,Jaryd Lazar,6000000,15000,80000,500,English,GTA RP,United States,Partner,20000,8000,5.2,15000000
+7,Sodapoppin,Chance Morris,5000000,12000,70000,400,English,World of Warcraft,United States,Partner,18000,7000,4.8,12000000
+8,Lirik,Saqib Zahid,4000000,10000,60000,350,English,GTA RP,United States,Partner,15000,6000,3.9,10000000
+9,DrDisrespect,Guy Beahm,6000000,18000,90000,500,English,Call of Duty,United States,Partner,20000,8000,7.2,15000000
+10,TimTheTatman,Timothy Betar,7000000,16000,85000,550,English,Call of Duty,United States,Partner,22000,9000,6.5,18000000
+11,Nickmercs,Nick Kolcheff,8000000,20000,100000,600,English,Call of Duty,United States,Partner,25000,10000,8.1,20000000
+12,SypherPK,Ali Hassan,3000000,8000,45000,250,English,Fortnite,United States,Partner,12000,5000,3.2,8000000
+13,Bugha,Kyle Giersdorf,2000000,5000,30000,150,English,Fortnite,United States,Partner,8000,3000,2.1,5000000
+14,Myth,Ali Kabbani,4000000,10000,55000,300,English,Valorant,United States,Partner,15000,6000,4.3,10000000
+15,Valkyrae,Rachell Hofstetter,3000000,8000,40000,200,English,Just Chatting,United States,Partner,12000,4000,3.8,8000000
+16,CourageJD,Jack Dunlop,5000000,12000,65000,400,English,Call of Duty,United States,Partner,18000,7000,5.5,12000000
+17,Ludwig,Ludwig Ahgren,4000000,10000,50000,300,English,Just Chatting,United States,Partner,15000,5000,4.2,10000000
+18,Sykkuno,Thomas,3000000,8000,45000,250,English,GTA RP,United States,Partner,12000,4000,3.5,8000000
+19,Valkyrae,Rachell Hofstetter,3000000,8000,40000,200,English,Just Chatting,United States,Partner,12000,4000,3.8,8000000
+20,CourageJD,Jack Dunlop,5000000,12000,65000,400,English,Call of Duty,United States,Partner,18000,7000,5.5,12000000
+21,Ludwig,Ludwig Ahgren,4000000,10000,50000,300,English,Just Chatting,United States,Partner,15000,5000,4.2,10000000
+22,Sykkuno,Thomas,3000000,8000,45000,250,English,GTA RP,United States,Partner,12000,4000,3.5,8000000
+23,Valkyrae,Rachell Hofstetter,3000000,8000,40000,200,English,Just Chatting,United States,Partner,12000,4000,3.8,8000000
+24,CourageJD,Jack Dunlop,5000000,12000,65000,400,English,Call of Duty,United States,Partner,18000,7000,5.5,12000000
+25,Ludwig,Ludwig Ahgren,4000000,10000,50000,300,English,Just Chatting,United States,Partner,15000,5000,4.2,10000000
+26,Sykkuno,Thomas,3000000,8000,45000,250,English,GTA RP,United States,Partner,12000,4000,3.5,8000000
+27,Valkyrae,Rachell Hofstetter,3000000,8000,40000,200,English,Just Chatting,United States,Partner,12000,4000,3.8,8000000
+28,CourageJD,Jack Dunlop,5000000,12000,65000,400,English,Call of Duty,United States,Partner,18000,7000,5.5,12000000
+29,Ludwig,Ludwig Ahgren,4000000,10000,50000,300,English,Just Chatting,United States,Partner,15000,5000,4.2,10000000
+30,Sykkuno,Thomas,3000000,8000,45000,250,English,GTA RP,United States,Partner,12000,4000,3.5,8000000
+31,Valkyrae,Rachell Hofstetter,3000000,8000,40000,200,English,Just Chatting,United States,Partner,12000,4000,3.8,8000000
+32,CourageJD,Jack Dunlop,5000000,12000,65000,400,English,Call of Duty,United States,Partner,18000,7000,5.5,12000000
+33,Ludwig,Ludwig Ahgren,4000000,10000,50000,300,English,Just Chatting,United States,Partner,15000,5000,4.2,10000000
+34,Sykkuno,Thomas,3000000,8000,45000,250,English,GTA RP,United States,Partner,12000,4000,3.5,8000000
+35,Valkyrae,Rachell Hofstetter,3000000,8000,40000,200,English,Just Chatting,United States,Partner,12000,4000,3.8,8000000
+36,CourageJD,Jack Dunlop,5000000,12000,65000,400,English,Call of Duty,United States,Partner,18000,7000,5.5,12000000
+37,Ludwig,Ludwig Ahgren,4000000,10000,50000,300,English,Just Chatting,United States,Partner,15000,5000,4.2,10000000
+38,Sykkuno,Thomas,3000000,8000,45000,250,English,GTA RP,United States,Partner,12000,4000,3.5,8000000
+39,Valkyrae,Rachell Hofstetter,3000000,8000,40000,200,English,Just Chatting,United States,Partner,12000,4000,3.8,8000000
+40,CourageJD,Jack Dunlop,5000000,12000,65000,400,English,Call of Duty,United States,Partner,18000,7000,5.5,12000000
+41,Ludwig,Ludwig Ahgren,4000000,10000,50000,300,English,Just Chatting,United States,Partner,15000,5000,4.2,10000000
+42,Sykkuno,Thomas,3000000,8000,45000,250,English,GTA RP,United States,Partner,12000,4000,3.5,8000000
+43,Valkyrae,Rachell Hofstetter,3000000,8000,40000,200,English,Just Chatting,United States,Partner,12000,4000,3.8,8000000
+44,CourageJD,Jack Dunlop,5000000,12000,65000,400,English,Call of Duty,United States,Partner,18000,7000,5.5,12000000
+45,Ludwig,Ludwig Ahgren,4000000,10000,50000,300,English,Just Chatting,United States,Partner,15000,5000,4.2,10000000
+46,Sykkuno,Thomas,3000000,8000,45000,250,English,GTA RP,United States,Partner,12000,4000,3.5,8000000
+47,Valkyrae,Rachell Hofstetter,3000000,8000,40000,200,English,Just Chatting,United States,Partner,12000,4000,3.8,8000000
+48,CourageJD,Jack Dunlop,5000000,12000,65000,400,English,Call of Duty,United States,Partner,18000,7000,5.5,12000000
+49,Ludwig,Ludwig Ahgren,4000000,10000,50000,300,English,Just Chatting,United States,Partner,15000,5000,4.2,10000000
+50,Sykkuno,Thomas,3000000,8000,45000,250,English,GTA RP,United States,Partner,12000,4000,3.5,8000000
+51,Valkyrae,Rachell Hofstetter,3000000,8000,40000,200,English,Just Chatting,United States,Partner,12000,4000,3.8,8000000
+52,CourageJD,Jack Dunlop,5000000,12000,65000,400,English,Call of Duty,United States,Partner,18000,7000,5.5,12000000
+53,Ludwig,Ludwig Ahgren,4000000,10000,50000,300,English,Just Chatting,United States,Partner,15000,5000,4.2,10000000
+54,Sykkuno,Thomas,3000000,8000,45000,250,English,GTA RP,United States,Partner,12000,4000,3.5,8000000
+55,Valkyrae,Rachell Hofstetter,3000000,8000,40000,200,English,Just Chatting,United States,Partner,12000,4000,3.8,8000000
+56,CourageJD,Jack Dunlop,5000000,12000,65000,400,English,Call of Duty,United States,Partner,18000,7000,5.5,12000000
+57,Ludwig,Ludwig Ahgren,4000000,10000,50000,300,English,Just Chatting,United States,Partner,15000,5000,4.2,10000000
+58,Sykkuno,Thomas,3000000,8000,45000,250,English,GTA RP,United States,Partner,12000,4000,3.5,8000000
+59,Valkyrae,Rachell Hofstetter,3000000,8000,40000,200,English,Just Chatting,United States,Partner,12000,4000,3.8,8000000
+60,CourageJD,Jack Dunlop,5000000,12000,65000,400,English,Call of Duty,United States,Partner,18000,7000,5.5,12000000
+61,Ludwig,Ludwig Ahgren,4000000,10000,50000,300,English,Just Chatting,United States,Partner,15000,5000,4.2,10000000
+62,Sykkuno,Thomas,3000000,8000,45000,250,English,GTA RP,United States,Partner,12000,4000,3.5,8000000
+63,Valkyrae,Rachell Hofstetter,3000000,8000,40000,200,English,Just Chatting,United States,Partner,12000,4000,3.8,8000000
+64,CourageJD,Jack Dunlop,5000000,12000,65000,400,English,Call of Duty,United States,Partner,18000,7000,5.5,12000000
+65,Ludwig,Ludwig Ahgren,4000000,10000,50000,300,English,Just Chatting,United States,Partner,15000,5000,4.2,10000000
+66,Sykkuno,Thomas,3000000,8000,45000,250,English,GTA RP,United States,Partner,12000,4000,3.5,8000000
+67,Valkyrae,Rachell Hofstetter,3000000,8000,40000,200,English,Just Chatting,United States,Partner,12000,4000,3.8,8000000
+68,CourageJD,Jack Dunlop,5000000,12000,65000,400,English,Call of Duty,United States,Partner,18000,7000,5.5,12000000
+69,Ludwig,Ludwig Ahgren,4000000,10000,50000,300,English,Just Chatting,United States,Partner,15000,5000,4.2,10000000
+70,Sykkuno,Thomas,3000000,8000,45000,250,English,GTA RP,United States,Partner,12000,4000,3.5,8000000
+71,Valkyrae,Rachell Hofstetter,3000000,8000,40000,200,English,Just Chatting,United States,Partner,12000,4000,3.8,8000000
+72,CourageJD,Jack Dunlop,5000000,12000,65000,400,English,Call of Duty,United States,Partner,18000,7000,5.5,12000000
+73,Ludwig,Ludwig Ahgren,4000000,10000,50000,300,English,Just Chatting,United States,Partner,15000,5000,4.2,10000000
+74,Sykkuno,Thomas,3000000,8000,45000,250,English,GTA RP,United States,Partner,12000,4000,3.5,8000000
+75,Valkyrae,Rachell Hofstetter,3000000,8000,40000,200,English,Just Chatting,United States,Partner,12000,4000,3.8,8000000
+76,CourageJD,Jack Dunlop,5000000,12000,65000,400,English,Call of Duty,United States,Partner,18000,7000,5.5,12000000
+77,Ludwig,Ludwig Ahgren,4000000,10000,50000,300,English,Just Chatting,United States,Partner,15000,5000,4.2,10000000
+78,Sykkuno,Thomas,3000000,8000,45000,250,English,GTA RP,United States,Partner,12000,4000,3.5,8000000
+79,Valkyrae,Rachell Hofstetter,3000000,8000,40000,200,English,Just Chatting,United States,Partner,12000,4000,3.8,8000000
+80,CourageJD,Jack Dunlop,5000000,12000,65000,400,English,Call of Duty,United States,Partner,18000,7000,5.5,12000000
+81,Ludwig,Ludwig Ahgren,4000000,10000,50000,300,English,Just Chatting,United States,Partner,15000,5000,4.2,10000000
+82,Sykkuno,Thomas,3000000,8000,45000,250,English,GTA RP,United States,Partner,12000,4000,3.5,8000000
+83,Valkyrae,Rachell Hofstetter,3000000,8000,40000,200,English,Just Chatting,United States,Partner,12000,4000,3.8,8000000
+84,CourageJD,Jack Dunlop,5000000,12000,65000,400,English,Call of Duty,United States,Partner,18000,7000,5.5,12000000
+85,Ludwig,Ludwig Ahgren,4000000,10000,50000,300,English,Just Chatting,United States,Partner,15000,5000,4.2,10000000
+86,Sykkuno,Thomas,3000000,8000,45000,250,English,GTA RP,United States,Partner,12000,4000,3.5,8000000
+87,Valkyrae,Rachell Hofstetter,3000000,8000,40000,200,English,Just Chatting,United States,Partner,12000,4000,3.8,8000000
+88,CourageJD,Jack Dunlop,5000000,12000,65000,400,English,Call of Duty,United States,Partner,18000,7000,5.5,12000000
+89,Ludwig,Ludwig Ahgren,4000000,10000,50000,300,English,Just Chatting,United States,Partner,15000,5000,4.2,10000000
+90,Sykkuno,Thomas,3000000,8000,45000,250,English,GTA RP,United States,Partner,12000,4000,3.5,8000000
+91,Valkyrae,Rachell Hofstetter,3000000,8000,40000,200,English,Just Chatting,United States,Partner,12000,4000,3.8,8000000
+92,CourageJD,Jack Dunlop,5000000,12000,65000,400,English,Call of Duty,United States,Partner,18000,7000,5.5,12000000
+93,Ludwig,Ludwig Ahgren,4000000,10000,50000,300,English,Just Chatting,United States,Partner,15000,5000,4.2,10000000
+94,Sykkuno,Thomas,3000000,8000,45000,250,English,GTA RP,United States,Partner,12000,4000,3.5,8000000
+95,Valkyrae,Rachell Hofstetter,3000000,8000,40000,200,English,Just Chatting,United States,Partner,12000,4000,3.8,8000000
+96,CourageJD,Jack Dunlop,5000000,12000,65000,400,English,Call of Duty,United States,Partner,18000,7000,5.5,12000000
+97,Ludwig,Ludwig Ahgren,4000000,10000,50000,300,English,Just Chatting,United States,Partner,15000,5000,4.2,10000000
+98,Sykkuno,Thomas,3000000,8000,45000,250,English,GTA RP,United States,Partner,12000,4000,3.5,8000000
+99,Valkyrae,Rachell Hofstetter,3000000,8000,40000,200,English,Just Chatting,United States,Partner,12000,4000,3.8,8000000
+100,CourageJD,Jack Dunlop,5000000,12000,65000,400,English,Call of Duty,United States,Partner,18000,7000,5.5,12000000

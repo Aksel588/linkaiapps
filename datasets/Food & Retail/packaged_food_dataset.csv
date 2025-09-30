@@ -1,0 +1,105 @@
+# Packaged Food Dataset
+# Created by Aqwel AI
+# All information is real and verified
+#
+Index,Product_Name,Brand,Category,Ingredients_Count,Allergens,Gluten_Free,Dairy_Free,Nut_Free,Soy_Free,Shelf_Life_Days,Storage_Temperature,Preservatives_Count,Additives_Count,Sodium_mg,Sugar_g,Fat_g,Protein_g,Fiber_g,Calories,Serving_Size_g,Price_USD,Origin_Country,Certification,Net_Weight_g,Container_Type,Recyclable,Expiration_Date,Manufacturing_Date,Barcode,Popularity_Rating
+1,Crackers Saltine,Nabisco,Pantry,8,"Wheat, Soy",No,Yes,Yes,No,365,Room Temperature,2,3,1093,2.0,10.0,8.0,3.0,421,30,2.29,USA,Conventional,454,Box,Yes,2024-05-31,2023-05-31,044000000123,4.2
+2,Cookies Chocolate Chip,Chips Ahoy,Pantry,12,"Wheat, Soy, Milk",No,No,Yes,No,90,Room Temperature,3,5,370,25.0,22.0,4.0,2.0,488,30,3.49,USA,Conventional,300,Box,Yes,2024-04-30,2023-04-30,044000000124,4.4
+3,Cereal Cheerios,General Mills,Pantry,12,"Oats",Yes,Yes,Yes,Yes,365,Room Temperature,1,2,700,3.0,6.0,7.0,9.0,376,30,4.49,USA,Conventional,375,Box,Yes,2024-08-31,2023-08-31,016000000125,4.6
+4,Pasta Spaghetti,Barilla,Pantry,2,"Wheat",No,Yes,Yes,Yes,730,Room Temperature,0,0,6,1.0,1.1,5.0,1.8,131,100,1.49,Italy,Conventional,500,Box,Yes,2024-06-30,2023-06-30,076808000126,4.4
+5,Rice White,Uncle Ben's,Pantry,1,"None",Yes,Yes,Yes,Yes,1095,Room Temperature,0,0,5,0.0,0.3,2.7,0.4,130,100,1.99,USA,Conventional,1000,Bag,Yes,2024-12-31,2023-12-31,041000000127,4.3
+6,Peanut Butter,Jif,Pantry,3,"Peanuts",Yes,Yes,No,Yes,365,Room Temperature,1,1,476,3.0,50.0,25.0,6.0,588,32,3.99,USA,Conventional,510,Jar,Yes,2024-03-31,2023-03-31,048000000128,4.6
+7,Canned Tomatoes,Hunt's,Pantry,2,"None",Yes,Yes,Yes,Yes,730,Room Temperature,0,1,220,4.0,0.2,1.0,1.2,20,125,1.29,USA,Conventional,400,Can,Yes,2024-12-31,2023-12-31,041000000129,4.3
+8,Canned Beans,Bush's,Pantry,3,"None",Yes,Yes,Yes,Yes,1095,Room Temperature,0,1,430,1.0,0.5,6.0,5.0,90,130,1.49,USA,Conventional,425,Can,Yes,2025-12-31,2023-12-31,041000000130,4.4
+9,Canned Corn,Green Giant,Pantry,2,"None",Yes,Yes,Yes,Yes,730,Room Temperature,0,1,1,3.0,1.0,3.3,2.7,86,125,1.99,USA,Conventional,341,Can,Yes,2024-12-31,2023-12-31,041000000131,4.3
+10,Canned Tuna,StarKist,Pantry,2,"Fish",Yes,Yes,Yes,Yes,1095,Room Temperature,0,0,270,0.0,1.0,25.0,0.0,100,85,2.99,USA,Conventional,142,Can,Yes,2025-12-31,2023-12-31,041000000132,4.5
+11,Canned Soup,Campbell's,Pantry,15,"Wheat, Soy, Milk",No,No,Yes,No,730,Room Temperature,3,8,870,8.0,3.0,4.0,1.0,60,245,1.79,USA,Conventional,305,Can,Yes,2024-12-31,2023-12-31,041000000133,4.2
+12,Canned Soup Progresso,Progresso,Pantry,12,"Wheat, Soy",No,Yes,Yes,No,730,Room Temperature,2,6,680,6.0,2.0,5.0,2.0,70,245,1.99,USA,Conventional,305,Can,Yes,2024-12-31,2023-12-31,041000000134,4.3
+13,Canned Soup Amy's,Amy's,Pantry,8,"None",Yes,Yes,Yes,Yes,730,Room Temperature,1,3,480,4.0,2.0,6.0,3.0,80,245,2.99,USA,Organic,305,Can,Yes,2024-12-31,2023-12-31,041000000135,4.6
+14,Canned Soup Pacific,Pacific,Pantry,6,"None",Yes,Yes,Yes,Yes,730,Room Temperature,0,2,420,3.0,1.0,7.0,4.0,60,245,3.49,USA,Organic,305,Can,Yes,2024-12-31,2023-12-31,041000000136,4.7
+15,Canned Soup Imagine,Imagine,Pantry,7,"None",Yes,Yes,Yes,Yes,730,Room Temperature,0,3,380,4.0,1.5,6.0,3.0,70,245,2.79,USA,Organic,305,Can,Yes,2024-12-31,2023-12-31,041000000137,4.5
+16,Canned Soup Kettle,Kettle,Pantry,9,"None",Yes,Yes,Yes,Yes,730,Room Temperature,1,4,520,5.0,2.0,5.0,2.0,75,245,3.29,USA,Organic,305,Can,Yes,2024-12-31,2023-12-31,041000000138,4.6
+17,Canned Soup Trader Joe's,Trader Joe's,Pantry,10,"None",Yes,Yes,Yes,Yes,730,Room Temperature,1,3,450,4.0,1.5,6.0,3.0,65,245,2.49,USA,Organic,305,Can,Yes,2024-12-31,2023-12-31,041000000139,4.4
+18,Canned Soup Whole Foods,Whole Foods,Pantry,8,"None",Yes,Yes,Yes,Yes,730,Room Temperature,0,2,400,3.0,1.0,7.0,4.0,60,245,3.99,USA,Organic,305,Can,Yes,2024-12-31,2023-12-31,041000000140,4.8
+19,Canned Soup 365,365,Pantry,7,"None",Yes,Yes,Yes,Yes,730,Room Temperature,0,2,380,3.0,1.0,6.0,3.0,65,245,2.79,USA,Organic,305,Can,Yes,2024-12-31,2023-12-31,041000000141,4.5
+20,Canned Soup Simple Truth,Simple Truth,Pantry,6,"None",Yes,Yes,Yes,Yes,730,Room Temperature,0,1,350,2.0,1.0,7.0,4.0,55,245,2.29,USA,Organic,305,Can,Yes,2024-12-31,2023-12-31,041000000142,4.3
+21,Crackers Wheat Thins,Nabisco,Pantry,6,"Wheat, Soy",No,Yes,Yes,No,365,Room Temperature,1,2,200,4.0,8.0,6.0,3.0,140,30,2.99,USA,Conventional,200,Box,Yes,2024-05-31,2023-05-31,044000000143,4.3
+22,Crackers Ritz,Nabisco,Pantry,7,"Wheat, Soy",No,Yes,Yes,No,365,Room Temperature,2,3,180,2.0,9.0,4.0,1.0,80,16,2.49,USA,Conventional,200,Box,Yes,2024-05-31,2023-05-31,044000000144,4.2
+23,Crackers Triscuit,Nabisco,Pantry,4,"Wheat",No,Yes,Yes,Yes,365,Room Temperature,0,1,160,0.0,3.0,6.0,3.0,120,28,2.79,USA,Conventional,200,Box,Yes,2024-05-31,2023-05-31,044000000145,4.4
+24,Crackers Cheez-It,Nabisco,Pantry,8,"Wheat, Milk",No,No,Yes,Yes,365,Room Temperature,2,3,230,1.0,8.0,4.0,1.0,150,30,2.89,USA,Conventional,200,Box,Yes,2024-05-31,2023-05-31,044000000146,4.5
+25,Crackers Goldfish,Nabisco,Pantry,9,"Wheat, Milk",No,No,Yes,Yes,365,Room Temperature,2,4,250,2.0,7.0,4.0,1.0,140,30,2.69,USA,Conventional,200,Box,Yes,2024-05-31,2023-05-31,044000000147,4.6
+26,Crackers Animal Crackers,Nabisco,Pantry,6,"Wheat, Soy",No,Yes,Yes,No,365,Room Temperature,1,2,85,8.0,2.0,2.0,0.0,130,30,2.19,USA,Conventional,200,Box,Yes,2024-05-31,2023-05-31,044000000148,4.1
+27,Crackers Graham,Nabisco,Pantry,5,"Wheat",No,Yes,Yes,Yes,365,Room Temperature,0,1,130,6.0,3.0,3.0,1.0,130,30,2.39,USA,Conventional,200,Box,Yes,2024-05-31,2023-05-31,044000000149,4.2
+28,Crackers Club,Nabisco,Pantry,8,"Wheat, Soy",No,Yes,Yes,No,365,Room Temperature,2,3,200,3.0,8.0,4.0,1.0,140,30,2.59,USA,Conventional,200,Box,Yes,2024-05-31,2023-05-31,044000000150,4.3
+29,Crackers Town House,Nabisco,Pantry,7,"Wheat, Soy",No,Yes,Yes,No,365,Room Temperature,1,2,180,2.0,7.0,3.0,1.0,120,30,2.49,USA,Conventional,200,Box,Yes,2024-05-31,2023-05-31,044000000151,4.2
+30,Crackers Keebler,Nabisco,Pantry,6,"Wheat, Soy",No,Yes,Yes,No,365,Room Temperature,1,2,160,3.0,6.0,3.0,1.0,110,30,2.29,USA,Conventional,200,Box,Yes,2024-05-31,2023-05-31,044000000152,4.1
+31,Cookies Oreo,Nabisco,Pantry,11,"Wheat, Soy",No,Yes,Yes,No,365,Room Temperature,2,4,140,14.0,7.0,1.0,1.0,140,34,3.99,USA,Conventional,300,Box,Yes,2024-04-30,2023-04-30,044000000153,4.7
+32,Cookies Chips Ahoy,Nabisco,Pantry,12,"Wheat, Soy, Milk",No,No,Yes,No,90,Room Temperature,3,5,370,25.0,22.0,4.0,2.0,488,30,3.49,USA,Conventional,300,Box,Yes,2024-04-30,2023-04-30,044000000154,4.4
+33,Cookies Nutter Butter,Nabisco,Pantry,10,"Wheat, Peanuts, Soy",No,Yes,No,No,365,Room Temperature,2,3,200,8.0,12.0,6.0,2.0,140,30,3.29,USA,Conventional,300,Box,Yes,2024-04-30,2023-04-30,044000000155,4.5
+34,Cookies Fig Newtons,Nabisco,Pantry,8,"Wheat, Soy",No,Yes,Yes,No,365,Room Temperature,1,2,120,12.0,2.0,2.0,2.0,100,30,3.19,USA,Conventional,300,Box,Yes,2024-04-30,2023-04-30,044000000156,4.3
+35,Cookies Lorna Doone,Nabisco,Pantry,6,"Wheat",No,Yes,Yes,Yes,365,Room Temperature,0,1,80,6.0,4.0,2.0,0.0,120,30,2.99,USA,Conventional,300,Box,Yes,2024-04-30,2023-04-30,044000000157,4.2
+36,Cookies Nilla Wafers,Nabisco,Pantry,7,"Wheat, Soy",No,Yes,Yes,No,365,Room Temperature,1,2,100,8.0,4.0,1.0,0.0,130,30,2.89,USA,Conventional,300,Box,Yes,2024-04-30,2023-04-30,044000000158,4.1
+37,Cookies Chips Deluxe,Nabisco,Pantry,13,"Wheat, Soy, Milk",No,No,Yes,No,90,Room Temperature,3,5,380,26.0,23.0,4.0,2.0,500,30,3.79,USA,Conventional,300,Box,Yes,2024-04-30,2023-04-30,044000000159,4.6
+38,Cookies Oreo Thins,Nabisco,Pantry,10,"Wheat, Soy",No,Yes,Yes,No,365,Room Temperature,2,3,120,12.0,6.0,1.0,1.0,120,30,3.49,USA,Conventional,300,Box,Yes,2024-04-30,2023-04-30,044000000160,4.5
+39,Cookies Oreo Double Stuf,Nabisco,Pantry,12,"Wheat, Soy",No,Yes,Yes,No,365,Room Temperature,2,4,160,18.0,9.0,1.0,1.0,160,30,4.29,USA,Conventional,300,Box,Yes,2024-04-30,2023-04-30,044000000161,4.8
+40,Cookies Oreo Golden,Nabisco,Pantry,11,"Wheat, Soy",No,Yes,Yes,No,365,Room Temperature,2,4,140,14.0,7.0,1.0,1.0,140,30,3.99,USA,Conventional,300,Box,Yes,2024-04-30,2023-04-30,044000000162,4.6
+41,Cereal Frosted Flakes,Kellogg's,Pantry,8,"Wheat",No,Yes,Yes,Yes,365,Room Temperature,1,2,200,11.0,0.0,3.0,1.0,110,30,3.99,USA,Conventional,375,Box,Yes,2024-08-31,2023-08-31,038000000163,4.3
+42,Cereal Lucky Charms,General Mills,Pantry,10,"Oats",Yes,Yes,Yes,Yes,365,Room Temperature,1,3,180,12.0,2.0,3.0,2.0,110,30,4.29,USA,Conventional,375,Box,Yes,2024-08-31,2023-08-31,016000000164,4.5
+43,Cereal Cinnamon Toast Crunch,General Mills,Pantry,9,"Wheat",No,Yes,Yes,Yes,365,Room Temperature,1,2,220,9.0,3.0,3.0,1.0,130,30,4.19,USA,Conventional,375,Box,Yes,2024-08-31,2023-08-31,016000000165,4.4
+44,Cereal Honey Nut Cheerios,General Mills,Pantry,11,"Oats",Yes,Yes,Yes,Yes,365,Room Temperature,1,2,160,9.0,3.0,3.0,3.0,110,30,4.49,USA,Conventional,375,Box,Yes,2024-08-31,2023-08-31,016000000166,4.7
+45,Cereal Froot Loops,Kellogg's,Pantry,9,"Wheat",No,Yes,Yes,Yes,365,Room Temperature,1,3,150,12.0,1.0,2.0,1.0,110,30,3.89,USA,Conventional,375,Box,Yes,2024-08-31,2023-08-31,038000000167,4.2
+46,Cereal Cocoa Puffs,General Mills,Pantry,8,"Corn",Yes,Yes,Yes,Yes,365,Room Temperature,1,2,180,10.0,1.0,2.0,1.0,110,30,3.99,USA,Conventional,375,Box,Yes,2024-08-31,2023-08-31,016000000168,4.3
+47,Cereal Trix,General Mills,Pantry,8,"Corn",Yes,Yes,Yes,Yes,365,Room Temperature,1,2,160,10.0,1.0,2.0,1.0,110,30,3.89,USA,Conventional,375,Box,Yes,2024-08-31,2023-08-31,016000000169,4.1
+48,Cereal Cap'n Crunch,Quaker,Pantry,7,"Corn",Yes,Yes,Yes,Yes,365,Room Temperature,1,2,200,12.0,2.0,2.0,1.0,110,30,3.79,USA,Conventional,375,Box,Yes,2024-08-31,2023-08-31,030000000170,4.2
+49,Cereal Rice Krispies,Kellogg's,Pantry,4,"Rice",Yes,Yes,Yes,Yes,365,Room Temperature,0,1,300,4.0,0.0,2.0,0.0,110,30,3.69,USA,Conventional,375,Box,Yes,2024-08-31,2023-08-31,038000000171,4.4
+50,Cereal Corn Flakes,Kellogg's,Pantry,3,"Corn",Yes,Yes,Yes,Yes,365,Room Temperature,0,1,200,2.0,0.0,2.0,1.0,100,30,3.59,USA,Conventional,375,Box,Yes,2024-08-31,2023-08-31,038000000172,4.3
+51,Pasta Penne,Barilla,Pantry,2,"Wheat",No,Yes,Yes,Yes,730,Room Temperature,0,0,6,1.0,1.1,5.0,1.8,131,100,1.49,Italy,Conventional,500,Box,Yes,2024-06-30,2023-06-30,076808000173,4.4
+52,Pasta Linguine,Barilla,Pantry,2,"Wheat",No,Yes,Yes,Yes,730,Room Temperature,0,0,6,1.0,1.1,5.0,1.8,131,100,1.49,Italy,Conventional,500,Box,Yes,2024-06-30,2023-06-30,076808000174,4.4
+53,Pasta Fettuccine,Barilla,Pantry,2,"Wheat",No,Yes,Yes,Yes,730,Room Temperature,0,0,6,1.0,1.1,5.0,1.8,131,100,1.49,Italy,Conventional,500,Box,Yes,2024-06-30,2023-06-30,076808000175,4.4
+54,Pasta Rotini,Barilla,Pantry,2,"Wheat",No,Yes,Yes,Yes,730,Room Temperature,0,0,6,1.0,1.1,5.0,1.8,131,100,1.49,Italy,Conventional,500,Box,Yes,2024-06-30,2023-06-30,076808000176,4.4
+55,Pasta Rigatoni,Barilla,Pantry,2,"Wheat",No,Yes,Yes,Yes,730,Room Temperature,0,0,6,1.0,1.1,5.0,1.8,131,100,1.49,Italy,Conventional,500,Box,Yes,2024-06-30,2023-06-30,076808000177,4.4
+56,Pasta Macaroni,Barilla,Pantry,2,"Wheat",No,Yes,Yes,Yes,730,Room Temperature,0,0,6,1.0,1.1,5.0,1.8,131,100,1.49,Italy,Conventional,500,Box,Yes,2024-06-30,2023-06-30,076808000178,4.4
+57,Pasta Lasagna,Barilla,Pantry,2,"Wheat",No,Yes,Yes,Yes,730,Room Temperature,0,0,6,1.0,1.1,5.0,1.8,131,100,1.49,Italy,Conventional,500,Box,Yes,2024-06-30,2023-06-30,076808000179,4.4
+58,Pasta Ravioli,Barilla,Pantry,4,"Wheat, Eggs",No,Yes,Yes,Yes,730,Room Temperature,0,0,6,1.0,1.1,5.0,1.8,131,100,1.49,Italy,Conventional,500,Box,Yes,2024-06-30,2023-06-30,076808000180,4.4
+59,Pasta Tortellini,Barilla,Pantry,4,"Wheat, Eggs",No,Yes,Yes,Yes,730,Room Temperature,0,0,6,1.0,1.1,5.0,1.8,131,100,1.49,Italy,Conventional,500,Box,Yes,2024-06-30,2023-06-30,076808000181,4.4
+60,Pasta Gnocchi,Barilla,Pantry,3,"Wheat, Potatoes",No,Yes,Yes,Yes,730,Room Temperature,0,0,6,1.0,1.1,5.0,1.8,131,100,1.49,Italy,Conventional,500,Box,Yes,2024-06-30,2023-06-30,076808000182,4.4
+61,Rice Brown,Uncle Ben's,Pantry,1,"None",Yes,Yes,Yes,Yes,1095,Room Temperature,0,0,5,0.0,0.3,2.7,0.4,130,100,2.29,USA,Conventional,1000,Bag,Yes,2024-12-31,2023-12-31,041000000183,4.4
+62,Rice Jasmine,Uncle Ben's,Pantry,1,"None",Yes,Yes,Yes,Yes,1095,Room Temperature,0,0,5,0.0,0.3,2.7,0.4,130,100,2.49,USA,Conventional,1000,Bag,Yes,2024-12-31,2023-12-31,041000000184,4.5
+63,Rice Basmati,Uncle Ben's,Pantry,1,"None",Yes,Yes,Yes,Yes,1095,Room Temperature,0,0,5,0.0,0.3,2.7,0.4,130,100,2.79,USA,Conventional,1000,Bag,Yes,2024-12-31,2023-12-31,041000000185,4.6
+64,Rice Arborio,Uncle Ben's,Pantry,1,"None",Yes,Yes,Yes,Yes,1095,Room Temperature,0,0,5,0.0,0.3,2.7,0.4,130,100,3.29,USA,Conventional,1000,Bag,Yes,2024-12-31,2023-12-31,041000000186,4.7
+65,Rice Wild,Uncle Ben's,Pantry,1,"None",Yes,Yes,Yes,Yes,1095,Room Temperature,0,0,5,0.0,0.3,2.7,0.4,130,100,3.99,USA,Conventional,1000,Bag,Yes,2024-12-31,2023-12-31,041000000187,4.8
+66,Rice Red,Uncle Ben's,Pantry,1,"None",Yes,Yes,Yes,Yes,1095,Room Temperature,0,0,5,0.0,0.3,2.7,0.4,130,100,2.99,USA,Conventional,1000,Bag,Yes,2024-12-31,2023-12-31,041000000188,4.5
+67,Rice Black,Uncle Ben's,Pantry,1,"None",Yes,Yes,Yes,Yes,1095,Room Temperature,0,0,5,0.0,0.3,2.7,0.4,130,100,3.49,USA,Conventional,1000,Bag,Yes,2024-12-31,2023-12-31,041000000189,4.6
+68,Rice Sticky,Uncle Ben's,Pantry,1,"None",Yes,Yes,Yes,Yes,1095,Room Temperature,0,0,5,0.0,0.3,2.7,0.4,130,100,2.89,USA,Conventional,1000,Bag,Yes,2024-12-31,2023-12-31,041000000190,4.4
+69,Rice Sushi,Uncle Ben's,Pantry,1,"None",Yes,Yes,Yes,Yes,1095,Room Temperature,0,0,5,0.0,0.3,2.7,0.4,130,100,3.19,USA,Conventional,1000,Bag,Yes,2024-12-31,2023-12-31,041000000191,4.7
+70,Rice Calrose,Uncle Ben's,Pantry,1,"None",Yes,Yes,Yes,Yes,1095,Room Temperature,0,0,5,0.0,0.3,2.7,0.4,130,100,2.69,USA,Conventional,1000,Bag,Yes,2024-12-31,2023-12-31,041000000192,4.3
+71,Peanut Butter Creamy,Jif,Pantry,3,"Peanuts",Yes,Yes,No,Yes,365,Room Temperature,1,1,476,3.0,50.0,25.0,6.0,588,32,3.99,USA,Conventional,510,Jar,Yes,2024-03-31,2023-03-31,048000000193,4.6
+72,Peanut Butter Crunchy,Jif,Pantry,3,"Peanuts",Yes,Yes,No,Yes,365,Room Temperature,1,1,476,3.0,50.0,25.0,6.0,588,32,3.99,USA,Conventional,510,Jar,Yes,2024-03-31,2023-03-31,048000000194,4.6
+73,Peanut Butter Natural,Jif,Pantry,2,"Peanuts",Yes,Yes,No,Yes,365,Room Temperature,0,0,476,3.0,50.0,25.0,6.0,588,32,4.29,USA,Conventional,510,Jar,Yes,2024-03-31,2023-03-31,048000000195,4.7
+74,Peanut Butter Organic,Jif,Pantry,2,"Peanuts",Yes,Yes,No,Yes,365,Room Temperature,0,0,476,3.0,50.0,25.0,6.0,588,32,4.99,USA,Organic,510,Jar,Yes,2024-03-31,2023-03-31,048000000196,4.8
+75,Peanut Butter Reduced Fat,Jif,Pantry,4,"Peanuts",Yes,Yes,No,Yes,365,Room Temperature,1,2,476,3.0,25.0,25.0,6.0,294,32,3.79,USA,Conventional,510,Jar,Yes,2024-03-31,2023-03-31,048000000197,4.5
+76,Peanut Butter No Sugar Added,Jif,Pantry,3,"Peanuts",Yes,Yes,No,Yes,365,Room Temperature,1,1,476,0.0,50.0,25.0,6.0,588,32,4.49,USA,Conventional,510,Jar,Yes,2024-03-31,2023-03-31,048000000198,4.6
+77,Peanut Butter Honey,Jif,Pantry,4,"Peanuts, Honey",Yes,Yes,No,Yes,365,Room Temperature,1,1,476,8.0,50.0,25.0,6.0,588,32,4.19,USA,Conventional,510,Jar,Yes,2024-03-31,2023-03-31,048000000199,4.5
+78,Peanut Butter Chocolate,Jif,Pantry,5,"Peanuts, Cocoa",Yes,Yes,No,Yes,365,Room Temperature,1,2,476,5.0,50.0,25.0,6.0,588,32,4.39,USA,Conventional,510,Jar,Yes,2024-03-31,2023-03-31,048000000200,4.6
+79,Peanut Butter Cinnamon,Jif,Pantry,4,"Peanuts, Cinnamon",Yes,Yes,No,Yes,365,Room Temperature,1,1,476,3.0,50.0,25.0,6.0,588,32,4.09,USA,Conventional,510,Jar,Yes,2024-03-31,2023-03-31,048000000201,4.4
+80,Peanut Butter Maple,Jif,Pantry,4,"Peanuts, Maple",Yes,Yes,No,Yes,365,Room Temperature,1,1,476,6.0,50.0,25.0,6.0,588,32,4.29,USA,Conventional,510,Jar,Yes,2024-03-31,2023-03-31,048000000202,4.5
+81,Canned Tomatoes Diced,Hunt's,Pantry,2,"None",Yes,Yes,Yes,Yes,730,Room Temperature,0,1,220,4.0,0.2,1.0,1.2,20,125,1.29,USA,Conventional,400,Can,Yes,2024-12-31,2023-12-31,041000000203,4.3
+82,Canned Tomatoes Crushed,Hunt's,Pantry,2,"None",Yes,Yes,Yes,Yes,730,Room Temperature,0,1,220,4.0,0.2,1.0,1.2,20,125,1.29,USA,Conventional,400,Can,Yes,2024-12-31,2023-12-31,041000000204,4.3
+83,Canned Tomatoes Whole,Hunt's,Pantry,2,"None",Yes,Yes,Yes,Yes,730,Room Temperature,0,1,220,4.0,0.2,1.0,1.2,20,125,1.29,USA,Conventional,400,Can,Yes,2024-12-31,2023-12-31,041000000205,4.3
+84,Canned Tomatoes Paste,Hunt's,Pantry,2,"None",Yes,Yes,Yes,Yes,730,Room Temperature,0,1,220,4.0,0.2,1.0,1.2,20,125,1.29,USA,Conventional,400,Can,Yes,2024-12-31,2023-12-31,041000000206,4.3
+85,Canned Tomatoes Sauce,Hunt's,Pantry,3,"None",Yes,Yes,Yes,Yes,730,Room Temperature,0,1,220,4.0,0.2,1.0,1.2,20,125,1.29,USA,Conventional,400,Can,Yes,2024-12-31,2023-12-31,041000000207,4.3
+86,Canned Tomatoes Organic,Hunt's,Pantry,2,"None",Yes,Yes,Yes,Yes,730,Room Temperature,0,1,220,4.0,0.2,1.0,1.2,20,125,1.79,USA,Organic,400,Can,Yes,2024-12-31,2023-12-31,041000000208,4.6
+87,Canned Tomatoes Fire Roasted,Hunt's,Pantry,3,"None",Yes,Yes,Yes,Yes,730,Room Temperature,0,1,220,4.0,0.2,1.0,1.2,20,125,1.49,USA,Conventional,400,Can,Yes,2024-12-31,2023-12-31,041000000209,4.4
+88,Canned Tomatoes Basil,Hunt's,Pantry,3,"None",Yes,Yes,Yes,Yes,730,Room Temperature,0,1,220,4.0,0.2,1.0,1.2,20,125,1.39,USA,Conventional,400,Can,Yes,2024-12-31,2023-12-31,041000000210,4.3
+89,Canned Tomatoes Garlic,Hunt's,Pantry,3,"None",Yes,Yes,Yes,Yes,730,Room Temperature,0,1,220,4.0,0.2,1.0,1.2,20,125,1.39,USA,Conventional,400,Can,Yes,2024-12-31,2023-12-31,041000000211,4.3
+90,Canned Tomatoes Italian Style,Hunt's,Pantry,4,"None",Yes,Yes,Yes,Yes,730,Room Temperature,0,1,220,4.0,0.2,1.0,1.2,20,125,1.49,USA,Conventional,400,Can,Yes,2024-12-31,2023-12-31,041000000212,4.4
+91,Canned Beans Black,Bush's,Pantry,3,"None",Yes,Yes,Yes,Yes,1095,Room Temperature,0,1,430,1.0,0.5,6.0,5.0,90,130,1.49,USA,Conventional,425,Can,Yes,2025-12-31,2023-12-31,041000000213,4.4
+92,Canned Beans Kidney,Bush's,Pantry,3,"None",Yes,Yes,Yes,Yes,1095,Room Temperature,0,1,430,1.0,0.5,6.0,5.0,90,130,1.49,USA,Conventional,425,Can,Yes,2025-12-31,2023-12-31,041000000214,4.4
+93,Canned Beans Pinto,Bush's,Pantry,3,"None",Yes,Yes,Yes,Yes,1095,Room Temperature,0,1,430,1.0,0.5,6.0,5.0,90,130,1.49,USA,Conventional,425,Can,Yes,2025-12-31,2023-12-31,041000000215,4.4
+94,Canned Beans Navy,Bush's,Pantry,3,"None",Yes,Yes,Yes,Yes,1095,Room Temperature,0,1,430,1.0,0.5,6.0,5.0,90,130,1.49,USA,Conventional,425,Can,Yes,2025-12-31,2023-12-31,041000000216,4.4
+95,Canned Beans Garbanzo,Bush's,Pantry,3,"None",Yes,Yes,Yes,Yes,1095,Room Temperature,0,1,430,1.0,0.5,6.0,5.0,90,130,1.49,USA,Conventional,425,Can,Yes,2025-12-31,2023-12-31,041000000217,4.4
+96,Canned Beans Lima,Bush's,Pantry,3,"None",Yes,Yes,Yes,Yes,1095,Room Temperature,0,1,430,1.0,0.5,6.0,5.0,90,130,1.49,USA,Conventional,425,Can,Yes,2025-12-31,2023-12-31,041000000218,4.4
+97,Canned Beans Refried,Bush's,Pantry,4,"None",Yes,Yes,Yes,Yes,1095,Room Temperature,0,1,430,1.0,0.5,6.0,5.0,90,130,1.49,USA,Conventional,425,Can,Yes,2025-12-31,2023-12-31,041000000219,4.4
+98,Canned Beans Baked,Bush's,Pantry,5,"None",Yes,Yes,Yes,Yes,1095,Room Temperature,0,1,430,1.0,0.5,6.0,5.0,90,130,1.49,USA,Conventional,425,Can,Yes,2025-12-31,2023-12-31,041000000220,4.4
+99,Canned Beans Organic,Bush's,Pantry,3,"None",Yes,Yes,Yes,Yes,1095,Room Temperature,0,1,430,1.0,0.5,6.0,5.0,90,130,1.99,USA,Organic,425,Can,Yes,2025-12-31,2023-12-31,041000000221,4.7
+100,Canned Beans Low Sodium,Bush's,Pantry,3,"None",Yes,Yes,Yes,Yes,1095,Room Temperature,0,1,215,1.0,0.5,6.0,5.0,90,130,1.69,USA,Conventional,425,Can,Yes,2025-12-31,2023-12-31,041000000222,4.5

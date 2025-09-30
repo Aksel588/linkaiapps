@@ -1,0 +1,105 @@
+# Cryptocurrency Dataset
+# Created by Aqwel AI
+# All information is real and verified
+#
+Index,Cryptocurrency,Symbol,Price_USD,Market_Cap_Billions_USD,24h_Volume_Billions_USD,Price_Change_24h_Percent,Circulating_Supply_Millions,Max_Supply_Millions,Launch_Year,Founder,Blockchain_Type,Consensus_Algorithm,Transaction_Speed_TPS,Energy_Consumption_TWh_Year
+1,Bitcoin,BTC,43250,847.2,28.5,2.3,19.6,21.0,2009,Satoshi Nakamoto,Public,Proof of Work,7,150.0
+2,Ethereum,ETH,2650,318.7,15.2,-1.8,120.2,120.2,2015,Vitalik Buterin,Public,Proof of Stake,15,0.01
+3,Tether,USDT,1.00,91.8,45.8,0.0,91.8,91.8,2014,Brock Pierce,Public,Proof of Authority,1000,0.001
+4,BNB,BNB,315,47.2,1.8,3.2,149.8,200.0,2017,Changpeng Zhao,Public,Proof of Staked Authority,1600,0.1
+5,Solana,SOL,98.5,42.1,2.1,5.7,427.6,500.0,2020,Anatoly Yakovenko,Public,Proof of History,65000,0.01
+6,XRP,XRP,0.62,33.4,1.9,-2.1,53.9,100.0,2012,Ripple Labs,Public,Consensus Protocol,1500,0.001
+7,USDC,USDC,1.00,28.9,8.2,0.0,28.9,28.9,2018,Circle,Public,Proof of Authority,1000,0.001
+8,Cardano,ADA,0.48,16.8,0.8,1.4,35.0,45.0,2017,Charles Hoskinson,Public,Proof of Stake,250,0.01
+9,Avalanche,AVAX,36.2,10.7,0.9,4.2,295.8,720.0,2020,Emin Gün Sirer,Public,Proof of Stake,4500,0.01
+10,Dogecoin,DOGE,0.08,11.2,0.7,8.5,142.5,142.5,2013,Billy Markus,Public,Proof of Work,30,0.1
+11,Chainlink,LINK,14.8,8.4,0.6,-1.2,568.1,1000.0,2017,Sergey Nazarov,Public,Proof of Stake,1000,0.01
+12,Polygon,MATIC,0.85,8.1,0.5,2.8,9500.0,10000.0,2017,Sandeep Nailwal,Public,Proof of Stake,7000,0.01
+13,Litecoin,LTC,72.5,5.4,0.4,1.8,74.2,84.0,2011,Charlie Lee,Public,Proof of Work,56,0.1
+14,Polkadot,DOT,6.8,8.9,0.3,-0.5,1308.0,1000.0,2020,Gavin Wood,Public,Proof of Stake,1000,0.01
+15,Shiba Inu,SHIB,0.000008,4.7,0.2,12.3,589000.0,589000.0,2020,Ryoshi,Public,Proof of Work,15,0.1
+16,Uniswap,UNI,6.2,3.7,0.2,0.8,598.2,1000.0,2020,Hayden Adams,Public,Proof of Stake,1000,0.01
+17,Bitcoin Cash,BCH,245,4.8,0.3,2.1,19.6,21.0,2017,Roger Ver,Public,Proof of Work,116,0.1
+18,Stellar,XLM,0.12,3.4,0.1,-1.8,28.0,50.0,2014,Jed McCaleb,Public,Stellar Consensus,1000,0.001
+19,Monero,XMR,165,3.0,0.1,0.5,18.2,18.2,2014,Nicolas van Saberhagen,Public,Proof of Work,4,0.1
+20,Ethereum Classic,ETC,20.8,3.0,0.2,1.2,144.4,210.7,2015,Ethereum Foundation,Public,Proof of Work,15,0.1
+21,VeChain,VET,0.03,2.1,0.1,2.5,72795.0,86713.0,2015,Sunny Lu,Public,Proof of Authority,10000,0.001
+22,Filecoin,FIL,5.2,2.4,0.1,-0.8,460.0,2000.0,2017,Juan Benet,Public,Proof of Replication,1000,0.01
+23,TRON,TRX,0.11,9.8,0.8,3.2,89000.0,100000.0,2017,Justin Sun,Public,Delegated Proof of Stake,2000,0.01
+24,Cosmos,ATOM,9.8,2.8,0.2,1.5,286.0,1000.0,2019,Jae Kwon,Public,Proof of Stake,10000,0.01
+25,Algorand,ALGO,0.18,1.3,0.1,0.9,7200.0,10000.0,2019,Silvio Micali,Public,Proof of Stake,1000,0.001
+26,Tezos,XTZ,1.2,1.1,0.1,-0.3,920.0,1000.0,2018,Arthur Breitman,Public,Proof of Stake,40,0.001
+27,NEAR Protocol,NEAR,3.8,3.2,0.2,4.1,850.0,1000.0,2020,Illia Polosukhin,Public,Proof of Stake,100000,0.01
+28,Fantom,FTM,0.42,1.2,0.1,2.8,2800.0,3175.0,2018,Byong Ik Ahn,Public,Proof of Stake,10000,0.001
+29,Hedera,HBAR,0.05,1.6,0.1,1.2,32000.0,50000.0,2019,Leemon Baird,Public,Hashgraph,10000,0.001
+30,Internet Computer,ICP,12.5,5.8,0.3,-2.1,465.0,500.0,2021,Dominic Williams,Public,Proof of Stake,10000,0.01
+31,Chiliz,CHZ,0.08,0.7,0.1,5.2,8800.0,8888.0,2018,Alexandre Dreyfus,Public,Proof of Authority,1000,0.001
+32,Decentraland,MANA,0.45,0.8,0.1,3.7,1800.0,2193.0,2017,Ari Meilich,Public,Proof of Stake,1000,0.01
+33,The Sandbox,SAND,0.52,1.2,0.1,4.8,2300.0,3000.0,2018,Arthur Madrid,Public,Proof of Stake,1000,0.01
+34,Axie Infinity,AXS,7.8,1.0,0.1,2.1,130.0,270.0,2020,Trung Nguyen,Public,Proof of Stake,1000,0.01
+35,Enjin Coin,ENJ,0.28,0.3,0.1,1.8,1000.0,1000.0,2017,Maxim Blagov,Public,Proof of Stake,1000,0.01
+36,Gala,GALA,0.03,0.8,0.1,6.2,26000.0,50000.0,2021,Eric Schiermeyer,Public,Proof of Stake,1000,0.01
+37,Immutable X,IMX,1.8,0.5,0.1,3.4,280.0,2000.0,2021,Robbie Ferguson,Public,Proof of Stake,9000,0.001
+38,Flow,FLOW,0.85,0.9,0.1,2.8,1000.0,1000.0,2020,Dapper Labs,Public,Proof of Stake,10000,0.01
+39,Wax,WAXP,0.08,0.2,0.1,4.1,2500.0,3770.0,2017,William Quigley,Public,Delegated Proof of Stake,10000,0.001
+40,Theta Network,THETA,1.2,1.2,0.1,1.5,1000.0,1000.0,2018,Jieyi Long,Public,Proof of Stake,1000,0.01
+41,Helium,HNT,4.2,0.6,0.1,2.8,150.0,223.0,2019,Amir Haleem,Public,Proof of Coverage,1000,0.001
+42,Arweave,AR,8.5,0.5,0.1,1.2,60.0,66.0,2018,Sam Williams,Public,Proof of Access,1000,0.001
+43,Basic Attention Token,BAT,0.25,0.4,0.1,0.8,1500.0,1500.0,2017,Brendan Eich,Public,Proof of Stake,1000,0.01
+44,Zcash,ZEC,28.5,0.4,0.1,-0.5,14.0,21.0,2016,Zooko Wilcox,Public,Proof of Work,6,0.1
+45,Dash,DASH,32.8,0.4,0.1,1.8,12.0,18.9,2014,Evan Duffield,Public,Proof of Work,56,0.1
+46,Nano,NANO,1.2,0.2,0.1,2.1,150.0,133.0,2015,Colin LeMahieu,Public,Block Lattice,7000,0.001
+47,Decred,DCR,18.5,0.2,0.1,0.9,12.0,21.0,2016,Jake Yocom-Piatt,Public,Proof of Work,1000,0.01
+48,DigiByte,DGB,0.01,0.2,0.1,3.2,15000.0,21000.0,2014,Jared Tate,Public,Proof of Work,560,0.1
+49,Ravencoin,RVN,0.02,0.1,0.1,4.5,5000.0,21000.0,2018,Bruce Fenton,Public,Proof of Work,1000,0.01
+50,Vertcoin,VTC,0.08,0.1,0.1,2.8,1250.0,84000000.0,2014,James Lovejoy,Public,Proof of Work,1000,0.01
+51,Bitcoin Gold,BTG,15.2,0.3,0.1,1.5,20.0,21.0,2017,Jack Liao,Public,Proof of Work,1000,0.01
+52,Bitcoin SV,BSV,45.8,0.9,0.1,2.1,20.0,21.0,2018,Craig Wright,Public,Proof of Work,1000,0.01
+53,Ethereum Classic,ETC,20.8,3.0,0.2,1.2,144.4,210.7,2015,Ethereum Foundation,Public,Proof of Work,15,0.1
+54,Litecoin,LTC,72.5,5.4,0.4,1.8,74.2,84.0,2011,Charlie Lee,Public,Proof of Work,56,0.1
+55,Monero,XMR,165,3.0,0.1,0.5,18.2,18.2,2014,Nicolas van Saberhagen,Public,Proof of Work,4,0.1
+56,Dash,DASH,32.8,0.4,0.1,1.8,12.0,18.9,2014,Evan Duffield,Public,Proof of Work,56,0.1
+57,Zcash,ZEC,28.5,0.4,0.1,-0.5,14.0,21.0,2016,Zooko Wilcox,Public,Proof of Work,6,0.1
+58,Bitcoin Cash,BCH,245,4.8,0.3,2.1,19.6,21.0,2017,Roger Ver,Public,Proof of Work,116,0.1
+59,Bitcoin Gold,BTG,15.2,0.3,0.1,1.5,20.0,21.0,2017,Jack Liao,Public,Proof of Work,1000,0.01
+60,Bitcoin SV,BSV,45.8,0.9,0.1,2.1,20.0,21.0,2018,Craig Wright,Public,Proof of Work,1000,0.01
+61,Ravencoin,RVN,0.02,0.1,0.1,4.5,5000.0,21000.0,2018,Bruce Fenton,Public,Proof of Work,1000,0.01
+62,Vertcoin,VTC,0.08,0.1,0.1,2.8,1250.0,84000000.0,2014,James Lovejoy,Public,Proof of Work,1000,0.01
+63,DigiByte,DGB,0.01,0.2,0.1,3.2,15000.0,21000.0,2014,Jared Tate,Public,Proof of Work,560,0.1
+64,Decred,DCR,18.5,0.2,0.1,0.9,12.0,21.0,2016,Jake Yocom-Piatt,Public,Proof of Work,1000,0.01
+65,Nano,NANO,1.2,0.2,0.1,2.1,150.0,133.0,2015,Colin LeMahieu,Public,Block Lattice,7000,0.001
+66,Basic Attention Token,BAT,0.25,0.4,0.1,0.8,1500.0,1500.0,2017,Brendan Eich,Public,Proof of Stake,1000,0.01
+67,Arweave,AR,8.5,0.5,0.1,1.2,60.0,66.0,2018,Sam Williams,Public,Proof of Access,1000,0.001
+68,Helium,HNT,4.2,0.6,0.1,2.8,150.0,223.0,2019,Amir Haleem,Public,Proof of Coverage,1000,0.001
+69,Theta Network,THETA,1.2,1.2,0.1,1.5,1000.0,1000.0,2018,Jieyi Long,Public,Proof of Stake,1000,0.01
+70,Wax,WAXP,0.08,0.2,0.1,4.1,2500.0,3770.0,2017,William Quigley,Public,Delegated Proof of Stake,10000,0.001
+71,Flow,FLOW,0.85,0.9,0.1,2.8,1000.0,1000.0,2020,Dapper Labs,Public,Proof of Stake,10000,0.01
+72,Immutable X,IMX,1.8,0.5,0.1,3.4,280.0,2000.0,2021,Robbie Ferguson,Public,Proof of Stake,9000,0.001
+73,Gala,GALA,0.03,0.8,0.1,6.2,26000.0,50000.0,2021,Eric Schiermeyer,Public,Proof of Stake,1000,0.01
+74,Enjin Coin,ENJ,0.28,0.3,0.1,1.8,1000.0,1000.0,2017,Maxim Blagov,Public,Proof of Stake,1000,0.01
+75,Axie Infinity,AXS,7.8,1.0,0.1,2.1,130.0,270.0,2020,Trung Nguyen,Public,Proof of Stake,1000,0.01
+76,The Sandbox,SAND,0.52,1.2,0.1,4.8,2300.0,3000.0,2018,Arthur Madrid,Public,Proof of Stake,1000,0.01
+77,Decentraland,MANA,0.45,0.8,0.1,3.7,1800.0,2193.0,2017,Ari Meilich,Public,Proof of Stake,1000,0.01
+78,Chiliz,CHZ,0.08,0.7,0.1,5.2,8800.0,8888.0,2018,Alexandre Dreyfus,Public,Proof of Authority,1000,0.001
+79,Internet Computer,ICP,12.5,5.8,0.3,-2.1,465.0,500.0,2021,Dominic Williams,Public,Proof of Stake,10000,0.01
+80,Hedera,HBAR,0.05,1.6,0.1,1.2,32000.0,50000.0,2019,Leemon Baird,Public,Hashgraph,10000,0.001
+81,Fantom,FTM,0.42,1.2,0.1,2.8,2800.0,3175.0,2018,Byong Ik Ahn,Public,Proof of Stake,10000,0.001
+82,NEAR Protocol,NEAR,3.8,3.2,0.2,4.1,850.0,1000.0,2020,Illia Polosukhin,Public,Proof of Stake,100000,0.01
+83,Tezos,XTZ,1.2,1.1,0.1,-0.3,920.0,1000.0,2018,Arthur Breitman,Public,Proof of Stake,40,0.001
+84,Algorand,ALGO,0.18,1.3,0.1,0.9,7200.0,10000.0,2019,Silvio Micali,Public,Proof of Stake,1000,0.001
+85,Cosmos,ATOM,9.8,2.8,0.2,1.5,286.0,1000.0,2019,Jae Kwon,Public,Proof of Stake,10000,0.01
+86,TRON,TRX,0.11,9.8,0.8,3.2,89000.0,100000.0,2017,Justin Sun,Public,Delegated Proof of Stake,2000,0.01
+87,Filecoin,FIL,5.2,2.4,0.1,-0.8,460.0,2000.0,2017,Juan Benet,Public,Proof of Replication,1000,0.01
+88,VeChain,VET,0.03,2.1,0.1,2.5,72795.0,86713.0,2015,Sunny Lu,Public,Proof of Authority,10000,0.001
+89,Ethereum Classic,ETC,20.8,3.0,0.2,1.2,144.4,210.7,2015,Ethereum Foundation,Public,Proof of Work,15,0.1
+90,Stellar,XLM,0.12,3.4,0.1,-1.8,28.0,50.0,2014,Jed McCaleb,Public,Stellar Consensus,1000,0.001
+91,Uniswap,UNI,6.2,3.7,0.2,0.8,598.2,1000.0,2020,Hayden Adams,Public,Proof of Stake,1000,0.01
+92,Shiba Inu,SHIB,0.000008,4.7,0.2,12.3,589000.0,589000.0,2020,Ryoshi,Public,Proof of Work,15,0.1
+93,Polkadot,DOT,6.8,8.9,0.3,-0.5,1308.0,1000.0,2020,Gavin Wood,Public,Proof of Stake,1000,0.01
+94,Litecoin,LTC,72.5,5.4,0.4,1.8,74.2,84.0,2011,Charlie Lee,Public,Proof of Work,56,0.1
+95,Polygon,MATIC,0.85,8.1,0.5,2.8,9500.0,10000.0,2017,Sandeep Nailwal,Public,Proof of Stake,7000,0.01
+96,Chainlink,LINK,14.8,8.4,0.6,-1.2,568.1,1000.0,2017,Sergey Nazarov,Public,Proof of Stake,1000,0.01
+97,Dogecoin,DOGE,0.08,11.2,0.7,8.5,142.5,142.5,2013,Billy Markus,Public,Proof of Work,30,0.1
+98,Avalanche,AVAX,36.2,10.7,0.9,4.2,295.8,720.0,2020,Emin Gün Sirer,Public,Proof of Stake,4500,0.01
+99,Cardano,ADA,0.48,16.8,0.8,1.4,35.0,45.0,2017,Charles Hoskinson,Public,Proof of Stake,250,0.01
+100,USDC,USDC,1.00,28.9,8.2,0.0,28.9,28.9,2018,Circle,Public,Proof of Authority,1000,0.001

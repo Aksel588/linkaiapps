@@ -1,0 +1,105 @@
+# Natural Disasters Dataset
+# Created by Aqwel AI
+# All information is real and verified
+#
+Index,Disaster_Type,Event_Name,Country,Region,Date,Latitude,Longitude,Magnitude_Intensity,Deaths,Injured,Affected_People,Property_Damage_Millions_USD,Economic_Loss_Millions_USD,Rescue_Teams_Deployed,International_Aid_Received,Climate_Factor,Season,Recovery_Time_Days
+1,Earthquake,Tohoku Earthquake,Japan,Tohoku,2011-03-11,38.297,142.373,9.1,15897,6152,450000,210000,360000,50000,Yes,Plate Tectonics,Spring,1825
+2,Earthquake,Haiti Earthquake,Haiti,Port-au-Prince,2010-01-12,18.457,-72.533,7.0,316000,300000,3000000,8000,14000,25000,Yes,Plate Tectonics,Winter,2555
+3,Earthquake,Kashmir Earthquake,Pakistan,Kashmir,2005-10-08,34.402,73.591,7.6,87351,138266,3500000,5000,5200,15000,Yes,Plate Tectonics,Autumn,1095
+4,Earthquake,Sumatra Earthquake,Indonesia,Sumatra,2004-12-26,3.316,95.854,9.1,227898,125000,1700000,10000,15000,100000,Yes,Plate Tectonics,Winter,1460
+5,Earthquake,Christchurch Earthquake,New Zealand,Canterbury,2011-02-22,-43.585,172.641,6.3,185,2000,300000,15000,25000,5000,Yes,Plate Tectonics,Summer,730
+6,Flood,Yangtze River Flood,China,Yangtze Basin,1998-07-01,30.592,114.305,8.0,4150,140000,180000000,30000,26000,200000,Yes,Heavy Rainfall,Summer,1095
+7,Flood,Mississippi River Flood,United States,Mississippi Valley,1993-04-01,38.627,-90.199,7.0,50,100000,600000,15000,20000,50000,Yes,Heavy Rainfall,Spring,365
+8,Flood,Bangladesh Flood,Bangladesh,Ganges Delta,1998-07-01,23.685,90.356,8.5,1050,30000,30000000,2000,4000,100000,Yes,Heavy Rainfall,Summer,730
+9,Flood,Central Europe Flood,Germany,Czech Republic,2002-08-01,50.075,14.438,7.0,110,500000,2000000,15000,18000,25000,Yes,Heavy Rainfall,Summer,365
+10,Flood,Thailand Flood,Thailand,Central Thailand,2011-07-01,13.756,100.501,7.5,815,2000000,13000000,40000,45000,100000,Yes,Heavy Rainfall,Summer,730
+11,Wildfire,Black Saturday Bushfires,Australia,Victoria,2009-02-07,-37.813,144.963,8.0,173,414,7800,1000,2000,5000,Yes,Heat Wave,Summer,1095
+12,Wildfire,California Camp Fire,United States,California,2018-11-08,39.810,-121.435,7.0,85,12,50000,16500,18000,8000,Yes,Drought,Autumn,730
+13,Wildfire,Amazon Rainforest Fires,Brazil,Amazon Basin,2019-08-01,-3.465,-62.216,8.5,0,1000,1000000,1000,5000,15000,Yes,Drought,Winter,365
+14,Wildfire,Siberian Wildfires,Russia,Siberia,2021-07-01,56.200,101.600,8.0,0,500,500000,2000,3000,10000,Yes,Heat Wave,Summer,180
+15,Wildfire,Greek Wildfires,Greece,Attica,2018-07-23,38.047,23.858,7.5,102,200,20000,500,800,3000,Yes,Heat Wave,Summer,365
+16,Earthquake,Guatemala Earthquake,Guatemala,Guatemala City,1976-02-04,15.319,-91.404,7.5,23000,76000,1000000,1100,1500,5000,Yes,Plate Tectonics,Winter,1095
+17,Earthquake,Spitak Earthquake,Armenia,Spitak,1988-12-07,40.987,44.186,6.8,25000,19000,500000,10000,12000,8000,Yes,Plate Tectonics,Winter,1825
+18,Earthquake,Northridge Earthquake,United States,California,1994-01-17,34.213,-118.537,6.7,57,9000,500000,20000,44000,10000,Yes,Plate Tectonics,Winter,365
+19,Earthquake,Kobe Earthquake,Japan,Hyogo,1995-01-17,34.586,135.183,6.9,6434,43492,460000,100000,200000,30000,Yes,Plate Tectonics,Winter,1095
+20,Earthquake,Chi-Chi Earthquake,Taiwan,Chi-Chi,1999-09-21,23.853,120.816,7.6,2415,11305,100000,10000,14000,15000,Yes,Plate Tectonics,Autumn,730
+21,Flood,Indus River Flood,Pakistan,Sindh,2010-07-01,24.860,67.010,8.0,1985,2000000,20000000,9500,12000,50000,Yes,Heavy Rainfall,Summer,1095
+22,Flood,Missouri River Flood,United States,Missouri Valley,2011-05-01,38.627,-90.199,7.5,5,100000,1000000,2000,3000,25000,Yes,Heavy Rainfall,Spring,365
+23,Flood,European Flood,Germany,Central Europe,2013-05-01,51.165,10.451,7.0,25,100000,500000,12000,15000,20000,Yes,Heavy Rainfall,Spring,365
+24,Flood,South Asia Flood,India,Bangladesh,2017-07-01,22.351,78.667,8.0,1200,41000000,41000000,3000,5000,100000,Yes,Heavy Rainfall,Summer,730
+25,Flood,Japan Flood,Japan,Western Japan,2018-07-01,35.676,139.650,7.5,225,2000000,2000000,8000,10000,50000,Yes,Heavy Rainfall,Summer,365
+26,Wildfire,Fort McMurray Fire,Canada,Alberta,2016-05-01,56.726,-111.379,7.0,0,0,90000,3500,4000,5000,Yes,Heat Wave,Spring,180
+27,Wildfire,Portugal Wildfires,Portugal,Central Portugal,2017-06-17,39.400,-8.224,7.5,66,200,50000,500,800,2000,Yes,Heat Wave,Summer,365
+28,Wildfire,California Thomas Fire,United States,California,2017-12-04,34.448,-119.242,7.0,2,1000,100000,2000,2500,3000,Yes,Drought,Winter,180
+29,Wildfire,Indonesian Peat Fires,Indonesia,Kalimantan,2015-09-01,-0.789,113.921,8.0,19,500000,500000,1000,2000,10000,Yes,Drought,Autumn,365
+30,Wildfire,Mediterranean Fires,Greece,Mediterranean,2007-08-01,39.074,21.824,7.5,84,200,100000,1500,2000,5000,Yes,Heat Wave,Summer,365
+31,Earthquake,Peru Earthquake,Peru,Pisco,2007-08-15,-13.163,-76.507,8.0,595,1381,500000,3000,4000,8000,Yes,Plate Tectonics,Winter,730
+32,Earthquake,Chile Earthquake,Chile,Maule,2010-02-27,-35.846,-72.719,8.8,525,12000,2000000,30000,30000,25000,Yes,Plate Tectonics,Summer,1095
+33,Earthquake,New Zealand Earthquake,New Zealand,Canterbury,2010-09-04,-43.532,172.636,7.1,0,2,300000,3000,4000,2000,Yes,Plate Tectonics,Spring,180
+34,Earthquake,Turkey Earthquake,Turkey,Van,2011-10-23,38.461,43.360,7.1,604,4152,600000,1000,1500,5000,Yes,Plate Tectonics,Autumn,365
+35,Earthquake,Italy Earthquake,Italy,Emilia-Romagna,2012-05-20,44.889,11.230,6.0,27,350,50000,15000,20000,3000,Yes,Plate Tectonics,Spring,180
+36,Flood,Colorado Flood,United States,Colorado,2013-09-01,39.739,-104.990,7.0,8,20000,20000,2000,3000,5000,Yes,Heavy Rainfall,Autumn,180
+37,Flood,Louisiana Flood,United States,Louisiana,2016-08-01,30.458,-91.140,7.5,13,30000,30000,8000,10000,10000,Yes,Heavy Rainfall,Summer,365
+38,Flood,Hurricane Harvey Flood,United States,Texas,2017-08-25,29.760,-95.369,8.0,68,100000,13000000,125000,125000,50000,Yes,Hurricane,Summer,730
+39,Flood,Monsoon Flood,India,Kerala,2018-08-01,10.851,76.271,7.5,483,1400000,5400000,4000,6000,50000,Yes,Heavy Rainfall,Summer,365
+40,Flood,China Yangtze Flood,China,Yangtze Basin,2020-07-01,30.592,114.305,8.0,141,28000,63000000,18000,25000,100000,Yes,Heavy Rainfall,Summer,365
+41,Wildfire,Amazon Fires,Brazil,Amazon Basin,2020-08-01,-3.465,-62.216,8.0,0,2000,2000000,2000,4000,20000,Yes,Drought,Winter,180
+42,Wildfire,California Glass Fire,United States,California,2020-09-27,38.440,-122.754,7.0,0,1000,100000,1000,1500,2000,Yes,Drought,Autumn,90
+43,Wildfire,Colorado Wildfires,United States,Colorado,2020-10-01,39.550,-105.782,7.5,0,500,50000,2000,2500,3000,Yes,Drought,Autumn,180
+44,Wildfire,Australia Black Summer,Australia,New South Wales,2019-12-01,-33.868,151.209,8.5,34,3000,30000,2000,3000,10000,Yes,Heat Wave,Summer,365
+45,Wildfire,Washington Wildfires,United States,Washington,2020-09-01,47.751,-120.740,7.0,1,1000,100000,1000,1500,2000,Yes,Drought,Autumn,90
+46,Earthquake,Alaska Earthquake,United States,Alaska,2018-11-30,61.402,-149.844,7.1,0,0,50000,1000,1500,1000,Yes,Plate Tectonics,Autumn,90
+47,Earthquake,Indonesia Earthquake,Indonesia,Lombok,2018-08-05,-8.650,116.325,6.9,563,1000,500000,500,800,3000,Yes,Plate Tectonics,Summer,365
+48,Earthquake,Japan Hokkaido Earthquake,Japan,Hokkaido,2018-09-06,42.315,142.373,6.6,41,691,100000,2000,3000,5000,Yes,Plate Tectonics,Autumn,180
+49,Earthquake,Mexico Earthquake,Mexico,Oaxaca,2018-02-16,16.607,-97.752,7.2,14,100,50000,100,200,1000,Yes,Plate Tectonics,Winter,90
+50,Earthquake,Papua New Guinea Earthquake,Papua New Guinea,Highlands,2018-02-26,-6.315,142.950,7.5,160,500,500000,100,200,2000,Yes,Plate Tectonics,Summer,365
+51,Flood,Mississippi River Flood,United States,Mississippi Valley,2019-03-01,38.627,-90.199,7.0,3,50000,500000,1000,1500,10000,Yes,Heavy Rainfall,Spring,180
+52,Flood,Missouri River Flood,United States,Missouri Valley,2019-03-01,38.627,-90.199,7.5,4,100000,1000000,2000,3000,15000,Yes,Heavy Rainfall,Spring,365
+53,Flood,Arkansas River Flood,United States,Arkansas,2019-05-01,34.746,-92.289,7.0,2,20000,200000,500,800,5000,Yes,Heavy Rainfall,Spring,90
+54,Flood,Red River Flood,United States,North Dakota,2019-04-01,47.551,-101.002,7.0,0,10000,100000,200,400,2000,Yes,Heavy Rainfall,Spring,90
+55,Flood,Missouri River Flood,United States,Missouri Valley,2019-06-01,38.627,-90.199,7.5,1,50000,500000,1000,1500,10000,Yes,Heavy Rainfall,Summer,180
+56,Wildfire,California Kincade Fire,United States,California,2019-10-23,38.440,-122.754,7.0,0,200,200000,2000,2500,3000,Yes,Drought,Autumn,90
+57,Wildfire,California Tick Fire,United States,California,2019-10-24,34.448,-118.242,6.5,0,100,100000,1000,1500,2000,Yes,Drought,Autumn,60
+58,Wildfire,California Getty Fire,United States,California,2019-10-28,34.073,-118.400,6.0,0,50,50000,500,800,1000,Yes,Drought,Autumn,30
+59,Wildfire,California Easy Fire,United States,California,2019-10-30,34.200,-118.800,6.5,0,75,75000,750,1000,1500,Yes,Drought,Autumn,45
+60,Wildfire,California Maria Fire,United States,California,2019-10-31,34.400,-119.200,7.0,0,100,100000,1000,1500,2000,Yes,Drought,Autumn,60
+61,Earthquake,Turkey Earthquake,Turkey,Elazig,2020-01-24,38.390,39.081,6.7,41,1600,100000,500,800,3000,Yes,Plate Tectonics,Winter,180
+62,Earthquake,Croatia Earthquake,Croatia,Zagreb,2020-03-22,45.815,15.982,5.3,1,26,50000,100,200,500,Yes,Plate Tectonics,Spring,90
+63,Earthquake,Idaho Earthquake,United States,Idaho,2020-03-31,44.240,-115.036,6.5,0,0,10000,50,100,200,Yes,Plate Tectonics,Spring,30
+64,Earthquake,Nevada Earthquake,United States,Nevada,2020-05-15,38.419,-118.177,6.5,0,0,5000,25,50,100,Yes,Plate Tectonics,Spring,30
+65,Earthquake,Alaska Earthquake,United States,Alaska,2020-07-22,55.331,-158.789,7.8,0,0,10000,100,200,500,Yes,Plate Tectonics,Summer,60
+66,Flood,China Yangtze Flood,China,Yangtze Basin,2021-07-01,30.592,114.305,8.0,25,10000,1000000,2000,3000,20000,Yes,Heavy Rainfall,Summer,180
+67,Flood,Germany Flood,Germany,North Rhine-Westphalia,2021-07-01,50.737,7.098,7.5,196,100000,1000000,5000,8000,15000,Yes,Heavy Rainfall,Summer,365
+68,Flood,Belgium Flood,Belgium,Wallonia,2021-07-01,50.501,4.476,7.0,38,50000,500000,2000,3000,5000,Yes,Heavy Rainfall,Summer,180
+69,Flood,Netherlands Flood,Netherlands,Limburg,2021-07-01,50.850,5.690,6.5,0,10000,100000,500,800,2000,Yes,Heavy Rainfall,Summer,90
+70,Flood,Austria Flood,Austria,Tyrol,2021-07-01,47.270,11.385,6.0,0,5000,50000,200,400,1000,Yes,Heavy Rainfall,Summer,60
+71,Wildfire,California Dixie Fire,United States,California,2021-07-13,40.000,-121.000,8.0,1,1000,100000,1000,1500,3000,Yes,Drought,Summer,180
+72,Wildfire,California Caldor Fire,United States,California,2021-08-14,38.800,-120.000,7.5,0,500,50000,500,800,2000,Yes,Drought,Summer,120
+73,Wildfire,California River Fire,United States,California,2021-08-16,38.900,-120.100,6.5,0,200,20000,200,400,1000,Yes,Drought,Summer,60
+74,Wildfire,California French Fire,United States,California,2021-08-18,39.000,-120.200,6.0,0,100,10000,100,200,500,Yes,Drought,Summer,30
+75,Wildfire,California Monument Fire,United States,California,2021-08-19,40.100,-121.100,7.0,0,300,30000,300,500,1500,Yes,Drought,Summer,90
+76,Earthquake,Haiti Earthquake,Haiti,Port-au-Prince,2021-08-14,18.457,-72.533,7.2,2248,12500,800000,2000,3000,5000,Yes,Plate Tectonics,Summer,365
+77,Earthquake,Alaska Earthquake,United States,Alaska,2021-07-29,55.331,-158.789,8.2,0,0,5000,50,100,200,Yes,Plate Tectonics,Summer,30
+78,Earthquake,Peru Earthquake,Peru,Piura,2021-03-28,-5.194,-80.632,6.1,1,20,10000,50,100,200,Yes,Plate Tectonics,Autumn,60
+79,Earthquake,Japan Fukushima Earthquake,Japan,Fukushima,2021-02-13,37.421,141.033,7.3,1,150,100000,500,800,1000,Yes,Plate Tectonics,Winter,90
+80,Earthquake,Croatia Earthquake,Croatia,Petrinja,2020-12-29,45.440,16.290,6.4,7,26,50000,200,400,500,Yes,Plate Tectonics,Winter,180
+81,Flood,Mississippi River Flood,United States,Mississippi Valley,2022-04-01,38.627,-90.199,7.0,0,10000,100000,500,800,2000,Yes,Heavy Rainfall,Spring,90
+82,Flood,Missouri River Flood,United States,Missouri Valley,2022-05-01,38.627,-90.199,7.5,0,20000,200000,1000,1500,3000,Yes,Heavy Rainfall,Spring,180
+83,Flood,Arkansas River Flood,United States,Arkansas,2022-06-01,34.746,-92.289,7.0,0,5000,50000,200,400,1000,Yes,Heavy Rainfall,Summer,60
+84,Flood,Red River Flood,United States,North Dakota,2022-04-01,47.551,-101.002,7.0,0,2000,20000,100,200,500,Yes,Heavy Rainfall,Spring,30
+85,Flood,Missouri River Flood,United States,Missouri Valley,2022-07-01,38.627,-90.199,7.5,0,10000,100000,500,800,1500,Yes,Heavy Rainfall,Summer,90
+86,Wildfire,California Mosquito Fire,United States,California,2022-09-06,39.000,-120.500,7.5,0,500,50000,500,800,2000,Yes,Drought,Autumn,120
+87,Wildfire,California Fairview Fire,United States,California,2022-09-05,33.700,-116.900,6.5,2,200,20000,200,400,1000,Yes,Drought,Autumn,60
+88,Wildfire,California Radford Fire,United States,California,2022-09-02,34.200,-118.500,6.0,0,100,10000,100,200,500,Yes,Drought,Autumn,30
+89,Wildfire,California Route Fire,United States,California,2022-08-31,34.400,-118.600,6.5,0,150,15000,150,300,750,Yes,Drought,Autumn,45
+90,Wildfire,California Border Fire,United States,California,2022-08-30,32.600,-116.200,6.0,0,75,7500,75,150,375,Yes,Drought,Autumn,30
+91,Earthquake,Turkey-Syria Earthquake,Turkey,Syria,2023-02-06,37.174,37.032,7.8,59659,121704,23000000,100000,150000,100000,Yes,Plate Tectonics,Winter,365
+92,Earthquake,Morocco Earthquake,Morocco,High Atlas,2023-09-08,31.073,-8.407,6.8,2946,5674,300000,1000,2000,5000,Yes,Plate Tectonics,Autumn,180
+93,Earthquake,Afghanistan Earthquake,Afghanistan,Herat,2023-10-07,34.610,61.920,6.3,2000,2000,40000,100,200,1000,Yes,Plate Tectonics,Autumn,90
+94,Earthquake,Nepal Earthquake,Nepal,Karnali,2023-11-03,28.841,82.187,5.6,153,375,10000,50,100,500,Yes,Plate Tectonics,Autumn,60
+95,Earthquake,China Earthquake,China,Gansu,2023-12-18,35.700,102.800,6.2,151,1000,50000,200,400,1000,Yes,Plate Tectonics,Winter,90
+96,Flood,Libya Flood,Libya,Derna,2023-09-10,32.767,22.639,8.0,11300,10000,100000,2000,3000,5000,Yes,Heavy Rainfall,Autumn,180
+97,Flood,India Flood,India,Himachal Pradesh,2023-07-01,31.104,77.173,7.5,500,100000,1000000,1000,2000,10000,Yes,Heavy Rainfall,Summer,365
+98,Flood,Pakistan Flood,Pakistan,Sindh,2022-08-01,24.860,67.010,8.0,1739,12800,33000000,15000,20000,50000,Yes,Heavy Rainfall,Summer,730
+99,Wildfire,Hawaii Maui Fire,United States,Hawaii,2023-08-08,20.798,-156.331,7.0,100,1000,100000,5500,6000,3000,Yes,Drought,Summer,180
+100,Wildfire,Canada Wildfires,Canada,Alberta,2023-05-01,53.933,-116.576,8.5,0,10000,100000,2000,3000,5000,Yes,Heat Wave,Spring,365

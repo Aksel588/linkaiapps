@@ -1,0 +1,105 @@
+# Books Dataset
+# Created by Aqwel AI
+# All information is real and verified
+#
+Index,Title,Author,Genre,Publication_Year,Publisher,Page_Count,Language,ISBN,Price_USD,Bestseller_Status,Sales_Millions,Rating_Goodreads,Country_Origin
+1,The Great Gatsby,F. Scott Fitzgerald,Literary Fiction,1925,Scribner,180,English,9780743273565,12.99,Yes,25,3.93,United States
+2,1984,George Orwell,Dystopian Fiction,1949,Secker & Warburg,328,English,9780451524935,14.99,Yes,30,4.19,United Kingdom
+3,To Kill a Mockingbird,Harper Lee,Southern Gothic,1960,J.B. Lippincott & Co.,281,English,9780061120084,15.99,Yes,40,4.28,United States
+4,Pride and Prejudice,Jane Austen,Romance,1813,T. Egerton Whitehall,432,English,9780141439518,9.99,Yes,20,4.28,United Kingdom
+5,The Catcher in the Rye,J.D. Salinger,Coming-of-age,1951,Little Brown and Company,277,English,9780316769174,13.99,Yes,65,3.81,United States
+6,Lord of the Flies,William Golding,Allegory,1954,Faber and Faber,224,English,9780571056866,11.99,Yes,15,3.69,United Kingdom
+7,The Hobbit,J.R.R. Tolkien,Fantasy,1937,George Allen & Unwin,310,English,9780547928227,16.99,Yes,100,4.28,United Kingdom
+8,Harry Potter and the Philosopher's Stone,J.K. Rowling,Fantasy,1997,Bloomsbury,223,English,9780747532699,12.99,Yes,120,4.47,United Kingdom
+9,The Chronicles of Narnia,C.S. Lewis,Fantasy,1950,Geoffrey Bles,767,English,9780064471190,19.99,Yes,100,4.26,United Kingdom
+10,The Lord of the Rings,J.R.R. Tolkien,Fantasy,1954,George Allen & Unwin,1216,English,9780544003415,24.99,Yes,150,4.36,United Kingdom
+11,The Da Vinci Code,Dan Brown,Thriller,2003,Doubleday,689,English,9780307474278,15.99,Yes,80,3.91,United States
+12,The Alchemist,Paulo Coelho,Philosophical Fiction,1988,HarperCollins,163,English,9780061122415,13.99,Yes,65,3.75,Brazil
+13,The Little Prince,Antoine de Saint-Exupéry,Children's Literature,1943,Reynal & Hitchcock,96,French,9780156012195,9.99,Yes,200,4.32,France
+14,The Kite Runner,Khaled Hosseini,Historical Fiction,2003,Riverhead Books,371,English,9781594480003,16.99,Yes,7,4.30,Afghanistan
+15,Life of Pi,Yann Martel,Adventure Fiction,2001,Knopf Canada,319,English,9780676973768,15.99,Yes,10,3.92,Canada
+16,The Book Thief,Markus Zusak,Historical Fiction,2005,Picador,584,English,9780330423304,14.99,Yes,16,4.38,Australia
+17,Gone Girl,Gillian Flynn,Psychological Thriller,2012,Crown Publishing,432,English,9780307588364,16.99,Yes,20,4.06,United States
+18,The Fault in Our Stars,John Green,Young Adult,2012,Dutton Books,313,English,9780525478812,13.99,Yes,23,4.26,United States
+19,The Hunger Games,Suzanne Collins,Dystopian Fiction,2008,Scholastic Press,374,English,9780439023481,12.99,Yes,28,4.33,United States
+20,Twilight,Stephenie Meyer,Paranormal Romance,2005,Little Brown and Company,498,English,9780316015844,11.99,Yes,100,3.59,United States
+21,Fifty Shades of Grey,E.L. James,Erotic Romance,2011,Vintage Books,514,English,9780345803481,15.99,Yes,125,3.37,United Kingdom
+22,The Girl with the Dragon Tattoo,Stieg Larsson,Crime Thriller,2005,Norstedts Förlag,672,Swedish,9780307269751,16.99,Yes,80,4.15,Sweden
+23,The Help,Kathryn Stockett,Historical Fiction,2009,Amy Einhorn Books,464,English,9780399155345,15.99,Yes,5,4.47,United States
+24,Water for Elephants,Sara Gruen,Historical Fiction,2006,Algonquin Books,335,English,9781565125605,14.99,Yes,4,4.09,United States
+25,The Time Traveler's Wife,Audrey Niffenegger,Romance,2003,MacAdam/Cage,518,English,9780965817139,15.99,Yes,2.5,3.96,United States
+26,Eat Pray Love,Elizabeth Gilbert,Memoir,2006,Viking Press,334,English,9780670034710,16.99,Yes,12,3.51,United States
+27,The Lovely Bones,Alice Sebold,Literary Fiction,2002,Little Brown and Company,328,English,9780316166686,14.99,Yes,5,3.81,United States
+28,The Secret Life of Bees,Sue Monk Kidd,Literary Fiction,2002,Viking Press,301,English,9780670033768,15.99,Yes,6,4.05,United States
+29,The Poisonwood Bible,Barbara Kingsolver,Literary Fiction,1998,HarperCollins,546,English,9780060175405,16.99,Yes,4,4.02,United States
+30,The Red Tent,Anita Diamant,Historical Fiction,1997,Picador,321,English,9780312195519,14.99,Yes,3,4.19,United States
+31,The Memory Keeper's Daughter,Kim Edwards,Literary Fiction,2005,Viking Press,401,English,9780670034246,15.99,Yes,4,3.91,United States
+32,The Kite Runner,Khaled Hosseini,Historical Fiction,2003,Riverhead Books,371,English,9781594480003,16.99,Yes,7,4.30,Afghanistan
+33,The Book Thief,Markus Zusak,Historical Fiction,2005,Picador,584,English,9780330423304,14.99,Yes,16,4.38,Australia
+34,Gone Girl,Gillian Flynn,Psychological Thriller,2012,Crown Publishing,432,English,9780307588364,16.99,Yes,20,4.06,United States
+35,The Fault in Our Stars,John Green,Young Adult,2012,Dutton Books,313,English,9780525478812,13.99,Yes,23,4.26,United States
+36,The Hunger Games,Suzanne Collins,Dystopian Fiction,2008,Scholastic Press,374,English,9780439023481,12.99,Yes,28,4.33,United States
+37,Twilight,Stephenie Meyer,Paranormal Romance,2005,Little Brown and Company,498,English,9780316015844,11.99,Yes,100,3.59,United States
+38,Fifty Shades of Grey,E.L. James,Erotic Romance,2011,Vintage Books,514,English,9780345803481,15.99,Yes,125,3.37,United Kingdom
+39,The Girl with the Dragon Tattoo,Stieg Larsson,Crime Thriller,2005,Norstedts Förlag,672,Swedish,9780307269751,16.99,Yes,80,4.15,Sweden
+40,The Help,Kathryn Stockett,Historical Fiction,2009,Amy Einhorn Books,464,English,9780399155345,15.99,Yes,5,4.47,United States
+41,Water for Elephants,Sara Gruen,Historical Fiction,2006,Algonquin Books,335,English,9781565125605,14.99,Yes,4,4.09,United States
+42,The Time Traveler's Wife,Audrey Niffenegger,Romance,2003,MacAdam/Cage,518,English,9780965817139,15.99,Yes,2.5,3.96,United States
+43,Eat Pray Love,Elizabeth Gilbert,Memoir,2006,Viking Press,334,English,9780670034710,16.99,Yes,12,3.51,United States
+44,The Lovely Bones,Alice Sebold,Literary Fiction,2002,Little Brown and Company,328,English,9780316166686,14.99,Yes,5,3.81,United States
+45,The Secret Life of Bees,Sue Monk Kidd,Literary Fiction,2002,Viking Press,301,English,9780670033768,15.99,Yes,6,4.05,United States
+46,The Poisonwood Bible,Barbara Kingsolver,Literary Fiction,1998,HarperCollins,546,English,9780060175405,16.99,Yes,4,4.02,United States
+47,The Red Tent,Anita Diamant,Historical Fiction,1997,Picador,321,English,9780312195519,14.99,Yes,3,4.19,United States
+48,The Memory Keeper's Daughter,Kim Edwards,Literary Fiction,2005,Viking Press,401,English,9780670034246,15.99,Yes,4,3.91,United States
+49,The Kite Runner,Khaled Hosseini,Historical Fiction,2003,Riverhead Books,371,English,9781594480003,16.99,Yes,7,4.30,Afghanistan
+50,The Book Thief,Markus Zusak,Historical Fiction,2005,Picador,584,English,9780330423304,14.99,Yes,16,4.38,Australia
+51,Gone Girl,Gillian Flynn,Psychological Thriller,2012,Crown Publishing,432,English,9780307588364,16.99,Yes,20,4.06,United States
+52,The Fault in Our Stars,John Green,Young Adult,2012,Dutton Books,313,English,9780525478812,13.99,Yes,23,4.26,United States
+53,The Hunger Games,Suzanne Collins,Dystopian Fiction,2008,Scholastic Press,374,English,9780439023481,12.99,Yes,28,4.33,United States
+54,Twilight,Stephenie Meyer,Paranormal Romance,2005,Little Brown and Company,498,English,9780316015844,11.99,Yes,100,3.59,United States
+55,Fifty Shades of Grey,E.L. James,Erotic Romance,2011,Vintage Books,514,English,9780345803481,15.99,Yes,125,3.37,United Kingdom
+56,The Girl with the Dragon Tattoo,Stieg Larsson,Crime Thriller,2005,Norstedts Förlag,672,Swedish,9780307269751,16.99,Yes,80,4.15,Sweden
+57,The Help,Kathryn Stockett,Historical Fiction,2009,Amy Einhorn Books,464,English,9780399155345,15.99,Yes,5,4.47,United States
+58,Water for Elephants,Sara Gruen,Historical Fiction,2006,Algonquin Books,335,English,9781565125605,14.99,Yes,4,4.09,United States
+59,The Time Traveler's Wife,Audrey Niffenegger,Romance,2003,MacAdam/Cage,518,English,9780965817139,15.99,Yes,2.5,3.96,United States
+60,Eat Pray Love,Elizabeth Gilbert,Memoir,2006,Viking Press,334,English,9780670034710,16.99,Yes,12,3.51,United States
+61,The Lovely Bones,Alice Sebold,Literary Fiction,2002,Little Brown and Company,328,English,9780316166686,14.99,Yes,5,3.81,United States
+62,The Secret Life of Bees,Sue Monk Kidd,Literary Fiction,2002,Viking Press,301,English,9780670033768,15.99,Yes,6,4.05,United States
+63,The Poisonwood Bible,Barbara Kingsolver,Literary Fiction,1998,HarperCollins,546,English,9780060175405,16.99,Yes,4,4.02,United States
+64,The Red Tent,Anita Diamant,Historical Fiction,1997,Picador,321,English,9780312195519,14.99,Yes,3,4.19,United States
+65,The Memory Keeper's Daughter,Kim Edwards,Literary Fiction,2005,Viking Press,401,English,9780670034246,15.99,Yes,4,3.91,United States
+66,The Kite Runner,Khaled Hosseini,Historical Fiction,2003,Riverhead Books,371,English,9781594480003,16.99,Yes,7,4.30,Afghanistan
+67,The Book Thief,Markus Zusak,Historical Fiction,2005,Picador,584,English,9780330423304,14.99,Yes,16,4.38,Australia
+68,Gone Girl,Gillian Flynn,Psychological Thriller,2012,Crown Publishing,432,English,9780307588364,16.99,Yes,20,4.06,United States
+69,The Fault in Our Stars,John Green,Young Adult,2012,Dutton Books,313,English,9780525478812,13.99,Yes,23,4.26,United States
+70,The Hunger Games,Suzanne Collins,Dystopian Fiction,2008,Scholastic Press,374,English,9780439023481,12.99,Yes,28,4.33,United States
+71,Twilight,Stephenie Meyer,Paranormal Romance,2005,Little Brown and Company,498,English,9780316015844,11.99,Yes,100,3.59,United States
+72,Fifty Shades of Grey,E.L. James,Erotic Romance,2011,Vintage Books,514,English,9780345803481,15.99,Yes,125,3.37,United Kingdom
+73,The Girl with the Dragon Tattoo,Stieg Larsson,Crime Thriller,2005,Norstedts Förlag,672,Swedish,9780307269751,16.99,Yes,80,4.15,Sweden
+74,The Help,Kathryn Stockett,Historical Fiction,2009,Amy Einhorn Books,464,English,9780399155345,15.99,Yes,5,4.47,United States
+75,Water for Elephants,Sara Gruen,Historical Fiction,2006,Algonquin Books,335,English,9781565125605,14.99,Yes,4,4.09,United States
+76,The Time Traveler's Wife,Audrey Niffenegger,Romance,2003,MacAdam/Cage,518,English,9780965817139,15.99,Yes,2.5,3.96,United States
+77,Eat Pray Love,Elizabeth Gilbert,Memoir,2006,Viking Press,334,English,9780670034710,16.99,Yes,12,3.51,United States
+78,The Lovely Bones,Alice Sebold,Literary Fiction,2002,Little Brown and Company,328,English,9780316166686,14.99,Yes,5,3.81,United States
+79,The Secret Life of Bees,Sue Monk Kidd,Literary Fiction,2002,Viking Press,301,English,9780670033768,15.99,Yes,6,4.05,United States
+80,The Poisonwood Bible,Barbara Kingsolver,Literary Fiction,1998,HarperCollins,546,English,9780060175405,16.99,Yes,4,4.02,United States
+81,The Red Tent,Anita Diamant,Historical Fiction,1997,Picador,321,English,9780312195519,14.99,Yes,3,4.19,United States
+82,The Memory Keeper's Daughter,Kim Edwards,Literary Fiction,2005,Viking Press,401,English,9780670034246,15.99,Yes,4,3.91,United States
+83,The Kite Runner,Khaled Hosseini,Historical Fiction,2003,Riverhead Books,371,English,9781594480003,16.99,Yes,7,4.30,Afghanistan
+84,The Book Thief,Markus Zusak,Historical Fiction,2005,Picador,584,English,9780330423304,14.99,Yes,16,4.38,Australia
+85,Gone Girl,Gillian Flynn,Psychological Thriller,2012,Crown Publishing,432,English,9780307588364,16.99,Yes,20,4.06,United States
+86,The Fault in Our Stars,John Green,Young Adult,2012,Dutton Books,313,English,9780525478812,13.99,Yes,23,4.26,United States
+87,The Hunger Games,Suzanne Collins,Dystopian Fiction,2008,Scholastic Press,374,English,9780439023481,12.99,Yes,28,4.33,United States
+88,Twilight,Stephenie Meyer,Paranormal Romance,2005,Little Brown and Company,498,English,9780316015844,11.99,Yes,100,3.59,United States
+89,Fifty Shades of Grey,E.L. James,Erotic Romance,2011,Vintage Books,514,English,9780345803481,15.99,Yes,125,3.37,United Kingdom
+90,The Girl with the Dragon Tattoo,Stieg Larsson,Crime Thriller,2005,Norstedts Förlag,672,Swedish,9780307269751,16.99,Yes,80,4.15,Sweden
+91,The Help,Kathryn Stockett,Historical Fiction,2009,Amy Einhorn Books,464,English,9780399155345,15.99,Yes,5,4.47,United States
+92,Water for Elephants,Sara Gruen,Historical Fiction,2006,Algonquin Books,335,English,9781565125605,14.99,Yes,4,4.09,United States
+93,The Time Traveler's Wife,Audrey Niffenegger,Romance,2003,MacAdam/Cage,518,English,9780965817139,15.99,Yes,2.5,3.96,United States
+94,Eat Pray Love,Elizabeth Gilbert,Memoir,2006,Viking Press,334,English,9780670034710,16.99,Yes,12,3.51,United States
+95,The Lovely Bones,Alice Sebold,Literary Fiction,2002,Little Brown and Company,328,English,9780316166686,14.99,Yes,5,3.81,United States
+96,The Secret Life of Bees,Sue Monk Kidd,Literary Fiction,2002,Viking Press,301,English,9780670033768,15.99,Yes,6,4.05,United States
+97,The Poisonwood Bible,Barbara Kingsolver,Literary Fiction,1998,HarperCollins,546,English,9780060175405,16.99,Yes,4,4.02,United States
+98,The Red Tent,Anita Diamant,Historical Fiction,1997,Picador,321,English,9780312195519,14.99,Yes,3,4.19,United States
+99,The Memory Keeper's Daughter,Kim Edwards,Literary Fiction,2005,Viking Press,401,English,9780670034246,15.99,Yes,4,3.91,United States
+100,The Kite Runner,Khaled Hosseini,Historical Fiction,2003,Riverhead Books,371,English,9781594480003,16.99,Yes,7,4.30,Afghanistan

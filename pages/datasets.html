@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datasets - Aqwel AI | AI Research Datasets</title>
+    <meta name="description" content="Download high-quality AI research datasets from Aqwel AI. Machine learning datasets, natural language processing data, and AI training datasets for researchers.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'sans': ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="min-h-screen bg-white dark:bg-black font-sans">
+    <!-- Header -->
+    <nav class="bg-white dark:bg-black border-b border-gray-200 dark:border-gray-800 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <a href="../index.html" class="flex items-center space-x-3 group">
+                        <div class="relative">
+                            <div class="w-10 h-10 rounded-2xl bg-black flex items-center justify-center p-2 group-hover:scale-110 transition-transform duration-300 ease-in-out">
+                                <img src="../images/logo_website.png" alt="Aqwel AI Logo" class="w-6 h-6 group-hover:scale-105 transition-transform duration-300 ease-in-out">
+                            </div>
+                        </div>
+                        <span class="text-xl font-bold text-gray-900 dark:text-white group-hover:scale-105 transition-transform duration-300 ease-in-out">Aqwel AI</span>
+                    </a>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-6 lg:space-x-8 flex-1 justify-center">
+                    <a href="../index.html" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors" data-page="home">Home</a>
+                    <a href="about.html" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors" data-page="about">About</a>
+                    <a href="docs.html" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors" data-page="docs">Docs</a>
+                    <a href="research.html" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors" data-page="research">Research</a>
+                    <a href="datasets.html" class="px-3 py-2 text-sm font-medium text-gray-900 dark:text-white font-semibold" data-page="datasets">Datasets</a>
+                    <a href="safety.html" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors" data-page="safety">Safety</a>
+                    <a href="careers.html" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors" data-page="careers">Careers</a>
+                </div>
+
+                <!-- Right Side Actions -->
+                <div class="hidden md:flex items-center space-x-3 lg:space-x-4">
+                    <a href="mailto:aqwelai.company@gmail.com?subject=Get Started with Aqwel AI" class="bg-gray-900 dark:bg-white text-white dark:text-black px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-800 dark:hover:bg-gray-100 transition-colors">Get Started</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-600 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 transition-colors duration-200" aria-expanded="false" aria-label="Open main menu">
+                        <span class="sr-only">Open main menu</span>
+                        <svg id="hamburger-icon" class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                        <svg id="close-icon" class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="md:hidden transition-all duration-300 ease-in-out max-h-0 opacity-0 overflow-hidden">
+                <div class="px-2 pt-2 pb-3 space-y-1 bg-white dark:bg-black border-t border-gray-200 dark:border-gray-800 relative z-40">
+                    <a href="../index.html" class="block px-3 py-3 text-base font-medium rounded-lg text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200" data-page="home">Home</a>
+                    <a href="about.html" class="block px-3 py-3 text-base font-medium rounded-lg text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200" data-page="about">About</a>
+                    <a href="docs.html" class="block px-3 py-3 text-base font-medium rounded-lg text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200" data-page="docs">Docs</a>
+                    <a href="research.html" class="block px-3 py-3 text-base font-medium rounded-lg text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200" data-page="research">Research</a>
+                    <a href="datasets.html" class="block px-3 py-3 text-base font-medium rounded-lg text-gray-900 dark:text-white bg-gray-100 dark:bg-gray-800 font-semibold" data-page="datasets">Datasets</a>
+                    <a href="safety.html" class="block px-3 py-3 text-base font-medium rounded-lg text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200" data-page="safety">Safety</a>
+                    <a href="careers.html" class="block px-3 py-3 text-base font-medium rounded-lg text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200" data-page="careers">Careers</a>
+                    
+                    
+                    <div class="pt-4 pb-2">
+                        <a href="mailto:aqwelai.company@gmail.com?subject=Get Started with Aqwel AI" class="block w-full bg-gray-900 dark:bg-white text-white dark:text-gray-900 text-center px-4 py-3 rounded-lg text-base font-medium hover:bg-gray-800 dark:hover:bg-gray-100 transition-colors duration-200">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="min-h-screen bg-white dark:bg-black">
+        <!-- Hero Section -->
+        <section class="relative min-h-screen flex items-center justify-center px-4 sm:px-6 md:px-8 lg:px-8">
+            <div class="max-w-6xl mx-auto py-16 md:py-20 lg:py-24">
+                <div class="text-center">
+                    <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-gray-900 dark:text-white mb-8 md:mb-12 leading-tight tracking-tight font-tt-interphases">
+                        AI Research Datasets
+                    </h1>
+                    <p class="text-lg sm:text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-12 md:mb-16 max-w-4xl mx-auto leading-relaxed font-light">
+                        Download high-quality datasets for AI research, machine learning, and data science. 
+                        Choose from multiple formats including CSV, JSON, and TXT.
+                    </p>
+                    
+                    <!-- Search Bar -->
+                    <div class="max-w-2xl mx-auto mb-12">
+                        <div class="relative">
+                            <input type="text" id="dataset-search" placeholder="Search datasets, categories, or tags..." 
+                                   class="w-full px-6 py-4 pl-14 pr-4 text-lg rounded-full border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 text-gray-900 dark:text-white focus:ring-2 focus:ring-gray-500 focus:border-transparent transition-all duration-200">
+                            <svg class="absolute left-5 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                            </svg>
+                        </div>
+                        
+                        <div class="flex flex-wrap gap-3 mt-6 justify-center">
+                            <select id="category-filter" class="px-4 py-2 rounded-full border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-300 focus:ring-2 focus:ring-gray-500 focus:border-transparent transition-all duration-200">
+                                <option value="">All Categories</option>
+                                <option value="AI & Tech">AI & Tech</option>
+                                <option value="Business & Finance">Business & Finance</option>
+                                <option value="Entertainment & Media">Entertainment & Media</option>
+                                <option value="Geography & Demographics">Geography & Demographics</option>
+                                <option value="Food & Retail">Food & Retail</option>
+                                <option value="Gaming & Esports">Gaming & Esports</option>
+                                <option value="Sports & Fitness">Sports & Fitness</option>
+                                <option value="Art & Creativity">Art & Creativity</option>
+                                <option value="Culture & Society">Culture & Society</option>
+                                <option value="Education & Research">Education & Research</option>
+                                <option value="Influencers & Blogging">Influencers & Blogging</option>
+                                <option value="Transport & Mobility">Transport & Mobility</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dataset Statistics -->
+        <section class="py-32 bg-gray-50 dark:bg-black">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-20">
+                    <h2 class="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
+                        Dataset Collection Overview
+                    </h2>
+                    <p class="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+                        Access our curated collection of 60+ high-quality datasets across 12 specialized domains for AI research and machine learning.
+                    </p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+                    <div class="text-center">
+                        <div id="total-datasets" class="text-4xl font-bold text-gray-900 dark:text-white mb-2">Loading...</div>
+                        <div class="text-gray-600 dark:text-gray-300">Datasets</div>
+                    </div>
+                    <div class="text-center">
+                        <div id="total-categories" class="text-4xl font-bold text-gray-900 dark:text-white mb-2">Loading...</div>
+                        <div class="text-gray-600 dark:text-gray-300">Categories</div>
+                    </div>
+                    <div class="text-center">
+                        <div id="total-formats" class="text-4xl font-bold text-gray-900 dark:text-white mb-2">Loading...</div>
+                        <div class="text-gray-600 dark:text-gray-300">Formats</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Datasets Section -->
+        <section class="py-32 bg-white dark:bg-black">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div id="datasets-container" class="space-y-20">
+                    <!-- Datasets will be dynamically loaded here -->
+                </div>
+                
+                <!-- Loading indicator -->
+                <div id="loading-indicator" class="text-center py-20">
+                    <div class="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-gray-600"></div>
+                    <p class="mt-4 text-gray-600 dark:text-gray-300">Loading datasets...</p>
+                </div>
+                
+                <!-- No results message -->
+                <div id="no-results" class="text-center py-20 hidden">
+                    <div class="w-16 h-16 bg-gray-100 dark:bg-gray-800 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 16.172a4 4 0 015.656 0M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-2">No datasets found</h3>
+                    <p class="text-gray-600 dark:text-gray-300">Try adjusting your search criteria</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Coming Soon Section -->
+        <section class="py-32 bg-gray-50 dark:bg-black">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-20">
+                    <h2 class="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
+                        More Datasets Coming Soon
+                    </h2>
+                    <p class="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+                        We're continuously expanding our dataset collection and making them available across multiple platforms.
+                    </p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- GitHub -->
+                    <div class="bg-white dark:bg-gray-900 p-8 rounded-2xl shadow-sm border border-gray-200 dark:border-gray-800 text-center">
+                        <div class="w-16 h-16 bg-gray-100 dark:bg-gray-800 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                            <svg class="w-8 h-8 text-gray-600 dark:text-gray-200" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-4">GitHub Repository</h3>
+                        <p class="text-gray-600 dark:text-gray-300 mb-6">
+                            All datasets will be available on our GitHub repository with version control, issue tracking, and community contributions.
+                        </p>
+                        <div class="inline-flex items-center px-4 py-2 bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 rounded-lg text-sm font-medium">
+                            <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                            Coming Soon
+                        </div>
+                    </div>
+
+                    <!-- Kaggle -->
+                    <div class="bg-white dark:bg-gray-900 p-8 rounded-2xl shadow-sm border border-gray-200 dark:border-gray-800 text-center">
+                        <div class="w-16 h-16 bg-gray-100 dark:bg-gray-800 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                            <svg class="w-8 h-8 text-gray-600 dark:text-gray-200" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.568 8.16c-.169 0-.334.033-.488.098l-2.236 1.13c-.154-.098-.32-.18-.488-.24V8.16c0-.442-.358-.8-.8-.8s-.8.358-.8.8v1.13c-.168.06-.334.142-.488.24l-2.236-1.13c-.154-.065-.32-.098-.488-.098-.442 0-.8.358-.8.8s.358.8.8.8c.168 0 .334-.033.488-.098l2.236 1.13c.154.098.32.18.488.24v1.13c0 .442.358.8.8.8s.8-.358.8-.8v-1.13c.168-.06.334-.142.488-.24l2.236 1.13c.154.065.32.098.488.098.442 0 .8-.358.8-.8s-.358-.8-.8-.8z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-4">Kaggle Datasets</h3>
+                        <p class="text-gray-600 dark:text-gray-300 mb-6">
+                            Datasets will be published on Kaggle for easy access, exploration, and collaboration with the data science community.
+                        </p>
+                        <div class="inline-flex items-center px-4 py-2 bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 rounded-lg text-sm font-medium">
+                            <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                            Coming Soon
+                        </div>
+                    </div>
+
+                    <!-- Other Platforms -->
+                    <div class="bg-white dark:bg-gray-900 p-8 rounded-2xl shadow-sm border border-gray-200 dark:border-gray-800 text-center">
+                        <div class="w-16 h-16 bg-gray-100 dark:bg-gray-800 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                            <svg class="w-8 h-8 text-gray-600 dark:text-gray-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-4">Other Platforms</h3>
+                        <p class="text-gray-600 dark:text-gray-300 mb-6">
+                            Additional datasets will be available on various data platforms including Hugging Face, Google Dataset Search, and more.
+                        </p>
+                        <div class="inline-flex items-center px-4 py-2 bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 rounded-lg text-sm font-medium">
+                            <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                            Coming Soon
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white dark:bg-black border-t border-gray-200 dark:border-gray-800 py-8 sm:py-12">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+                <div class="sm:col-span-2 lg:col-span-1">
+                    <div class="flex items-center space-x-3 mb-4 sm:mb-6">
+                        <div class="w-8 h-8 rounded-xl bg-black flex items-center justify-center p-1.5">
+                            <img src="../images/logo_website.png" alt="Aqwel AI Logo" class="w-5 h-5">
+                        </div>
+                        <span class="text-lg font-bold text-gray-900 dark:text-white">Aqwel AI</span>
+                    </div>
+                    <p class="text-sm text-gray-600 dark:text-gray-300 mb-4 sm:mb-6 max-w-xs">
+                        Building safe artificial general intelligence that benefits all of humanity.
+                    </p>
+                </div>
+                
+                <div>
+                    <h4 class="text-sm font-semibold text-gray-900 dark:text-white mb-3 sm:mb-4">Company</h4>
+                    <ul class="space-y-2 sm:space-y-3">
+                        <li><a href="about.html" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">About</a></li>
+                        <li><a href="#" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">Blog</a></li>
+                        <li><a href="careers.html" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">Careers</a></li>
+                        <li><a href="#" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">Charter</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-sm font-semibold text-gray-900 dark:text-white mb-3 sm:mb-4">Research</h4>
+                    <ul class="space-y-2 sm:space-y-3">
+                        <li><a href="research.html" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">Research</a></li>
+                        <li><a href="safety.html" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">Safety</a></li>
+                        <li><a href="datasets.html" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">Datasets</a></li>
+                        <li><a href="#" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">Papers</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-sm font-semibold text-gray-900 dark:text-white mb-3 sm:mb-4">Community</h4>
+                    <ul class="space-y-2 sm:space-y-3">
+                        <li><a href="https://github.com/Aqwel-AI" target="_blank" rel="noopener noreferrer" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/company/aqwelaiofficial/" target="_blank" rel="noopener noreferrer" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">LinkedIn</a></li>
+                        <li><a href="#" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">YouTube</a></li>
+                        <li><a href="#" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">Help Center</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-200 dark:border-gray-800 mt-8 sm:mt-12 pt-6 sm:pt-8">
+                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center space-y-4 sm:space-y-0">
+                    <p class="text-sm text-gray-600 dark:text-gray-300 order-2 sm:order-1">
+                        © 2025 Aqwel AI. All rights reserved.
+                    </p>
+                    <div class="flex flex-wrap gap-4 sm:gap-6 order-1 sm:order-2">
+                        <a href="#" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">Privacy Policy</a>
+                        <a href="#" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">Terms of Use</a>
+                        <a href="#" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="../js/components.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/datasets.js"></script>
+</body>
+</html>

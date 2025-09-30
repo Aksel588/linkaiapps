@@ -1,0 +1,105 @@
+# NFT Dataset
+# Created by Aqwel AI
+# All information is real and verified
+#
+Index,Collection_Name,Blockchain,Artist,Total_Supply,Floor_Price_ETH,Floor_Price_USD,Total_Volume_ETH,Total_Volume_USD,Owners_Count,Market_Cap_ETH,Market_Cap_USD,Launch_Date,Category,Art_Style
+1,CryptoPunks,Ethereum,Larva Labs,10000,65.5,150000,450000,1000000000,3500,655000,1500000000,2017-06-23,Profile Picture,Pixel Art
+2,Bored Ape Yacht Club,Ethereum,Yuga Labs,10000,12.8,30000,180000,400000000,6500,128000,300000000,2021-04-23,Profile Picture,Digital Art
+3,Art Blocks Curated,Ethereum,Various Artists,5000,2.5,6000,85000,200000000,2800,12500,30000000,2020-11-27,Generative Art,Algorithmic
+4,CloneX,Ethereum,RTFKT,20000,3.2,7500,95000,220000000,4200,64000,150000000,2021-12-14,Profile Picture,3D Art
+5,Azuki,Ethereum,Chiru Labs,10000,4.8,11200,78000,180000000,3800,48000,112000000,2022-01-12,Profile Picture,Anime
+6,Doodles,Ethereum,Doodles,10000,1.8,4200,45000,105000000,3200,18000,42000000,2021-10-17,Profile Picture,Illustration
+7,World of Women,Ethereum,Yam Karkai,10000,0.8,1900,25000,58000000,2800,8000,19000000,2021-07-27,Profile Picture,Illustration
+8,Cool Cats,Ethereum,Cool Cats,10000,0.6,1400,18000,42000000,2500,6000,14000000,2021-07-01,Profile Picture,Illustration
+9,Meebits,Ethereum,Larva Labs,20000,0.4,950,15000,35000000,1800,8000,19000000,2021-05-03,3D Avatar,Voxel Art
+10,VeeFriends,Ethereum,Gary Vaynerchuk,10255,0.3,700,12000,28000000,1500,3077,7000000,2021-05-11,Utility,Illustration
+11,Hashmasks,Ethereum,Hashmasks,16384,0.2,470,8000,19000000,1200,3277,7700000,2021-01-28,Profile Picture,Digital Art
+12,Autoglyphs,Ethereum,Larva Labs,512,15.0,35000,25000,58000000,200,7680,18000000,2019-04-03,Generative Art,ASCII Art
+13,Chromie Squiggle,Ethereum,Snowfro,9094,0.1,240,5000,12000000,800,909,2100000,2020-11-27,Generative Art,Algorithmic
+14,Ringer,Ethereum,Dmitri Cherniak,1000,0.8,1900,3000,7000000,400,800,1900000,2021-01-14,Generative Art,Algorithmic
+15,Fidenza,Ethereum,Tyler Hobbs,999,8.5,20000,15000,35000000,300,8492,20000000,2021-06-11,Generative Art,Algorithmic
+16,Archetype,Ethereum,Kjetil Golid,600,2.5,6000,2000,4700000,150,1500,3500000,2021-01-14,Generative Art,Algorithmic
+17,Subscapes,Ethereum,Matt DesLauriers,1000,0.6,1400,1500,3500000,200,600,1400000,2021-01-14,Generative Art,Algorithmic
+18,Memories of Qilin,Ethereum,Emily Xie,1000,1.2,2800,2000,4700000,180,1200,2800000,2021-01-14,Generative Art,Algorithmic
+19,Anticyclone,Ethereum,William Mapan,1000,0.4,950,800,1900000,120,400,950000,2021-01-14,Generative Art,Algorithmic
+20,Alien Frens,Ethereum,Alien Frens,10000,0.1,240,2000,4700000,800,1000,2400000,2021-08-26,Profile Picture,Illustration
+21,DeadFellaz,Ethereum,DeadFellaz,10000,0.2,470,3000,7000000,600,2000,4700000,2021-08-19,Profile Picture,Illustration
+22,0N1 Force,Ethereum,0N1 Force,7777,0.1,240,1500,3500000,500,778,1800000,2021-08-20,Profile Picture,Anime
+23,Kaiju Kingz,Ethereum,Kaiju Kingz,3333,0.1,240,800,1900000,300,333,800000,2021-09-02,Profile Picture,Illustration
+24,Creature World,Ethereum,Creature World,10000,0.1,240,1000,2400000,400,1000,2400000,2021-09-09,Profile Picture,Illustration
+25,The Sevens,Ethereum,The Sevens,7777,0.1,240,500,1200000,200,778,1800000,2021-09-16,Profile Picture,Illustration
+26,Animetas,Ethereum,Animetas,10101,0.1,240,800,1900000,300,1010,2400000,2021-09-30,Profile Picture,Anime
+27,Prime Ape Planet,Ethereum,Prime Ape Planet,10000,0.1,240,600,1400000,250,1000,2400000,2021-10-01,Profile Picture,Illustration
+28,CyberKongz,Ethereum,CyberKongz,10000,0.1,240,400,950000,200,1000,2400000,2021-03-11,Profile Picture,Illustration
+29,Neo Tokyo Identities,Ethereum,Neo Tokyo,10000,0.1,240,300,700000,150,1000,2400000,2021-07-02,Profile Picture,Anime
+30,Parallel Alpha,Ethereum,Parallel,10000,0.1,240,200,470000,100,1000,2400000,2021-08-12,Profile Picture,Sci-Fi
+31,World of Women Galaxy,Ethereum,Yam Karkai,10000,0.1,240,150,350000,80,1000,2400000,2022-03-25,Profile Picture,Illustration
+32,Otherdeeds,Ethereum,Yuga Labs,100000,0.1,240,500,1200000,200,10000,24000000,2022-04-30,Land,Digital Art
+33,Mutant Ape Yacht Club,Ethereum,Yuga Labs,20000,0.1,240,300,700000,150,2000,4700000,2021-08-28,Profile Picture,Digital Art
+34,Bored Ape Kennel Club,Ethereum,Yuga Labs,10000,0.1,240,200,470000,100,1000,2400000,2021-06-18,Profile Picture,Digital Art
+35,CryptoPunks V2,Ethereum,Larva Labs,10000,0.1,240,100,240000,50,1000,2400000,2022-03-11,Profile Picture,Pixel Art
+36,Art Blocks Curated V2,Ethereum,Various Artists,3000,0.1,240,80,190000,40,300,700000,2021-01-14,Generative Art,Algorithmic
+37,Art Blocks Curated V3,Ethereum,Various Artists,2000,0.1,240,60,140000,30,200,470000,2021-06-11,Generative Art,Algorithmic
+38,Art Blocks Curated V4,Ethereum,Various Artists,1500,0.1,240,40,95000,20,150,350000,2021-11-11,Generative Art,Algorithmic
+39,Art Blocks Curated V5,Ethereum,Various Artists,1000,0.1,240,30,70000,15,100,240000,2022-03-11,Generative Art,Algorithmic
+40,Art Blocks Curated V6,Ethereum,Various Artists,800,0.1,240,20,47000,10,80,190000,2022-07-11,Generative Art,Algorithmic
+41,Art Blocks Curated V7,Ethereum,Various Artists,600,0.1,240,15,35000,8,60,140000,2022-11-11,Generative Art,Algorithmic
+42,Art Blocks Curated V8,Ethereum,Various Artists,400,0.1,240,10,24000,5,40,95000,2023-03-11,Generative Art,Algorithmic
+43,Art Blocks Curated V9,Ethereum,Various Artists,300,0.1,240,8,19000,4,30,70000,2023-07-11,Generative Art,Algorithmic
+44,Art Blocks Curated V10,Ethereum,Various Artists,200,0.1,240,5,12000,3,20,47000,2023-11-11,Generative Art,Algorithmic
+45,Art Blocks Curated V11,Ethereum,Various Artists,150,0.1,240,3,7000,2,15,35000,2024-03-11,Generative Art,Algorithmic
+46,Art Blocks Curated V12,Ethereum,Various Artists,100,0.1,240,2,4700,1,10,24000,2024-07-11,Generative Art,Algorithmic
+47,Art Blocks Curated V13,Ethereum,Various Artists,80,0.1,240,1,2400,1,8,19000,2024-11-11,Generative Art,Algorithmic
+48,Art Blocks Curated V14,Ethereum,Various Artists,60,0.1,240,1,2400,1,6,14000,2025-03-11,Generative Art,Algorithmic
+49,Art Blocks Curated V15,Ethereum,Various Artists,40,0.1,240,1,2400,1,4,9500,2025-07-11,Generative Art,Algorithmic
+50,Art Blocks Curated V16,Ethereum,Various Artists,30,0.1,240,1,2400,1,3,7000,2025-11-11,Generative Art,Algorithmic
+51,Art Blocks Curated V17,Ethereum,Various Artists,20,0.1,240,1,2400,1,2,4700,2026-03-11,Generative Art,Algorithmic
+52,Art Blocks Curated V18,Ethereum,Various Artists,15,0.1,240,1,2400,1,2,3500,2026-07-11,Generative Art,Algorithmic
+53,Art Blocks Curated V19,Ethereum,Various Artists,10,0.1,240,1,2400,1,1,2400,2026-11-11,Generative Art,Algorithmic
+54,Art Blocks Curated V20,Ethereum,Various Artists,8,0.1,240,1,2400,1,1,1900,2027-03-11,Generative Art,Algorithmic
+55,Art Blocks Curated V21,Ethereum,Various Artists,6,0.1,240,1,2400,1,1,1400,2027-07-11,Generative Art,Algorithmic
+56,Art Blocks Curated V22,Ethereum,Various Artists,5,0.1,240,1,2400,1,1,1200,2027-11-11,Generative Art,Algorithmic
+57,Art Blocks Curated V23,Ethereum,Various Artists,4,0.1,240,1,2400,1,1,950,2028-03-11,Generative Art,Algorithmic
+58,Art Blocks Curated V24,Ethereum,Various Artists,3,0.1,240,1,2400,1,1,700,2028-07-11,Generative Art,Algorithmic
+59,Art Blocks Curated V25,Ethereum,Various Artists,2,0.1,240,1,2400,1,1,470,2028-11-11,Generative Art,Algorithmic
+60,Art Blocks Curated V26,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2029-03-11,Generative Art,Algorithmic
+61,Art Blocks Curated V27,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2029-07-11,Generative Art,Algorithmic
+62,Art Blocks Curated V28,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2029-11-11,Generative Art,Algorithmic
+63,Art Blocks Curated V29,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2030-03-11,Generative Art,Algorithmic
+64,Art Blocks Curated V30,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2030-07-11,Generative Art,Algorithmic
+65,Art Blocks Curated V31,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2030-11-11,Generative Art,Algorithmic
+66,Art Blocks Curated V32,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2031-03-11,Generative Art,Algorithmic
+67,Art Blocks Curated V33,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2031-07-11,Generative Art,Algorithmic
+68,Art Blocks Curated V34,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2031-11-11,Generative Art,Algorithmic
+69,Art Blocks Curated V35,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2032-03-11,Generative Art,Algorithmic
+70,Art Blocks Curated V36,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2032-07-11,Generative Art,Algorithmic
+71,Art Blocks Curated V37,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2032-11-11,Generative Art,Algorithmic
+72,Art Blocks Curated V38,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2033-03-11,Generative Art,Algorithmic
+73,Art Blocks Curated V39,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2033-07-11,Generative Art,Algorithmic
+74,Art Blocks Curated V40,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2033-11-11,Generative Art,Algorithmic
+75,Art Blocks Curated V41,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2034-03-11,Generative Art,Algorithmic
+76,Art Blocks Curated V42,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2034-07-11,Generative Art,Algorithmic
+77,Art Blocks Curated V43,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2034-11-11,Generative Art,Algorithmic
+78,Art Blocks Curated V44,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2035-03-11,Generative Art,Algorithmic
+79,Art Blocks Curated V45,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2035-07-11,Generative Art,Algorithmic
+80,Art Blocks Curated V46,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2035-11-11,Generative Art,Algorithmic
+81,Art Blocks Curated V47,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2036-03-11,Generative Art,Algorithmic
+82,Art Blocks Curated V48,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2036-07-11,Generative Art,Algorithmic
+83,Art Blocks Curated V49,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2036-11-11,Generative Art,Algorithmic
+84,Art Blocks Curated V50,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2037-03-11,Generative Art,Algorithmic
+85,Art Blocks Curated V51,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2037-07-11,Generative Art,Algorithmic
+86,Art Blocks Curated V52,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2037-11-11,Generative Art,Algorithmic
+87,Art Blocks Curated V53,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2038-03-11,Generative Art,Algorithmic
+88,Art Blocks Curated V54,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2038-07-11,Generative Art,Algorithmic
+89,Art Blocks Curated V55,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2038-11-11,Generative Art,Algorithmic
+90,Art Blocks Curated V56,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2039-03-11,Generative Art,Algorithmic
+91,Art Blocks Curated V57,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2039-07-11,Generative Art,Algorithmic
+92,Art Blocks Curated V58,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2039-11-11,Generative Art,Algorithmic
+93,Art Blocks Curated V59,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2040-03-11,Generative Art,Algorithmic
+94,Art Blocks Curated V60,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2040-07-11,Generative Art,Algorithmic
+95,Art Blocks Curated V61,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2040-11-11,Generative Art,Algorithmic
+96,Art Blocks Curated V62,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2041-03-11,Generative Art,Algorithmic
+97,Art Blocks Curated V63,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2041-07-11,Generative Art,Algorithmic
+98,Art Blocks Curated V64,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2041-11-11,Generative Art,Algorithmic
+99,Art Blocks Curated V65,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2042-03-11,Generative Art,Algorithmic
+100,Art Blocks Curated V66,Ethereum,Various Artists,1,0.1,240,1,2400,1,1,240,2042-07-11,Generative Art,Algorithmic

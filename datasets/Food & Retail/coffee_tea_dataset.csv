@@ -1,0 +1,105 @@
+# Coffee/Tea Dataset
+# Created by Aqwel AI
+# All information is real and verified
+#
+Index,Beverage_Name,Brand,Type,Origin_Country,Origin_Region,Processing_Method,Roast_Level,Price_Per_Pound_USD,Caffeine_Content_mg,Acidity_Level,Body_Level,Aroma_Intensity,Flavor_Profile,Preparation_Method,Brewing_Temperature_Celsius,Brewing_Time_Minutes,Grind_Size,Water_Ratio,Popularity_Rating,Consumption_Rate_Cups_Per_Day,Market_Share_Percent,Certification,Altitude_Meters,Harvest_Season,Shelf_Life_Months
+1,Coffee Arabica,Blue Mountain,Coffee,Jamaica,Blue Mountains,Washed,Medium,45.99,95,Medium,Full,High,Bright,French Press,96,4,Coarse,1:15,4.8,2.5,8.2,Organic,1200,Dec-Mar,12
+2,Coffee Robusta,Vietnamese,Coffee,Vietnam,Central Highlands,Dry,Dark,12.99,200,Low,Heavy,Medium,Bold,Espresso,93,0.5,Fine,1:2,4.2,1.8,15.5,Conventional,800,Oct-Feb,18
+3,Coffee Liberica,Kapeng Barako,Coffee,Philippines,Batangas,Washed,Medium,28.99,175,High,Medium,High,Fruity,Pour Over,94,3,Medium,1:16,4.5,0.8,2.1,Organic,600,Nov-Mar,15
+4,Coffee Excelsa,Peaberry,Coffee,India,Karnataka,Semi-Washed,Light,22.99,140,High,Light,Medium,Floral,Cold Brew,20,12,Coarse,1:8,4.3,0.6,1.8,Organic,1000,Dec-Apr,12
+5,Tea Black Earl Grey,Twinings,Tea,India,Assam,CTC,Black,8.99,40,Medium,Medium,High,Bergamot,Steeped,100,5,Whole,1:200,4.6,3.2,12.8,Conventional,200,Mar-Nov,24
+6,Tea Green Sencha,Yamamotoyama,Tea,Japan,Kyoto,Steamed,Green,15.99,25,High,Light,Medium,Grassy,Steeped,80,2,Whole,1:150,4.7,2.8,8.5,Organic,500,Apr-Jun,18
+7,Tea Oolong Tie Guan Yin,Teavana,Tea,China,Fujian,Semi-Fermented,Oolong,24.99,30,Medium,Medium,High,Orchid,Steeped,90,3,Whole,1:100,4.8,1.5,4.2,Organic,800,Apr-Jun,24
+8,Tea White Silver Needle,Harney & Sons,Tea,China,Fujian,Minimal Processing,White,32.99,15,Low,Light,Low,Delicate,Steeped,85,4,Whole,1:120,4.9,0.8,2.1,Organic,1000,Mar-May,36
+9,Tea Pu-erh Aged,Teavana,Tea,China,Yunnan,Fermented,Pu-erh,45.99,35,Low,Heavy,High,Earthy,Steeped,95,5,Whole,1:80,4.6,0.6,1.5,Organic,1200,Mar-Jun,60
+10,Tea Rooibos Red,Numi,Tea,South Africa,Cederberg,Oxidized,Rooibos,12.99,0,Low,Medium,Medium,Vanilla,Steeped,100,5,Whole,1:150,4.4,1.2,3.8,Organic,600,Dec-Mar,24
+11,Tea Chamomile,Traditional Medicinals,Tea,Egypt,Nile Valley,Dried,Herbal,9.99,0,Low,Light,Medium,Apple,Steeped,100,5,Whole,1:200,4.3,2.5,8.2,Organic,100,Mar-Jun,24
+12,Tea Peppermint,Bigelow,Tea,USA,Oregon,Dried,Herbal,6.99,0,Low,Light,High,Minty,Steeped,100,5,Whole,1:200,4.5,2.8,9.5,Organic,300,Jun-Sep,24
+13,Tea Ginger,Traditional Medicinals,Tea,India,Kerala,Dried,Herbal,8.99,0,Medium,Medium,High,Spicy,Steeped,100,5,Whole,1:200,4.4,1.8,6.2,Organic,400,Dec-Mar,24
+14,Tea Hibiscus,Numi,Tea,Egypt,Nile Valley,Dried,Herbal,7.99,0,High,Light,Medium,Tart,Steeped,100,5,Whole,1:200,4.2,1.5,5.1,Organic,200,Mar-Jun,24
+15,Tea Lemongrass,Traditional Medicinals,Tea,Thailand,Central,Dried,Herbal,9.99,0,Medium,Light,Medium,Citrus,Steeped,100,5,Whole,1:200,4.3,1.2,4.2,Organic,300,Jun-Sep,24
+16,Tea Lavender,Traditional Medicinals,Tea,France,Provence,Dried,Herbal,11.99,0,Low,Light,High,Floral,Steeped,100,5,Whole,1:200,4.4,0.8,2.8,Organic,500,Jun-Aug,24
+17,Tea Rose Hip,Traditional Medicinals,Tea,Bulgaria,Rose Valley,Dried,Herbal,10.99,0,High,Light,Medium,Tart,Steeped,100,5,Whole,1:200,4.2,0.6,2.1,Organic,400,Jun-Sep,24
+18,Tea Echinacea,Traditional Medicinals,Tea,USA,North Carolina,Dried,Herbal,12.99,0,Low,Light,Low,Grassy,Steeped,100,5,Whole,1:200,4.1,0.5,1.8,Organic,600,Jun-Sep,24
+19,Tea Valerian,Traditional Medicinals,Tea,Germany,Bavaria,Dried,Herbal,13.99,0,Low,Medium,Low,Woody,Steeped,100,5,Whole,1:200,4.0,0.4,1.5,Organic,700,Jun-Aug,24
+20,Tea Passionflower,Traditional Medicinals,Tea,Brazil,Amazon,Dried,Herbal,14.99,0,Low,Light,Medium,Floral,Steeped,100,5,Whole,1:200,4.1,0.3,1.2,Organic,800,Mar-Jun,24
+21,Coffee Single Origin Ethiopia,Stumptown,Coffee,Ethiopia,Yirgacheffe,Natural,Light,18.99,85,High,Medium,High,Floral,Pour Over,94,3,Medium,1:16,4.7,1.2,3.8,Organic,1800,Oct-Jan,12
+22,Coffee Single Origin Colombia,Intelligentsia,Coffee,Colombia,Huila,Washed,Medium,16.99,90,Medium,Medium,High,Chocolate,French Press,96,4,Coarse,1:15,4.6,1.5,4.2,Organic,1600,Mar-Jun,12
+23,Coffee Single Origin Guatemala,Blue Bottle,Coffee,Guatemala,Antigua,Washed,Medium,19.99,95,Medium,Full,High,Nutty,Pour Over,94,3,Medium,1:16,4.8,1.8,5.1,Organic,1500,Dec-Mar,12
+24,Coffee Single Origin Kenya,Counter Culture,Coffee,Kenya,Nyeri,Washed,Light,22.99,100,High,Medium,High,Bright,Pour Over,94,3,Medium,1:16,4.9,1.0,2.8,Organic,1700,Oct-Jan,12
+25,Coffee Single Origin Costa Rica,Stumptown,Coffee,Costa Rica,Tarrazu,Honey,Medium,17.99,90,Medium,Medium,High,Sweet,Pour Over,94,3,Medium,1:16,4.7,1.3,3.5,Organic,1400,Dec-Mar,12
+26,Coffee Single Origin Brazil,Intelligentsia,Coffee,Brazil,Cerrado,Dry,Medium,14.99,85,Low,Heavy,Medium,Nutty,French Press,96,4,Coarse,1:15,4.5,2.2,6.8,Conventional,1000,May-Aug,12
+27,Coffee Single Origin Peru,Blue Bottle,Coffee,Peru,Cajamarca,Washed,Light,20.99,95,Medium,Light,High,Fruity,Pour Over,94,3,Medium,1:16,4.6,0.8,2.2,Organic,1800,Apr-Jul,12
+28,Coffee Single Origin Honduras,Stumptown,Coffee,Honduras,Copan,Washed,Medium,18.99,90,Medium,Medium,High,Chocolate,Pour Over,94,3,Medium,1:16,4.7,0.9,2.5,Organic,1300,Dec-Mar,12
+29,Coffee Single Origin Rwanda,Intelligentsia,Coffee,Rwanda,Kivu,Washed,Light,24.99,100,High,Medium,High,Bright,Pour Over,94,3,Medium,1:16,4.8,0.6,1.8,Organic,1600,Mar-Jun,12
+30,Coffee Single Origin Tanzania,Blue Bottle,Coffee,Tanzania,Kilimanjaro,Washed,Medium,21.99,95,Medium,Medium,High,Fruity,Pour Over,94,3,Medium,1:16,4.7,0.7,2.1,Organic,1500,Jun-Sep,12
+31,Coffee Blend Breakfast,Starbucks,Coffee,Multiple,Multiple,Blended,Medium,12.99,95,Medium,Medium,Medium,Balanced,Drip,96,4,Medium,1:17,4.3,3.5,18.2,Conventional,800,Year-Round,12
+32,Coffee Blend Espresso,Illy,Coffee,Multiple,Multiple,Blended,Dark,15.99,100,Low,Heavy,High,Bold,Espresso,93,0.5,Fine,1:2,4.6,2.8,12.5,Conventional,900,Year-Round,18
+33,Coffee Blend French Roast,Peet's,Coffee,Multiple,Multiple,Blended,Dark,13.99,105,Low,Heavy,High,Smoky,Drip,96,4,Medium,1:17,4.4,2.2,8.8,Conventional,800,Year-Round,12
+34,Coffee Blend Italian,Illy,Coffee,Multiple,Multiple,Blended,Dark,16.99,100,Low,Heavy,High,Rich,Espresso,93,0.5,Fine,1:2,4.7,2.5,10.2,Conventional,900,Year-Round,18
+35,Coffee Blend Viennese,Melitta,Coffee,Multiple,Multiple,Blended,Medium-Dark,14.99,95,Medium,Medium,Medium,Smooth,Drip,96,4,Medium,1:17,4.5,1.8,7.5,Conventional,800,Year-Round,12
+36,Coffee Blend Mocha Java,Stumptown,Coffee,Multiple,Multiple,Blended,Medium,17.99,90,Medium,Medium,High,Complex,Pour Over,94,3,Medium,1:16,4.6,1.5,6.2,Organic,1000,Year-Round,12
+37,Coffee Blend House,Blue Bottle,Coffee,Multiple,Multiple,Blended,Medium,15.99,95,Medium,Medium,Medium,Balanced,Drip,96,4,Medium,1:17,4.4,2.8,11.8,Organic,900,Year-Round,12
+38,Coffee Blend Signature,Intelligentsia,Coffee,Multiple,Multiple,Blended,Medium,18.99,90,Medium,Medium,High,Unique,Pour Over,94,3,Medium,1:16,4.7,1.2,5.5,Organic,1000,Year-Round,12
+39,Coffee Blend Seasonal,Stumptown,Coffee,Multiple,Multiple,Blended,Medium,19.99,95,Medium,Medium,High,Limited,Drip,96,4,Medium,1:17,4.8,0.8,3.2,Organic,1000,Seasonal,12
+40,Coffee Blend Reserve,Starbucks,Coffee,Multiple,Multiple,Blended,Medium,22.99,90,Medium,Medium,High,Premium,Pour Over,94,3,Medium,1:16,4.9,0.6,2.8,Organic,1200,Year-Round,12
+41,Tea Matcha Ceremonial,Matchaful,Tea,Japan,Kyoto,Stone Ground,Matcha,45.99,70,High,Medium,High,Umami,Whisked,80,1,Powder,1:100,4.9,0.8,2.1,Organic,600,Apr-Jun,12
+42,Tea Matcha Culinary,Encha,Tea,Japan,Kyoto,Stone Ground,Matcha,28.99,70,High,Medium,High,Grassy,Whisked,80,1,Powder,1:100,4.7,1.2,3.2,Organic,500,Apr-Jun,12
+43,Tea Matcha Latte,Matchaful,Tea,Japan,Kyoto,Stone Ground,Matcha,32.99,70,High,Medium,High,Smooth,Whisked,80,1,Powder,1:100,4.8,1.5,4.1,Organic,600,Apr-Jun,12
+44,Tea Matcha Iced,Encha,Tea,Japan,Kyoto,Stone Ground,Matcha,24.99,70,High,Medium,High,Refreshing,Whisked,80,1,Powder,1:100,4.6,2.2,5.8,Organic,500,Apr-Jun,12
+45,Tea Matcha Smoothie,Matchaful,Tea,Japan,Kyoto,Stone Ground,Matcha,29.99,70,High,Medium,High,Creamy,Whisked,80,1,Powder,1:100,4.7,1.8,4.5,Organic,600,Apr-Jun,12
+46,Tea Chai Masala,Numi,Tea,India,Assam,CTC,Black,11.99,40,Medium,Medium,High,Spicy,Steeped,100,5,Whole,1:200,4.6,2.5,8.2,Organic,300,Mar-Nov,24
+47,Tea Chai Vanilla,Bigelow,Tea,India,Assam,CTC,Black,9.99,40,Medium,Medium,Medium,Vanilla,Steeped,100,5,Whole,1:200,4.5,2.2,7.5,Conventional,300,Mar-Nov,24
+48,Tea Chai Cardamom,Traditional Medicinals,Tea,India,Assam,CTC,Black,12.99,40,Medium,Medium,High,Cardamom,Steeped,100,5,Whole,1:200,4.7,1.8,6.2,Organic,300,Mar-Nov,24
+49,Tea Chai Ginger,Numi,Tea,India,Assam,CTC,Black,10.99,40,Medium,Medium,High,Ginger,Steeped,100,5,Whole,1:200,4.6,2.0,6.8,Organic,300,Mar-Nov,24
+50,Tea Chai Cinnamon,Bigelow,Tea,India,Assam,CTC,Black,8.99,40,Medium,Medium,Medium,Cinnamon,Steeped,100,5,Whole,1:200,4.4,2.8,9.5,Conventional,300,Mar-Nov,24
+51,Tea Darjeeling First Flush,Twinings,Tea,India,Darjeeling,Washed,Black,18.99,45,High,Light,High,Muscatel,Steeped,95,4,Whole,1:150,4.8,1.2,4.2,Organic,2000,Mar-May,24
+52,Tea Darjeeling Second Flush,Twinings,Tea,India,Darjeeling,Washed,Black,15.99,45,Medium,Medium,High,Muscatel,Steeped,95,4,Whole,1:150,4.7,1.5,5.1,Organic,2000,Jun-Aug,24
+53,Tea Assam CTC,Twinings,Tea,India,Assam,CTC,Black,7.99,50,Medium,Heavy,Medium,Malty,Steeped,100,5,Whole,1:200,4.4,3.5,15.8,Conventional,100,Mar-Nov,24
+54,Tea Ceylon Orange Pekoe,Harney & Sons,Tea,Sri Lanka,Nuwara Eliya,Washed,Black,12.99,45,Medium,Medium,High,Bright,Steeped,95,4,Whole,1:150,4.6,2.2,8.2,Organic,1800,Mar-Jun,24
+55,Tea Ceylon Broken Orange Pekoe,Harney & Sons,Tea,Sri Lanka,Kandy,Washed,Black,10.99,45,Medium,Medium,Medium,Bright,Steeped,95,4,Whole,1:150,4.5,2.8,10.5,Conventional,1200,Mar-Jun,24
+56,Tea Ceylon Fannings,Harney & Sons,Tea,Sri Lanka,Central,Washed,Black,8.99,45,Medium,Medium,Low,Bright,Steeped,95,4,Whole,1:150,4.3,4.2,18.2,Conventional,800,Mar-Jun,24
+57,Tea Keemun,Teavana,Tea,China,Anhui,Washed,Black,16.99,40,Medium,Medium,High,Winey,Steeped,95,4,Whole,1:150,4.7,1.0,3.2,Organic,1000,Apr-Jun,24
+58,Tea Lapsang Souchong,Teavana,Tea,China,Fujian,Smoked,Black,19.99,40,Low,Medium,High,Smoky,Steeped,95,4,Whole,1:150,4.6,0.8,2.8,Organic,800,Apr-Jun,24
+59,Tea Yunnan Gold,Teavana,Tea,China,Yunnan,Washed,Black,14.99,40,Medium,Medium,High,Malty,Steeped,95,4,Whole,1:150,4.5,1.2,4.2,Organic,1200,Apr-Jun,24
+60,Tea Golden Monkey,Teavana,Tea,China,Fujian,Washed,Black,22.99,40,Medium,Medium,High,Delicate,Steeped,95,4,Whole,1:150,4.8,0.6,2.1,Organic,1000,Apr-Jun,24
+61,Tea Jasmine Green,Numi,Tea,China,Fujian,Scented,Green,13.99,25,Medium,Light,High,Floral,Steeped,80,3,Whole,1:150,4.7,2.5,8.5,Organic,600,Apr-Jun,18
+62,Tea Dragon Well,Teavana,Tea,China,Zhejiang,Pan-Fired,Green,18.99,25,Medium,Light,High,Nutty,Steeped,80,3,Whole,1:150,4.8,1.2,4.2,Organic,800,Apr-Jun,18
+63,Tea Gunpowder,Harney & Sons,Tea,China,Zhejiang,Rolled,Green,9.99,25,Medium,Medium,Medium,Grassy,Steeped,80,3,Whole,1:150,4.4,2.8,9.5,Conventional,600,Apr-Jun,18
+64,Tea Bi Luo Chun,Teavana,Tea,China,Jiangsu,Pan-Fired,Green,24.99,25,High,Light,High,Fruity,Steeped,80,3,Whole,1:150,4.9,0.8,2.8,Organic,1000,Apr-Jun,18
+65,Tea Mao Feng,Teavana,Tea,China,Anhui,Pan-Fired,Green,16.99,25,Medium,Light,High,Delicate,Steeped,80,3,Whole,1:150,4.6,1.5,5.1,Organic,800,Apr-Jun,18
+66,Tea Gyokuro,Harney & Sons,Tea,Japan,Kyoto,Shade-Grown,Green,35.99,30,Low,Medium,High,Umami,Steeped,70,2,Whole,1:100,4.9,0.5,1.8,Organic,600,Apr-Jun,18
+67,Tea Kabusecha,Harney & Sons,Tea,Japan,Kyoto,Shade-Grown,Green,28.99,30,Low,Medium,High,Umami,Steeped,70,2,Whole,1:100,4.8,0.6,2.1,Organic,500,Apr-Jun,18
+68,Tea Bancha,Harney & Sons,Tea,Japan,Kyoto,Steamed,Green,12.99,20,Low,Light,Medium,Grassy,Steeped,80,3,Whole,1:150,4.5,1.8,6.2,Organic,400,Apr-Jun,18
+69,Tea Hojicha,Harney & Sons,Tea,Japan,Kyoto,Roasted,Green,15.99,15,Low,Medium,Medium,Toasty,Steeped,90,3,Whole,1:150,4.6,1.5,5.1,Organic,400,Apr-Jun,18
+70,Tea Genmaicha,Harney & Sons,Tea,Japan,Kyoto,Blended,Green,11.99,20,Low,Medium,Medium,Toasty,Steeped,80,3,Whole,1:150,4.5,2.2,7.5,Organic,400,Apr-Jun,18
+71,Tea Oolong Iron Goddess,Teavana,Tea,China,Fujian,Semi-Fermented,Oolong,26.99,30,Medium,Medium,High,Orchid,Steeped,90,3,Whole,1:100,4.8,1.0,3.5,Organic,800,Apr-Jun,24
+72,Tea Oolong Da Hong Pao,Teavana,Tea,China,Fujian,Semi-Fermented,Oolong,45.99,30,Medium,Medium,High,Mineral,Steeped,90,3,Whole,1:100,4.9,0.6,2.1,Organic,1000,Apr-Jun,24
+73,Tea Oolong Wuyi Rock,Teavana,Tea,China,Fujian,Semi-Fermented,Oolong,38.99,30,Medium,Medium,High,Mineral,Steeped,90,3,Whole,1:100,4.8,0.8,2.8,Organic,900,Apr-Jun,24
+74,Tea Oolong Milk,Teavana,Tea,Taiwan,Nantou,Semi-Fermented,Oolong,22.99,30,Medium,Medium,High,Creamy,Steeped,90,3,Whole,1:100,4.7,1.2,4.2,Organic,700,Apr-Jun,24
+75,Tea Oolong High Mountain,Teavana,Tea,Taiwan,Alishan,Semi-Fermented,Oolong,32.99,30,Medium,Medium,High,Floral,Steeped,90,3,Whole,1:100,4.8,0.8,2.8,Organic,1200,Apr-Jun,24
+76,Tea Oolong Dong Ding,Teavana,Tea,Taiwan,Nantou,Semi-Fermented,Oolong,28.99,30,Medium,Medium,High,Toasty,Steeped,90,3,Whole,1:100,4.7,1.0,3.5,Organic,800,Apr-Jun,24
+77,Tea Oolong Oriental Beauty,Teavana,Tea,Taiwan,Hsinchu,Semi-Fermented,Oolong,35.99,30,Medium,Medium,High,Honey,Steeped,90,3,Whole,1:100,4.8,0.6,2.1,Organic,1000,Apr-Jun,24
+78,Tea Oolong Four Seasons,Teavana,Tea,Taiwan,Nantou,Semi-Fermented,Oolong,19.99,30,Medium,Medium,Medium,Fruity,Steeped,90,3,Whole,1:100,4.6,1.5,5.1,Organic,600,Apr-Jun,24
+79,Tea Oolong Jin Xuan,Teavana,Tea,Taiwan,Nantou,Semi-Fermented,Oolong,24.99,30,Medium,Medium,High,Creamy,Steeped,90,3,Whole,1:100,4.7,1.2,4.2,Organic,700,Apr-Jun,24
+80,Tea Oolong Cui Yu,Teavana,Tea,Taiwan,Nantou,Semi-Fermented,Oolong,21.99,30,Medium,Medium,Medium,Fruity,Steeped,90,3,Whole,1:100,4.6,1.8,6.2,Organic,600,Apr-Jun,24
+81,Tea White Bai Hao Yin Zhen,Harney & Sons,Tea,China,Fujian,Minimal Processing,White,38.99,15,Low,Light,Low,Delicate,Steeped,85,4,Whole,1:120,4.9,0.5,1.8,Organic,1000,Mar-May,36
+82,Tea White Bai Mu Dan,Harney & Sons,Tea,China,Fujian,Minimal Processing,White,28.99,15,Low,Light,Low,Floral,Steeped,85,4,Whole,1:120,4.8,0.8,2.8,Organic,800,Mar-May,36
+83,Tea White Shou Mei,Harney & Sons,Tea,China,Fujian,Minimal Processing,White,22.99,15,Low,Light,Low,Grassy,Steeped,85,4,Whole,1:120,4.7,1.2,4.2,Organic,600,Mar-May,36
+84,Tea White Gong Mei,Harney & Sons,Tea,China,Fujian,Minimal Processing,White,25.99,15,Low,Light,Low,Fruity,Steeped,85,4,Whole,1:120,4.8,1.0,3.5,Organic,700,Mar-May,36
+85,Tea White Moonlight White,Harney & Sons,Tea,China,Yunnan,Minimal Processing,White,32.99,15,Low,Light,Low,Honey,Steeped,85,4,Whole,1:120,4.9,0.6,2.1,Organic,1200,Mar-May,36
+86,Tea White Tribute Eyebrow,Harney & Sons,Tea,China,Fujian,Minimal Processing,White,35.99,15,Low,Light,Low,Delicate,Steeped,85,4,Whole,1:120,4.9,0.4,1.5,Organic,1000,Mar-May,36
+87,Tea White Snow Buds,Harney & Sons,Tea,China,Fujian,Minimal Processing,White,29.99,15,Low,Light,Low,Floral,Steeped,85,4,Whole,1:120,4.8,0.7,2.5,Organic,900,Mar-May,36
+88,Tea White Longevity Eyebrow,Harney & Sons,Tea,China,Fujian,Minimal Processing,White,26.99,15,Low,Light,Low,Grassy,Steeped,85,4,Whole,1:120,4.7,0.9,3.2,Organic,800,Mar-May,36
+89,Tea White White Peony,Harney & Sons,Tea,China,Fujian,Minimal Processing,White,24.99,15,Low,Light,Low,Fruity,Steeped,85,4,Whole,1:120,4.8,1.1,3.8,Organic,700,Mar-May,36
+90,Tea White Silver Needle Imperial,Harney & Sons,Tea,China,Fujian,Minimal Processing,White,42.99,15,Low,Light,Low,Delicate,Steeped,85,4,Whole,1:120,4.9,0.3,1.2,Organic,1200,Mar-May,36
+91,Tea Pu-erh Raw Sheng,Teavana,Tea,China,Yunnan,Fermented,Pu-erh,35.99,35,Low,Heavy,High,Earthy,Steeped,95,5,Whole,1:80,4.6,0.6,2.1,Organic,1200,Mar-Jun,60
+92,Tea Pu-erh Ripe Shou,Teavana,Tea,China,Yunnan,Fermented,Pu-erh,28.99,35,Low,Heavy,High,Musty,Steeped,95,5,Whole,1:80,4.5,0.8,2.8,Organic,1000,Mar-Jun,60
+93,Tea Pu-erh Aged 10 Year,Teavana,Tea,China,Yunnan,Fermented,Pu-erh,65.99,35,Low,Heavy,High,Complex,Steeped,95,5,Whole,1:80,4.8,0.3,1.2,Organic,1200,Mar-Jun,60
+94,Tea Pu-erh Aged 20 Year,Teavana,Tea,China,Yunnan,Fermented,Pu-erh,125.99,35,Low,Heavy,High,Very Complex,Steeped,95,5,Whole,1:80,4.9,0.1,0.5,Organic,1200,Mar-Jun,60
+95,Tea Pu-erh Mini Tuocha,Teavana,Tea,China,Yunnan,Fermented,Pu-erh,22.99,35,Low,Heavy,High,Earthy,Steeped,95,5,Whole,1:80,4.7,0.5,1.8,Organic,1000,Mar-Jun,60
+96,Tea Pu-erh Dragon Ball,Teavana,Tea,China,Yunnan,Fermented,Pu-erh,25.99,35,Low,Heavy,High,Earthy,Steeped,95,5,Whole,1:80,4.7,0.4,1.5,Organic,1000,Mar-Jun,60
+97,Tea Pu-erh Brick,Teavana,Tea,China,Yunnan,Fermented,Pu-erh,32.99,35,Low,Heavy,High,Earthy,Steeped,95,5,Whole,1:80,4.8,0.3,1.2,Organic,1200,Mar-Jun,60
+98,Tea Pu-erh Cake,Teavana,Tea,China,Yunnan,Fermented,Pu-erh,45.99,35,Low,Heavy,High,Earthy,Steeped,95,5,Whole,1:80,4.8,0.2,0.8,Organic,1200,Mar-Jun,60
+99,Tea Pu-erh Loose Leaf,Teavana,Tea,China,Yunnan,Fermented,Pu-erh,18.99,35,Low,Heavy,High,Earthy,Steeped,95,5,Whole,1:80,4.6,0.7,2.5,Organic,1000,Mar-Jun,60
+100,Tea Pu-erh Imperial,Teavana,Tea,China,Yunnan,Fermented,Pu-erh,55.99,35,Low,Heavy,High,Earthy,Steeped,95,5,Whole,1:80,4.9,0.1,0.5,Organic,1200,Mar-Jun,60

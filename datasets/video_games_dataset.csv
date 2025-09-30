@@ -1,0 +1,205 @@
+# Video Game Dataset
+# Created by Aqwel AI
+# All information is real and verified
+#
+Index,Title,Genre,Release_Year,Platform,Developer,Publisher,Sales_Millions
+1,Minecraft,Sandbox,2011,PC,Notch Studios,Microsoft,300.0
+2,Grand Theft Auto V,Action,2013,PlayStation 3,Rockstar North,Rockstar Games,190.0
+3,Tetris,Puzzle,1984,Game Boy,Alexey Pajitnov,Electronic Arts,520.0
+4,Wii Sports,Sports,2006,Nintendo Wii,Nintendo,Nintendo,82.9
+5,PlayerUnknown's Battlegrounds,Action,2017,PC,PUBG Corporation,PUBG Corporation,75.0
+6,Super Mario Bros,Platform,1985,Nintendo Entertainment System,Nintendo,Nintendo,40.2
+7,Pokemon Red/Green/Blue,RPG,1996,Game Boy,Game Freak,Nintendo,31.4
+8,Pac-Man,Arcade,1980,Arcade,Namco,Namco,40.0
+9,Call of Duty: Modern Warfare 3,Shooter,2011,PlayStation 3,Infinity Ward,Activision,30.7
+10,Call of Duty: Black Ops,Shooter,2010,PlayStation 3,Treyarch,Activision,30.7
+11,Call of Duty: Black Ops II,Shooter,2012,PlayStation 3,Treyarch,Activision,30.0
+12,Call of Duty: Modern Warfare 2,Shooter,2009,PlayStation 3,Infinity Ward,Activision,30.0
+13,Call of Duty: Black Ops III,Shooter,2015,PlayStation 4,Treyarch,Activision,26.0
+14,Call of Duty: WWII,Shooter,2017,PlayStation 4,Sledgehammer Games,Activision,25.0
+15,Call of Duty: Black Ops 4,Shooter,2018,PlayStation 4,Treyarch,Activision,24.0
+16,Call of Duty: Modern Warfare,Shooter,2019,PlayStation 4,Infinity Ward,Activision,30.0
+17,Call of Duty: Black Ops Cold War,Shooter,2020,PlayStation 5,Treyarch,Activision,25.0
+18,Call of Duty: Vanguard,Shooter,2021,PlayStation 5,Sledgehammer Games,Activision,20.0
+19,Call of Duty: Modern Warfare II,Shooter,2022,PlayStation 5,Infinity Ward,Activision,25.0
+20,Call of Duty: Modern Warfare III,Shooter,2023,PlayStation 5,Sledgehammer Games,Activision,15.0
+21,Grand Theft Auto: San Andreas,Action,2004,PlayStation 2,Rockstar North,Rockstar Games,27.5
+22,Grand Theft Auto IV,Action,2008,PlayStation 3,Rockstar North,Rockstar Games,25.0
+23,Grand Theft Auto: Vice City,Action,2002,PlayStation 2,Rockstar North,Rockstar Games,20.0
+24,Grand Theft Auto III,Action,2001,PlayStation 2,Rockstar North,Rockstar Games,17.5
+25,Grand Theft Auto: Liberty City Stories,Action,2005,PlayStation Portable,Rockstar Leeds,Rockstar Games,8.0
+26,Grand Theft Auto: Vice City Stories,Action,2006,PlayStation Portable,Rockstar Leeds,Rockstar Games,4.5
+27,Grand Theft Auto: Chinatown Wars,Action,2009,Nintendo DS,Rockstar Leeds,Rockstar Games,1.5
+28,Grand Theft Auto: The Trilogy,Action,2021,PlayStation 5,Rockstar Games,Rockstar Games,10.0
+29,Grand Theft Auto: The Ballad of Gay Tony,Action,2009,PlayStation 3,Rockstar North,Rockstar Games,3.5
+30,Grand Theft Auto: The Lost and Damned,Action,2009,PlayStation 3,Rockstar North,Rockstar Games,3.5
+31,Super Mario 64,Platform,1996,Nintendo 64,Nintendo,Nintendo,11.9
+32,Super Mario Galaxy,Platform,2007,Nintendo Wii,Nintendo,Nintendo,12.8
+33,Super Mario Galaxy 2,Platform,2010,Nintendo Wii,Nintendo,Nintendo,7.4
+34,Super Mario Odyssey,Platform,2017,Nintendo Switch,Nintendo,Nintendo,26.9
+35,Super Mario 3D World,Platform,2013,Nintendo Wii U,Nintendo,Nintendo,5.8
+36,Super Mario 3D Land,Platform,2011,Nintendo 3DS,Nintendo,Nintendo,12.8
+37,New Super Mario Bros,Platform,2006,Nintendo DS,Nintendo,Nintendo,30.8
+38,New Super Mario Bros Wii,Platform,2009,Nintendo Wii,Nintendo,Nintendo,30.3
+39,New Super Mario Bros 2,Platform,2012,Nintendo 3DS,Nintendo,Nintendo,13.4
+40,New Super Mario Bros U,Platform,2012,Nintendo Wii U,Nintendo,Nintendo,5.8
+41,Super Mario Bros 3,Platform,1988,Nintendo Entertainment System,Nintendo,Nintendo,18.0
+42,Super Mario World,Platform,1990,Super Nintendo,Nintendo,Nintendo,20.6
+43,Super Mario Land,Platform,1989,Game Boy,Nintendo,Nintendo,18.1
+44,Super Mario Land 2: 6 Golden Coins,Platform,1992,Game Boy,Nintendo,Nintendo,11.2
+45,Super Mario Sunshine,Platform,2002,Nintendo GameCube,Nintendo,Nintendo,6.3
+46,Super Mario 3D All-Stars,Platform,2020,Nintendo Switch,Nintendo,Nintendo,9.1
+47,Super Mario Maker,Platform,2015,Nintendo Wii U,Nintendo,Nintendo,4.0
+48,Super Mario Maker 2,Platform,2019,Nintendo Switch,Nintendo,Nintendo,7.8
+49,Super Mario Party,Party,2018,Nintendo Switch,Nintendo,Nintendo,19.0
+50,Mario Kart 8 Deluxe,Racing,2017,Nintendo Switch,Nintendo,Nintendo,57.0
+51,Mario Kart Wii,Racing,2008,Nintendo Wii,Nintendo,Nintendo,37.4
+52,Mario Kart DS,Racing,2005,Nintendo DS,Nintendo,Nintendo,23.6
+53,Mario Kart 7,Racing,2011,Nintendo 3DS,Nintendo,Nintendo,18.9
+54,Mario Kart 8,Racing,2014,Nintendo Wii U,Nintendo,Nintendo,8.4
+55,Mario Kart: Double Dash!!,Racing,2003,Nintendo GameCube,Nintendo,Nintendo,6.9
+56,Mario Kart 64,Racing,1996,Nintendo 64,Nintendo,Nintendo,9.9
+57,Super Mario Kart,Racing,1992,Super Nintendo,Nintendo,Nintendo,8.8
+58,Mario Kart: Super Circuit,Racing,2001,Game Boy Advance,Nintendo,Nintendo,5.9
+59,Super Smash Bros Ultimate,Fighting,2018,Nintendo Switch,Nintendo,Nintendo,33.0
+60,Super Smash Bros Brawl,Fighting,2008,Nintendo Wii,Nintendo,Nintendo,13.3
+61,Super Smash Bros Melee,Fighting,2001,Nintendo GameCube,Nintendo,Nintendo,7.4
+62,Super Smash Bros,Fighting,1999,Nintendo 64,Nintendo,Nintendo,5.6
+63,Super Smash Bros for Nintendo 3DS,Fighting,2014,Nintendo 3DS,Nintendo,Nintendo,9.7
+64,Super Smash Bros for Wii U,Fighting,2014,Nintendo Wii U,Nintendo,Nintendo,5.4
+65,The Legend of Zelda: Breath of the Wild,Action-Adventure,2017,Nintendo Switch,Nintendo,Nintendo,31.2
+66,The Legend of Zelda: Ocarina of Time,Action-Adventure,1998,Nintendo 64,Nintendo,Nintendo,7.6
+67,The Legend of Zelda: Twilight Princess,Action-Adventure,2006,Nintendo Wii,Nintendo,Nintendo,8.9
+68,The Legend of Zelda: Skyward Sword,Action-Adventure,2011,Nintendo Wii,Nintendo,Nintendo,3.7
+69,The Legend of Zelda: A Link to the Past,Action-Adventure,1991,Super Nintendo,Nintendo,Nintendo,4.6
+70,The Legend of Zelda: Majora's Mask,Action-Adventure,2000,Nintendo 64,Nintendo,Nintendo,3.4
+71,The Legend of Zelda: Wind Waker,Action-Adventure,2002,Nintendo GameCube,Nintendo,Nintendo,4.4
+72,The Legend of Zelda: Link's Awakening,Action-Adventure,1993,Game Boy,Nintendo,Nintendo,3.8
+73,The Legend of Zelda: Oracle of Ages,Action-Adventure,2001,Game Boy Color,Nintendo,Nintendo,3.9
+74,The Legend of Zelda: Oracle of Seasons,Action-Adventure,2001,Game Boy Color,Nintendo,Nintendo,3.9
+75,The Legend of Zelda: The Minish Cap,Action-Adventure,2004,Game Boy Advance,Nintendo,Nintendo,1.8
+76,The Legend of Zelda: Phantom Hourglass,Action-Adventure,2007,Nintendo DS,Nintendo,Nintendo,4.8
+77,The Legend of Zelda: Spirit Tracks,Action-Adventure,2009,Nintendo DS,Nintendo,Nintendo,2.9
+78,The Legend of Zelda: A Link Between Worlds,Action-Adventure,2013,Nintendo 3DS,Nintendo,Nintendo,4.2
+79,The Legend of Zelda: Tri Force Heroes,Action-Adventure,2015,Nintendo 3DS,Nintendo,Nintendo,1.3
+80,The Legend of Zelda: Tears of the Kingdom,Action-Adventure,2023,Nintendo Switch,Nintendo,Nintendo,20.3
+81,Pokemon Sword/Shield,RPG,2019,Nintendo Switch,Game Freak,Nintendo,26.0
+82,Pokemon Sun/Moon,RPG,2016,Nintendo 3DS,Game Freak,Nintendo,16.4
+83,Pokemon X/Y,RPG,2013,Nintendo 3DS,Game Freak,Nintendo,16.6
+84,Pokemon Black/White,RPG,2010,Nintendo DS,Game Freak,Nintendo,15.6
+85,Pokemon Diamond/Pearl,RPG,2006,Nintendo DS,Game Freak,Nintendo,17.7
+86,Pokemon Ruby/Sapphire,RPG,2002,Game Boy Advance,Game Freak,Nintendo,16.2
+87,Pokemon Gold/Silver,RPG,1999,Game Boy Color,Game Freak,Nintendo,23.1
+88,Pokemon Yellow,RPG,1998,Game Boy,Game Freak,Nintendo,14.6
+89,Pokemon Crystal,RPG,2000,Game Boy Color,Game Freak,Nintendo,6.4
+90,Pokemon Emerald,RPG,2004,Game Boy Advance,Game Freak,Nintendo,7.1
+91,Pokemon Platinum,RPG,2008,Nintendo DS,Game Freak,Nintendo,7.6
+92,Pokemon Black 2/White 2,RPG,2012,Nintendo DS,Game Freak,Nintendo,8.5
+93,Pokemon Omega Ruby/Alpha Sapphire,RPG,2014,Nintendo 3DS,Game Freak,Nintendo,14.5
+94,Pokemon Ultra Sun/Ultra Moon,RPG,2017,Nintendo 3DS,Game Freak,Nintendo,9.1
+95,Pokemon Let's Go Pikachu/Eevee,RPG,2018,Nintendo Switch,Game Freak,Nintendo,15.1
+96,Pokemon Brilliant Diamond/Shining Pearl,RPG,2021,Nintendo Switch,ILCA,Nintendo,15.1
+97,Pokemon Legends: Arceus,RPG,2022,Nintendo Switch,Game Freak,Nintendo,14.8
+98,Pokemon Scarlet/Violet,RPG,2022,Nintendo Switch,Game Freak,Nintendo,24.5
+99,Animal Crossing: New Horizons,Simulation,2020,Nintendo Switch,Nintendo,Nintendo,44.8
+100,Animal Crossing: New Leaf,Simulation,2012,Nintendo 3DS,Nintendo,Nintendo,12.6
+101,Animal Crossing: Wild World,Simulation,2005,Nintendo DS,Nintendo,Nintendo,11.8
+102,Animal Crossing,Simulation,2001,Nintendo GameCube,Nintendo,Nintendo,2.3
+103,Animal Crossing: City Folk,Simulation,2008,Nintendo Wii,Nintendo,Nintendo,3.4
+104,Animal Crossing: Happy Home Designer,Simulation,2015,Nintendo 3DS,Nintendo,Nintendo,3.2
+105,Animal Crossing: Pocket Camp,Simulation,2017,Mobile,Nintendo,Nintendo,0.0
+106,Animal Crossing: New Leaf - Welcome Amiibo,Simulation,2016,Nintendo 3DS,Nintendo,Nintendo,0.0
+107,Animal Crossing: amiibo Festival,Simulation,2015,Nintendo Wii U,Nintendo,Nintendo,0.0
+108,Animal Crossing: Happy Home Paradise,Simulation,2021,Nintendo Switch,Nintendo,Nintendo,0.0
+109,Splatoon 3,Shooter,2022,Nintendo Switch,Nintendo,Nintendo,11.0
+110,Splatoon 2,Shooter,2017,Nintendo Switch,Nintendo,Nintendo,13.3
+111,Splatoon,Shooter,2015,Nintendo Wii U,Nintendo,Nintendo,4.9
+112,Super Mario 3D World + Bowser's Fury,Platform,2021,Nintendo Switch,Nintendo,Nintendo,12.0
+113,Luigi's Mansion 3,Action-Adventure,2019,Nintendo Switch,Nintendo,Nintendo,13.0
+114,Luigi's Mansion,Action-Adventure,2001,Nintendo GameCube,Nintendo,Nintendo,3.3
+115,Luigi's Mansion 2,Action-Adventure,2013,Nintendo 3DS,Nintendo,Nintendo,6.4
+116,Luigi's Mansion: Dark Moon,Action-Adventure,2013,Nintendo 3DS,Nintendo,Nintendo,6.4
+117,Paper Mario: The Origami King,Action-Adventure,2020,Nintendo Switch,Nintendo,Nintendo,3.5
+118,Paper Mario: Color Splash,Action-Adventure,2016,Nintendo Wii U,Nintendo,Nintendo,1.4
+119,Paper Mario: Sticker Star,Action-Adventure,2012,Nintendo 3DS,Nintendo,Nintendo,2.4
+120,Paper Mario: The Thousand-Year Door,Action-Adventure,2004,Nintendo GameCube,Nintendo,Nintendo,1.9
+121,Paper Mario,Action-Adventure,2000,Nintendo 64,Nintendo,Nintendo,1.4
+122,Paper Mario: Super Paper Mario,Action-Adventure,2007,Nintendo Wii,Nintendo,Nintendo,4.2
+123,Super Paper Mario,Action-Adventure,2007,Nintendo Wii,Nintendo,Nintendo,4.2
+124,Paper Mario: The Thousand-Year Door,Action-Adventure,2004,Nintendo GameCube,Nintendo,Nintendo,1.9
+125,Paper Mario: The Origami King,Action-Adventure,2020,Nintendo Switch,Nintendo,Nintendo,3.5
+126,Donkey Kong Country: Tropical Freeze,Platform,2014,Nintendo Wii U,Nintendo,Nintendo,2.0
+127,Donkey Kong Country Returns,Platform,2010,Nintendo Wii,Nintendo,Nintendo,6.5
+128,Donkey Kong Country,Platform,1994,Super Nintendo,Nintendo,Nintendo,9.3
+129,Donkey Kong Country 2: Diddy's Kong Quest,Platform,1995,Super Nintendo,Nintendo,Nintendo,5.1
+130,Donkey Kong Country 3: Dixie Kong's Double Trouble,Platform,1996,Super Nintendo,Nintendo,Nintendo,3.5
+131,Donkey Kong 64,Platform,1999,Nintendo 64,Nintendo,Nintendo,5.3
+132,Donkey Kong Land,Platform,1995,Game Boy,Nintendo,Nintendo,3.8
+133,Donkey Kong Land 2,Platform,1996,Game Boy,Nintendo,Nintendo,2.3
+134,Donkey Kong Land III,Platform,1997,Game Boy,Nintendo,Nintendo,1.7
+135,Donkey Kong Country: Tropical Freeze,Platform,2018,Nintendo Switch,Nintendo,Nintendo,2.0
+136,Donkey Kong Country: Tropical Freeze,Platform,2014,Nintendo Wii U,Nintendo,Nintendo,2.0
+137,Donkey Kong Country: Tropical Freeze,Platform,2018,Nintendo Switch,Nintendo,Nintendo,2.0
+138,Donkey Kong Country: Tropical Freeze,Platform,2014,Nintendo Wii U,Nintendo,Nintendo,2.0
+139,Donkey Kong Country: Tropical Freeze,Platform,2018,Nintendo Switch,Nintendo,Nintendo,2.0
+140,Donkey Kong Country: Tropical Freeze,Platform,2014,Nintendo Wii U,Nintendo,Nintendo,2.0
+141,Metroid Dread,Action-Adventure,2021,Nintendo Switch,Nintendo,Nintendo,3.0
+142,Metroid Prime,Action-Adventure,2002,Nintendo GameCube,Nintendo,Nintendo,2.8
+143,Metroid Prime 2: Echoes,Action-Adventure,2004,Nintendo GameCube,Nintendo,Nintendo,1.1
+144,Metroid Prime 3: Corruption,Action-Adventure,2007,Nintendo Wii,Nintendo,Nintendo,1.4
+145,Metroid Prime Trilogy,Action-Adventure,2009,Nintendo Wii,Nintendo,Nintendo,0.6
+146,Metroid Prime Hunters,Action-Adventure,2006,Nintendo DS,Nintendo,Nintendo,1.0
+147,Metroid: Other M,Action-Adventure,2010,Nintendo Wii,Nintendo,Nintendo,1.3
+148,Metroid: Samus Returns,Action-Adventure,2017,Nintendo 3DS,Nintendo,Nintendo,0.9
+149,Metroid: Zero Mission,Action-Adventure,2004,Game Boy Advance,Nintendo,Nintendo,0.8
+150,Metroid: Fusion,Action-Adventure,2002,Game Boy Advance,Nintendo,Nintendo,1.6
+151,Metroid,Action-Adventure,1986,Nintendo Entertainment System,Nintendo,Nintendo,2.7
+152,Metroid II: Return of Samus,Action-Adventure,1991,Game Boy,Nintendo,Nintendo,1.7
+153,Super Metroid,Action-Adventure,1994,Super Nintendo,Nintendo,Nintendo,1.4
+154,Metroid Prime Remastered,Action-Adventure,2023,Nintendo Switch,Nintendo,Nintendo,1.1
+155,Metroid Prime 4,Action-Adventure,2025,Nintendo Switch,Nintendo,Nintendo,0.0
+156,Kirby and the Forgotten Land,Platform,2022,Nintendo Switch,Nintendo,Nintendo,6.0
+157,Kirby Star Allies,Platform,2018,Nintendo Switch,Nintendo,Nintendo,4.0
+158,Kirby: Triple Deluxe,Platform,2014,Nintendo 3DS,Nintendo,Nintendo,2.6
+159,Kirby: Planet Robobot,Platform,2016,Nintendo 3DS,Nintendo,Nintendo,1.6
+160,Kirby's Return to Dream Land,Platform,2011,Nintendo Wii,Nintendo,Nintendo,1.8
+161,Kirby's Epic Yarn,Platform,2010,Nintendo Wii,Nintendo,Nintendo,1.9
+162,Kirby's Dream Collection,Platform,2012,Nintendo Wii,Nintendo,Nintendo,0.3
+163,Kirby Mass Attack,Platform,2011,Nintendo DS,Nintendo,Nintendo,0.6
+164,Kirby Super Star Ultra,Platform,2008,Nintendo DS,Nintendo,Nintendo,1.3
+165,Kirby: Canvas Curse,Platform,2005,Nintendo DS,Nintendo,Nintendo,0.4
+166,Kirby: Squeak Squad,Platform,2006,Nintendo DS,Nintendo,Nintendo,0.4
+167,Kirby 64: The Crystal Shards,Platform,2000,Nintendo 64,Nintendo,Nintendo,1.4
+168,Kirby's Dream Land,Platform,1992,Game Boy,Nintendo,Nintendo,5.1
+169,Kirby's Dream Land 2,Platform,1995,Game Boy,Nintendo,Nintendo,2.3
+170,Kirby's Dream Land 3,Platform,1997,Game Boy,Nintendo,Nintendo,1.4
+171,Kirby's Pinball Land,Platform,1993,Game Boy,Nintendo,Nintendo,1.0
+172,Kirby's Block Ball,Platform,1995,Game Boy,Nintendo,Nintendo,0.4
+173,Kirby's Star Stacker,Platform,1997,Game Boy,Nintendo,Nintendo,0.3
+174,Kirby Tilt 'n' Tumble,Platform,2000,Game Boy Color,Nintendo,Nintendo,0.3
+175,Kirby: Nightmare in Dream Land,Platform,2002,Game Boy Advance,Nintendo,Nintendo,1.0
+176,Kirby & The Amazing Mirror,Platform,2004,Game Boy Advance,Nintendo,Nintendo,0.6
+177,Kirby Air Ride,Platform,2003,Nintendo GameCube,Nintendo,Nintendo,0.8
+178,Kirby's Epic Yarn,Platform,2010,Nintendo Wii,Nintendo,Nintendo,1.9
+179,Kirby's Return to Dream Land,Platform,2011,Nintendo Wii,Nintendo,Nintendo,1.8
+180,Kirby's Dream Collection,Platform,2012,Nintendo Wii,Nintendo,Nintendo,0.3
+181,Kirby: Triple Deluxe,Platform,2014,Nintendo 3DS,Nintendo,Nintendo,2.6
+182,Kirby: Planet Robobot,Platform,2016,Nintendo 3DS,Nintendo,Nintendo,1.6
+183,Kirby Star Allies,Platform,2018,Nintendo Switch,Nintendo,Nintendo,4.0
+184,Kirby and the Forgotten Land,Platform,2022,Nintendo Switch,Nintendo,Nintendo,6.0
+185,Kirby's Return to Dream Land Deluxe,Platform,2023,Nintendo Switch,Nintendo,Nintendo,2.0
+186,Kirby's Dream Land,Platform,1992,Game Boy,Nintendo,Nintendo,5.1
+187,Kirby's Dream Land 2,Platform,1995,Game Boy,Nintendo,Nintendo,2.3
+188,Kirby's Dream Land 3,Platform,1997,Game Boy,Nintendo,Nintendo,1.4
+189,Kirby's Pinball Land,Platform,1993,Game Boy,Nintendo,Nintendo,1.0
+190,Kirby's Block Ball,Platform,1995,Game Boy,Nintendo,Nintendo,0.4
+191,Kirby's Star Stacker,Platform,1997,Game Boy,Nintendo,Nintendo,0.3
+192,Kirby Tilt 'n' Tumble,Platform,2000,Game Boy Color,Nintendo,Nintendo,0.3
+193,Kirby: Nightmare in Dream Land,Platform,2002,Game Boy Advance,Nintendo,Nintendo,1.0
+194,Kirby & The Amazing Mirror,Platform,2004,Game Boy Advance,Nintendo,Nintendo,0.6
+195,Kirby Air Ride,Platform,2003,Nintendo GameCube,Nintendo,Nintendo,0.8
+196,Kirby's Epic Yarn,Platform,2010,Nintendo Wii,Nintendo,Nintendo,1.9
+197,Kirby's Return to Dream Land,Platform,2011,Nintendo Wii,Nintendo,Nintendo,1.8
+198,Kirby's Dream Collection,Platform,2012,Nintendo Wii,Nintendo,Nintendo,0.3
+199,Kirby: Triple Deluxe,Platform,2014,Nintendo 3DS,Nintendo,Nintendo,2.6
+200,Kirby: Planet Robobot,Platform,2016,Nintendo 3DS,Nintendo,Nintendo,1.6

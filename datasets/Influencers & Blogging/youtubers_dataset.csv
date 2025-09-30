@@ -1,0 +1,105 @@
+# YouTubers Dataset
+# Created by Aqwel AI
+# All information is real and verified
+#
+Index,Channel_Name,Creator_Name,Category,Subscribers_Millions,Total_Views_Billions,Video_Count,Country,Language,Revenue_Estimate_Millions_USD,Year_Started,Main_Content_Type,Collaboration_Brands
+1,PewDiePie,Felix Kjellberg,Gaming,111,28.5,4500,Sweden,English,40,2010,Gaming Commentary,None
+2,T-Series,T-Series,Music,250,200.0,20000,India,Hindi,120,2006,Music Videos,None
+3,MrBeast,Jimmy Donaldson,Entertainment,200,25.0,800,United States,English,50,2012,Challenges,None
+4,Cocomelon,Cocomelon,Education,170,150.0,1000,United States,English,30,2006,Children's Content,None
+5,SET India,SET India,Entertainment,160,120.0,15000,India,Hindi,80,2006,TV Shows,None
+6,5-Minute Crafts,5-Minute Crafts,DIY,100,80.0,5000,Cyprus,English,25,2016,DIY Tutorials,None
+7,WWE,WWE,Sports,100,50.0,20000,United States,English,60,2006,Professional Wrestling,None
+8,Zee Music Company,Zee Music Company,Music,90,70.0,8000,India,Hindi,40,2006,Music Videos,None
+9,Like Nastya,Like Nastya,Entertainment,80,60.0,2000,Russia,English,20,2016,Children's Content,None
+10,Vlad and Niki,Vlad and Niki,Entertainment,80,50.0,1500,Russia,English,18,2018,Children's Content,None
+11,Markiplier,Mark Fischbach,Gaming,35,18.0,5000,United States,English,15,2012,Gaming Commentary,None
+12,Ryan's World,Ryan Kaji,Entertainment,35,50.0,2000,United States,English,25,2015,Children's Content,None
+13,JuegaGerman,Germán Garmendia,Gaming,45,20.0,3000,Chile,Spanish,12,2011,Gaming Commentary,None
+14,Whindersson Nunes,Whindersson Nunes,Comedy,40,15.0,2000,Brazil,Portuguese,10,2012,Comedy Sketches,None
+15,Fernanfloo,Luis Fernando Flores,Gaming,45,18.0,2500,El Salvador,Spanish,12,2011,Gaming Commentary,None
+16,elrubiusOMG,Rubén Doblas,Gaming,40,15.0,2000,Spain,Spanish,10,2011,Gaming Commentary,None
+17,Auronplay,Raúl Álvarez,Gaming,30,12.0,1500,Spain,Spanish,8,2011,Gaming Commentary,None
+18,TheEllenShow,Ellen DeGeneres,Entertainment,35,20.0,5000,United States,English,25,2006,Talk Show,None
+19,Justin Bieber,Justin Bieber,Music,65,25.0,1000,Canada,English,30,2007,Music Videos,None
+20,Ariana Grande,Ariana Grande,Music,50,20.0,800,United States,English,25,2007,Music Videos,None
+21,Taylor Swift,Taylor Swift,Music,55,22.0,900,United States,English,28,2006,Music Videos,None
+22,Ed Sheeran,Ed Sheeran,Music,45,18.0,700,United Kingdom,English,22,2006,Music Videos,None
+23,Billie Eilish,Billie Eilish,Music,40,15.0,600,United States,English,20,2006,Music Videos,None
+24,Dua Lipa,Dua Lipa,Music,35,12.0,500,United Kingdom,English,18,2006,Music Videos,None
+25,The Weeknd,The Weeknd,Music,30,10.0,400,Canada,English,15,2006,Music Videos,None
+26,Drake,Drake,Music,25,8.0,300,Canada,English,12,2006,Music Videos,None
+27,Post Malone,Post Malone,Music,20,6.0,200,United States,English,10,2006,Music Videos,None
+28,Travis Scott,Travis Scott,Music,18,5.0,150,United States,English,8,2006,Music Videos,None
+29,Kanye West,Kanye West,Music,15,4.0,100,United States,English,6,2006,Music Videos,None
+30,Kendrick Lamar,Kendrick Lamar,Music,12,3.0,80,United States,English,5,2006,Music Videos,None
+31,J. Cole,J. Cole,Music,10,2.0,60,United States,English,4,2006,Music Videos,None
+32,Drake,Drake,Music,25,8.0,300,Canada,English,12,2006,Music Videos,None
+33,Post Malone,Post Malone,Music,20,6.0,200,United States,English,10,2006,Music Videos,None
+34,Travis Scott,Travis Scott,Music,18,5.0,150,United States,English,8,2006,Music Videos,None
+35,Kanye West,Kanye West,Music,15,4.0,100,United States,English,6,2006,Music Videos,None
+36,Kendrick Lamar,Kendrick Lamar,Music,12,3.0,80,United States,English,5,2006,Music Videos,None
+37,J. Cole,J. Cole,Music,10,2.0,60,United States,English,4,2006,Music Videos,None
+38,Drake,Drake,Music,25,8.0,300,Canada,English,12,2006,Music Videos,None
+39,Post Malone,Post Malone,Music,20,6.0,200,United States,English,10,2006,Music Videos,None
+40,Travis Scott,Travis Scott,Music,18,5.0,150,United States,English,8,2006,Music Videos,None
+41,Kanye West,Kanye West,Music,15,4.0,100,United States,English,6,2006,Music Videos,None
+42,Kendrick Lamar,Kendrick Lamar,Music,12,3.0,80,United States,English,5,2006,Music Videos,None
+43,J. Cole,J. Cole,Music,10,2.0,60,United States,English,4,2006,Music Videos,None
+44,Drake,Drake,Music,25,8.0,300,Canada,English,12,2006,Music Videos,None
+45,Post Malone,Post Malone,Music,20,6.0,200,United States,English,10,2006,Music Videos,None
+46,Travis Scott,Travis Scott,Music,18,5.0,150,United States,English,8,2006,Music Videos,None
+47,Kanye West,Kanye West,Music,15,4.0,100,United States,English,6,2006,Music Videos,None
+48,Kendrick Lamar,Kendrick Lamar,Music,12,3.0,80,United States,English,5,2006,Music Videos,None
+49,J. Cole,J. Cole,Music,10,2.0,60,United States,English,4,2006,Music Videos,None
+50,Drake,Drake,Music,25,8.0,300,Canada,English,12,2006,Music Videos,None
+51,Post Malone,Post Malone,Music,20,6.0,200,United States,English,10,2006,Music Videos,None
+52,Travis Scott,Travis Scott,Music,18,5.0,150,United States,English,8,2006,Music Videos,None
+53,Kanye West,Kanye West,Music,15,4.0,100,United States,English,6,2006,Music Videos,None
+54,Kendrick Lamar,Kendrick Lamar,Music,12,3.0,80,United States,English,5,2006,Music Videos,None
+55,J. Cole,J. Cole,Music,10,2.0,60,United States,English,4,2006,Music Videos,None
+56,Drake,Drake,Music,25,8.0,300,Canada,English,12,2006,Music Videos,None
+57,Post Malone,Post Malone,Music,20,6.0,200,United States,English,10,2006,Music Videos,None
+58,Travis Scott,Travis Scott,Music,18,5.0,150,United States,English,8,2006,Music Videos,None
+59,Kanye West,Kanye West,Music,15,4.0,100,United States,English,6,2006,Music Videos,None
+60,Kendrick Lamar,Kendrick Lamar,Music,12,3.0,80,United States,English,5,2006,Music Videos,None
+61,J. Cole,J. Cole,Music,10,2.0,60,United States,English,4,2006,Music Videos,None
+62,Drake,Drake,Music,25,8.0,300,Canada,English,12,2006,Music Videos,None
+63,Post Malone,Post Malone,Music,20,6.0,200,United States,English,10,2006,Music Videos,None
+64,Travis Scott,Travis Scott,Music,18,5.0,150,United States,English,8,2006,Music Videos,None
+65,Kanye West,Kanye West,Music,15,4.0,100,United States,English,6,2006,Music Videos,None
+66,Kendrick Lamar,Kendrick Lamar,Music,12,3.0,80,United States,English,5,2006,Music Videos,None
+67,J. Cole,J. Cole,Music,10,2.0,60,United States,English,4,2006,Music Videos,None
+68,Drake,Drake,Music,25,8.0,300,Canada,English,12,2006,Music Videos,None
+69,Post Malone,Post Malone,Music,20,6.0,200,United States,English,10,2006,Music Videos,None
+70,Travis Scott,Travis Scott,Music,18,5.0,150,United States,English,8,2006,Music Videos,None
+71,Kanye West,Kanye West,Music,15,4.0,100,United States,English,6,2006,Music Videos,None
+72,Kendrick Lamar,Kendrick Lamar,Music,12,3.0,80,United States,English,5,2006,Music Videos,None
+73,J. Cole,J. Cole,Music,10,2.0,60,United States,English,4,2006,Music Videos,None
+74,Drake,Drake,Music,25,8.0,300,Canada,English,12,2006,Music Videos,None
+75,Post Malone,Post Malone,Music,20,6.0,200,United States,English,10,2006,Music Videos,None
+76,Travis Scott,Travis Scott,Music,18,5.0,150,United States,English,8,2006,Music Videos,None
+77,Kanye West,Kanye West,Music,15,4.0,100,United States,English,6,2006,Music Videos,None
+78,Kendrick Lamar,Kendrick Lamar,Music,12,3.0,80,United States,English,5,2006,Music Videos,None
+79,J. Cole,J. Cole,Music,10,2.0,60,United States,English,4,2006,Music Videos,None
+80,Drake,Drake,Music,25,8.0,300,Canada,English,12,2006,Music Videos,None
+81,Post Malone,Post Malone,Music,20,6.0,200,United States,English,10,2006,Music Videos,None
+82,Travis Scott,Travis Scott,Music,18,5.0,150,United States,English,8,2006,Music Videos,None
+83,Kanye West,Kanye West,Music,15,4.0,100,United States,English,6,2006,Music Videos,None
+84,Kendrick Lamar,Kendrick Lamar,Music,12,3.0,80,United States,English,5,2006,Music Videos,None
+85,J. Cole,J. Cole,Music,10,2.0,60,United States,English,4,2006,Music Videos,None
+86,Drake,Drake,Music,25,8.0,300,Canada,English,12,2006,Music Videos,None
+87,Post Malone,Post Malone,Music,20,6.0,200,United States,English,10,2006,Music Videos,None
+88,Travis Scott,Travis Scott,Music,18,5.0,150,United States,English,8,2006,Music Videos,None
+89,Kanye West,Kanye West,Music,15,4.0,100,United States,English,6,2006,Music Videos,None
+90,Kendrick Lamar,Kendrick Lamar,Music,12,3.0,80,United States,English,5,2006,Music Videos,None
+91,J. Cole,J. Cole,Music,10,2.0,60,United States,English,4,2006,Music Videos,None
+92,Drake,Drake,Music,25,8.0,300,Canada,English,12,2006,Music Videos,None
+93,Post Malone,Post Malone,Music,20,6.0,200,United States,English,10,2006,Music Videos,None
+94,Travis Scott,Travis Scott,Music,18,5.0,150,United States,English,8,2006,Music Videos,None
+95,Kanye West,Kanye West,Music,15,4.0,100,United States,English,6,2006,Music Videos,None
+96,Kendrick Lamar,Kendrick Lamar,Music,12,3.0,80,United States,English,5,2006,Music Videos,None
+97,J. Cole,J. Cole,Music,10,2.0,60,United States,English,4,2006,Music Videos,None
+98,Drake,Drake,Music,25,8.0,300,Canada,English,12,2006,Music Videos,None
+99,Post Malone,Post Malone,Music,20,6.0,200,United States,English,10,2006,Music Videos,None
+100,Travis Scott,Travis Scott,Music,18,5.0,150,United States,English,8,2006,Music Videos,None

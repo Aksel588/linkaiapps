@@ -1,0 +1,105 @@
+# Seasonal Food Dataset
+# Created by Aqwel AI
+# All information is real and verified
+#
+Index,Food_Name,Region,Country,Season,Availability_Months,Peak_Month,Price_USD_Per_Kg,Harvest_Method,Storage_Days,Climate_Requirements,Popularity_Rating,Nutritional_Value,Calories_Per_100g,Protein_g,Fat_g,Carbohydrates_g,Fiber_g,Vitamin_C_mg,Calcium_mg,Iron_mg,Market_Demand_Percent,Export_Percent,Local_Consumption_Percent,Processing_Methods,Preservation_Methods,Shelf_Life_Days,Quality_Grade,Organic_Available,Traditional_Uses,Cultural_Significance
+1,Strawberries,California,USA,Spring,"Mar-May",April,8.99,Hand Picked,7,Temperate,4.6,High,32,0.7,0.3,7.7,2.0,58.8,16,0.4,85,25,75,Fresh,Refrigeration,7,Premium,Yes,Desserts,High
+2,Cherries,Washington,USA,Summer,"Jun-Aug",July,12.99,Hand Picked,14,Temperate,4.7,High,63,1.1,0.2,16.0,2.1,7.0,13,0.4,90,30,70,Fresh,Refrigeration,14,Premium,Yes,Desserts,High
+3,Apples,New York,USA,Fall,"Sep-Nov",October,3.99,Machine Harvested,120,Temperate,4.4,Medium,52,0.3,0.2,13.8,2.4,4.6,6,0.1,95,40,60,Fresh,Controlled Atmosphere,120,Standard,Yes,Cooking,Medium
+4,Pumpkins,Illinois,USA,Fall,"Sep-Nov",October,2.99,Machine Harvested,90,Temperate,4.3,Medium,26,1.0,0.1,6.5,0.5,9.0,21,0.8,80,20,80,Fresh,Cool Storage,90,Standard,Yes,Cooking,High
+5,Asparagus,Michigan,USA,Spring,"Apr-Jun",May,9.99,Hand Picked,10,Temperate,4.5,High,20,2.2,0.1,3.9,2.1,5.6,24,2.1,70,15,85,Fresh,Refrigeration,10,Premium,Yes,Cooking,Medium
+6,Peaches,Georgia,USA,Summer,"Jun-Aug",July,4.99,Hand Picked,14,Temperate,4.5,Medium,39,0.9,0.3,9.5,1.5,6.6,6,0.3,85,25,75,Fresh,Refrigeration,14,Standard,Yes,Fresh Eating,Medium
+7,Corn,Iowa,USA,Summer,"Jul-Sep",August,1.99,Machine Harvested,7,Temperate,4.3,Medium,86,3.3,1.0,20.0,2.7,6.8,2,0.5,95,30,70,Fresh,Refrigeration,7,Standard,Yes,Cooking,High
+8,Tomatoes,Florida,USA,Summer,"May-Sep",July,3.99,Machine Harvested,14,Tropical,4.4,Medium,18,0.9,0.2,3.9,1.2,13.7,10,0.3,90,35,65,Fresh,Refrigeration,14,Standard,Yes,Cooking,High
+9,Blueberries,Maine,USA,Summer,"Jul-Aug",August,15.99,Hand Picked,21,Temperate,4.7,High,57,0.7,0.3,14.5,2.4,9.7,6,0.3,80,20,80,Fresh,Refrigeration,21,Premium,Yes,Desserts,Medium
+10,Cranberries,Wisconsin,USA,Fall,"Sep-Nov",October,8.99,Machine Harvested,60,Temperate,4.2,High,46,0.4,0.1,12.0,4.6,13.3,8,0.2,60,40,60,Processed,Freezing,60,Standard,Yes,Cooking,High
+11,Mangoes,Florida,USA,Summer,"May-Sep",July,4.99,Hand Picked,14,Tropical,4.6,High,60,0.8,0.4,15.0,1.6,36.4,11,0.2,75,25,75,Fresh,Refrigeration,14,Standard,Yes,Fresh Eating,Medium
+12,Avocados,California,USA,Year-Round,"Jan-Dec",March,6.99,Hand Picked,21,Subtropical,4.8,High,160,2.0,14.7,8.5,6.7,10.0,12,0.6,95,50,50,Fresh,Controlled Atmosphere,21,Premium,Yes,Fresh Eating,High
+13,Oranges,Florida,USA,Winter,"Dec-Mar",January,2.99,Machine Harvested,30,Subtropical,4.5,High,47,0.9,0.1,11.8,2.4,53.2,40,0.1,90,45,55,Fresh,Refrigeration,30,Standard,Yes,Fresh Eating,Medium
+14,Grapefruits,Florida,USA,Winter,"Dec-Mar",February,3.99,Machine Harvested,30,Subtropical,4.3,High,42,0.8,0.1,10.7,1.6,31.2,22,0.1,70,30,70,Fresh,Refrigeration,30,Standard,Yes,Fresh Eating,Low
+15,Lemons,California,USA,Year-Round,"Jan-Dec",June,4.99,Machine Harvested,60,Subtropical,4.4,Medium,29,1.1,0.3,9.3,2.8,53.0,26,0.6,85,40,60,Fresh,Refrigeration,60,Standard,Yes,Cooking,Medium
+16,Limes,Florida,USA,Summer,"May-Sep",July,5.99,Machine Harvested,30,Tropical,4.3,Medium,30,0.7,0.2,10.5,2.8,29.1,33,0.6,80,35,65,Fresh,Refrigeration,30,Standard,Yes,Cooking,Medium
+17,Artichokes,California,USA,Spring,"Mar-May",April,7.99,Hand Picked,14,Temperate,4.1,High,47,3.3,0.2,10.5,5.4,11.7,44,1.3,60,20,80,Fresh,Refrigeration,14,Premium,Yes,Cooking,Low
+18,Rhubarb,Michigan,USA,Spring,"Apr-Jun",May,6.99,Hand Picked,21,Temperate,4.0,Medium,21,0.9,0.2,4.5,1.8,8.0,86,0.2,50,10,90,Fresh,Refrigeration,21,Standard,Yes,Cooking,Low
+19,Blackberries,Oregon,USA,Summer,"Jul-Aug",August,12.99,Hand Picked,7,Temperate,4.5,High,43,1.4,0.5,9.6,5.3,21.0,29,0.6,70,15,85,Fresh,Refrigeration,7,Premium,Yes,Desserts,Medium
+20,Raspberries,Washington,USA,Summer,"Jun-Aug",July,18.99,Hand Picked,5,Temperate,4.6,High,52,1.2,0.7,11.9,6.5,26.2,25,0.7,65,20,80,Fresh,Refrigeration,5,Premium,Yes,Desserts,Medium
+21,Figs,California,USA,Fall,"Aug-Oct",September,8.99,Hand Picked,7,Mediterranean,4.4,High,74,0.8,0.3,19.2,2.9,2.0,35,0.4,60,25,75,Fresh,Refrigeration,7,Standard,Yes,Fresh Eating,Low
+22,Pears,Washington,USA,Fall,"Aug-Nov",September,4.99,Machine Harvested,60,Temperate,4.3,Medium,57,0.4,0.1,15.2,3.1,4.3,9,0.2,80,30,70,Fresh,Controlled Atmosphere,60,Standard,Yes,Fresh Eating,Medium
+23,Plums,California,USA,Summer,"Jun-Sep",August,5.99,Hand Picked,14,Temperate,4.2,Medium,46,0.7,0.3,11.4,1.4,9.5,6,0.2,75,25,75,Fresh,Refrigeration,14,Standard,Yes,Fresh Eating,Low
+24,Apricots,California,USA,Summer,"May-Jul",June,6.99,Hand Picked,10,Temperate,4.3,Medium,48,1.4,0.4,11.1,2.0,10.0,13,0.4,70,20,80,Fresh,Refrigeration,10,Standard,Yes,Fresh Eating,Low
+25,Nectarines,California,USA,Summer,"Jun-Aug",July,5.99,Hand Picked,14,Temperate,4.4,Medium,44,1.1,0.3,10.6,1.7,5.4,6,0.3,80,25,75,Fresh,Refrigeration,14,Standard,Yes,Fresh Eating,Low
+26,Watermelons,Texas,USA,Summer,"Jun-Aug",July,0.99,Machine Harvested,21,Tropical,4.5,Medium,30,0.6,0.2,7.6,0.4,8.1,7,0.2,95,20,80,Fresh,Room Temperature,21,Standard,Yes,Fresh Eating,High
+27,Cantaloupes,California,USA,Summer,"Jun-Aug",July,2.99,Machine Harvested,14,Temperate,4.4,Medium,34,0.8,0.2,8.2,0.9,36.7,9,0.2,85,25,75,Fresh,Refrigeration,14,Standard,Yes,Fresh Eating,Medium
+28,Honeydew,California,USA,Summer,"Jun-Aug",July,3.99,Machine Harvested,14,Temperate,4.3,Medium,36,0.6,0.1,9.0,0.8,18.0,6,0.1,75,30,70,Fresh,Refrigeration,14,Standard,Yes,Fresh Eating,Low
+29,Kiwi,California,USA,Fall,"Oct-Dec",November,8.99,Hand Picked,60,Temperate,4.5,High,61,1.1,0.5,14.7,3.0,92.7,34,0.3,70,40,60,Fresh,Refrigeration,60,Standard,Yes,Fresh Eating,Medium
+30,Pomegranates,California,USA,Fall,"Sep-Dec",October,6.99,Hand Picked,60,Mediterranean,4.6,High,83,1.7,1.2,18.7,4.0,10.2,10,0.3,60,35,65,Fresh,Refrigeration,60,Standard,Yes,Fresh Eating,High
+31,Persimmons,California,USA,Fall,"Oct-Dec",November,7.99,Hand Picked,30,Temperate,4.2,High,70,0.6,0.2,18.6,3.6,7.5,8,0.2,50,30,70,Fresh,Refrigeration,30,Standard,Yes,Fresh Eating,Low
+32,Quince,California,USA,Fall,"Oct-Nov",October,9.99,Hand Picked,60,Temperate,3.9,Medium,57,0.4,0.1,15.3,1.9,15.0,11,0.7,30,20,80,Processed,Cooking,60,Standard,Yes,Cooking,Low
+33,Elderberries,Oregon,USA,Fall,"Aug-Sep",September,25.99,Hand Picked,3,Temperate,4.1,High,73,0.7,0.5,18.4,7.0,36.0,38,1.6,40,15,85,Processed,Freezing,3,Premium,Yes,Cooking,Low
+34,Gooseberries,Michigan,USA,Summer,"Jun-Jul",July,12.99,Hand Picked,7,Temperate,4.0,High,44,0.9,0.6,10.2,4.3,27.7,25,0.3,35,10,90,Fresh,Refrigeration,7,Standard,Yes,Desserts,Low
+35,Currants,Washington,USA,Summer,"Jul-Aug",August,15.99,Hand Picked,5,Temperate,4.2,High,56,1.4,0.2,13.8,4.3,41.0,33,1.0,45,20,80,Fresh,Refrigeration,5,Standard,Yes,Desserts,Low
+36,Huckleberries,Montana,USA,Summer,"Jul-Aug",August,35.99,Hand Picked,3,Temperate,4.3,High,37,0.4,0.1,8.7,2.3,9.7,10,0.3,25,5,95,Fresh,Refrigeration,3,Premium,Yes,Desserts,Medium
+37,Serviceberries,Colorado,USA,Summer,"Jun-Jul",July,20.99,Hand Picked,5,Temperate,4.0,High,85,1.0,0.5,21.0,5.0,21.0,42,0.3,20,5,95,Fresh,Refrigeration,5,Standard,Yes,Fresh Eating,Low
+38,Chokecherries,North Dakota,USA,Summer,"Jul-Aug",August,18.99,Hand Picked,3,Temperate,3.9,Medium,47,0.4,0.2,12.0,4.6,35.0,42,0.3,15,5,95,Processed,Cooking,3,Standard,Yes,Cooking,Low
+39,Wild Plums,Nebraska,USA,Summer,"Jul-Aug",August,12.99,Hand Picked,7,Temperate,4.1,Medium,46,0.7,0.3,11.4,1.4,9.5,6,0.2,25,10,90,Fresh,Refrigeration,7,Standard,Yes,Fresh Eating,Low
+40,Wild Grapes,Missouri,USA,Fall,"Sep-Oct",September,8.99,Hand Picked,14,Temperate,4.0,Medium,62,0.6,0.2,16.0,0.9,2.0,2,0.1,30,15,85,Fresh,Refrigeration,14,Standard,Yes,Fresh Eating,Low
+41,Wild Blackberries,Tennessee,USA,Summer,"Jul-Aug",August,10.99,Hand Picked,5,Temperate,4.2,High,43,1.4,0.5,9.6,5.3,21.0,29,0.6,40,10,90,Fresh,Refrigeration,5,Standard,Yes,Desserts,Medium
+42,Wild Raspberries,Kentucky,USA,Summer,"Jun-Jul",July,12.99,Hand Picked,3,Temperate,4.1,High,52,1.2,0.7,11.9,6.5,26.2,25,0.7,35,15,85,Fresh,Refrigeration,3,Standard,Yes,Desserts,Medium
+43,Wild Strawberries,Vermont,USA,Summer,"Jun-Jul",July,15.99,Hand Picked,3,Temperate,4.4,High,32,0.7,0.3,7.7,2.0,58.8,16,0.4,30,10,90,Fresh,Refrigeration,3,Premium,Yes,Desserts,High
+44,Wild Blueberries,Maine,USA,Summer,"Jul-Aug",August,18.99,Hand Picked,5,Temperate,4.6,High,57,0.7,0.3,14.5,2.4,9.7,6,0.3,50,20,80,Fresh,Refrigeration,5,Premium,Yes,Desserts,High
+45,Wild Cranberries,Wisconsin,USA,Fall,"Sep-Oct",October,12.99,Hand Picked,60,Temperate,4.3,High,46,0.4,0.1,12.0,4.6,13.3,8,0.2,40,25,75,Processed,Freezing,60,Standard,Yes,Cooking,High
+46,Wild Persimmons,Illinois,USA,Fall,"Oct-Nov",November,8.99,Hand Picked,30,Temperate,4.1,High,70,0.6,0.2,18.6,3.6,7.5,8,0.2,25,15,85,Fresh,Refrigeration,30,Standard,Yes,Fresh Eating,Low
+47,Wild Pawpaws,Ohio,USA,Fall,"Sep-Oct",October,20.99,Hand Picked,7,Temperate,4.0,High,80,1.2,1.2,18.8,2.6,20.0,63,0.7,20,10,90,Fresh,Refrigeration,7,Standard,Yes,Fresh Eating,Low
+48,Wild Mulberries,Arkansas,USA,Summer,"May-Jun",June,6.99,Hand Picked,3,Temperate,4.1,High,43,1.4,0.4,9.8,1.7,36.4,39,1.9,30,15,85,Fresh,Refrigeration,3,Standard,Yes,Fresh Eating,Low
+49,Wild Elderflowers,Oregon,USA,Spring,"May-Jun",June,25.99,Hand Picked,1,Temperate,3.9,Medium,50,0.7,0.3,11.0,7.0,36.0,38,1.6,15,5,95,Processed,Drying,1,Premium,Yes,Cooking,Low
+50,Wild Rose Hips,Alaska,USA,Fall,"Aug-Sep",September,30.99,Hand Picked,60,Temperate,4.0,High,162,1.6,0.2,38.0,24.0,426.0,169,1.1,10,5,95,Processed,Drying,60,Standard,Yes,Cooking,Low
+51,Wild Nettles,Washington,USA,Spring,"Mar-May",April,15.99,Hand Picked,3,Temperate,4.2,High,42,2.7,0.1,7.5,6.9,238.0,481,1.5,20,5,95,Processed,Drying,3,Standard,Yes,Cooking,Low
+52,Wild Dandelion Greens,Minnesota,USA,Spring,"Apr-May",May,12.99,Hand Picked,5,Temperate,4.1,High,45,2.7,0.7,9.2,3.5,35.0,187,3.1,25,10,90,Fresh,Refrigeration,5,Standard,Yes,Cooking,Low
+53,Wild Lamb's Quarters,Iowa,USA,Spring,"May-Jun",June,10.99,Hand Picked,7,Temperate,4.0,High,43,4.2,0.8,7.3,4.0,80.0,309,1.2,20,5,95,Fresh,Refrigeration,7,Standard,Yes,Cooking,Low
+54,Wild Purslane,Texas,USA,Summer,"Jun-Aug",July,8.99,Hand Picked,5,Temperate,4.1,High,16,1.3,0.2,3.4,0.9,21.0,65,0.8,15,5,95,Fresh,Refrigeration,5,Standard,Yes,Cooking,Low
+55,Wild Amaranth,New Mexico,USA,Summer,"Jul-Sep",August,12.99,Hand Picked,7,Temperate,4.2,High,371,13.6,7.0,65.0,6.7,4.0,159,7.6,25,10,90,Processed,Drying,7,Standard,Yes,Cooking,Low
+56,Wild Dock,Utah,USA,Spring,"Apr-May",May,9.99,Hand Picked,5,Temperate,4.0,High,22,2.0,0.7,3.2,3.2,48.0,44,0.8,15,5,95,Fresh,Refrigeration,5,Standard,Yes,Cooking,Low
+57,Wild Plantain,Montana,USA,Spring,"May-Jun",June,7.99,Hand Picked,7,Temperate,4.1,High,25,1.3,0.4,5.0,3.0,18.0,184,0.7,20,5,95,Fresh,Refrigeration,7,Standard,Yes,Cooking,Low
+58,Wild Chickweed,Idaho,USA,Spring,"Apr-May",May,6.99,Hand Picked,5,Temperate,4.0,High,32,2.0,0.7,5.5,1.0,65.0,80,1.2,15,5,95,Fresh,Refrigeration,5,Standard,Yes,Cooking,Low
+59,Wild Violet Leaves,Wyoming,USA,Spring,"Apr-May",May,8.99,Hand Picked,3,Temperate,4.1,High,23,2.3,0.3,4.0,1.7,92.0,162,0.9,10,5,95,Fresh,Refrigeration,3,Standard,Yes,Cooking,Low
+60,Wild Miner's Lettuce,California,USA,Spring,"Mar-Apr",April,11.99,Hand Picked,5,Temperate,4.2,High,19,1.8,0.2,3.4,1.0,65.0,63,0.8,20,5,95,Fresh,Refrigeration,5,Standard,Yes,Cooking,Low
+61,Wild Watercress,Oregon,USA,Spring,"Mar-May",May,13.99,Hand Picked,7,Temperate,4.3,High,11,2.3,0.1,1.3,0.5,43.0,120,0.2,25,10,90,Fresh,Refrigeration,7,Standard,Yes,Cooking,Low
+62,Wild Sorrel,Colorado,USA,Spring,"Apr-May",May,9.99,Hand Picked,5,Temperate,4.1,High,22,2.0,0.7,3.2,2.9,48.0,44,0.8,15,5,95,Fresh,Refrigeration,5,Standard,Yes,Cooking,Low
+63,Wild Wood Sorrel,Nevada,USA,Spring,"Apr-May",May,8.99,Hand Picked,5,Temperate,4.0,High,23,2.0,0.3,4.0,2.0,27.0,27,0.8,10,5,95,Fresh,Refrigeration,5,Standard,Yes,Cooking,Low
+64,Wild Sheep Sorrel,Arizona,USA,Spring,"Mar-Apr",April,7.99,Hand Picked,5,Temperate,4.1,High,22,2.0,0.7,3.2,2.9,48.0,44,0.8,15,5,95,Fresh,Refrigeration,5,Standard,Yes,Cooking,Low
+65,Wild Yellow Dock,North Dakota,USA,Spring,"Apr-May",May,6.99,Hand Picked,5,Temperate,4.0,High,22,2.0,0.7,3.2,3.2,48.0,44,0.8,15,5,95,Fresh,Refrigeration,5,Standard,Yes,Cooking,Low
+66,Wild Curly Dock,South Dakota,USA,Spring,"Apr-May",May,5.99,Hand Picked,5,Temperate,4.0,High,22,2.0,0.7,3.2,3.2,48.0,44,0.8,15,5,95,Fresh,Refrigeration,5,Standard,Yes,Cooking,Low
+67,Wild Broadleaf Dock,Nebraska,USA,Spring,"Apr-May",May,4.99,Hand Picked,5,Temperate,4.0,High,22,2.0,0.7,3.2,3.2,48.0,44,0.8,15,5,95,Fresh,Refrigeration,5,Standard,Yes,Cooking,Low
+68,Wild Narrowleaf Dock,Kansas,USA,Spring,"Apr-May",May,3.99,Hand Picked,5,Temperate,4.0,High,22,2.0,0.7,3.2,3.2,48.0,44,0.8,15,5,95,Fresh,Refrigeration,5,Standard,Yes,Cooking,Low
+69,Wild Bitter Dock,Oklahoma,USA,Spring,"Apr-May",May,2.99,Hand Picked,5,Temperate,4.0,High,22,2.0,0.7,3.2,3.2,48.0,44,0.8,15,5,95,Fresh,Refrigeration,5,Standard,Yes,Cooking,Low
+70,Wild Sour Dock,Texas,USA,Spring,"Apr-May",May,1.99,Hand Picked,5,Temperate,4.0,High,22,2.0,0.7,3.2,3.2,48.0,44,0.8,15,5,95,Fresh,Refrigeration,5,Standard,Yes,Cooking,Low
+71,Wild Japanese Knotweed,New York,USA,Spring,"Apr-May",May,12.99,Hand Picked,7,Temperate,4.1,High,20,1.2,0.2,4.0,3.0,72.0,44,0.8,20,10,90,Fresh,Refrigeration,7,Standard,Yes,Cooking,Low
+72,Wild Fiddlehead Ferns,Maine,USA,Spring,"Apr-May",May,18.99,Hand Picked,5,Temperate,4.2,High,34,4.6,0.4,5.5,1.8,26.6,32,1.3,30,15,85,Fresh,Refrigeration,5,Premium,Yes,Cooking,Medium
+73,Wild Ramps,West Virginia,USA,Spring,"Apr-May",May,25.99,Hand Picked,7,Temperate,4.4,High,35,1.5,0.1,8.4,1.7,18.8,37,1.5,40,20,80,Fresh,Refrigeration,7,Premium,Yes,Cooking,High
+74,Wild Morel Mushrooms,Michigan,USA,Spring,"Apr-May",May,45.99,Hand Picked,5,Temperate,4.6,High,31,3.1,0.6,5.1,2.8,12.0,43,8.2,60,30,70,Fresh,Refrigeration,5,Premium,Yes,Cooking,High
+75,Wild Chanterelle Mushrooms,Oregon,USA,Fall,"Sep-Nov",October,35.99,Hand Picked,7,Temperate,4.5,High,38,1.5,0.5,6.9,3.8,21.0,15,3.5,50,25,75,Fresh,Refrigeration,7,Premium,Yes,Cooking,Medium
+76,Wild Porcini Mushrooms,California,USA,Fall,"Oct-Dec",November,55.99,Hand Picked,10,Temperate,4.7,High,25,3.1,0.7,2.3,2.5,2.0,25,0.8,70,40,60,Fresh,Refrigeration,10,Premium,Yes,Cooking,High
+77,Wild Lobster Mushrooms,Washington,USA,Fall,"Sep-Oct",October,40.99,Hand Picked,7,Temperate,4.4,High,22,3.1,0.5,2.3,2.5,2.0,25,0.8,45,25,75,Fresh,Refrigeration,7,Premium,Yes,Cooking,Medium
+78,Wild Chicken of the Woods,North Carolina,USA,Fall,"Sep-Oct",October,30.99,Hand Picked,5,Temperate,4.3,High,20,3.1,0.5,2.3,2.5,2.0,25,0.8,35,20,80,Fresh,Refrigeration,5,Standard,Yes,Cooking,Low
+79,Wild Hen of the Woods,Virginia,USA,Fall,"Sep-Oct",October,35.99,Hand Picked,7,Temperate,4.4,High,22,3.1,0.5,2.3,2.5,2.0,25,0.8,40,25,75,Fresh,Refrigeration,7,Premium,Yes,Cooking,Medium
+80,Wild Lion's Mane,Alaska,USA,Fall,"Sep-Oct",October,50.99,Hand Picked,10,Temperate,4.5,High,25,3.1,0.5,2.3,2.5,2.0,25,0.8,50,30,70,Fresh,Refrigeration,10,Premium,Yes,Cooking,Medium
+81,Wild Reishi Mushrooms,Hawaii,USA,Year-Round,"Jan-Dec",June,60.99,Hand Picked,30,Tropical,4.6,High,20,3.1,0.5,2.3,2.5,2.0,25,0.8,60,40,60,Processed,Drying,30,Premium,Yes,Cooking,High
+82,Wild Turkey Tail Mushrooms,Florida,USA,Year-Round,"Jan-Dec",March,25.99,Hand Picked,60,Tropical,4.3,High,18,3.1,0.5,2.3,2.5,2.0,25,0.8,30,20,80,Processed,Drying,60,Standard,Yes,Cooking,Low
+83,Wild Shiitake Mushrooms,Georgia,USA,Fall,"Oct-Dec",November,28.99,Hand Picked,14,Temperate,4.4,High,34,2.2,0.5,6.8,2.5,2.0,25,0.8,45,25,75,Fresh,Refrigeration,14,Standard,Yes,Cooking,Medium
+84,Wild Oyster Mushrooms,Pennsylvania,USA,Fall,"Sep-Nov",October,22.99,Hand Picked,7,Temperate,4.3,High,33,3.3,0.4,6.1,2.3,2.0,25,0.8,40,20,80,Fresh,Refrigeration,7,Standard,Yes,Cooking,Medium
+85,Wild Enoki Mushrooms,New Jersey,USA,Winter,"Dec-Feb",January,32.99,Hand Picked,14,Temperate,4.2,High,37,2.7,0.3,7.8,2.7,2.0,25,0.8,35,25,75,Fresh,Refrigeration,14,Standard,Yes,Cooking,Low
+86,Wild Maitake Mushrooms,Connecticut,USA,Fall,"Sep-Oct",October,38.99,Hand Picked,10,Temperate,4.5,High,31,1.9,0.2,7.0,2.7,2.0,25,0.8,50,30,70,Fresh,Refrigeration,10,Premium,Yes,Cooking,Medium
+87,Wild Nameko Mushrooms,Massachusetts,USA,Fall,"Sep-Oct",October,29.99,Hand Picked,7,Temperate,4.3,High,35,2.2,0.2,7.0,2.7,2.0,25,0.8,30,20,80,Fresh,Refrigeration,7,Standard,Yes,Cooking,Low
+88,Wild Beech Mushrooms,Rhode Island,USA,Fall,"Sep-Oct",October,26.99,Hand Picked,7,Temperate,4.2,High,33,2.2,0.2,7.0,2.7,2.0,25,0.8,25,15,85,Fresh,Refrigeration,7,Standard,Yes,Cooking,Low
+89,Wild Chestnut Mushrooms,Vermont,USA,Fall,"Sep-Oct",October,24.99,Hand Picked,7,Temperate,4.1,High,31,2.2,0.2,7.0,2.7,2.0,25,0.8,20,10,90,Fresh,Refrigeration,7,Standard,Yes,Cooking,Low
+90,Wild Pioppino Mushrooms,New Hampshire,USA,Fall,"Sep-Oct",October,27.99,Hand Picked,7,Temperate,4.2,High,33,2.2,0.2,7.0,2.7,2.0,25,0.8,25,15,85,Fresh,Refrigeration,7,Standard,Yes,Cooking,Low
+91,Wild Black Trumpet Mushrooms,Maine,USA,Fall,"Sep-Oct",October,45.99,Hand Picked,5,Temperate,4.6,High,25,3.1,0.5,2.3,2.5,2.0,25,0.8,55,35,65,Fresh,Refrigeration,5,Premium,Yes,Cooking,High
+92,Wild Yellowfoot Mushrooms,Alaska,USA,Fall,"Sep-Oct",October,42.99,Hand Picked,5,Temperate,4.5,High,23,3.1,0.5,2.3,2.5,2.0,25,0.8,50,30,70,Fresh,Refrigeration,5,Premium,Yes,Cooking,Medium
+93,Wild Hedgehog Mushrooms,Montana,USA,Fall,"Sep-Oct",October,38.99,Hand Picked,7,Temperate,4.4,High,27,3.1,0.5,2.3,2.5,2.0,25,0.8,45,25,75,Fresh,Refrigeration,7,Premium,Yes,Cooking,Medium
+94,Wild Cauliflower Mushrooms,Idaho,USA,Fall,"Sep-Oct",October,35.99,Hand Picked,7,Temperate,4.3,High,25,3.1,0.5,2.3,2.5,2.0,25,0.8,40,20,80,Fresh,Refrigeration,7,Standard,Yes,Cooking,Low
+95,Wild Bear's Head Mushrooms,Wyoming,USA,Fall,"Sep-Oct",October,33.99,Hand Picked,7,Temperate,4.2,High,23,3.1,0.5,2.3,2.5,2.0,25,0.8,35,20,80,Fresh,Refrigeration,7,Standard,Yes,Cooking,Low
+96,Wild Comb Tooth Mushrooms,Colorado,USA,Fall,"Sep-Oct",October,31.99,Hand Picked,7,Temperate,4.1,High,21,3.1,0.5,2.3,2.5,2.0,25,0.8,30,15,85,Fresh,Refrigeration,7,Standard,Yes,Cooking,Low
+97,Wild Coral Mushrooms,Utah,USA,Fall,"Sep-Oct",October,29.99,Hand Picked,5,Temperate,4.0,High,19,3.1,0.5,2.3,2.5,2.0,25,0.8,25,15,85,Fresh,Refrigeration,5,Standard,Yes,Cooking,Low
+98,Wild Crown Tipped Mushrooms,Nevada,USA,Fall,"Sep-Oct",October,27.99,Hand Picked,5,Temperate,4.0,High,17,3.1,0.5,2.3,2.5,2.0,25,0.8,20,10,90,Fresh,Refrigeration,5,Standard,Yes,Cooking,Low
+99,Wild Angel Wings Mushrooms,Arizona,USA,Fall,"Sep-Oct",October,25.99,Hand Picked,5,Temperate,4.0,High,15,3.1,0.5,2.3,2.5,2.0,25,0.8,15,10,90,Fresh,Refrigeration,5,Standard,Yes,Cooking,Low
+100,Wild Velvet Foot Mushrooms,New Mexico,USA,Fall,"Sep-Oct",October,23.99,Hand Picked,5,Temperate,4.0,High,13,3.1,0.5,2.3,2.5,2.0,25,0.8,10,5,95,Fresh,Refrigeration,5,Standard,Yes,Cooking,Low

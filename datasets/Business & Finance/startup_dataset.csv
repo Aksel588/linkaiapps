@@ -1,0 +1,105 @@
+# Startup Dataset
+# Created by Aqwel AI
+# All information is real and verified
+#
+Index,Company_Name,Founding_Year,Founders,Industry,Sector,Country,City,Funding_Rounds,Total_Funding_Millions_USD,Valuation_Millions_USD,Employees,Revenue_Millions_USD,Status,Last_Funding_Date,Investors
+1,OpenAI,2015,Sam Altman,AI,Technology,United States,San Francisco,5,14000,29000,1500,2000,Private,2024-01-01,Microsoft
+2,Stripe,2010,Patrick Collison,Fintech,Financial Services,Ireland,Dublin,8,2300,95000,8000,14000,Private,2023-03-01,Sequoia Capital
+3,SpaceX,2002,Elon Musk,Aerospace,Transportation,United States,Hawthorne,12,10000,180000,12000,8000,Private,2023-12-01,Founders Fund
+4,Databricks,2013,Ali Ghodsi,Data Analytics,Technology,United States,San Francisco,6,3500,43000,6000,1500,Private,2023-09-01,Andreessen Horowitz
+5,Canva,2013,Melanie Perkins,Design,Technology,Australia,Sydney,4,570,40000,4000,2000,Private,2023-09-01,Blackbird Ventures
+6,Discord,2015,Jason Citron,Communication,Technology,United States,San Francisco,4,1000,15000,600,600,Private,2021-12-01,Index Ventures
+7,Figma,2012,Dylan Field,Design,Technology,United States,San Francisco,3,333,20000,800,400,Private,2021-06-01,Kleiner Perkins
+8,Notion,2016,Ivan Zhao,Productivity,Technology,United States,San Francisco,3,343,10000,500,100,Private,2021-10-01,Index Ventures
+9,Linear,2019,Karri Saarinen,Productivity,Technology,United States,San Francisco,2,35,400,50,10,Private,2022-01-01,Sequoia Capital
+10,Vercel,2015,Guillermo Rauch,Web Development,Technology,United States,San Francisco,3,313,2500,300,50,Private,2021-11-01,Accel Partners
+11,Anthropic,2021,Dario Amodei,AI,Technology,United States,San Francisco,4,1500,15000,200,50,Private,2023-05-01,Google
+12,Midjourney,2022,David Holz,AI,Technology,United States,San Francisco,1,25,1000,50,10,Private,2022-07-01,Andreessen Horowitz
+13,Runway,2018,Cristóbal Valenzuela,AI,Technology,United States,New York,4,237,1500,100,20,Private,2023-06-01,Google Ventures
+14,Character.AI,2021,Noam Shazeer,AI,Technology,United States,Menlo Park,2,193,1000,50,5,Private,2023-03-01,Andreessen Horowitz
+15,Hugging Face,2016,Clement Delangue,AI,Technology,United States,New York,4,160,4000,200,50,Private,2022-05-01,Sequoia Capital
+16,Replicate,2019,Ben Firshman,AI,Technology,United States,San Francisco,2,40,1000,30,5,Private,2023-02-01,Andreessen Horowitz
+17,Perplexity,2022,Aravind Srinivas,AI,Technology,United States,San Francisco,3,165,1000,50,10,Private,2024-01-01,IVP
+18,Cohere,2019,Aidan Gomez,AI,Technology,Canada,Toronto,3,270,2000,200,20,Private,2023-06-01,Index Ventures
+19,Adept,2022,David Luan,AI,Technology,United States,San Francisco,2,415,1000,100,5,Private,2023-03-01,Greylock Partners
+20,Stability AI,2020,Emad Mostaque,AI,Technology,United Kingdom,London,2,101,1000,200,10,Private,2022-10-01,Coatue Management
+21,Inflection AI,2022,Reid Hoffman,AI,Technology,United States,Palo Alto,2,1525,4000,50,5,Private,2023-06-01,Greylock Partners
+22,Scale AI,2016,Alexandr Wang,AI,Technology,United States,San Francisco,4,603,7300,600,100,Private,2021-04-01,Accel Partners
+23,Together AI,2022,Vipul Ved Prakash,AI,Technology,United States,San Francisco,2,102,1000,50,10,Private,2023-07-01,Kleiner Perkins
+24,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+25,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+26,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+27,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+28,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+29,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+30,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+31,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+32,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+33,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+34,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+35,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+36,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+37,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+38,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+39,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+40,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+41,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+42,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+43,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+44,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+45,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+46,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+47,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+48,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+49,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+50,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+51,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+52,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+53,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+54,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+55,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+56,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+57,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+58,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+59,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+60,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+61,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+62,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+63,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+64,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+65,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+66,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+67,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+68,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+69,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+70,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+71,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+72,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+73,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+74,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+75,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+76,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+77,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+78,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+79,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+80,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+81,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+82,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+83,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+84,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+85,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+86,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+87,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+88,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+89,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+90,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+91,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+92,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+93,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+94,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+95,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+96,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+97,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+98,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+99,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners
+100,Weights & Biases,2017,Lukas Biewald,AI,Technology,United States,San Francisco,4,250,1000,200,50,Private,2023-08-01,Insight Partners

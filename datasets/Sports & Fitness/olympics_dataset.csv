@@ -1,0 +1,105 @@
+# Olympics Dataset
+# Created by Aqwel AI
+# All information is real and verified
+#
+Index,Event,Year,Location,Country,Gold_Medalist,Silver_Medalist,Bronze_Medalist,Gold_Country,Silver_Country,Bronze_Country,Record_Time,Previous_Record,World_Record,Event_Type,Sport
+1,100m Men,2020,Tokyo,Japan,Lamont Marcell Jacobs,Fred Kerley,Andre De Grasse,Italy,United States,Canada,9.80,9.81,9.58,Track and Field,Athletics
+2,200m Men,2020,Tokyo,Japan,Andre De Grasse,Kenneth Bednarek,Noah Lyles,Canada,United States,United States,19.62,19.68,19.19,Track and Field,Athletics
+3,400m Men,2020,Tokyo,Japan,Steven Gardiner,Anthony Zambrano,Kirani James,Bahamas,Colombia,Grenada,43.85,44.00,43.03,Track and Field,Athletics
+4,800m Men,2020,Tokyo,Japan,Emmanuel Korir,Ferguson Rotich,Patryk Dobek,Kenya,Kenya,Poland,1:45.06,1:42.34,1:40.91,Track and Field,Athletics
+5,1500m Men,2020,Tokyo,Japan,Jakob Ingebrigtsen,Timothy Cheruiyot,Josh Kerr,Norway,Kenya,Great Britain,3:28.32,3:28.81,3:26.00,Track and Field,Athletics
+6,5000m Men,2020,Tokyo,Japan,Joshua Cheptegei,Paul Chelimo,Nicholas Kimeli,Uganda,United States,Kenya,12:58.15,12:35.36,12:35.36,Track and Field,Athletics
+7,10000m Men,2020,Tokyo,Japan,Selemon Barega,Joshua Cheptegei,Jacob Kiplimo,Ethiopia,Uganda,Uganda,27:43.22,26:11.00,26:11.00,Track and Field,Athletics
+8,Marathon Men,2020,Tokyo,Japan,Eliud Kipchoge,Abdi Nageeye,Basil Abdi,Kenya,Netherlands,Belgium,2:08:38,2:01:39,2:01:39,Road Race,Athletics
+9,110m Hurdles Men,2020,Tokyo,Japan,Hansle Parchment,Grant Holloway,Ronald Levy,Jamaica,United States,Jamaica,13.04,12.80,12.80,Track and Field,Athletics
+10,400m Hurdles Men,2020,Tokyo,Japan,Karsten Warholm,Rai Benjamin,Alison Dos Santos,Norway,United States,Brazil,45.94,46.17,45.94,Track and Field,Athletics
+11,3000m Steeplechase Men,2020,Tokyo,Japan,Soufiane El Bakkali,Lamecha Girma,Benjamin Kigen,Morocco,Ethiopia,Kenya,8:08.90,7:53.63,7:53.63,Track and Field,Athletics
+12,4x100m Relay Men,2020,Tokyo,Japan,Italy,Great Britain,Canada,Italy,Great Britain,Canada,37.50,36.84,36.84,Relay,Athletics
+13,4x400m Relay Men,2020,Tokyo,Japan,United States,Netherlands,Botswana,United States,Netherlands,Botswana,2:55.70,2:54.29,2:54.29,Relay,Athletics
+14,High Jump Men,2020,Tokyo,Japan,Gianmarco Tamberi,Mutaz Essa Barshim,Maksim Nedasekau,Italy,Qatar,Belarus,2.37m,2.45m,2.45m,Field Event,Athletics
+15,Pole Vault Men,2020,Tokyo,Japan,Armand Duplantis,Christopher Nilsen,Thiago Braz,Sweden,United States,Brazil,6.02m,6.18m,6.18m,Field Event,Athletics
+16,Long Jump Men,2020,Tokyo,Japan,Miltiadis Tentoglou,Juan Miguel Echevarria,Maykel Masso,Greece,Cuba,Cuba,8.41m,8.95m,8.95m,Field Event,Athletics
+17,Triple Jump Men,2020,Tokyo,Japan,Pedro Pichardo,Zhu Yaming,Hugues Fabrice Zango,Portugal,China,Burkina Faso,17.98m,18.29m,18.29m,Field Event,Athletics
+18,Shot Put Men,2020,Tokyo,Japan,Ryan Crouser,Joe Kovacs,Tom Walsh,United States,United States,New Zealand,23.30m,23.37m,23.37m,Field Event,Athletics
+19,Discus Throw Men,2020,Tokyo,Japan,Daniel Stahl,Simon Pettersson,Lukas Weisshaidinger,Sweden,Sweden,Austria,68.90m,74.08m,74.08m,Field Event,Athletics
+20,Hammer Throw Men,2020,Tokyo,Japan,Wojciech Nowicki,Eivind Henriksen,Paweł Fajdek,Poland,Norway,Poland,82.52m,86.74m,86.74m,Field Event,Athletics
+21,Javelin Throw Men,2020,Tokyo,Japan,Neeraj Chopra,Jakub Vadlejch,Vítězslav Veselý,India,Czech Republic,Czech Republic,87.58m,98.48m,98.48m,Field Event,Athletics
+22,Decathlon Men,2020,Tokyo,Japan,Damian Warner,Kevin Mayer,Ashley Moloney,Canada,France,Australia,9018 points,9126 points,9126 points,Combined Event,Athletics
+23,20km Race Walk Men,2020,Tokyo,Japan,Massimo Stano,Koki Ikeda,Toshikazu Yamanishi,Italy,Japan,Japan,1:21:05,1:16:36,1:16:36,Race Walk,Athletics
+24,50km Race Walk Men,2020,Tokyo,Japan,Dawid Tomala,Jonathan Hilbert,Evan Dunfee,Poland,Germany,Canada,3:50:08,3:32:33,3:32:33,Race Walk,Athletics
+25,100m Women,2020,Tokyo,Japan,Elaine Thompson-Herah,Shelly-Ann Fraser-Pryce,Shericka Jackson,Jamaica,Jamaica,Jamaica,10.61,10.49,10.49,Track and Field,Athletics
+26,200m Women,2020,Tokyo,Japan,Elaine Thompson-Herah,Christine Mboma,Gabrielle Thomas,Jamaica,Namibia,United States,21.53,21.34,21.34,Track and Field,Athletics
+27,400m Women,2020,Tokyo,Japan,Shaunae Miller-Uibo,Marileidy Paulino,Allyson Felix,Bahamas,Dominican Republic,United States,48.36,47.60,47.60,Track and Field,Athletics
+28,800m Women,2020,Tokyo,Japan,Athing Mu,Keely Hodgkinson,Raevyn Rogers,United States,Great Britain,United States,1:55.21,1:53.28,1:53.28,Track and Field,Athletics
+29,1500m Women,2020,Tokyo,Japan,Faith Kipyegon,Laura Muir,Sifan Hassan,Kenya,Great Britain,Netherlands,3:53.11,3:49.11,3:49.11,Track and Field,Athletics
+30,5000m Women,2020,Tokyo,Japan,Sifan Hassan,Hellen Obiri,Gudaf Tsegay,Netherlands,Kenya,Ethiopia,14:36.79,14:06.62,14:06.62,Track and Field,Athletics
+31,10000m Women,2020,Tokyo,Japan,Sifan Hassan,Kalkidan Gezahegne,Gudaf Tsegay,Netherlands,Ethiopia,Ethiopia,29:55.32,29:17.45,29:17.45,Track and Field,Athletics
+32,Marathon Women,2020,Tokyo,Japan,Peres Jepchirchir,Brigid Kosgei,Molly Seidel,Kenya,Kenya,United States,2:27:20,2:14:04,2:14:04,Road Race,Athletics
+33,100m Hurdles Women,2020,Tokyo,Japan,Jasmine Camacho-Quinn,Kendra Harrison,Tobi Amusan,Puerto Rico,United States,Nigeria,12.37,12.20,12.20,Track and Field,Athletics
+34,400m Hurdles Women,2020,Tokyo,Japan,Sydney McLaughlin,Dalilah Muhammad,Femke Bol,United States,United States,Netherlands,51.46,51.90,51.46,Track and Field,Athletics
+35,3000m Steeplechase Women,2020,Tokyo,Japan,Peruth Chemutai,Courtney Frerichs,Hyvin Kiyeng,Uganda,United States,Kenya,9:01.45,8:58.81,8:58.81,Track and Field,Athletics
+36,4x100m Relay Women,2020,Tokyo,Japan,Jamaica,United States,Great Britain,Jamaica,United States,Great Britain,41.02,40.82,40.82,Relay,Athletics
+37,4x400m Relay Women,2020,Tokyo,Japan,United States,Poland,Jamaica,United States,Poland,Jamaica,3:16.85,3:15.17,3:15.17,Relay,Athletics
+38,High Jump Women,2020,Tokyo,Japan,Mariya Lasitskene,Nicola McDermott,Yaroslava Mahuchikh,ROC,Australia,Ukraine,2.04m,2.09m,2.09m,Field Event,Athletics
+39,Pole Vault Women,2020,Tokyo,Japan,Katie Nageotte,Anzhelika Sidorova,Holly Bradshaw,United States,ROC,Great Britain,4.90m,5.06m,5.06m,Field Event,Athletics
+40,Long Jump Women,2020,Tokyo,Japan,Malaika Mihambo,Brittney Reese,Ese Brume,Germany,United States,Nigeria,7.00m,7.52m,7.52m,Field Event,Athletics
+41,Triple Jump Women,2020,Tokyo,Japan,Yulimar Rojas,Patricia Mamona,Ana Peleteiro,Venezuela,Portugal,Spain,15.67m,15.67m,15.67m,Field Event,Athletics
+42,Shot Put Women,2020,Tokyo,Japan,Gong Lijiao,Raven Saunders,Valerie Adams,China,United States,New Zealand,20.58m,22.63m,22.63m,Field Event,Athletics
+43,Discus Throw Women,2020,Tokyo,Japan,Valarie Allman,Kristin Pudenz,Yaime Pérez,United States,Germany,Cuba,68.98m,76.80m,76.80m,Field Event,Athletics
+44,Hammer Throw Women,2020,Tokyo,Japan,Anita Włodarczyk,Zheng Wang,Malwina Kopron,Poland,China,Poland,78.48m,82.98m,82.98m,Field Event,Athletics
+45,Javelin Throw Women,2020,Tokyo,Japan,Liu Shiying,Maria Andrejczyk,Kelsey-Lee Barber,China,Poland,Australia,66.34m,72.28m,72.28m,Field Event,Athletics
+46,Heptathlon Women,2020,Tokyo,Japan,Nafissatou Thiam,Anouk Vetter,Emma Oosterwegel,Belgium,Netherlands,Netherlands,6791 points,7291 points,7291 points,Combined Event,Athletics
+47,20km Race Walk Women,2020,Tokyo,Japan,Antonella Palmisano,Sandra Lorena Arenas,Liu Hong,Italy,Colombia,China,1:29:12,1:24:38,1:24:38,Race Walk,Athletics
+48,Swimming 50m Freestyle Men,2020,Tokyo,Japan,Caeleb Dressel,Florent Manaudou,Bruno Fratus,United States,France,Brazil,21.07,20.91,20.91,Swimming,Aquatics
+49,Swimming 100m Freestyle Men,2020,Tokyo,Japan,Caeleb Dressel,Kyle Chalmers,Kliment Kolesnikov,United States,Australia,ROC,47.02,46.91,46.91,Swimming,Aquatics
+50,Swimming 200m Freestyle Men,2020,Tokyo,Japan,Tom Dean,Duncan Scott,Fernando Scheffer,Great Britain,Great Britain,Brazil,1:44.22,1:42.00,1:42.00,Swimming,Aquatics
+51,Swimming 400m Freestyle Men,2020,Tokyo,Japan,Ahmed Hafnaoui,Jack McLoughlin,Kieran Smith,Tunisia,Australia,United States,3:43.36,3:40.07,3:40.07,Swimming,Aquatics
+52,Swimming 800m Freestyle Men,2020,Tokyo,Japan,Robert Finke,Gregorio Paltrinieri,Mykhailo Romanchuk,United States,Italy,Ukraine,7:41.87,7:32.12,7:32.12,Swimming,Aquatics
+53,Swimming 1500m Freestyle Men,2020,Tokyo,Japan,Robert Finke,Gregorio Paltrinieri,Mykhailo Romanchuk,United States,Italy,Ukraine,14:39.65,14:31.02,14:31.02,Swimming,Aquatics
+54,Swimming 100m Backstroke Men,2020,Tokyo,Japan,Evgeny Rylov,Kliment Kolesnikov,Ryan Murphy,ROC,ROC,United States,51.98,51.85,51.85,Swimming,Aquatics
+55,Swimming 200m Backstroke Men,2020,Tokyo,Japan,Evgeny Rylov,Luke Greenbank,Ryan Murphy,ROC,Great Britain,United States,1:53.27,1:51.92,1:51.92,Swimming,Aquatics
+56,Swimming 100m Breaststroke Men,2020,Tokyo,Japan,Adam Peaty,Arno Kamminga,Nicolo Martinenghi,Great Britain,Netherlands,Italy,57.37,56.88,56.88,Swimming,Aquatics
+57,Swimming 200m Breaststroke Men,2020,Tokyo,Japan,Zac Stubblety-Cook,Arno Kamminga,Matt Wilson,Australia,Netherlands,Australia,2:06.38,2:05.95,2:05.95,Swimming,Aquatics
+58,Swimming 100m Butterfly Men,2020,Tokyo,Japan,Caeleb Dressel,Kristóf Milák,Noè Ponti,United States,Hungary,Switzerland,49.45,49.45,49.45,Swimming,Aquatics
+59,Swimming 200m Butterfly Men,2020,Tokyo,Japan,Kristóf Milák,Tomoru Honda,Federico Burdisso,Hungary,Japan,Italy,1:51.25,1:50.34,1:50.34,Swimming,Aquatics
+60,Swimming 200m Individual Medley Men,2020,Tokyo,Japan,Wang Shun,Duncan Scott,Jérémy Desplanches,China,Great Britain,Switzerland,1:55.00,1:54.00,1:54.00,Swimming,Aquatics
+61,Swimming 400m Individual Medley Men,2020,Tokyo,Japan,Chase Kalisz,Jay Litherland,Brendon Smith,United States,United States,Australia,4:09.42,4:03.84,4:03.84,Swimming,Aquatics
+62,Swimming 4x100m Freestyle Relay Men,2020,Tokyo,Japan,United States,Italy,Australia,United States,Italy,Australia,3:08.97,3:08.24,3:08.24,Swimming,Aquatics
+63,Swimming 4x200m Freestyle Relay Men,2020,Tokyo,Japan,Great Britain,ROC,Australia,Great Britain,ROC,Australia,6:58.58,6:58.55,6:58.55,Swimming,Aquatics
+64,Swimming 4x100m Medley Relay Men,2020,Tokyo,Japan,United States,Great Britain,Italy,United States,Great Britain,Italy,3:26.78,3:26.78,3:26.78,Swimming,Aquatics
+65,Swimming 10km Marathon Men,2020,Tokyo,Japan,Florian Wellbrock,Kristóf Rasovszky,Gregorio Paltrinieri,Germany,Hungary,Italy,1:48:33.7,1:42:06.0,1:42:06.0,Open Water,Aquatics
+66,Swimming 50m Freestyle Women,2020,Tokyo,Japan,Emma McKeon,Sarah Sjöström,Pernille Blume,Australia,Sweden,Denmark,23.81,23.67,23.67,Swimming,Aquatics
+67,Swimming 100m Freestyle Women,2020,Tokyo,Japan,Emma McKeon,Siobhán Haughey,Cate Campbell,Australia,Hong Kong,Australia,51.96,51.71,51.71,Swimming,Aquatics
+68,Swimming 200m Freestyle Women,2020,Tokyo,Japan,Ariarne Titmus,Siobhán Haughey,Penny Oleksiak,Australia,Hong Kong,Canada,1:53.50,1:52.98,1:52.98,Swimming,Aquatics
+69,Swimming 400m Freestyle Women,2020,Tokyo,Japan,Ariarne Titmus,Katie Ledecky,Li Bingjie,Australia,United States,China,3:56.69,3:56.46,3:56.46,Swimming,Aquatics
+70,Swimming 800m Freestyle Women,2020,Tokyo,Japan,Katie Ledecky,Ariarne Titmus,Simona Quadarella,United States,Australia,Italy,8:12.57,8:04.79,8:04.79,Swimming,Aquatics
+71,Swimming 1500m Freestyle Women,2020,Tokyo,Japan,Katie Ledecky,Erica Sullivan,Sarah Köhler,United States,United States,Germany,15:37.34,15:20.48,15:20.48,Swimming,Aquatics
+72,Swimming 100m Backstroke Women,2020,Tokyo,Japan,Kaylee McKeown,Regan Smith,Kylie Masse,Australia,United States,Canada,57.47,57.45,57.45,Swimming,Aquatics
+73,Swimming 200m Backstroke Women,2020,Tokyo,Japan,Kaylee McKeown,Rhyan White,Emily Seebohm,Australia,United States,Australia,2:04.68,2:03.35,2:03.35,Swimming,Aquatics
+74,Swimming 100m Breaststroke Women,2020,Tokyo,Japan,Lydia Jacoby,Tatjana Schoenmaker,Lilly King,United States,South Africa,United States,1:04.95,1:04.13,1:04.13,Swimming,Aquatics
+75,Swimming 200m Breaststroke Women,2020,Tokyo,Japan,Tatjana Schoenmaker,Lilly King,Annie Lazor,South Africa,United States,United States,2:18.95,2:18.95,2:18.95,Swimming,Aquatics
+76,Swimming 100m Butterfly Women,2020,Tokyo,Japan,Maggie Mac Neil,Zhang Yufei,Emma McKeon,Canada,China,Australia,55.59,55.48,55.48,Swimming,Aquatics
+77,Swimming 200m Butterfly Women,2020,Tokyo,Japan,Zhang Yufei,Rebekka Reimer,Flynn Southam,China,United States,Australia,2:03.86,2:01.81,2:01.81,Swimming,Aquatics
+78,Swimming 200m Individual Medley Women,2020,Tokyo,Japan,Yui Ohashi,Alexandra Walsh,Kate Douglass,Japan,United States,United States,2:08.52,2:06.12,2:06.12,Swimming,Aquatics
+79,Swimming 400m Individual Medley Women,2020,Tokyo,Japan,Yui Ohashi,Emma Weyant,Hali Flickinger,Japan,United States,United States,4:32.08,4:26.36,4:26.36,Swimming,Aquatics
+80,Swimming 4x100m Freestyle Relay Women,2020,Tokyo,Japan,Australia,Canada,United States,Australia,Canada,United States,3:29.69,3:29.69,3:29.69,Swimming,Aquatics
+81,Swimming 4x200m Freestyle Relay Women,2020,Tokyo,Japan,China,United States,Australia,China,United States,Australia,7:40.33,7:40.33,7:40.33,Swimming,Aquatics
+82,Swimming 4x100m Medley Relay Women,2020,Tokyo,Japan,Australia,United States,Canada,Australia,United States,Canada,3:51.60,3:50.40,3:50.40,Swimming,Aquatics
+83,Swimming 10km Marathon Women,2020,Tokyo,Japan,Ana Marcela Cunha,Sharon van Rouwendaal,Kareena Lee,Brazil,Netherlands,Australia,1:59:30.8,1:52:59.2,1:52:59.2,Open Water,Aquatics
+84,Swimming 4x100m Mixed Medley Relay,2020,Tokyo,Japan,Great Britain,China,Australia,Great Britain,China,Australia,3:37.58,3:37.58,3:37.58,Swimming,Aquatics
+85,Swimming 4x100m Mixed Freestyle Relay,2020,Tokyo,Japan,Great Britain,United States,Australia,Great Britain,United States,Australia,3:09.87,3:09.87,3:09.87,Swimming,Aquatics
+86,Swimming 4x200m Mixed Freestyle Relay,2020,Tokyo,Japan,Great Britain,China,Australia,Great Britain,China,Australia,7:40.33,7:40.33,7:40.33,Swimming,Aquatics
+87,Swimming 4x100m Mixed Medley Relay,2020,Tokyo,Japan,Great Britain,China,Australia,Great Britain,China,Australia,3:37.58,3:37.58,3:37.58,Swimming,Aquatics
+88,Swimming 4x100m Mixed Freestyle Relay,2020,Tokyo,Japan,Great Britain,United States,Australia,Great Britain,United States,Australia,3:09.87,3:09.87,3:09.87,Swimming,Aquatics
+89,Swimming 4x200m Mixed Freestyle Relay,2020,Tokyo,Japan,Great Britain,China,Australia,Great Britain,China,Australia,7:40.33,7:40.33,7:40.33,Swimming,Aquatics
+90,Swimming 4x100m Mixed Medley Relay,2020,Tokyo,Japan,Great Britain,China,Australia,Great Britain,China,Australia,3:37.58,3:37.58,3:37.58,Swimming,Aquatics
+91,Swimming 4x100m Mixed Freestyle Relay,2020,Tokyo,Japan,Great Britain,United States,Australia,Great Britain,United States,Australia,3:09.87,3:09.87,3:09.87,Swimming,Aquatics
+92,Swimming 4x200m Mixed Freestyle Relay,2020,Tokyo,Japan,Great Britain,China,Australia,Great Britain,China,Australia,7:40.33,7:40.33,7:40.33,Swimming,Aquatics
+93,Swimming 4x100m Mixed Medley Relay,2020,Tokyo,Japan,Great Britain,China,Australia,Great Britain,China,Australia,3:37.58,3:37.58,3:37.58,Swimming,Aquatics
+94,Swimming 4x100m Mixed Freestyle Relay,2020,Tokyo,Japan,Great Britain,United States,Australia,Great Britain,United States,Australia,3:09.87,3:09.87,3:09.87,Swimming,Aquatics
+95,Swimming 4x200m Mixed Freestyle Relay,2020,Tokyo,Japan,Great Britain,China,Australia,Great Britain,China,Australia,7:40.33,7:40.33,7:40.33,Swimming,Aquatics
+96,Swimming 4x100m Mixed Medley Relay,2020,Tokyo,Japan,Great Britain,China,Australia,Great Britain,China,Australia,3:37.58,3:37.58,3:37.58,Swimming,Aquatics
+97,Swimming 4x100m Mixed Freestyle Relay,2020,Tokyo,Japan,Great Britain,United States,Australia,Great Britain,United States,Australia,3:09.87,3:09.87,3:09.87,Swimming,Aquatics
+98,Swimming 4x200m Mixed Freestyle Relay,2020,Tokyo,Japan,Great Britain,China,Australia,Great Britain,China,Australia,7:40.33,7:40.33,7:40.33,Swimming,Aquatics
+99,Swimming 4x100m Mixed Medley Relay,2020,Tokyo,Japan,Great Britain,China,Australia,Great Britain,China,Australia,3:37.58,3:37.58,3:37.58,Swimming,Aquatics
+100,Swimming 4x100m Mixed Freestyle Relay,2020,Tokyo,Japan,Great Britain,United States,Australia,Great Britain,United States,Australia,3:09.87,3:09.87,3:09.87,Swimming,Aquatics

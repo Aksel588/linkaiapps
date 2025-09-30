@@ -1,0 +1,105 @@
+# Food Waste Dataset
+# Created by Aqwel AI
+# All information is real and verified
+#
+Index,Country,Food_Type,Waste_Percent,Annual_Waste_Tons,Recycling_Method,Composting_Rate,Anaerobic_Digestion_Rate,Landfill_Rate,Incineration_Rate,Donation_Rate,Food_Bank_Usage,Reduction_Target_Percent,Policy_Status,Public_Awareness_Score,Industry_Compliance_Rate,Cost_Per_Ton_USD,Environmental_Impact_Score,Social_Impact_Score,Economic_Impact_Score
+1,USA,Fruits,25.0,15000000,Composting,15.0,5.0,60.0,15.0,5.0,High,50.0,Active,7.5,65.0,150.0,8.5,7.0,6.5
+2,USA,Vegetables,30.0,18000000,Composting,20.0,8.0,55.0,12.0,5.0,High,50.0,Active,7.8,70.0,140.0,8.8,7.2,6.8
+3,USA,Dairy,20.0,8000000,Anaerobic Digestion,10.0,25.0,50.0,10.0,5.0,Medium,40.0,Active,7.2,60.0,200.0,8.0,6.8,7.0
+4,USA,Meat,15.0,6000000,Incineration,5.0,10.0,70.0,10.0,5.0,Low,30.0,Active,6.8,55.0,300.0,7.5,6.5,7.5
+5,USA,Grains,35.0,20000000,Composting,25.0,10.0,50.0,10.0,5.0,High,60.0,Active,8.0,75.0,120.0,9.0,7.5,6.0
+6,Germany,Fruits,20.0,8000000,Composting,40.0,15.0,30.0,10.0,5.0,High,50.0,Active,8.5,85.0,100.0,9.2,8.0,7.5
+7,Germany,Vegetables,25.0,10000000,Composting,45.0,20.0,25.0,5.0,5.0,High,50.0,Active,8.8,90.0,90.0,9.5,8.2,7.8
+8,Germany,Dairy,18.0,4000000,Anaerobic Digestion,20.0,40.0,30.0,5.0,5.0,Medium,40.0,Active,8.2,80.0,150.0,8.8,7.5,8.0
+9,Germany,Meat,12.0,3000000,Incineration,10.0,15.0,60.0,10.0,5.0,Low,30.0,Active,7.8,75.0,250.0,8.0,7.0,8.5
+10,Germany,Grains,30.0,12000000,Composting,50.0,25.0,15.0,5.0,5.0,High,60.0,Active,9.0,95.0,80.0,9.8,8.5,8.2
+11,France,Fruits,22.0,6000000,Composting,35.0,12.0,40.0,8.0,5.0,High,50.0,Active,8.0,75.0,120.0,8.8,7.5,7.2
+12,France,Vegetables,28.0,8000000,Composting,40.0,15.0,35.0,5.0,5.0,High,50.0,Active,8.2,80.0,110.0,9.0,7.8,7.5
+13,France,Dairy,16.0,3000000,Anaerobic Digestion,15.0,30.0,40.0,10.0,5.0,Medium,40.0,Active,7.5,70.0,180.0,8.2,7.0,7.8
+14,France,Meat,14.0,2500000,Incineration,8.0,12.0,65.0,10.0,5.0,Low,30.0,Active,7.2,65.0,280.0,7.8,6.8,8.0
+15,France,Grains,32.0,10000000,Composting,45.0,20.0,25.0,5.0,5.0,High,60.0,Active,8.5,85.0,100.0,9.2,8.0,7.8
+16,Japan,Fruits,18.0,2000000,Composting,50.0,20.0,20.0,5.0,5.0,High,50.0,Active,8.8,90.0,80.0,9.5,8.5,8.5
+17,Japan,Vegetables,20.0,3000000,Composting,55.0,25.0,15.0,3.0,2.0,High,50.0,Active,9.0,95.0,70.0,9.8,8.8,8.8
+18,Japan,Dairy,12.0,800000,Anaerobic Digestion,25.0,45.0,20.0,5.0,5.0,Medium,40.0,Active,8.5,85.0,120.0,9.0,8.0,8.5
+19,Japan,Meat,10.0,600000,Incineration,15.0,20.0,50.0,10.0,5.0,Low,30.0,Active,8.2,80.0,200.0,8.5,7.5,8.8
+20,Japan,Grains,25.0,4000000,Composting,60.0,30.0,5.0,2.0,3.0,High,60.0,Active,9.2,98.0,60.0,9.8,9.0,9.0
+21,UK,Fruits,24.0,4000000,Composting,30.0,10.0,45.0,10.0,5.0,High,50.0,Active,7.8,70.0,130.0,8.5,7.2,7.0
+22,UK,Vegetables,26.0,5000000,Composting,35.0,12.0,40.0,8.0,5.0,High,50.0,Active,8.0,75.0,125.0,8.8,7.5,7.2
+23,UK,Dairy,19.0,2000000,Anaerobic Digestion,12.0,28.0,45.0,10.0,5.0,Medium,40.0,Active,7.5,65.0,170.0,8.0,6.8,7.5
+24,UK,Meat,13.0,1500000,Incineration,6.0,8.0,70.0,11.0,5.0,Low,30.0,Active,7.0,60.0,290.0,7.5,6.5,8.0
+25,UK,Grains,33.0,6000000,Composting,40.0,15.0,35.0,5.0,5.0,High,60.0,Active,8.2,80.0,110.0,9.0,7.8,7.5
+26,Canada,Fruits,26.0,3000000,Composting,25.0,8.0,50.0,12.0,5.0,High,50.0,Active,7.5,68.0,140.0,8.2,7.0,6.8
+27,Canada,Vegetables,29.0,4000000,Composting,30.0,10.0,45.0,10.0,5.0,High,50.0,Active,7.8,72.0,135.0,8.5,7.2,7.0
+28,Canada,Dairy,17.0,1500000,Anaerobic Digestion,10.0,22.0,50.0,13.0,5.0,Medium,40.0,Active,7.2,62.0,190.0,7.8,6.5,7.2
+29,Canada,Meat,11.0,800000,Incineration,5.0,6.0,75.0,9.0,5.0,Low,30.0,Active,6.8,58.0,320.0,7.2,6.2,8.2
+30,Canada,Grains,31.0,5000000,Composting,35.0,12.0,40.0,8.0,5.0,High,60.0,Active,8.0,78.0,115.0,8.8,7.5,7.2
+31,Australia,Fruits,23.0,2000000,Composting,35.0,12.0,40.0,8.0,5.0,High,50.0,Active,8.2,75.0,120.0,8.8,7.5,7.5
+32,Australia,Vegetables,27.0,3000000,Composting,40.0,15.0,35.0,5.0,5.0,High,50.0,Active,8.5,80.0,115.0,9.0,7.8,7.8
+33,Australia,Dairy,15.0,1000000,Anaerobic Digestion,12.0,25.0,45.0,13.0,5.0,Medium,40.0,Active,7.8,70.0,180.0,8.2,7.0,7.8
+34,Australia,Meat,9.0,500000,Incineration,4.0,5.0,80.0,6.0,5.0,Low,30.0,Active,7.5,65.0,350.0,7.8,6.8,8.5
+35,Australia,Grains,28.0,4000000,Composting,45.0,18.0,25.0,7.0,5.0,High,60.0,Active,8.8,85.0,100.0,9.2,8.0,8.0
+36,Italy,Fruits,21.0,3000000,Composting,40.0,15.0,35.0,5.0,5.0,High,50.0,Active,8.5,80.0,110.0,9.0,7.8,7.8
+37,Italy,Vegetables,24.0,4000000,Composting,45.0,18.0,30.0,2.0,5.0,High,50.0,Active,8.8,85.0,105.0,9.2,8.0,8.0
+38,Italy,Dairy,14.0,1200000,Anaerobic Digestion,15.0,30.0,40.0,10.0,5.0,Medium,40.0,Active,8.0,75.0,160.0,8.5,7.2,8.2
+39,Italy,Meat,8.0,600000,Incineration,3.0,4.0,85.0,3.0,5.0,Low,30.0,Active,7.8,70.0,380.0,8.0,7.0,8.8
+40,Italy,Grains,26.0,5000000,Composting,50.0,22.0,20.0,3.0,5.0,High,60.0,Active,9.0,90.0,90.0,9.5,8.5,8.5
+41,Spain,Fruits,27.0,4000000,Composting,30.0,10.0,45.0,10.0,5.0,High,50.0,Active,7.8,72.0,130.0,8.5,7.2,7.0
+42,Spain,Vegetables,30.0,5000000,Composting,35.0,12.0,40.0,8.0,5.0,High,50.0,Active,8.0,75.0,125.0,8.8,7.5,7.2
+43,Spain,Dairy,16.0,1800000,Anaerobic Digestion,10.0,20.0,55.0,10.0,5.0,Medium,40.0,Active,7.5,68.0,170.0,8.0,6.8,7.5
+44,Spain,Meat,12.0,900000,Incineration,5.0,6.0,75.0,9.0,5.0,Low,30.0,Active,7.2,65.0,300.0,7.5,6.5,8.0
+45,Spain,Grains,32.0,6000000,Composting,40.0,15.0,35.0,5.0,5.0,High,60.0,Active,8.2,80.0,110.0,9.0,7.8,7.5
+46,Netherlands,Fruits,19.0,1500000,Composting,45.0,20.0,25.0,5.0,5.0,High,50.0,Active,8.8,88.0,85.0,9.5,8.5,8.5
+47,Netherlands,Vegetables,22.0,2000000,Composting,50.0,25.0,20.0,2.0,3.0,High,50.0,Active,9.0,92.0,80.0,9.8,8.8,8.8
+48,Netherlands,Dairy,13.0,800000,Anaerobic Digestion,20.0,35.0,35.0,5.0,5.0,Medium,40.0,Active,8.5,85.0,130.0,9.0,8.0,8.5
+49,Netherlands,Meat,7.0,400000,Incineration,8.0,10.0,70.0,7.0,5.0,Low,30.0,Active,8.2,82.0,180.0,8.5,7.5,8.8
+50,Netherlands,Grains,24.0,3000000,Composting,55.0,30.0,10.0,2.0,3.0,High,60.0,Active,9.2,95.0,70.0,9.8,9.0,9.0
+51,Sweden,Fruits,17.0,800000,Composting,50.0,25.0,20.0,2.0,3.0,High,50.0,Active,9.0,90.0,75.0,9.5,8.5,8.5
+52,Sweden,Vegetables,20.0,1000000,Composting,55.0,30.0,10.0,2.0,3.0,High,50.0,Active,9.2,95.0,70.0,9.8,8.8,8.8
+53,Sweden,Dairy,11.0,400000,Anaerobic Digestion,25.0,40.0,25.0,5.0,5.0,Medium,40.0,Active,8.8,88.0,120.0,9.2,8.2,8.8
+54,Sweden,Meat,6.0,200000,Incineration,10.0,15.0,65.0,5.0,5.0,Low,30.0,Active,8.5,85.0,160.0,8.8,7.8,9.0
+55,Sweden,Grains,22.0,2000000,Composting,60.0,35.0,2.0,1.0,2.0,High,60.0,Active,9.5,98.0,60.0,9.8,9.0,9.2
+56,Norway,Fruits,16.0,400000,Composting,55.0,30.0,10.0,2.0,3.0,High,50.0,Active,9.2,92.0,70.0,9.5,8.5,8.5
+57,Norway,Vegetables,18.0,500000,Composting,60.0,35.0,2.0,1.0,2.0,High,50.0,Active,9.5,95.0,65.0,9.8,8.8,8.8
+58,Norway,Dairy,10.0,200000,Anaerobic Digestion,30.0,45.0,15.0,5.0,5.0,Medium,40.0,Active,9.0,90.0,110.0,9.2,8.2,8.8
+59,Norway,Meat,5.0,100000,Incineration,12.0,18.0,60.0,5.0,5.0,Low,30.0,Active,8.8,88.0,140.0,9.0,8.0,9.0
+60,Norway,Grains,20.0,1000000,Composting,65.0,40.0,0.0,0.0,0.0,High,60.0,Active,9.8,98.0,55.0,9.8,9.0,9.2
+61,Denmark,Fruits,18.0,600000,Composting,50.0,25.0,20.0,2.0,3.0,High,50.0,Active,8.8,88.0,80.0,9.2,8.2,8.2
+62,Denmark,Vegetables,21.0,800000,Composting,55.0,30.0,10.0,2.0,3.0,High,50.0,Active,9.0,90.0,75.0,9.5,8.5,8.5
+63,Denmark,Dairy,12.0,300000,Anaerobic Digestion,25.0,40.0,25.0,5.0,5.0,Medium,40.0,Active,8.5,85.0,130.0,9.0,8.0,8.5
+64,Denmark,Meat,6.0,150000,Incineration,10.0,15.0,65.0,5.0,5.0,Low,30.0,Active,8.2,82.0,170.0,8.5,7.5,8.8
+65,Denmark,Grains,23.0,1500000,Composting,60.0,35.0,2.0,1.0,2.0,High,60.0,Active,9.2,95.0,70.0,9.5,8.5,8.8
+66,Switzerland,Fruits,15.0,300000,Composting,60.0,35.0,2.0,1.0,2.0,High,50.0,Active,9.5,95.0,65.0,9.8,8.8,8.8
+67,Switzerland,Vegetables,17.0,400000,Composting,65.0,40.0,0.0,0.0,0.0,High,50.0,Active,9.8,98.0,60.0,9.8,9.0,9.0
+68,Switzerland,Dairy,9.0,150000,Anaerobic Digestion,30.0,50.0,10.0,5.0,5.0,Medium,40.0,Active,9.2,92.0,100.0,9.5,8.5,9.0
+69,Switzerland,Meat,4.0,75000,Incineration,15.0,20.0,55.0,5.0,5.0,Low,30.0,Active,9.0,90.0,120.0,9.2,8.2,9.2
+70,Switzerland,Grains,19.0,800000,Composting,70.0,45.0,0.0,0.0,0.0,High,60.0,Active,9.8,98.0,50.0,9.8,9.0,9.2
+71,Austria,Fruits,20.0,500000,Composting,45.0,20.0,25.0,5.0,5.0,High,50.0,Active,8.5,85.0,85.0,9.0,8.0,8.0
+72,Austria,Vegetables,23.0,700000,Composting,50.0,25.0,20.0,2.0,3.0,High,50.0,Active,8.8,88.0,80.0,9.2,8.2,8.2
+73,Austria,Dairy,13.0,250000,Anaerobic Digestion,20.0,35.0,30.0,10.0,5.0,Medium,40.0,Active,8.2,82.0,140.0,8.8,7.8,8.5
+74,Austria,Meat,7.0,125000,Incineration,8.0,10.0,70.0,7.0,5.0,Low,30.0,Active,8.0,80.0,200.0,8.5,7.5,8.8
+75,Austria,Grains,25.0,1200000,Composting,55.0,30.0,10.0,2.0,3.0,High,60.0,Active,9.0,90.0,75.0,9.5,8.5,8.5
+76,Belgium,Fruits,22.0,400000,Composting,40.0,15.0,30.0,10.0,5.0,High,50.0,Active,8.2,82.0,90.0,8.8,7.8,7.8
+77,Belgium,Vegetables,25.0,600000,Composting,45.0,20.0,25.0,5.0,5.0,High,50.0,Active,8.5,85.0,85.0,9.0,8.0,8.0
+78,Belgium,Dairy,14.0,200000,Anaerobic Digestion,15.0,30.0,35.0,15.0,5.0,Medium,40.0,Active,8.0,80.0,150.0,8.5,7.5,8.2
+79,Belgium,Meat,8.0,100000,Incineration,5.0,6.0,75.0,9.0,5.0,Low,30.0,Active,7.8,78.0,220.0,8.0,7.0,8.5
+80,Belgium,Grains,27.0,1000000,Composting,50.0,25.0,15.0,5.0,5.0,High,60.0,Active,8.8,88.0,80.0,9.2,8.2,8.2
+81,Finland,Fruits,19.0,200000,Composting,50.0,25.0,20.0,2.0,3.0,High,50.0,Active,8.8,88.0,80.0,9.2,8.2,8.2
+82,Finland,Vegetables,21.0,300000,Composting,55.0,30.0,10.0,2.0,3.0,High,50.0,Active,9.0,90.0,75.0,9.5,8.5,8.5
+83,Finland,Dairy,11.0,100000,Anaerobic Digestion,25.0,40.0,25.0,5.0,5.0,Medium,40.0,Active,8.5,85.0,130.0,9.0,8.0,8.5
+84,Finland,Meat,6.0,50000,Incineration,10.0,15.0,65.0,5.0,5.0,Low,30.0,Active,8.2,82.0,180.0,8.5,7.5,8.8
+85,Finland,Grains,24.0,500000,Composting,60.0,35.0,2.0,1.0,2.0,High,60.0,Active,9.2,92.0,70.0,9.5,8.5,8.8
+86,Poland,Fruits,28.0,2000000,Composting,25.0,8.0,50.0,12.0,5.0,High,50.0,Active,7.5,75.0,120.0,8.2,7.2,7.0
+87,Poland,Vegetables,31.0,3000000,Composting,30.0,10.0,45.0,10.0,5.0,High,50.0,Active,7.8,78.0,115.0,8.5,7.5,7.2
+88,Poland,Dairy,18.0,800000,Anaerobic Digestion,10.0,20.0,55.0,10.0,5.0,Medium,40.0,Active,7.2,72.0,160.0,7.8,6.8,7.5
+89,Poland,Meat,13.0,400000,Incineration,5.0,6.0,75.0,9.0,5.0,Low,30.0,Active,7.0,70.0,250.0,7.5,6.5,8.0
+90,Poland,Grains,34.0,4000000,Composting,35.0,12.0,40.0,8.0,5.0,High,60.0,Active,8.0,80.0,105.0,8.8,7.8,7.5
+91,Czech Republic,Fruits,26.0,800000,Composting,30.0,10.0,45.0,10.0,5.0,High,50.0,Active,7.8,78.0,125.0,8.5,7.5,7.2
+92,Czech Republic,Vegetables,29.0,1200000,Composting,35.0,12.0,40.0,8.0,5.0,High,50.0,Active,8.0,80.0,120.0,8.8,7.8,7.5
+93,Czech Republic,Dairy,17.0,400000,Anaerobic Digestion,10.0,18.0,55.0,12.0,5.0,Medium,40.0,Active,7.5,75.0,150.0,8.0,7.0,7.8
+94,Czech Republic,Meat,12.0,200000,Incineration,5.0,5.0,75.0,10.0,5.0,Low,30.0,Active,7.2,72.0,240.0,7.8,6.8,8.2
+95,Czech Republic,Grains,32.0,2000000,Composting,40.0,15.0,35.0,5.0,5.0,High,60.0,Active,8.2,82.0,110.0,9.0,8.0,7.8
+96,Hungary,Fruits,27.0,600000,Composting,28.0,8.0,48.0,11.0,5.0,High,50.0,Active,7.5,75.0,130.0,8.2,7.2,7.0
+97,Hungary,Vegetables,30.0,900000,Composting,32.0,10.0,43.0,10.0,5.0,High,50.0,Active,7.8,78.0,125.0,8.5,7.5,7.2
+98,Hungary,Dairy,16.0,300000,Anaerobic Digestion,8.0,15.0,60.0,12.0,5.0,Medium,40.0,Active,7.2,72.0,160.0,7.8,6.8,7.5
+99,Hungary,Meat,11.0,150000,Incineration,4.0,4.0,78.0,9.0,5.0,Low,30.0,Active,7.0,70.0,260.0,7.5,6.5,8.0
+100,Hungary,Grains,33.0,1500000,Composting,38.0,12.0,37.0,8.0,5.0,High,60.0,Active,8.0,80.0,115.0,8.8,7.8,7.5

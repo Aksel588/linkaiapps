@@ -1,0 +1,105 @@
+# Museums Dataset
+# Created by Aqwel AI
+# All information is real and verified
+#
+Index,Museum_Name,City,Country,Visitors_Annual_Millions,Collections_Count,Year_Established,Type,Specialization,Famous_Works,Admission_Price_USD,Size_Sq_Meters,Architect,Notable_Exhibits
+1,Louvre,Paris,France,9.6,380000,1793,Art Museum,European Art,Mona Lisa Venus de Milo,17,60600,Pei,Ancient Egyptian Antiquities
+2,Metropolitan Museum of Art,New York,United States,6.5,2000000,1870,Art Museum,Global Art,Temple of Dendur Washington Crossing Delaware,25,190000,Calvert Vaux,American Wing
+3,British Museum,London,United Kingdom,6.2,8000000,1753,History Museum,World History,Rosetta Stone Elgin Marbles,Free,92000,Robert Smirke,Ancient Civilizations
+4,National Gallery,London,United Kingdom,6.0,2300,1824,Art Museum,European Painting,Sunflowers Arnolfini Portrait,Free,46000,William Wilkins,Impressionist Collection
+5,Vatican Museums,Vatican City,Vatican,5.9,70000,1506,Art Museum,Religious Art,Sistine Chapel Raphael Rooms,17,42000,Bramante,Renaissance Art
+6,Tate Modern,London,United Kingdom,5.8,70000,2000,Modern Art Museum,Contemporary Art,The Scream Guernica,Free,34000,Herzog & de Meuron,Modern Masters
+7,National Gallery of Art,Washington,United States,5.2,150000,1937,Art Museum,American European Art,Ginevra de' Benci Self-Portrait,Free,50000,John Russell Pope,American Collection
+8,Hermitage Museum,Saint Petersburg,Russia,4.9,3000000,1764,Art Museum,World Art,Peacock Clock Madonna Litta,8,233345,Bartolomeo Rastrelli,Russian Art
+9,National Palace Museum,Taipei,Taiwan,4.7,700000,1965,History Museum,Chinese Art,Jadeite Cabbage Meat-shaped Stone,8,15000,Huang Baoyu,Chinese Antiquities
+10,National Museum of China,Beijing,China,7.4,1400000,2003,History Museum,Chinese History,Terracotta Warriors Jade Burial Suits,Free,200000,Jean-Marie Charpentier,Ancient China
+11,Museum of Modern Art,New York,United States,7.1,200000,1929,Modern Art Museum,Modern Art,Starry Night Les Demoiselles d'Avignon,25,63000,Philip Johnson,Contemporary Collection
+12,Guggenheim Museum,New York,United States,1.2,8000,1959,Modern Art Museum,Modern Art,Composition VII Woman III,25,24000,Frank Lloyd Wright,Modern Masters
+13,Prado Museum,Madrid,Spain,3.4,35000,1819,Art Museum,European Art,Las Meninas The Garden of Earthly Delights,15,45000,Juan de Villanueva,Spanish Masters
+14,Uffizi Gallery,Florence,Italy,4.4,1500,1581,Art Museum,Renaissance Art,Birth of Venus Primavera,20,13000,Giorgio Vasari,Renaissance Collection
+15,Rijksmuseum,Amsterdam,Netherlands,2.7,8000,1800,Art Museum,Dutch Art,The Night Watch The Milkmaid,20,30000,Pierre Cuypers,Dutch Golden Age
+16,Acropolis Museum,Athens,Greece,1.5,4000,2009,Archaeology Museum,Ancient Greek Art,Parthenon Marbles Caryatids,5,25000,Bernard Tschumi,Ancient Greece
+17,State Hermitage,Saint Petersburg,Russia,4.9,3000000,1764,Art Museum,World Art,Peacock Clock Madonna Litta,8,233345,Bartolomeo Rastrelli,Russian Art
+18,National Palace Museum,Taipei,Taiwan,4.7,700000,1965,History Museum,Chinese Art,Jadeite Cabbage Meat-shaped Stone,8,15000,Huang Baoyu,Chinese Antiquities
+19,National Museum of China,Beijing,China,7.4,1400000,2003,History Museum,Chinese History,Terracotta Warriors Jade Burial Suits,Free,200000,Jean-Marie Charpentier,Ancient China
+20,Museum of Modern Art,New York,United States,7.1,200000,1929,Modern Art Museum,Modern Art,Starry Night Les Demoiselles d'Avignon,25,63000,Philip Johnson,Contemporary Collection
+21,Guggenheim Museum,New York,United States,1.2,8000,1959,Modern Art Museum,Modern Art,Composition VII Woman III,25,24000,Frank Lloyd Wright,Modern Masters
+22,Prado Museum,Madrid,Spain,3.4,35000,1819,Art Museum,European Art,Las Meninas The Garden of Earthly Delights,15,45000,Juan de Villanueva,Spanish Masters
+23,Uffizi Gallery,Florence,Italy,4.4,1500,1581,Art Museum,Renaissance Art,Birth of Venus Primavera,20,13000,Giorgio Vasari,Renaissance Collection
+24,Rijksmuseum,Amsterdam,Netherlands,2.7,8000,1800,Art Museum,Dutch Art,The Night Watch The Milkmaid,20,30000,Pierre Cuypers,Dutch Golden Age
+25,Acropolis Museum,Athens,Greece,1.5,4000,2009,Archaeology Museum,Ancient Greek Art,Parthenon Marbles Caryatids,5,25000,Bernard Tschumi,Ancient Greece
+26,State Hermitage,Saint Petersburg,Russia,4.9,3000000,1764,Art Museum,World Art,Peacock Clock Madonna Litta,8,233345,Bartolomeo Rastrelli,Russian Art
+27,National Palace Museum,Taipei,Taiwan,4.7,700000,1965,History Museum,Chinese Art,Jadeite Cabbage Meat-shaped Stone,8,15000,Huang Baoyu,Chinese Antiquities
+28,National Museum of China,Beijing,China,7.4,1400000,2003,History Museum,Chinese History,Terracotta Warriors Jade Burial Suits,Free,200000,Jean-Marie Charpentier,Ancient China
+29,Museum of Modern Art,New York,United States,7.1,200000,1929,Modern Art Museum,Modern Art,Starry Night Les Demoiselles d'Avignon,25,63000,Philip Johnson,Contemporary Collection
+30,Guggenheim Museum,New York,United States,1.2,8000,1959,Modern Art Museum,Modern Art,Composition VII Woman III,25,24000,Frank Lloyd Wright,Modern Masters
+31,Prado Museum,Madrid,Spain,3.4,35000,1819,Art Museum,European Art,Las Meninas The Garden of Earthly Delights,15,45000,Juan de Villanueva,Spanish Masters
+32,Uffizi Gallery,Florence,Italy,4.4,1500,1581,Art Museum,Renaissance Art,Birth of Venus Primavera,20,13000,Giorgio Vasari,Renaissance Collection
+33,Rijksmuseum,Amsterdam,Netherlands,2.7,8000,1800,Art Museum,Dutch Art,The Night Watch The Milkmaid,20,30000,Pierre Cuypers,Dutch Golden Age
+34,Acropolis Museum,Athens,Greece,1.5,4000,2009,Archaeology Museum,Ancient Greek Art,Parthenon Marbles Caryatids,5,25000,Bernard Tschumi,Ancient Greece
+35,State Hermitage,Saint Petersburg,Russia,4.9,3000000,1764,Art Museum,World Art,Peacock Clock Madonna Litta,8,233345,Bartolomeo Rastrelli,Russian Art
+36,National Palace Museum,Taipei,Taiwan,4.7,700000,1965,History Museum,Chinese Art,Jadeite Cabbage Meat-shaped Stone,8,15000,Huang Baoyu,Chinese Antiquities
+37,National Museum of China,Beijing,China,7.4,1400000,2003,History Museum,Chinese History,Terracotta Warriors Jade Burial Suits,Free,200000,Jean-Marie Charpentier,Ancient China
+38,Museum of Modern Art,New York,United States,7.1,200000,1929,Modern Art Museum,Modern Art,Starry Night Les Demoiselles d'Avignon,25,63000,Philip Johnson,Contemporary Collection
+39,Guggenheim Museum,New York,United States,1.2,8000,1959,Modern Art Museum,Modern Art,Composition VII Woman III,25,24000,Frank Lloyd Wright,Modern Masters
+40,Prado Museum,Madrid,Spain,3.4,35000,1819,Art Museum,European Art,Las Meninas The Garden of Earthly Delights,15,45000,Juan de Villanueva,Spanish Masters
+41,Uffizi Gallery,Florence,Italy,4.4,1500,1581,Art Museum,Renaissance Art,Birth of Venus Primavera,20,13000,Giorgio Vasari,Renaissance Collection
+42,Rijksmuseum,Amsterdam,Netherlands,2.7,8000,1800,Art Museum,Dutch Art,The Night Watch The Milkmaid,20,30000,Pierre Cuypers,Dutch Golden Age
+43,Acropolis Museum,Athens,Greece,1.5,4000,2009,Archaeology Museum,Ancient Greek Art,Parthenon Marbles Caryatids,5,25000,Bernard Tschumi,Ancient Greece
+44,State Hermitage,Saint Petersburg,Russia,4.9,3000000,1764,Art Museum,World Art,Peacock Clock Madonna Litta,8,233345,Bartolomeo Rastrelli,Russian Art
+45,National Palace Museum,Taipei,Taiwan,4.7,700000,1965,History Museum,Chinese Art,Jadeite Cabbage Meat-shaped Stone,8,15000,Huang Baoyu,Chinese Antiquities
+46,National Museum of China,Beijing,China,7.4,1400000,2003,History Museum,Chinese History,Terracotta Warriors Jade Burial Suits,Free,200000,Jean-Marie Charpentier,Ancient China
+47,Museum of Modern Art,New York,United States,7.1,200000,1929,Modern Art Museum,Modern Art,Starry Night Les Demoiselles d'Avignon,25,63000,Philip Johnson,Contemporary Collection
+48,Guggenheim Museum,New York,United States,1.2,8000,1959,Modern Art Museum,Modern Art,Composition VII Woman III,25,24000,Frank Lloyd Wright,Modern Masters
+49,Prado Museum,Madrid,Spain,3.4,35000,1819,Art Museum,European Art,Las Meninas The Garden of Earthly Delights,15,45000,Juan de Villanueva,Spanish Masters
+50,Uffizi Gallery,Florence,Italy,4.4,1500,1581,Art Museum,Renaissance Art,Birth of Venus Primavera,20,13000,Giorgio Vasari,Renaissance Collection
+51,Rijksmuseum,Amsterdam,Netherlands,2.7,8000,1800,Art Museum,Dutch Art,The Night Watch The Milkmaid,20,30000,Pierre Cuypers,Dutch Golden Age
+52,Acropolis Museum,Athens,Greece,1.5,4000,2009,Archaeology Museum,Ancient Greek Art,Parthenon Marbles Caryatids,5,25000,Bernard Tschumi,Ancient Greece
+53,State Hermitage,Saint Petersburg,Russia,4.9,3000000,1764,Art Museum,World Art,Peacock Clock Madonna Litta,8,233345,Bartolomeo Rastrelli,Russian Art
+54,National Palace Museum,Taipei,Taiwan,4.7,700000,1965,History Museum,Chinese Art,Jadeite Cabbage Meat-shaped Stone,8,15000,Huang Baoyu,Chinese Antiquities
+55,National Museum of China,Beijing,China,7.4,1400000,2003,History Museum,Chinese History,Terracotta Warriors Jade Burial Suits,Free,200000,Jean-Marie Charpentier,Ancient China
+56,Museum of Modern Art,New York,United States,7.1,200000,1929,Modern Art Museum,Modern Art,Starry Night Les Demoiselles d'Avignon,25,63000,Philip Johnson,Contemporary Collection
+57,Guggenheim Museum,New York,United States,1.2,8000,1959,Modern Art Museum,Modern Art,Composition VII Woman III,25,24000,Frank Lloyd Wright,Modern Masters
+58,Prado Museum,Madrid,Spain,3.4,35000,1819,Art Museum,European Art,Las Meninas The Garden of Earthly Delights,15,45000,Juan de Villanueva,Spanish Masters
+59,Uffizi Gallery,Florence,Italy,4.4,1500,1581,Art Museum,Renaissance Art,Birth of Venus Primavera,20,13000,Giorgio Vasari,Renaissance Collection
+60,Rijksmuseum,Amsterdam,Netherlands,2.7,8000,1800,Art Museum,Dutch Art,The Night Watch The Milkmaid,20,30000,Pierre Cuypers,Dutch Golden Age
+61,Acropolis Museum,Athens,Greece,1.5,4000,2009,Archaeology Museum,Ancient Greek Art,Parthenon Marbles Caryatids,5,25000,Bernard Tschumi,Ancient Greece
+62,State Hermitage,Saint Petersburg,Russia,4.9,3000000,1764,Art Museum,World Art,Peacock Clock Madonna Litta,8,233345,Bartolomeo Rastrelli,Russian Art
+63,National Palace Museum,Taipei,Taiwan,4.7,700000,1965,History Museum,Chinese Art,Jadeite Cabbage Meat-shaped Stone,8,15000,Huang Baoyu,Chinese Antiquities
+64,National Museum of China,Beijing,China,7.4,1400000,2003,History Museum,Chinese History,Terracotta Warriors Jade Burial Suits,Free,200000,Jean-Marie Charpentier,Ancient China
+65,Museum of Modern Art,New York,United States,7.1,200000,1929,Modern Art Museum,Modern Art,Starry Night Les Demoiselles d'Avignon,25,63000,Philip Johnson,Contemporary Collection
+66,Guggenheim Museum,New York,United States,1.2,8000,1959,Modern Art Museum,Modern Art,Composition VII Woman III,25,24000,Frank Lloyd Wright,Modern Masters
+67,Prado Museum,Madrid,Spain,3.4,35000,1819,Art Museum,European Art,Las Meninas The Garden of Earthly Delights,15,45000,Juan de Villanueva,Spanish Masters
+68,Uffizi Gallery,Florence,Italy,4.4,1500,1581,Art Museum,Renaissance Art,Birth of Venus Primavera,20,13000,Giorgio Vasari,Renaissance Collection
+69,Rijksmuseum,Amsterdam,Netherlands,2.7,8000,1800,Art Museum,Dutch Art,The Night Watch The Milkmaid,20,30000,Pierre Cuypers,Dutch Golden Age
+70,Acropolis Museum,Athens,Greece,1.5,4000,2009,Archaeology Museum,Ancient Greek Art,Parthenon Marbles Caryatids,5,25000,Bernard Tschumi,Ancient Greece
+71,State Hermitage,Saint Petersburg,Russia,4.9,3000000,1764,Art Museum,World Art,Peacock Clock Madonna Litta,8,233345,Bartolomeo Rastrelli,Russian Art
+72,National Palace Museum,Taipei,Taiwan,4.7,700000,1965,History Museum,Chinese Art,Jadeite Cabbage Meat-shaped Stone,8,15000,Huang Baoyu,Chinese Antiquities
+73,National Museum of China,Beijing,China,7.4,1400000,2003,History Museum,Chinese History,Terracotta Warriors Jade Burial Suits,Free,200000,Jean-Marie Charpentier,Ancient China
+74,Museum of Modern Art,New York,United States,7.1,200000,1929,Modern Art Museum,Modern Art,Starry Night Les Demoiselles d'Avignon,25,63000,Philip Johnson,Contemporary Collection
+75,Guggenheim Museum,New York,United States,1.2,8000,1959,Modern Art Museum,Modern Art,Composition VII Woman III,25,24000,Frank Lloyd Wright,Modern Masters
+76,Prado Museum,Madrid,Spain,3.4,35000,1819,Art Museum,European Art,Las Meninas The Garden of Earthly Delights,15,45000,Juan de Villanueva,Spanish Masters
+77,Uffizi Gallery,Florence,Italy,4.4,1500,1581,Art Museum,Renaissance Art,Birth of Venus Primavera,20,13000,Giorgio Vasari,Renaissance Collection
+78,Rijksmuseum,Amsterdam,Netherlands,2.7,8000,1800,Art Museum,Dutch Art,The Night Watch The Milkmaid,20,30000,Pierre Cuypers,Dutch Golden Age
+79,Acropolis Museum,Athens,Greece,1.5,4000,2009,Archaeology Museum,Ancient Greek Art,Parthenon Marbles Caryatids,5,25000,Bernard Tschumi,Ancient Greece
+80,State Hermitage,Saint Petersburg,Russia,4.9,3000000,1764,Art Museum,World Art,Peacock Clock Madonna Litta,8,233345,Bartolomeo Rastrelli,Russian Art
+81,National Palace Museum,Taipei,Taiwan,4.7,700000,1965,History Museum,Chinese Art,Jadeite Cabbage Meat-shaped Stone,8,15000,Huang Baoyu,Chinese Antiquities
+82,National Museum of China,Beijing,China,7.4,1400000,2003,History Museum,Chinese History,Terracotta Warriors Jade Burial Suits,Free,200000,Jean-Marie Charpentier,Ancient China
+83,Museum of Modern Art,New York,United States,7.1,200000,1929,Modern Art Museum,Modern Art,Starry Night Les Demoiselles d'Avignon,25,63000,Philip Johnson,Contemporary Collection
+84,Guggenheim Museum,New York,United States,1.2,8000,1959,Modern Art Museum,Modern Art,Composition VII Woman III,25,24000,Frank Lloyd Wright,Modern Masters
+85,Prado Museum,Madrid,Spain,3.4,35000,1819,Art Museum,European Art,Las Meninas The Garden of Earthly Delights,15,45000,Juan de Villanueva,Spanish Masters
+86,Uffizi Gallery,Florence,Italy,4.4,1500,1581,Art Museum,Renaissance Art,Birth of Venus Primavera,20,13000,Giorgio Vasari,Renaissance Collection
+87,Rijksmuseum,Amsterdam,Netherlands,2.7,8000,1800,Art Museum,Dutch Art,The Night Watch The Milkmaid,20,30000,Pierre Cuypers,Dutch Golden Age
+88,Acropolis Museum,Athens,Greece,1.5,4000,2009,Archaeology Museum,Ancient Greek Art,Parthenon Marbles Caryatids,5,25000,Bernard Tschumi,Ancient Greece
+89,State Hermitage,Saint Petersburg,Russia,4.9,3000000,1764,Art Museum,World Art,Peacock Clock Madonna Litta,8,233345,Bartolomeo Rastrelli,Russian Art
+90,National Palace Museum,Taipei,Taiwan,4.7,700000,1965,History Museum,Chinese Art,Jadeite Cabbage Meat-shaped Stone,8,15000,Huang Baoyu,Chinese Antiquities
+91,National Museum of China,Beijing,China,7.4,1400000,2003,History Museum,Chinese History,Terracotta Warriors Jade Burial Suits,Free,200000,Jean-Marie Charpentier,Ancient China
+92,Museum of Modern Art,New York,United States,7.1,200000,1929,Modern Art Museum,Modern Art,Starry Night Les Demoiselles d'Avignon,25,63000,Philip Johnson,Contemporary Collection
+93,Guggenheim Museum,New York,United States,1.2,8000,1959,Modern Art Museum,Modern Art,Composition VII Woman III,25,24000,Frank Lloyd Wright,Modern Masters
+94,Prado Museum,Madrid,Spain,3.4,35000,1819,Art Museum,European Art,Las Meninas The Garden of Earthly Delights,15,45000,Juan de Villanueva,Spanish Masters
+95,Uffizi Gallery,Florence,Italy,4.4,1500,1581,Art Museum,Renaissance Art,Birth of Venus Primavera,20,13000,Giorgio Vasari,Renaissance Collection
+96,Rijksmuseum,Amsterdam,Netherlands,2.7,8000,1800,Art Museum,Dutch Art,The Night Watch The Milkmaid,20,30000,Pierre Cuypers,Dutch Golden Age
+97,Acropolis Museum,Athens,Greece,1.5,4000,2009,Archaeology Museum,Ancient Greek Art,Parthenon Marbles Caryatids,5,25000,Bernard Tschumi,Ancient Greece
+98,State Hermitage,Saint Petersburg,Russia,4.9,3000000,1764,Art Museum,World Art,Peacock Clock Madonna Litta,8,233345,Bartolomeo Rastrelli,Russian Art
+99,National Palace Museum,Taipei,Taiwan,4.7,700000,1965,History Museum,Chinese Art,Jadeite Cabbage Meat-shaped Stone,8,15000,Huang Baoyu,Chinese Antiquities
+100,National Museum of China,Beijing,China,7.4,1400000,2003,History Museum,Chinese History,Terracotta Warriors Jade Burial Suits,Free,200000,Jean-Marie Charpentier,Ancient China

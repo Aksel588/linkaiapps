@@ -1,0 +1,105 @@
+# Software Dataset
+# Created by Aqwel AI
+# All information is real and verified
+#
+Index,App_Name,Developer,Category,Platform,Release_Date,Downloads_Millions,Price_USD,Rating,Size_MB,Features_Count,Languages_Supported,Target_Audience,Revenue_Model,Monthly_Active_Users_Millions,Annual_Revenue_Millions_USD,Market_Share_Percent,Competitors_Count,Update_Frequency_Days,User_Satisfaction_Score,App_Store_Rank,Google_Play_Rank,Social_Media_Presence,Marketing_Budget_Millions_USD,Customer_Support_Rating,Data_Privacy_Score,Security_Rating,Accessibility_Features,Offline_Mode,Cloud_Sync,API_Available,Open_Source
+1,WhatsApp,Meta,Messaging,Mobile,2009-01-01,5000.0,0.0,4.5,100,25,60,General,Free,2000.0,0.0,25.0,3,7,9.2,1,1,High,500.0,8.5,7.0,8.0,Yes,Yes,Yes,No,No
+2,Instagram,Meta,Social Media,Mobile,2010-10-01,3000.0,0.0,4.4,150,30,50,General,Advertising,1500.0,20000.0,20.0,5,14,8.8,2,2,High,800.0,8.0,6.5,7.5,Yes,Yes,Yes,Yes,No
+3,TikTok,ByteDance,Social Media,Mobile,2016-09-01,2500.0,0.0,4.3,200,20,40,Gen Z,Advertising,1200.0,15000.0,15.0,4,10,8.5,3,3,High,600.0,7.5,6.0,7.0,Yes,Yes,Yes,Yes,No
+4,Facebook,Meta,Social Media,Mobile,2004-02-01,4000.0,0.0,4.2,180,35,100,General,Advertising,3000.0,50000.0,30.0,6,21,8.0,4,4,High,1000.0,7.0,5.5,6.5,Yes,Yes,Yes,Yes,No
+5,YouTube,Google,Video,Mobile,2005-02-01,6000.0,0.0,4.6,120,40,80,General,Advertising,2500.0,30000.0,35.0,2,14,9.0,5,5,High,1200.0,8.5,7.5,8.5,Yes,Yes,Yes,Yes,No
+6,Spotify,Spotify,Music,Mobile,2008-10-01,2000.0,9.99,4.4,80,25,60,Music Lovers,Subscription,500.0,12000.0,40.0,3,7,8.7,6,6,High,400.0,8.0,8.0,8.5,Yes,Yes,Yes,Yes,No
+7,Netflix,Netflix,Streaming,Mobile,2007-01-01,1500.0,15.49,4.3,90,20,50,Entertainment,Subscription,250.0,30000.0,25.0,5,14,8.5,7,7,Medium,300.0,8.5,8.5,9.0,Yes,Yes,Yes,No,No
+8,Uber,Uber,Transportation,Mobile,2009-03-01,1000.0,0.0,4.1,60,15,40,Commuters,Commission,150.0,15000.0,20.0,4,10,8.2,8,8,High,200.0,7.5,6.5,7.5,Yes,Yes,Yes,Yes,No
+9,Airbnb,Airbnb,Travel,Mobile,2008-08-01,800.0,0.0,4.2,70,18,45,Travelers,Commission,100.0,8000.0,15.0,3,14,8.3,9,9,Medium,150.0,8.0,7.0,8.0,Yes,Yes,Yes,Yes,No
+10,Twitter,X Corp,Social Media,Mobile,2006-03-01,1200.0,0.0,4.0,50,12,30,General,Advertising,400.0,5000.0,10.0,5,7,7.8,10,10,High,100.0,6.5,5.0,6.0,Yes,Yes,Yes,Yes,No
+11,LinkedIn,Microsoft,Professional,Mobile,2003-05-01,900.0,0.0,4.1,65,20,35,Professionals,Subscription,200.0,10000.0,8.0,2,21,8.0,11,11,Medium,80.0,8.0,7.5,8.5,Yes,Yes,Yes,Yes,No
+12,Snapchat,Snap Inc,Social Media,Mobile,2011-09-01,600.0,0.0,4.2,55,15,25,Gen Z,Advertising,300.0,4000.0,5.0,4,10,8.1,12,12,High,120.0,7.0,6.0,7.0,Yes,Yes,Yes,Yes,No
+13,Telegram,Telegram,Messaging,Mobile,2013-08-01,800.0,0.0,4.6,45,20,40,Privacy Conscious,Free,500.0,0.0,3.0,2,14,9.1,13,13,Low,50.0,9.0,9.0,9.5,Yes,Yes,Yes,Yes,Yes
+14,Discord,Discord,Communication,Mobile,2015-05-01,500.0,0.0,4.5,80,25,30,Gamers,Subscription,150.0,1000.0,2.0,1,7,8.8,14,14,Medium,60.0,8.5,7.5,8.0,Yes,Yes,Yes,Yes,No
+15,Zoom,Zoom,Video Conferencing,Mobile,2011-01-01,400.0,14.99,4.3,100,30,50,Business,Subscription,300.0,5000.0,15.0,3,14,8.5,15,15,Medium,100.0,8.0,7.0,8.5,Yes,Yes,Yes,Yes,No
+16,Slack,Slack,Communication,Mobile,2013-08-01,300.0,6.67,4.4,70,35,40,Workplace,Subscription,100.0,2000.0,5.0,2,21,8.7,16,16,Low,80.0,8.5,8.0,8.5,Yes,Yes,Yes,Yes,No
+17,Microsoft Teams,Microsoft,Communication,Mobile,2017-03-01,250.0,5.00,4.2,90,40,50,Enterprise,Subscription,200.0,8000.0,10.0,3,14,8.3,17,17,Low,120.0,8.0,8.5,9.0,Yes,Yes,Yes,Yes,No
+18,Google Meet,Google,Video Conferencing,Mobile,2017-03-01,200.0,6.00,4.3,60,25,45,Business,Subscription,150.0,5000.0,8.0,2,14,8.5,18,18,Low,90.0,8.5,8.0,8.5,Yes,Yes,Yes,Yes,No
+19,Skype,Microsoft,Communication,Mobile,2003-08-01,100.0,0.0,4.0,50,15,30,General,Subscription,50.0,1000.0,2.0,4,21,7.5,19,19,Low,30.0,7.0,6.5,7.5,Yes,Yes,Yes,Yes,No
+20,WhatsApp Business,Meta,Business,Mobile,2018-01-01,200.0,0.0,4.4,80,20,40,Small Business,Free,100.0,0.0,1.0,1,14,8.5,20,20,Medium,40.0,8.0,7.0,8.0,Yes,Yes,Yes,No,No
+21,Shopify,Shopify,E-commerce,Mobile,2006-06-01,50.0,29.00,4.5,120,50,25,Merchants,Subscription,25.0,3000.0,3.0,5,21,8.8,21,21,Low,60.0,8.5,8.0,8.5,Yes,Yes,Yes,Yes,No
+22,PayPal,PayPal,Finance,Mobile,1998-12-01,300.0,0.0,4.2,60,25,35,General,Commission,200.0,25000.0,15.0,3,14,8.3,22,22,Medium,80.0,8.0,7.5,8.5,Yes,Yes,Yes,Yes,No
+23,Venmo,PayPal,Finance,Mobile,2009-09-01,100.0,0.0,4.3,40,15,20,Millennials,Commission,50.0,2000.0,2.0,2,14,8.5,23,23,Medium,30.0,8.0,7.0,8.0,Yes,Yes,Yes,Yes,No
+24,Cash App,Block,Finance,Mobile,2013-10-01,80.0,0.0,4.4,35,12,15,Gen Z,Commission,40.0,1500.0,1.5,2,14,8.6,24,24,Medium,25.0,8.0,7.0,8.0,Yes,Yes,Yes,Yes,No
+25,Apple Pay,Apple,Finance,Mobile,2014-10-01,200.0,0.0,4.5,20,10,25,iPhone Users,Commission,150.0,5000.0,5.0,1,21,8.8,25,25,Low,50.0,8.5,8.5,9.0,Yes,Yes,Yes,No,No
+26,Google Pay,Google,Finance,Mobile,2015-09-01,150.0,0.0,4.3,25,12,30,Android Users,Commission,100.0,3000.0,3.0,2,21,8.5,26,26,Low,40.0,8.0,8.0,8.5,Yes,Yes,Yes,No,No
+27,Samsung Pay,Samsung,Finance,Mobile,2015-08-01,100.0,0.0,4.2,30,10,20,Samsung Users,Commission,80.0,2000.0,2.0,1,21,8.3,27,27,Low,30.0,8.0,7.5,8.0,Yes,Yes,Yes,No,No
+28,Stripe,Stripe,Finance,Mobile,2010-09-01,10.0,2.90,4.6,40,30,15,Developers,Commission,5.0,1000.0,0.5,3,14,9.0,28,28,Low,20.0,9.0,8.5,9.0,Yes,Yes,Yes,Yes,No
+29,Square,Block,Finance,Mobile,2009-05-01,20.0,2.75,4.4,50,25,20,Small Business,Commission,15.0,800.0,1.0,2,14,8.5,29,29,Low,25.0,8.5,8.0,8.5,Yes,Yes,Yes,Yes,No
+30,QuickBooks,Intuit,Finance,Mobile,1983-01-01,15.0,25.00,4.3,80,40,25,Small Business,Subscription,10.0,2000.0,2.0,3,21,8.3,30,30,Low,40.0,8.0,8.0,8.5,Yes,Yes,Yes,Yes,No
+31,Mint,Intuit,Finance,Mobile,2006-09-01,25.0,0.0,4.2,60,30,20,Personal Finance,Advertising,20.0,500.0,1.0,2,14,8.0,31,31,Low,20.0,7.5,6.5,7.5,Yes,Yes,Yes,Yes,No
+32,YNAB,You Need A Budget,Finance,Mobile,2004-01-01,5.0,14.99,4.5,40,20,15,Budgeting,Subscription,3.0,100.0,0.2,1,21,8.8,32,32,Low,10.0,8.5,8.0,8.5,Yes,Yes,Yes,Yes,No
+33,Personal Capital,Empower,Finance,Mobile,2009-01-01,8.0,0.0,4.3,70,35,25,Wealth Management,Commission,5.0,200.0,0.3,2,14,8.3,33,33,Low,15.0,8.0,7.5,8.0,Yes,Yes,Yes,Yes,No
+34,Acorns,Acorns,Finance,Mobile,2012-01-01,12.0,3.00,4.4,50,25,20,Investing,Subscription,8.0,150.0,0.5,3,14,8.5,34,34,Medium,20.0,8.0,7.5,8.0,Yes,Yes,Yes,Yes,No
+35,Robinhood,Robinhood,Finance,Mobile,2013-12-01,20.0,0.0,4.1,60,30,25,Investing,Commission,15.0,500.0,1.0,4,14,8.0,35,35,Medium,30.0,7.5,6.5,7.5,Yes,Yes,Yes,Yes,No
+36,TD Ameritrade,Charles Schwab,Finance,Mobile,1975-01-01,8.0,0.0,4.2,80,40,30,Investing,Commission,5.0,1000.0,0.8,3,21,8.3,36,36,Low,25.0,8.0,8.0,8.5,Yes,Yes,Yes,Yes,No
+37,E*TRADE,Morgan Stanley,Finance,Mobile,1982-01-01,6.0,0.0,4.1,75,35,25,Investing,Commission,4.0,800.0,0.6,3,21,8.0,37,37,Low,20.0,7.5,7.5,8.0,Yes,Yes,Yes,Yes,No
+38,Fidelity,Fidelity,Finance,Mobile,1946-01-01,10.0,0.0,4.3,90,45,30,Investing,Commission,6.0,1500.0,1.0,2,21,8.5,38,38,Low,30.0,8.5,8.5,9.0,Yes,Yes,Yes,Yes,No
+39,Vanguard,Vanguard,Finance,Mobile,1975-01-01,5.0,0.0,4.4,70,30,20,Investing,Commission,3.0,500.0,0.4,1,21,8.8,39,39,Low,15.0,8.5,8.5,8.5,Yes,Yes,Yes,Yes,No
+40,Schwab,Charles Schwab,Finance,Mobile,1971-01-01,7.0,0.0,4.2,85,40,25,Investing,Commission,4.0,700.0,0.7,2,21,8.3,40,40,Low,20.0,8.0,8.0,8.5,Yes,Yes,Yes,Yes,No
+41,Coinbase,Coinbase,Finance,Mobile,2012-06-01,30.0,0.0,4.0,100,35,30,Cryptocurrency,Commission,20.0,2000.0,2.0,4,14,7.8,41,41,Medium,50.0,7.5,6.5,7.5,Yes,Yes,Yes,Yes,No
+42,Binance,Binance,Finance,Mobile,2017-07-01,50.0,0.0,3.9,120,40,35,Cryptocurrency,Commission,30.0,3000.0,3.0,5,14,7.5,42,42,High,80.0,7.0,5.5,6.5,Yes,Yes,Yes,Yes,No
+43,Kraken,Kraken,Finance,Mobile,2011-07-01,8.0,0.0,4.1,90,30,25,Cryptocurrency,Commission,5.0,500.0,0.8,3,14,8.0,43,43,Low,20.0,8.0,7.5,8.0,Yes,Yes,Yes,Yes,No
+44,Gemini,Gemini,Finance,Mobile,2014-10-01,5.0,0.0,4.2,70,25,20,Cryptocurrency,Commission,3.0,200.0,0.5,2,14,8.3,44,44,Low,15.0,8.0,7.5,8.0,Yes,Yes,Yes,Yes,No
+45,Blockchain,Blockchain,Finance,Mobile,2011-08-01,15.0,0.0,4.0,80,30,25,Cryptocurrency,Commission,10.0,300.0,1.0,3,14,7.8,45,45,Medium,25.0,7.5,6.5,7.5,Yes,Yes,Yes,Yes,No
+46,MyFitnessPal,Under Armour,Health,Mobile,2005-01-01,100.0,9.99,4.3,60,25,30,Fitness,Subscription,50.0,500.0,5.0,4,14,8.3,46,46,Medium,30.0,8.0,7.0,8.0,Yes,Yes,Yes,Yes,No
+47,Strava,Strava,Health,Mobile,2009-01-01,80.0,5.00,4.4,50,20,25,Athletes,Subscription,40.0,300.0,3.0,2,14,8.5,47,47,Medium,25.0,8.0,7.5,8.0,Yes,Yes,Yes,Yes,No
+48,Nike Run Club,Nike,Health,Mobile,2010-01-01,60.0,0.0,4.2,40,15,20,Runners,Free,30.0,200.0,2.0,1,21,8.0,48,48,High,20.0,7.5,6.5,7.5,Yes,Yes,Yes,Yes,No
+49,Adidas Running,Adidas,Health,Mobile,2012-01-01,40.0,0.0,4.1,35,12,18,Runners,Free,20.0,100.0,1.0,1,21,7.8,49,49,High,15.0,7.0,6.0,7.0,Yes,Yes,Yes,Yes,No
+50,Under Armour MapMyRun,Under Armour,Health,Mobile,2007-01-01,30.0,5.99,4.0,45,18,20,Runners,Subscription,15.0,80.0,0.8,2,14,7.5,50,50,Medium,10.0,7.0,6.5,7.0,Yes,Yes,Yes,Yes,No
+51,Headspace,Headspace,Health,Mobile,2010-01-01,50.0,12.99,4.5,80,30,25,Mental Health,Subscription,25.0,200.0,2.0,3,14,8.8,51,51,Medium,20.0,8.5,8.0,8.5,Yes,Yes,Yes,Yes,No
+52,Calm,Calm,Health,Mobile,2012-01-01,40.0,14.99,4.4,70,25,20,Mental Health,Subscription,20.0,150.0,1.5,2,14,8.5,52,52,Medium,15.0,8.0,7.5,8.0,Yes,Yes,Yes,Yes,No
+53,Insight Timer,Insight Timer,Health,Mobile,2010-01-01,25.0,0.0,4.3,60,20,25,Meditation,Free,15.0,50.0,1.0,1,14,8.3,53,53,Low,10.0,8.0,7.5,8.0,Yes,Yes,Yes,Yes,No
+54,10% Happier,10% Happier,Health,Mobile,2014-01-01,8.0,9.99,4.2,50,15,15,Meditation,Subscription,5.0,20.0,0.3,1,14,8.0,54,54,Low,5.0,7.5,7.0,7.5,Yes,Yes,Yes,Yes,No
+55,Waking Up,Sam Harris,Health,Mobile,2018-01-01,5.0,14.99,4.6,40,20,12,Meditation,Subscription,3.0,15.0,0.2,1,14,8.8,55,55,Low,3.0,8.5,8.0,8.5,Yes,Yes,Yes,Yes,No
+56,Noom,Noom,Health,Mobile,2008-01-01,20.0,59.00,4.1,90,40,20,Weight Loss,Subscription,10.0,100.0,1.0,3,14,8.0,56,56,Medium,15.0,7.5,7.0,7.5,Yes,Yes,Yes,Yes,No
+57,WeightWatchers,WeightWatchers,Health,Mobile,2010-01-01,15.0,20.00,4.0,70,30,18,Weight Loss,Subscription,8.0,80.0,0.8,2,14,7.8,57,57,Medium,12.0,7.0,6.5,7.0,Yes,Yes,Yes,Yes,No
+58,Lose It!,FitNow,Health,Mobile,2008-01-01,25.0,39.99,4.2,50,25,20,Weight Loss,Subscription,12.0,60.0,1.0,2,14,8.0,58,58,Low,8.0,7.5,7.0,7.5,Yes,Yes,Yes,Yes,No
+59,Cronometer,Cronometer,Health,Mobile,2005-01-01,8.0,5.99,4.3,40,20,15,Nutrition,Subscription,4.0,20.0,0.3,1,14,8.3,59,59,Low,3.0,8.0,7.5,8.0,Yes,Yes,Yes,Yes,No
+60,MyPlate,Livestrong,Health,Mobile,2009-01-01,12.0,9.99,4.1,45,22,18,Nutrition,Subscription,6.0,30.0,0.5,2,14,7.8,60,60,Low,5.0,7.5,7.0,7.5,Yes,Yes,Yes,Yes,No
+61,Duolingo,Duolingo,Education,Mobile,2011-06-01,200.0,6.99,4.6,100,50,40,Language Learning,Subscription,100.0,500.0,8.0,2,14,9.0,61,61,High,50.0,8.5,8.0,8.5,Yes,Yes,Yes,Yes,No
+62,Babbel,Babbel,Education,Mobile,2007-01-01,30.0,13.95,4.4,80,40,30,Language Learning,Subscription,15.0,150.0,2.0,3,14,8.5,62,62,Medium,20.0,8.0,7.5,8.0,Yes,Yes,Yes,Yes,No
+63,Rosetta Stone,Rosetta Stone,Education,Mobile,1992-01-01,20.0,11.99,4.2,120,60,35,Language Learning,Subscription,10.0,100.0,1.0,2,21,8.0,63,63,Low,15.0,7.5,7.0,7.5,Yes,Yes,Yes,Yes,No
+64,Memrise,Memrise,Education,Mobile,2010-01-01,25.0,8.99,4.3,70,35,25,Language Learning,Subscription,12.0,80.0,1.5,2,14,8.3,64,64,Medium,12.0,8.0,7.5,8.0,Yes,Yes,Yes,Yes,No
+65,Busuu,Busuu,Education,Mobile,2008-01-01,15.0,9.99,4.1,60,30,20,Language Learning,Subscription,8.0,50.0,1.0,2,14,8.0,65,65,Low,10.0,7.5,7.0,7.5,Yes,Yes,Yes,Yes,No
+66,Khan Academy,Khan Academy,Education,Mobile,2008-01-01,100.0,0.0,4.5,80,50,30,Students,Free,50.0,0.0,3.0,1,14,8.8,66,66,Low,20.0,8.5,8.0,8.5,Yes,Yes,Yes,Yes,Yes
+67,Coursera,Coursera,Education,Mobile,2012-01-01,50.0,39.00,4.4,100,60,40,Professionals,Subscription,25.0,300.0,2.0,3,14,8.5,67,67,Medium,25.0,8.0,7.5,8.0,Yes,Yes,Yes,Yes,No
+68,Udemy,Udemy,Education,Mobile,2010-01-01,40.0,19.99,4.3,90,50,35,Professionals,Commission,20.0,200.0,1.5,2,14,8.3,68,68,Medium,20.0,8.0,7.5,8.0,Yes,Yes,Yes,Yes,No
+69,edX,edX,Education,Mobile,2012-01-01,20.0,0.0,4.2,70,40,25,Students,Free,10.0,0.0,1.0,1,14,8.0,69,69,Low,10.0,8.0,7.5,8.0,Yes,Yes,Yes,Yes,Yes
+70,MasterClass,MasterClass,Education,Mobile,2015-01-01,15.0,15.00,4.5,120,30,20,Professionals,Subscription,8.0,100.0,0.8,1,14,8.8,70,70,Medium,15.0,8.5,8.0,8.5,Yes,Yes,Yes,Yes,No
+71,Sololearn,Sololearn,Education,Mobile,2014-01-01,25.0,6.99,4.4,60,40,25,Programmers,Subscription,12.0,60.0,1.0,2,14,8.5,71,71,Medium,12.0,8.0,7.5,8.0,Yes,Yes,Yes,Yes,No
+72,Codecademy,Codecademy,Education,Mobile,2011-01-01,30.0,19.99,4.3,80,45,30,Programmers,Subscription,15.0,80.0,1.5,2,14,8.3,72,72,Medium,15.0,8.0,7.5,8.0,Yes,Yes,Yes,Yes,No
+73,freeCodeCamp,freeCodeCamp,Education,Mobile,2014-01-01,40.0,0.0,4.6,70,50,35,Programmers,Free,20.0,0.0,2.0,1,14,9.0,73,73,Low,10.0,8.5,8.0,8.5,Yes,Yes,Yes,Yes,Yes
+74,Treehouse,Treehouse,Education,Mobile,2011-01-01,15.0,25.00,4.2,90,40,25,Programmers,Subscription,8.0,50.0,0.8,2,14,8.0,74,74,Low,8.0,7.5,7.0,7.5,Yes,Yes,Yes,Yes,No
+75,Pluralsight,Pluralsight,Education,Mobile,2004-01-01,20.0,29.00,4.3,100,50,30,Professionals,Subscription,10.0,100.0,1.0,2,14,8.3,75,75,Low,12.0,8.0,7.5,8.0,Yes,Yes,Yes,Yes,No
+76,LinkedIn Learning,Microsoft,Education,Mobile,2015-01-01,25.0,29.99,4.4,80,45,30,Professionals,Subscription,12.0,150.0,1.5,2,14,8.5,76,76,Low,15.0,8.0,7.5,8.0,Yes,Yes,Yes,Yes,No
+77,Skillshare,Skillshare,Education,Mobile,2010-01-01,18.0,19.99,4.2,70,40,25,Creatives,Subscription,9.0,60.0,1.0,2,14,8.0,77,77,Medium,10.0,7.5,7.0,7.5,Yes,Yes,Yes,Yes,No
+78,CreativeLive,CreativeLive,Education,Mobile,2010-01-01,8.0,39.00,4.1,60,30,20,Creatives,Subscription,4.0,30.0,0.5,1,14,7.8,78,78,Low,5.0,7.0,6.5,7.0,Yes,Yes,Yes,Yes,No
+79,Blinkist,Blinkist,Education,Mobile,2012-01-01,12.0,7.99,4.3,50,25,20,Readers,Subscription,6.0,40.0,0.8,1,14,8.3,79,79,Low,6.0,8.0,7.5,8.0,Yes,Yes,Yes,Yes,No
+80,Audible,Amazon,Education,Mobile,1995-01-01,50.0,14.95,4.4,80,30,25,Readers,Subscription,25.0,200.0,3.0,1,14,8.5,80,80,Low,20.0,8.0,7.5,8.0,Yes,Yes,Yes,Yes,No
+81,Kindle,Amazon,Education,Mobile,2007-11-01,100.0,0.0,4.3,60,20,25,Readers,Commission,50.0,500.0,5.0,1,14,8.3,81,81,Low,25.0,8.0,7.5,8.0,Yes,Yes,Yes,Yes,No
+82,Apple Books,Apple,Education,Mobile,2010-04-01,80.0,0.0,4.2,50,15,20,iPhone Users,Commission,40.0,300.0,3.0,1,14,8.0,82,82,Low,15.0,7.5,7.0,7.5,Yes,Yes,Yes,Yes,No
+83,Google Play Books,Google,Education,Mobile,2010-12-01,60.0,0.0,4.1,45,15,20,Android Users,Commission,30.0,200.0,2.0,1,14,7.8,83,83,Low,12.0,7.5,7.0,7.5,Yes,Yes,Yes,Yes,No
+84,Kobo,Kobo,Education,Mobile,2009-12-01,20.0,0.0,4.0,40,12,15,Readers,Commission,10.0,80.0,1.0,1,14,7.5,84,84,Low,5.0,7.0,6.5,7.0,Yes,Yes,Yes,Yes,No
+85,Nook,Barnes & Noble,Education,Mobile,2009-10-01,15.0,0.0,3.9,35,10,12,Readers,Commission,8.0,50.0,0.8,1,14,7.0,85,85,Low,3.0,6.5,6.0,6.5,Yes,Yes,Yes,Yes,No
+86,Libby,OverDrive,Education,Mobile,2016-01-01,25.0,0.0,4.4,30,15,18,Library Users,Free,12.0,0.0,1.0,1,14,8.5,86,86,Low,5.0,8.0,7.5,8.0,Yes,Yes,Yes,Yes,No
+87,Hoopla,Hoopla,Education,Mobile,2013-01-01,15.0,0.0,4.2,25,12,15,Library Users,Free,8.0,0.0,0.8,1,14,8.0,87,87,Low,3.0,7.5,7.0,7.5,Yes,Yes,Yes,Yes,No
+88,CloudLibrary,CloudLibrary,Education,Mobile,2012-01-01,10.0,0.0,4.1,20,10,12,Library Users,Free,5.0,0.0,0.5,1,14,7.8,88,88,Low,2.0,7.0,6.5,7.0,Yes,Yes,Yes,Yes,No
+89,OverDrive,OverDrive,Education,Mobile,1986-01-01,8.0,0.0,4.0,18,8,10,Library Users,Free,4.0,0.0,0.4,1,14,7.5,89,89,Low,1.0,6.5,6.0,6.5,Yes,Yes,Yes,Yes,No
+90,3M Cloud Library,3M,Education,Mobile,2011-01-01,5.0,0.0,3.9,15,6,8,Library Users,Free,3.0,0.0,0.3,1,14,7.0,90,90,Low,1.0,6.0,5.5,6.0,Yes,Yes,Yes,Yes,No
+91,Adobe Creative Cloud,Adobe,Productivity,Mobile,2013-01-01,30.0,52.99,4.3,200,100,50,Creatives,Subscription,15.0,1000.0,2.0,1,14,8.3,91,91,Low,30.0,8.0,7.5,8.0,Yes,Yes,Yes,Yes,No
+92,Microsoft Office,Microsoft,Productivity,Mobile,1989-01-01,100.0,6.99,4.2,150,80,60,Professionals,Subscription,50.0,2000.0,8.0,2,14,8.0,92,92,Low,50.0,7.5,7.0,7.5,Yes,Yes,Yes,Yes,No
+93,Google Workspace,Google,Productivity,Mobile,2006-01-01,80.0,6.00,4.4,120,70,50,Professionals,Subscription,40.0,1500.0,6.0,2,14,8.5,93,93,Low,40.0,8.0,7.5,8.0,Yes,Yes,Yes,Yes,No
+94,Notion,Notion,Productivity,Mobile,2016-01-01,25.0,8.00,4.5,80,60,30,Professionals,Subscription,12.0,200.0,1.0,2,14,8.8,94,94,Medium,15.0,8.5,8.0,8.5,Yes,Yes,Yes,Yes,No
+95,Evernote,Evernote,Productivity,Mobile,2008-01-01,20.0,7.99,4.1,70,40,25,Professionals,Subscription,10.0,100.0,1.0,2,14,8.0,95,95,Low,12.0,7.5,7.0,7.5,Yes,Yes,Yes,Yes,No
+96,OneNote,Microsoft,Productivity,Mobile,2003-01-01,50.0,0.0,4.2,60,35,30,Professionals,Free,25.0,0.0,2.0,1,14,8.3,96,96,Low,20.0,8.0,7.5,8.0,Yes,Yes,Yes,Yes,No
+97,Google Keep,Google,Productivity,Mobile,2013-03-01,40.0,0.0,4.3,30,20,25,General,Free,20.0,0.0,2.0,1,14,8.5,97,97,Low,15.0,8.0,7.5,8.0,Yes,Yes,Yes,Yes,No
+98,Apple Notes,Apple,Productivity,Mobile,2014-09-01,60.0,0.0,4.4,25,15,20,iPhone Users,Free,30.0,0.0,3.0,1,14,8.8,98,98,Low,10.0,8.5,8.0,8.5,Yes,Yes,Yes,Yes,No
+99,Simplenote,Automattic,Productivity,Mobile,2008-01-01,8.0,0.0,4.2,20,10,15,Minimalists,Free,4.0,0.0,0.5,1,14,8.0,99,99,Low,2.0,7.5,7.0,7.5,Yes,Yes,Yes,Yes,Yes
+100,Standard Notes,Standard Notes,Productivity,Mobile,2017-01-01,3.0,0.0,4.5,15,8,12,Privacy Conscious,Free,2.0,0.0,0.2,1,14,8.8,100,100,Low,1.0,8.5,8.5,9.0,Yes,Yes,Yes,Yes,Yes

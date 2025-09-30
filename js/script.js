@@ -289,9 +289,13 @@ document.addEventListener('keydown', function(event) {
 
 // Preload critical resources
 function preloadResources() {
+    // Determine the correct base path based on current page location
+    const isInPagesFolder = window.location.pathname.includes('/pages/');
+    const basePath = isInPagesFolder ? '../' : '';
+    
     const criticalImages = [
-        'images/logo_website.png',
-        'images/favicon.ico'
+        `${basePath}images/logo_website.png`,
+        `${basePath}images/favicon.ico`
     ];
     
     criticalImages.forEach(src => {
@@ -401,15 +405,17 @@ function updateDarkModeIcons(isDarkMode) {
     }
 }
 
-// Service Worker registration (if available)
-if ('serviceWorker' in navigator) {
+// Service Worker registration (if available and not on file:// protocol)
+if ('serviceWorker' in navigator && window.location.protocol !== 'file:') {
     window.addEventListener('load', function() {
         navigator.serviceWorker.register('/sw.js')
             .then(function(registration) {
                 console.log('ServiceWorker registration successful');
             })
             .catch(function(err) {
-                console.log('ServiceWorker registration failed');
+                console.log('ServiceWorker registration failed:', err);
             });
     });
+} else if (window.location.protocol === 'file:') {
+    console.log('ServiceWorker registration skipped - running on file:// protocol');
 }
