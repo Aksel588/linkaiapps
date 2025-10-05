@@ -1,7 +1,6 @@
 // Dataset metadata
 const datasets = [
     // AI & Tech
-    { name: "AI Research Papers", category: "AI & Tech", file: "ai_research_papers_dataset", description: "Collection of 10,000+ AI research papers with abstracts, keywords, and metadata for NLP and text analysis research.", tags: ["NLP", "Text Analysis", "Research"], records: 10247, size: "2.3 GB", icon: "document", color: "blue" },
     { name: "GitHub Projects", category: "AI & Tech", file: "github_projects_dataset", description: "Comprehensive dataset of GitHub projects with metadata, stars, forks, and programming languages.", tags: ["Open Source", "Development", "Code"], records: 50000, size: "1.8 GB", icon: "code", color: "green" },
     { name: "Programming Languages", category: "AI & Tech", file: "programming_languages_dataset", description: "Dataset containing programming languages, their features, popularity metrics, and usage statistics.", tags: ["Programming", "Languages", "Development"], records: 500, size: "15 MB", icon: "terminal", color: "purple" },
     { name: "Tech Companies", category: "AI & Tech", file: "tech_companies_dataset", description: "Comprehensive dataset of technology companies with financial data, employee counts, and market information.", tags: ["Technology", "Business", "Companies"], records: 2000, size: "45 MB", icon: "building", color: "indigo" },
@@ -211,9 +210,6 @@ function renderDatasetCard(dataset) {
                     <p class="text-gray-600 dark:text-gray-300 leading-relaxed mb-4">${dataset.description}</p>
                     <div class="flex flex-wrap gap-2 mb-4">
                         ${dataset.tags.map(tag => `<span class="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 text-sm rounded-full">${tag}</span>`).join('')}
-                    </div>
-                    <div class="text-sm text-gray-500 dark:text-gray-400 mb-6">
-                        <span class="font-medium">Size:</span> ${dataset.size} | <span class="font-medium">Records:</span> ${dataset.records.toLocaleString()}
                     </div>
                 </div>
             </div>
@@ -551,11 +547,37 @@ document.addEventListener('DOMContentLoaded', function() {
         // Update statistics with real data
         updateStatisticsDisplay();
         
-        // Small delay to ensure DOM is fully ready
-        setTimeout(() => {
-            renderDatasets();
-            console.log('Datasets rendered');
-        }, 100);
+        // Check for URL search parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        const searchTerm = urlParams.get('search');
+        
+        if (searchTerm) {
+            // Set the search input value
+            const searchInput = document.getElementById('dataset-search');
+            if (searchInput) {
+                searchInput.value = searchTerm;
+            }
+            
+            // Filter datasets with the search term
+            const filtered = datasets.filter(dataset => {
+                return dataset.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                       dataset.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                       dataset.tags.some(tag => tag.toLowerCase().includes(searchTerm.toLowerCase())) ||
+                       dataset.category.toLowerCase().includes(searchTerm.toLowerCase());
+            });
+            
+            // Small delay to ensure DOM is fully ready
+            setTimeout(() => {
+                renderDatasets(filtered);
+                console.log('Datasets filtered by search term:', searchTerm);
+            }, 100);
+        } else {
+            // Small delay to ensure DOM is fully ready
+            setTimeout(() => {
+                renderDatasets();
+                console.log('Datasets rendered');
+            }, 100);
+        }
 
         // Add event listeners for search and filter
         const searchInput = document.getElementById('dataset-search');
@@ -579,7 +601,31 @@ if (document.readyState === 'loading') {
     const container = document.getElementById('datasets-container');
     if (container) {
         console.log('DOM already loaded, initializing datasets...');
-        renderDatasets();
+        
+        // Check for URL search parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        const searchTerm = urlParams.get('search');
+        
+        if (searchTerm) {
+            // Set the search input value
+            const searchInput = document.getElementById('dataset-search');
+            if (searchInput) {
+                searchInput.value = searchTerm;
+            }
+            
+            // Filter datasets with the search term
+            const filtered = datasets.filter(dataset => {
+                return dataset.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                       dataset.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                       dataset.tags.some(tag => tag.toLowerCase().includes(searchTerm.toLowerCase())) ||
+                       dataset.category.toLowerCase().includes(searchTerm.toLowerCase());
+            });
+            
+            renderDatasets(filtered);
+            console.log('Datasets filtered by search term:', searchTerm);
+        } else {
+            renderDatasets();
+        }
         
         const searchInput = document.getElementById('dataset-search');
         const categoryFilter = document.getElementById('category-filter');
