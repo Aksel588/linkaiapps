@@ -1,1970 +1,284 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aqwel AI - Safe Artificial General Intelligence | Advanced AI Research</title>
-    <meta name="description" content="Aqwel AI is building safe artificial general intelligence that benefits all of humanity. Advanced AI models for natural language processing, code generation, machine learning research, and creative applications. 175+ functions across 12 modules.">
-    <meta name="keywords" content="artificial intelligence, AI, machine learning, natural language processing, code generation, safe AI, AGI, artificial general intelligence, AI research, AI safety, deep learning, neural networks, data science, AI library, Python AI, machine learning library, AI development, intelligent systems, AI innovation, research AI, AI tools, artificial intelligence research, AI technology, machine learning tools, AI programming, intelligent automation, AI algorithms, cognitive computing, AI solutions, advanced AI">
-    
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Aqwel AI - Safe Artificial General Intelligence | Advanced AI Research">
-    <meta property="og:description" content="Building safe artificial general intelligence that benefits all of humanity. Advanced AI models for natural language processing, code generation, machine learning research, and creative applications.">
-    <meta property="og:image" content="https://aqwel.ai/logo_website.png">
-    <meta property="og:url" content="https://aqwel.ai">
-    <meta property="og:type" content="website">
-    
-    <!-- Twitter Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Aqwel AI - Safe Artificial General Intelligence">
-    <meta name="twitter:description" content="Building safe artificial general intelligence that benefits all of humanity. Advanced AI research and development.">
-    <meta name="twitter:image" content="https://aqwel.ai/logo_website.png">
-    <meta name="twitter:site" content="@aqwelai">
-    <meta name="twitter:creator" content="@aqwelai">
-    
-    <!-- Additional Meta Tags -->
-    <link rel="canonical" href="https://aqwel.ai">
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-    <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-    <meta name="bingbot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="images/logo_website.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/logo_website.png">
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-    <link rel="manifest" href="images/site.webmanifest">
-    
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            darkMode: 'class',
-            theme: {
-                extend: {
-                    fontFamily: {
-                        'sans': ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'sans-serif'],
-                    }
-                }
-            }
-        }
-    </script>
-    
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/styles.css">
-    <style>
-        /* Disable button hover transitions */
-        button,
-        button:focus-visible {
-            transition: none !important;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        button:hover,
-        button:focus-visible {
-            background-color: inherit !important;
-            color: inherit !important;
-            border-color: inherit !important;
-            box-shadow: none !important;
-            filter: none !important;
-        }
+  <title>Aqwel AI has moved</title>
+  <meta name="description" content="Aqwel AI has moved to aqwelai.xyz. You will be redirected automatically." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://aqwelai.xyz/" />
 
-        body.celebration-active main {
-            transform: scale(1.01);
-            transition: transform 1.2s ease;
-        }
+  <meta property="og:title" content="Aqwel AI has moved" />
+  <meta property="og:description" content="Aqwel AI has moved to aqwelai.xyz." />
+  <meta property="og:url" content="https://aqwelai.xyz/" />
+  <meta property="og:type" content="website" />
 
-        /* Snow animation */
-        body { position: relative; overflow-x: hidden; }
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
 
-        .snow-overlay {
-            position: fixed;
-            inset: 0;
-            pointer-events: none;
-            z-index: 150;
-            background-image:
-                radial-gradient(9px 9px at 30px 40px, rgba(224, 242, 255, 0.96), transparent 55%),
-                radial-gradient(8px 8px at 110px 90px, rgba(191, 219, 254, 0.9), transparent 55%),
-                radial-gradient(9px 9px at 160px 25px, rgba(208, 250, 255, 0.92), transparent 55%);
-            background-size: 220px 220px;
-            background-position: 0 0;
-            animation: snowDriftFast 14s linear infinite;
-            opacity: 0.95;
-        }
-
-        .snow-overlay.slow {
-            z-index: 140;
-            background-size: 260px 260px;
-            background-position: 0 0;
-            animation: snowDriftSlow 24s linear infinite;
-            opacity: 0.85;
-        }
-
-        @keyframes snowDriftFast {
-            0% { background-position: 0 -180px; }
-            100% { background-position: -40px 220vh; }
-        }
-
-        @keyframes snowDriftSlow {
-            0% { background-position: 0 -220px; }
-            100% { background-position: 40px 240vh; }
-        }
-
-        /* Farewell party animation */
-        .farewell-overlay {
-            position: fixed;
-            inset: 0;
-            pointer-events: none;
-            z-index: 200;
-            overflow: hidden;
-        }
-
-        .confetti-piece {
-            position: absolute;
-            width: 10px;
-            height: 18px;
-            opacity: 0.9;
-            border-radius: 3px;
-            animation: confettiFall linear forwards;
-        }
-
-@keyframes confettiFall {
-    0% {
-        transform: translate3d(var(--start-x, 0), -10%, 0) rotate(0deg);
-        opacity: 1;
+  <style>
+    :root{
+      --bg:#ffffff; --fg:#0b0b0c; --muted:#52525b;
+      --border:rgba(0,0,0,.10); --soft:rgba(0,0,0,.06);
     }
-            80% {
-                opacity: 1;
-            }
-    100% {
-        transform: translate3d(var(--end-x, 0), 110vh, 0) rotate(540deg);
-        opacity: 0;
-    }
-}
-
-/* New Year cinematic overlay */
-        .celebration-overlay {
-            position: fixed;
-            inset: 0;
-            z-index: 300;
-            pointer-events: none;
-            opacity: 0;
-            transform: scale(1.04);
-            transition: opacity 0.8s ease, transform 1.2s ease;
-            display: flex;
-            align-items: center;
-    justify-content: center;
-    overflow: hidden;
-}
-
-.celebration-overlay.show {
-    opacity: 1;
-    transform: scale(1);
-}
-
-.celebration-backdrop {
-    position: absolute;
-    inset: 0;
-    background: radial-gradient(circle at 50% 20%, rgba(255, 255, 255, 0.08), transparent 40%),
-                linear-gradient(180deg, rgba(15, 23, 42, 0.82), rgba(15, 23, 42, 0.7), rgba(16, 185, 129, 0.2));
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
-        }
-
-        .celebration-tree {
-            position: relative;
-            width: min(32vw, 420px);
-            height: min(42vw, 520px);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            filter: drop-shadow(0 20px 40px rgba(0,0,0,0.35));
-            transform: translateZ(0);
-        }
-
-.celebration-tree::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    margin: auto;
-    width: 70%;
-    height: 100%;
-    background: linear-gradient(180deg, rgba(16, 185, 129, 0.4), rgba(6, 78, 59, 0.85));
-    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-    border-radius: 12px;
-    box-shadow:
-        0 0 35px rgba(34, 197, 94, 0.4),
-        0 0 65px rgba(59, 130, 246, 0.32);
-}
-
-.tree-lights {
-    position: absolute;
-    inset: 10% 20% 15% 20%;
-    background:
-        radial-gradient(ellipse at 30% 20%, rgba(251, 191, 36, 0.9) 0 15%, transparent 40%),
-        radial-gradient(ellipse at 70% 30%, rgba(250, 204, 21, 0.9) 0 15%, transparent 45%),
-        radial-gradient(ellipse at 45% 55%, rgba(252, 211, 77, 0.85) 0 13%, transparent 42%),
-        radial-gradient(ellipse at 60% 70%, rgba(248, 113, 113, 0.8) 0 12%, transparent 38%),
-        radial-gradient(ellipse at 35% 80%, rgba(96, 165, 250, 0.8) 0 12%, transparent 40%),
-        radial-gradient(ellipse at 55% 45%, rgba(168, 85, 247, 0.8) 0 12%, transparent 42%);
-    filter: blur(1px);
-    animation: twinkle 3s ease-in-out infinite alternate;
-}
-
-@keyframes twinkle {
-    0% { opacity: 0.75; transform: scale(1); }
-    100% { opacity: 1; transform: scale(1.03); }
-}
-
-.tree-star {
-    position: absolute;
-    top: 8%;
-    width: 32px;
-    height: 32px;
-    background: radial-gradient(circle, #facc15 0 50%, transparent 60%);
-    filter: drop-shadow(0 0 14px rgba(250, 204, 21, 0.9));
-    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 55%, 79% 91%, 50% 70%, 21% 91%, 32% 55%, 2% 35%, 39% 35%);
-    animation: starPulse 2.4s ease-in-out infinite;
-}
-
-@keyframes starPulse {
-    0% { transform: scale(1); opacity: 0.9; }
-    100% { transform: scale(1.12); opacity: 1; }
-        }
-
-        .fireworks {
-            position: absolute;
-            inset: 0;
-            overflow: hidden;
-            pointer-events: none;
-        }
-
-.firework {
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: transparent;
-    animation: launch 0.9s ease-out forwards, explode 1.1s ease-out forwards 0.8s;
-}
-
-@keyframes launch {
-    0% { transform: translateY(30vh) scale(0.4); opacity: 1; }
-    100% { transform: translateY(-20vh) scale(0.9); opacity: 1; }
+    @media (prefers-color-scheme: dark){
+      :root{
+        --bg:#0b0b0c; --fg:#fafafa; --muted:#a1a1aa;
+        --border:rgba(255,255,255,.14); --soft:rgba(255,255,255,.07);
+      }
     }
 
-    @keyframes explode {
-        0% { box-shadow: 0 0 0 0 rgba(255,255,255,0.95); opacity: 1; }
-        100% {
-        box-shadow:
-            0 -40px 0 9px rgba(244, 114, 182, 0.82),
-            34px -20px 0 8px rgba(59, 130, 246, 0.88),
-            38px 14px 0 8px rgba(52, 211, 153, 0.88),
-            0 40px 0 9px rgba(251, 191, 36, 0.88),
-            -38px 14px 0 8px rgba(168, 85, 247, 0.88),
-            -34px -20px 0 8px rgba(239, 68, 68, 0.88);
-        opacity: 0;
+    html, body {
+      height: 100%;
+      margin: 0;
     }
-}
 
-.party-streamers {
-    position: absolute;
-    inset: 0;
-    pointer-events: none;
-    display: flex;
-    justify-content: center;
-    gap: 6px;
-}
-
-.streamer {
-    width: 3px;
-    height: 50px;
-    border-radius: 2px;
-    background: linear-gradient(180deg, rgba(59,130,246,0.9), rgba(14,165,233,0.7));
-    animation: streamerFloat 2.8s ease-in-out infinite;
-}
-
-.streamer.alt { background: linear-gradient(180deg, rgba(236,72,153,0.9), rgba(249,115,22,0.8)); animation-delay: 0.6s; }
-.streamer.alt2 { background: linear-gradient(180deg, rgba(52,211,153,0.9), rgba(34,197,94,0.8)); animation-delay: 1.1s; }
-
-@keyframes streamerFloat {
-    0% { transform: translateY(-10px) rotate(-4deg); opacity: 0.8; }
-    50% { transform: translateY(10px) rotate(4deg); opacity: 1; }
-    100% { transform: translateY(-10px) rotate(-4deg); opacity: 0.8; }
-}
-
-.celebration-message {
-    position: absolute;
-    bottom: 12%;
-    text-align: center;
-    color: #f8fafc;
-    text-shadow: 0 8px 30px rgba(0,0,0,0.45);
-    font-weight: 700;
-    letter-spacing: 0.8px;
-    opacity: 0;
-    transform: translateY(12px) scale(1.02);
-    transition: opacity 0.6s ease, transform 0.8s ease;
-    pointer-events: none;
-}
-
-.celebration-overlay.show .celebration-message {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-}
-
-        /* New Year 2026 pill & ornaments */
-        .ny-pill {
-            display: inline-flex;
-            align-items: center;
-            gap: 10px;
-            padding: 12px 18px;
-            border-radius: 999px;
-            background: linear-gradient(120deg, rgba(34,197,94,0.18), rgba(59,130,246,0.18), rgba(236,72,153,0.18));
-            border: 1px solid rgba(255,255,255,0.4);
-            box-shadow: 0 15px 40px rgba(0,0,0,0.06);
-            backdrop-filter: blur(8px);
-            -webkit-backdrop-filter: blur(8px);
-            animation: nyGlow 6s ease-in-out infinite;
-        }
-
-        .ny-pill span {
-            font-weight: 700;
-            letter-spacing: 0.5px;
-        }
-
-        @keyframes nyGlow {
-            0%,100% { box-shadow: 0 12px 35px rgba(34,197,94,0.20); transform: translateY(0); }
-            50% { box-shadow: 0 18px 45px rgba(59,130,246,0.25); transform: translateY(-3px); }
-        }
-
-        .ornaments-row {
-            display: flex;
-            gap: 8px;
-            justify-content: center;
-            margin-top: 28px;
-        }
-
-        .ornament {
-            width: 14px;
-            height: 14px;
-            border-radius: 50%;
-            background: linear-gradient(145deg, #22c55e, #15803d);
-            box-shadow: 0 6px 12px rgba(0,0,0,0.08);
-            position: relative;
-        }
-
-        .ornament.blue { background: linear-gradient(145deg, #60a5fa, #2563eb); }
-        .ornament.gold { background: linear-gradient(145deg, #fbbf24, #f59e0b); }
-        .ornament.pink { background: linear-gradient(145deg, #f472b6, #db2777); }
-
-        .ornament::before {
-            content: '';
-            position: absolute;
-            top: -6px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 6px;
-            height: 6px;
-            border-radius: 2px;
-            background: rgba(0,0,0,0.12);
-        }
-    </style>
-    
-    <!-- Structured Data -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Aqwel AI",
-        "alternateName": "Aqwel Artificial Intelligence",
-        "url": "https://aqwel.ai",
-        "logo": "https://aqwel.ai/logo_website.png",
-        "description": "Aqwel AI is building safe artificial general intelligence that benefits all of humanity. Advanced AI models for natural language processing, code generation, machine learning research, and creative applications.",
-        "foundingDate": "2024",
-        "founders": [
-            {
-                "@type": "Person",
-                "name": "Aksel Aghajanyan",
-                "url": "https://linkedin.com/in/aksel-aghajanyan"
-            }
-        ],
-        "contactPoint": {
-            "@type": "ContactPoint",
-            "telephone": "+1-XXX-XXX-XXXX",
-            "contactType": "customer service",
-            "email": "aqwelai.company@gmail.com",
-            "availableLanguage": "English"
-        },
-        "sameAs": [
-            "https://github.com/Aqwel-AI",
-            "https://www.linkedin.com/company/aqwelaiofficial/",
-            "https://x.com/AkselDeveloper"
-        ],
-        "address": {
-            "@type": "PostalAddress",
-            "addressCountry": "US"
-        },
-        "knowsAbout": [
-            "Artificial Intelligence",
-            "Machine Learning",
-            "Natural Language Processing",
-            "Deep Learning",
-            "Neural Networks",
-            "AI Safety",
-            "Code Generation",
-            "Data Science"
-        ],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "AI Research Tools and Libraries",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "SoftwareApplication",
-                        "name": "Aqwel-Aion Research Library",
-                        "description": "Comprehensive AI library featuring 175+ functions across 12 modules for AI research, machine learning, and data science workflows",
-                        "applicationCategory": "DeveloperApplication",
-                        "operatingSystem": "Python",
-                        "offers": {
-                            "@type": "Offer",
-                            "price": "0",
-                            "priceCurrency": "USD"
-                        }
-                    }
-                }
-            ]
-        }
+    body{
+      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      overflow: hidden;
     }
-    </script>
+
+    /* subtle research grid */
+    .gridbg{
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      opacity: .35;
+      background-image:
+        linear-gradient(to right, var(--soft) 1px, transparent 1px),
+        linear-gradient(to bottom, var(--soft) 1px, transparent 1px);
+      background-size: 72px 72px;
+      mask-image: radial-gradient(circle at 40% 20%, black 0 45%, transparent 70%);
+    }
+
+    /* 100vh layout */
+    .viewport{
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header{
+      padding: 22px 28px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid var(--soft);
+    }
+
+    .brand{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      user-select: none;
+      font-weight: 600;
+    }
+
+    .mark{
+      width: 28px;
+      height: 28px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      display: grid;
+      place-items: center;
+      font-size: 13px;
+    }
+
+    .mono{
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .viewport-main{
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 28px;
+    }
+
+    main{
+      width: 100%;
+      max-width: 1100px;
+    }
+
+    .layout{
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 24px;
+    }
+
+    @media (max-width: 860px){
+      .layout{ grid-template-columns: 1fr; }
+    }
+
+    h1{
+      margin: 0 0 12px 0;
+      font-size: 52px;
+      line-height: 1.05;
+      letter-spacing: -0.04em;
+      font-weight: 600;
+    }
+
+    p{
+      margin: 0;
+      font-size: 16px;
+      line-height: 1.7;
+      color: var(--muted);
+      max-width: 70ch;
+    }
+
+    .actions{
+      margin-top: 20px;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    a.btn{
+      text-decoration: none;
+      border: 1px solid var(--border);
+      padding: 10px 14px;
+      border-radius: 999px;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--fg);
+    }
+
+    a.primary{
+      background: var(--fg);
+      color: var(--bg);
+      border-color: var(--fg);
+    }
+
+    .panel{
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 18px;
+      background: var(--bg);
+    }
+
+    .row{
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0;
+      border-bottom: 1px solid var(--soft);
+    }
+
+    .row:last-child{ border-bottom: 0; }
+
+    .label{
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      color: var(--muted);
+    }
+
+    .value{
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    .count{
+      font-size: 28px;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+    }
+
+    footer{
+      margin-top: 26px;
+      padding-top: 14px;
+      border-top: 1px solid var(--soft);
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+  </style>
 </head>
-<body class="min-h-screen bg-white dark:bg-black font-sans">
-    <div class="snow-overlay"></div>
-    <div class="snow-overlay slow"></div>
-    <div class="celebration-overlay" id="celebration-overlay">
-        <div class="celebration-backdrop"></div>
-        <div class="fireworks">
-            <div class="firework" style="left: 40%; animation-delay: 0s;"></div>
-            <div class="firework" style="left: 55%; animation-delay: 0.2s;"></div>
-            <div class="firework" style="left: 48%; animation-delay: 0.4s;"></div>
-            <div class="firework" style="left: 60%; animation-delay: 0.6s;"></div>
-            <div class="firework" style="left: 35%; animation-delay: 0.8s;"></div>
+
+<body>
+  <div class="gridbg"></div>
+
+  <div class="viewport">
+    <header>
+      <div class="brand">
+        <div class="mark">AI</div>
+        Aqwel AI
+      </div>
+      <div class="mono">linkaiapps.com → aqwelai.xyz</div>
+    </header>
+
+    <div class="viewport-main">
+      <main>
+        <div class="layout">
+          <!-- Left -->
+          <section>
+            <h1>This site has moved.</h1>
+            <p>
+              Aqwel AI is now available at <span class="mono">https://aqwelai.xyz</span>.
+              This page exists only as a transition and will redirect automatically.
+            </p>
+
+            <div class="actions">
+              <a class="btn primary" href="https://aqwelai.xyz/">Go to aqwelai.xyz →</a>
+              <a class="btn" href="https://aqwelai.xyz/docs">Docs</a>
+              <a class="btn" href="https://aqwelai.xyz/research">Research</a>
+            </div>
+          </section>
+
+          <!-- Right -->
+          <aside class="panel" aria-live="polite">
+            <div class="row">
+              <div class="label">New domain</div>
+              <div class="value mono">aqwelai.xyz</div>
+            </div>
+            <div class="row">
+              <div class="label">Redirect in</div>
+              <div class="value count" id="countdown">02:00</div>
+            </div>
+            <div class="row">
+              <div class="label">Old domain</div>
+              <div class="value mono">linkaiapps.com</div>
+            </div>
+          </aside>
         </div>
-        <div class="party-streamers">
-            <div class="streamer"></div>
-            <div class="streamer alt"></div>
-            <div class="streamer alt2"></div>
-            <div class="streamer"></div>
-            <div class="streamer alt"></div>
-            <div class="streamer alt2"></div>
-        </div>
-        <div class="celebration-tree">
-            <div class="tree-star"></div>
-            <div class="tree-lights"></div>
-        </div>
-        <div class="celebration-message">
-            <div class="text-2xl sm:text-3xl md:text-4xl font-extrabold">Happy New Year 2026</div>
-            <div class="mt-2 text-sm sm:text-base font-semibold text-emerald-100">Warm lights, cool skies, endless celebration</div>
-        </div>
+
+        <footer>
+          <div>© 2026 Aqwel AI</div>
+          <div class="mono">This domain is used only for redirection.</div>
+        </footer>
+      </main>
     </div>
-    <!-- Header -->
-    <nav class="bg-white dark:bg-black border-b border-gray-200 dark:border-gray-800 sticky top-0 z-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex items-center justify-between h-16">
-                <!-- Logo (Left) -->
-                <div class="flex items-center">
-                    <a href="index.html" class="flex items-center space-x-3 group">
-                        <div class="relative">
-                            <div class="w-10 h-10 rounded-2xl bg-black flex items-center justify-center p-2 group-hover:scale-110 transition-transform duration-300 ease-in-out">
-                                <img src="images/logo_website.png" alt="Aqwel AI Logo" class="w-7 h-7 group-hover:scale-105 transition-transform duration-300 ease-in-out">
-                            </div>
-                        </div>
-                        <span class="text-xl font-bold text-gray-900 dark:text-white group-hover:scale-105 transition-transform duration-300 ease-in-out">Aqwel AI</span>
-                    </a>
-                </div>
+  </div>
 
-                <!-- Desktop Navigation (Center) -->
-                <div class="hidden md:flex items-center space-x-6 lg:space-x-8 flex-1 justify-center">
-                    <a href="index.html" class="px-3 py-2 text-sm font-medium text-gray-900 dark:text-white font-semibold" data-page="home">Home</a>
-                    <a href="pages/about.html" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors" data-page="about">About</a>
-                    <a href="pages/docs.html" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors" data-page="docs">Docs</a>
-                    <a href="pages/research.html" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors" data-page="research">Research</a>
-                    <a href="pages/datasets.html" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors" data-page="datasets">Datasets</a>
-                    <a href="pages/safety.html" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors" data-page="safety">Safety</a>
-                    <a href="pages/careers.html" class="px-3 py-2 text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors" data-page="careers">Careers</a>
-                </div>
+  <script>
+    const TARGET = "https://aqwelai.xyz/";
+    let remaining = 120;
+    const el = document.getElementById("countdown");
 
-                <!-- Right Side Actions -->
-                <div class="hidden md:flex items-center space-x-3 lg:space-x-4">
-                    <a href="mailto:aqwelai.company@gmail.com?subject=Get Started with Aqwel AI" class="bg-gray-900 dark:bg-white text-white dark:text-black px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-800 dark:hover:bg-gray-100 transition-colors">Get Started</a>
-                </div>
+    function format(sec){
+      const m = String(Math.floor(sec / 60)).padStart(2, "0");
+      const s = String(sec % 60).padStart(2, "0");
+      return `${m}:${s}`;
+    }
 
-                <!-- Mobile Menu Button -->
-                <div class="md:hidden">
-                    <button id="mobile-menu-button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-600 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 transition-colors duration-200" aria-expanded="false" aria-label="Open main menu">
-                        <span class="sr-only">Open main menu</span>
-                        <!-- Hamburger Icon -->
-                        <svg id="hamburger-icon" class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-                        </svg>
-                        <!-- Close Icon -->
-                        <svg id="close-icon" class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                        </svg>
-                    </button>
-                </div>
-            </div>
+    el.textContent = format(remaining);
 
-            <!-- Mobile Menu -->
-            <div id="mobile-menu" class="md:hidden transition-all duration-300 ease-in-out max-h-0 opacity-0 overflow-hidden">
-                <div class="px-2 pt-2 pb-3 space-y-1 bg-white dark:bg-black border-t border-gray-200 dark:border-gray-800 relative z-40">
-                    <a href="index.html" class="block px-3 py-3 text-base font-medium rounded-lg text-gray-900 dark:text-white bg-gray-100 dark:bg-gray-800 font-semibold" data-page="home">Home</a>
-                    <a href="pages/about.html" class="block px-3 py-3 text-base font-medium rounded-lg text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200" data-page="about">About</a>
-                    <a href="pages/docs.html" class="block px-3 py-3 text-base font-medium rounded-lg text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200" data-page="docs">Docs</a>
-                    <a href="pages/research.html" class="block px-3 py-3 text-base font-medium rounded-lg text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200" data-page="research">Research</a>
-                    <a href="pages/datasets.html" class="block px-3 py-3 text-base font-medium rounded-lg text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200" data-page="datasets">Datasets</a>
-                    <a href="pages/safety.html" class="block px-3 py-3 text-base font-medium rounded-lg text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200" data-page="safety">Safety</a>
-                    <a href="pages/careers.html" class="block px-3 py-3 text-base font-medium rounded-lg text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200" data-page="careers">Careers</a>
-                    
-                    
-                    <div class="pt-4 pb-2">
-                        <a href="mailto:aqwelai.company@gmail.com?subject=Get Started with Aqwel AI" class="block w-full bg-gray-900 dark:bg-white text-white dark:text-gray-900 text-center px-4 py-3 rounded-lg text-base font-medium hover:bg-gray-800 dark:hover:bg-gray-100 transition-colors duration-200">Get Started</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </nav>
-
-    <main class="min-h-screen bg-white dark:bg-black">
-        <!-- Hero Section -->
-        <section class="relative min-h-screen flex items-center justify-center px-4 sm:px-6 md:px-8 lg:px-8">
-            <div class="max-w-6xl mx-auto py-16 md:py-20 lg:py-24">
-                <div class="text-center">
-                    <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-gray-900 dark:text-white mb-8 md:mb-12 leading-tight tracking-tight font-tt-interphases">
-                        AI is the key to unlocking the deepest mysteries of the universe
-                    </h1>
-                    <p class="text-lg sm:text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-12 md:mb-16 max-w-4xl mx-auto leading-relaxed font-light">
-                        Aqwel AI is building safe artificial general intelligence that benefits all of humanity. 
-                        Our mission is to ensure that AI systems are aligned with human values.
-                    </p>
-                    
-                    <!-- CTA Buttons -->
-                    <div class="flex flex-col sm:flex-row gap-4 md:gap-6 justify-center">
-                        <button id="try-aqwel-btn" class="bg-gray-900 dark:bg-white text-white dark:text-gray-900 font-medium py-4 px-8 rounded-full hover:bg-gray-800 dark:hover:bg-gray-100 transition-all duration-300 text-lg cursor-pointer">
-                            Try Aqwel AI
-                        </button>
-                        <button id="view-examples-btn" class="border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 font-medium py-4 px-8 rounded-full hover:bg-gray-50 dark:hover:bg-gray-800 transition-all duration-300 text-lg cursor-pointer">
-                            View Examples
-                        </button>
-                    </div>
-                    <div class="mt-10 flex flex-col items-center gap-4">
-                        <div class="ny-pill text-gray-900 dark:text-white">
-                            <span>🎉</span>
-                            <span>New Year 2026</span>
-                            <span>🎄</span>
-                        </div>
-                        <div class="ornaments-row">
-                            <div class="ornament gold"></div>
-                            <div class="ornament blue"></div>
-                            <div class="ornament"></div>
-                            <div class="ornament pink"></div>
-                            <div class="ornament gold"></div>
-                            <div class="ornament blue"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Features Section -->
-        <section id="features" class="py-32 bg-gray-50 dark:bg-black">
-            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="text-center mb-20">
-                    <h2 class="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-                        Powerful capabilities
-                    </h2>
-                    <p class="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-                        Our AI models are designed to understand and generate human-like text, 
-                        making them useful for a wide range of applications.
-                    </p>
-                </div>
-                
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
-                    <div class="bg-white dark:bg-black p-8 rounded-2xl shadow-sm border border-gray-200 dark:border-gray-800">
-                        <div class="flex items-start space-x-4">
-                            <div class="w-12 h-12 bg-gray-100 dark:bg-gray-800 rounded-lg flex items-center justify-center flex-shrink-0">
-                                <svg class="w-6 h-6 text-gray-600 dark:text-gray-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
-                                </svg>
-                            </div>
-                            <div>
-                                <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">Natural Language Processing</h3>
-                                <p class="text-gray-600 dark:text-gray-300 leading-relaxed">
-                                    Advanced language understanding and generation capabilities that can help with writing, 
-                                    analysis, coding, math, and much more.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="bg-white dark:bg-black p-8 rounded-2xl shadow-sm border border-gray-200 dark:border-gray-800">
-                        <div class="flex items-start space-x-4">
-                            <div class="w-12 h-12 bg-gray-100 dark:bg-gray-800 rounded-lg flex items-center justify-center flex-shrink-0">
-                                <svg class="w-6 h-6 text-gray-600 dark:text-gray-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-                                </svg>
-                            </div>
-                            <div>
-                                <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">Code Generation</h3>
-                                <p class="text-gray-600 dark:text-gray-300 leading-relaxed">
-                                    Generate, edit, and debug code in multiple programming languages with intelligent 
-                                    suggestions and explanations.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="bg-white dark:bg-black p-8 rounded-2xl shadow-sm border border-gray-200 dark:border-gray-800">
-                        <div class="flex items-start space-x-4">
-                            <div class="w-12 h-12 bg-gray-100 dark:bg-gray-800 rounded-lg flex items-center justify-center flex-shrink-0">
-                                <svg class="w-6 h-6 text-gray-600 dark:text-gray-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-                                </svg>
-                            </div>
-                            <div>
-                                <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">Safe & Reliable</h3>
-                                <p class="text-gray-600 dark:text-gray-300 leading-relaxed">
-                                    Built with safety in mind, our models are designed to be helpful, harmless, 
-                                    and honest in their responses.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="bg-white dark:bg-black p-8 rounded-2xl shadow-sm border border-gray-200 dark:border-gray-800">
-                        <div class="flex items-start space-x-4">
-                            <div class="w-12 h-12 bg-gray-100 dark:bg-gray-800 rounded-lg flex items-center justify-center flex-shrink-0">
-                                <svg class="w-6 h-6 text-gray-600 dark:text-gray-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                                </svg>
-                            </div>
-                            <div>
-                                <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">Creative Applications</h3>
-                                <p class="text-gray-600 dark:text-gray-300 leading-relaxed">
-                                    From creative writing to brainstorming ideas, our AI can assist with 
-                                    a wide range of creative and analytical tasks.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Dataset News Section -->
-        <section class="py-32 bg-white dark:bg-black">
-            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="text-center mb-20">
-                    <h2 class="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-                        New Dataset Collection
-                    </h2>
-                    <p class="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-                        Explore our newly launched collection of high-quality AI research datasets across multiple domains.
-                    </p>
-                </div>
-                
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
-                    <!-- Featured Dataset Release -->
-                    <div class="bg-white dark:bg-black p-8 rounded-2xl shadow-sm border border-gray-200 dark:border-gray-800">
-                        <div class="flex items-center mb-6">
-                            <div class="w-12 h-12 bg-gray-100 dark:bg-gray-800 rounded-lg flex items-center justify-center mr-4">
-                                <svg class="w-6 h-6 text-gray-600 dark:text-gray-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                                </svg>
-                            </div>
-                            <div>
-                                <span class="inline-block px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 text-sm font-medium rounded-full">New Release</span>
-                            </div>
-                        </div>
-                        <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">
-                            60+ AI Research Datasets Now Available
-                        </h3>
-                        <p class="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-                            We've launched our comprehensive dataset collection featuring 60+ high-quality datasets across 12 specialized domains. 
-                            From AI & Tech to Business & Finance, researchers can now access curated datasets in multiple formats.
-                        </p>
-                        <div class="flex flex-wrap gap-3 mb-6">
-                            <span class="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 text-sm rounded-full">CSV Format</span>
-                            <span class="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 text-sm rounded-full">JSON Format</span>
-                            <span class="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 text-sm rounded-full">12 Categories</span>
-                        </div>
-                        <a href="pages/datasets.html" class="inline-flex items-center text-gray-700 dark:text-gray-300 font-medium hover:text-gray-900 dark:hover:text-white transition-colors">
-                            Explore Datasets
-                            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                            </svg>
-                        </a>
-                    </div>
-
-                    <!-- Dataset Categories Update -->
-                    <div class="bg-white dark:bg-black p-8 rounded-2xl shadow-sm border border-gray-200 dark:border-gray-800">
-                        <div class="flex items-center mb-6">
-                            <div class="w-12 h-12 bg-gray-100 dark:bg-gray-800 rounded-lg flex items-center justify-center mr-4">
-                                <svg class="w-6 h-6 text-gray-600 dark:text-gray-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
-                                </svg>
-                            </div>
-                            <div>
-                                <span class="inline-block px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 text-sm font-medium rounded-full">Expansion</span>
-                            </div>
-                        </div>
-                        <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-3">
-                            New Dataset Categories Added
-                        </h3>
-                        <p class="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-                            We've expanded our dataset collection with new categories including Gaming & Esports, 
-                            Art & Creativity, and Transport & Mobility. Each category contains specialized datasets 
-                            tailored for specific research domains.
-                        </p>
-                        <div class="grid grid-cols-2 gap-3 mb-6">
-                            <div class="text-center p-3 bg-gray-50 dark:bg-gray-800 rounded-lg">
-                                <div class="text-lg font-bold text-gray-900 dark:text-white">12</div>
-                                <div class="text-sm text-gray-600 dark:text-gray-300">Categories</div>
-                            </div>
-                            <div class="text-center p-3 bg-gray-50 dark:bg-gray-800 rounded-lg">
-                                <div class="text-lg font-bold text-gray-900 dark:text-white">60+</div>
-                                <div class="text-sm text-gray-600 dark:text-gray-300">Datasets</div>
-                            </div>
-                        </div>
-                        <a href="pages/datasets.html" class="inline-flex items-center text-gray-700 dark:text-gray-300 font-medium hover:text-gray-900 dark:hover:text-white transition-colors">
-                            Browse Categories
-                            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Additional Dataset Examples -->
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-                    <!-- Dataset Card 1 -->
-                    <div class="bg-white dark:bg-black p-6 rounded-2xl shadow-sm border border-gray-200 dark:border-gray-800">
-                        <div class="flex items-center mb-4">
-                            <div class="w-10 h-10 bg-blue-100 dark:bg-blue-900 rounded-lg flex items-center justify-center mr-3">
-                                <svg class="w-5 h-5 text-blue-600 dark:text-blue-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                                </svg>
-                            </div>
-                            <div>
-                                <span class="inline-block px-2 py-1 bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 text-xs font-medium rounded-full">AI & Tech</span>
-                            </div>
-                        </div>
-                        <h4 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">Programming Languages</h4>
-                        <p class="text-sm text-gray-600 dark:text-gray-300 mb-4">
-                            Comprehensive dataset of programming languages with features, popularity metrics, and usage statistics.
-                        </p>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-2 py-1 bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 text-xs rounded-full">Programming</span>
-                            <span class="px-2 py-1 bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 text-xs rounded-full">Languages</span>
-                        </div>
-                        <a href="pages/datasets.html?search=Programming Languages" class="text-blue-600 dark:text-blue-400 text-sm font-medium hover:text-blue-800 dark:hover:text-blue-300 transition-colors">
-                            View Dataset →
-                        </a>
-                    </div>
-
-                    <!-- Dataset Card 2 -->
-                    <div class="bg-white dark:bg-black p-6 rounded-2xl shadow-sm border border-gray-200 dark:border-gray-800">
-                        <div class="flex items-center mb-4">
-                            <div class="w-10 h-10 bg-green-100 dark:bg-green-900 rounded-lg flex items-center justify-center mr-3">
-                                <svg class="w-5 h-5 text-green-600 dark:text-green-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
-                                </svg>
-                            </div>
-                            <div>
-                                <span class="inline-block px-2 py-1 bg-green-100 dark:bg-green-900 text-green-700 dark:text-green-300 text-xs font-medium rounded-full">Business & Finance</span>
-                            </div>
-                        </div>
-                        <h4 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">Cryptocurrency</h4>
-                        <p class="text-sm text-gray-600 dark:text-gray-300 mb-4">
-                            Cryptocurrency prices, market caps, trading volumes, and technical data for comprehensive analysis.
-                        </p>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-2 py-1 bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 text-xs rounded-full">Crypto</span>
-                            <span class="px-2 py-1 bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 text-xs rounded-full">Finance</span>
-                        </div>
-                        <a href="pages/datasets.html?search=Cryptocurrency" class="text-green-600 dark:text-green-400 text-sm font-medium hover:text-green-800 dark:hover:text-green-300 transition-colors">
-                            View Dataset →
-                        </a>
-                    </div>
-
-                    <!-- Dataset Card 3 -->
-                    <div class="bg-white dark:bg-black p-6 rounded-2xl shadow-sm border border-gray-200 dark:border-gray-800">
-                        <div class="flex items-center mb-4">
-                            <div class="w-10 h-10 bg-purple-100 dark:bg-purple-900 rounded-lg flex items-center justify-center mr-3">
-                                <svg class="w-5 h-5 text-purple-600 dark:text-purple-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                                </svg>
-                            </div>
-                            <div>
-                                <span class="inline-block px-2 py-1 bg-purple-100 dark:bg-purple-900 text-purple-700 dark:text-purple-300 text-xs font-medium rounded-full">Entertainment & Media</span>
-                            </div>
-                        </div>
-                        <h4 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">Movies</h4>
-                        <p class="text-sm text-gray-600 dark:text-gray-300 mb-4">
-                            Comprehensive movie database with ratings, genres, box office data, and cast information.
-                        </p>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-2 py-1 bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 text-xs rounded-full">Movies</span>
-                            <span class="px-2 py-1 bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 text-xs rounded-full">Entertainment</span>
-                        </div>
-                        <a href="pages/datasets.html?search=Movies" class="text-purple-600 dark:text-purple-400 text-sm font-medium hover:text-purple-800 dark:hover:text-purple-300 transition-colors">
-                            View Dataset →
-                        </a>
-                    </div>
-
-                    <!-- Dataset Card 4 -->
-                    <div class="bg-white dark:bg-black p-6 rounded-2xl shadow-sm border border-gray-200 dark:border-gray-800">
-                        <div class="flex items-center mb-4">
-                            <div class="w-10 h-10 bg-orange-100 dark:bg-orange-900 rounded-lg flex items-center justify-center mr-3">
-                                <svg class="w-5 h-5 text-orange-600 dark:text-orange-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                                </svg>
-                            </div>
-                            <div>
-                                <span class="inline-block px-2 py-1 bg-orange-100 dark:bg-orange-900 text-orange-700 dark:text-orange-300 text-xs font-medium rounded-full">Geography & Demographics</span>
-                            </div>
-                        </div>
-                        <h4 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">Population</h4>
-                        <p class="text-sm text-gray-600 dark:text-gray-300 mb-4">
-                            Population statistics, growth rates, and demographic trends by region and country.
-                        </p>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-2 py-1 bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 text-xs rounded-full">Population</span>
-                            <span class="px-2 py-1 bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 text-xs rounded-full">Demographics</span>
-                        </div>
-                        <a href="pages/datasets.html?search=Population" class="text-orange-600 dark:text-orange-400 text-sm font-medium hover:text-orange-800 dark:hover:text-orange-300 transition-colors">
-                            View Dataset →
-                        </a>
-                    </div>
-
-                    <!-- Dataset Card 5 -->
-                    <div class="bg-white dark:bg-black p-6 rounded-2xl shadow-sm border border-gray-200 dark:border-gray-800">
-                        <div class="flex items-center mb-4">
-                            <div class="w-10 h-10 bg-red-100 dark:bg-red-900 rounded-lg flex items-center justify-center mr-3">
-                                <svg class="w-5 h-5 text-red-600 dark:text-red-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                                </svg>
-                            </div>
-                            <div>
-                                <span class="inline-block px-2 py-1 bg-red-100 dark:bg-red-900 text-red-700 dark:text-red-300 text-xs font-medium rounded-full">AI & Tech</span>
-                            </div>
-                        </div>
-                        <h4 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">Cybersecurity</h4>
-                        <p class="text-sm text-gray-600 dark:text-gray-300 mb-4">
-                            Cybersecurity incidents, vulnerabilities, and security measures across different industries.
-                        </p>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-2 py-1 bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 text-xs rounded-full">Security</span>
-                            <span class="px-2 py-1 bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 text-xs rounded-full">Cybersecurity</span>
-                        </div>
-                        <a href="pages/datasets.html?search=Cybersecurity" class="text-red-600 dark:text-red-400 text-sm font-medium hover:text-red-800 dark:hover:text-red-300 transition-colors">
-                            View Dataset →
-                        </a>
-                    </div>
-
-                    <!-- Dataset Card 6 -->
-                    <div class="bg-white dark:bg-black p-6 rounded-2xl shadow-sm border border-gray-200 dark:border-gray-800">
-                        <div class="flex items-center mb-4">
-                            <div class="w-10 h-10 bg-indigo-100 dark:bg-indigo-900 rounded-lg flex items-center justify-center mr-3">
-                                <svg class="w-5 h-5 text-indigo-600 dark:text-indigo-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-                                </svg>
-                            </div>
-                            <div>
-                                <span class="inline-block px-2 py-1 bg-indigo-100 dark:bg-indigo-900 text-indigo-700 dark:text-indigo-300 text-xs font-medium rounded-full">Business & Finance</span>
-                            </div>
-                        </div>
-                        <h4 class="text-lg font-semibold text-gray-900 dark:text-white mb-2">Real Estate</h4>
-                        <p class="text-sm text-gray-600 dark:text-gray-300 mb-4">
-                            Real estate market data including property prices, locations, features, and market trends.
-                        </p>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-2 py-1 bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 text-xs rounded-full">Real Estate</span>
-                            <span class="px-2 py-1 bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300 text-xs rounded-full">Property</span>
-                        </div>
-                        <a href="pages/datasets.html?search=Real Estate" class="text-indigo-600 dark:text-indigo-400 text-sm font-medium hover:text-indigo-800 dark:hover:text-indigo-300 transition-colors">
-                            View Dataset →
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Platform Expansion News -->
-                <div class="bg-white dark:bg-black rounded-2xl shadow-sm border border-gray-200 dark:border-gray-800 p-8">
-                    <div class="text-center mb-8">
-                        <div class="w-16 h-16 bg-gray-100 dark:bg-gray-800 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                            <svg class="w-8 h-8 text-gray-600 dark:text-gray-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
-                            </svg>
-                        </div>
-                        <span class="inline-block px-4 py-2 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 text-sm font-medium rounded-full mb-4">Coming Soon</span>
-                        <h3 class="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-                            Multi-Platform Dataset Distribution
-                        </h3>
-                        <p class="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
-                            We're expanding our dataset availability across multiple platforms including GitHub, Kaggle, 
-                            Hugging Face, and Google Dataset Search for maximum accessibility and collaboration.
-                        </p>
-                    </div>
-                    
-                    <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
-                        <div class="text-center">
-                            <div class="w-12 h-12 bg-gray-100 dark:bg-gray-800 rounded-xl flex items-center justify-center mx-auto mb-3">
-                                <svg class="w-6 h-6 text-gray-600 dark:text-gray-300" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                                </svg>
-                            </div>
-                            <h4 class="font-semibold text-gray-900 dark:text-white mb-1">GitHub</h4>
-                            <p class="text-sm text-gray-600 dark:text-gray-300">Version Control</p>
-                        </div>
-                        <div class="text-center">
-                            <div class="w-12 h-12 bg-gray-100 dark:bg-gray-800 rounded-xl flex items-center justify-center mx-auto mb-3">
-                                <svg class="w-6 h-6 text-gray-600 dark:text-gray-300" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.568 8.16c-.169 0-.334.033-.488.098l-2.236 1.13c-.154-.098-.32-.18-.488-.24V8.16c0-.442-.358-.8-.8-.8s-.8.358-.8.8v1.13c-.168.06-.334.142-.488.24l-2.236-1.13c-.154-.065-.32-.098-.488-.098-.442 0-.8.358-.8.8s.358.8.8.8c.168 0 .334-.033.488-.098l2.236 1.13c.154.098.32.18.488.24v1.13c0 .442.358.8.8.8s.8-.358.8-.8v-1.13c.168-.06.334-.142.488-.24l2.236 1.13c.154.065.32.098.488.098.442 0 .8-.358.8-.8s-.358-.8-.8-.8z"/>
-                                </svg>
-                            </div>
-                            <h4 class="font-semibold text-gray-900 dark:text-white mb-1">Kaggle</h4>
-                            <p class="text-sm text-gray-600 dark:text-gray-300">Data Science</p>
-                        </div>
-                        <div class="text-center">
-                            <div class="w-12 h-12 bg-gray-100 dark:bg-gray-800 rounded-xl flex items-center justify-center mx-auto mb-3">
-                                <svg class="w-6 h-6 text-gray-600 dark:text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                                </svg>
-                            </div>
-                            <h4 class="font-semibold text-gray-900 dark:text-white mb-1">Hugging Face</h4>
-                            <p class="text-sm text-gray-600 dark:text-gray-300">AI Models</p>
-                        </div>
-                        <div class="text-center">
-                            <div class="w-12 h-12 bg-gray-100 dark:bg-gray-800 rounded-xl flex items-center justify-center mx-auto mb-3">
-                                <svg class="w-6 h-6 text-gray-600 dark:text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                                </svg>
-                            </div>
-                            <h4 class="font-semibold text-gray-900 dark:text-white mb-1">Google Search</h4>
-                            <p class="text-sm text-gray-600 dark:text-gray-300">Discovery</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="py-32 bg-white dark:bg-black">
-            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="text-center mb-20">
-                    <h2 class="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-                        Data Visualization Examples
-                    </h2>
-                    <p class="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-                        See how our datasets can be transformed into powerful insights through data visualization and analysis.
-                    </p>
-                </div>
-                
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
-                    <!-- Chart Example 1 -->
-                    <div class="bg-gray-50 dark:bg-gray-900 p-8 rounded-2xl">
-                        <div class="flex items-center mb-6">
-                            <div class="w-12 h-12 bg-blue-100 dark:bg-blue-900 rounded-lg flex items-center justify-center mr-4">
-                                <svg class="w-6 h-6 text-blue-600 dark:text-blue-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                                </svg>
-                            </div>
-                            <div>
-                                <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Programming Language Popularity</h3>
-                                <p class="text-sm text-gray-600 dark:text-gray-400">From Programming Languages Dataset</p>
-                            </div>
-                        </div>
-                        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg mb-4">
-                            <div class="h-48 flex items-end justify-between space-x-2">
-                                <div class="flex flex-col items-center">
-                                    <div class="w-8 bg-blue-500 rounded-t" style="height: 120px;"></div>
-                                    <span class="text-xs text-gray-600 dark:text-gray-400 mt-2">Python</span>
-                                </div>
-                                <div class="flex flex-col items-center">
-                                    <div class="w-8 bg-green-500 rounded-t" style="height: 100px;"></div>
-                                    <span class="text-xs text-gray-600 dark:text-gray-400 mt-2">JavaScript</span>
-                                </div>
-                                <div class="flex flex-col items-center">
-                                    <div class="w-8 bg-yellow-500 rounded-t" style="height: 80px;"></div>
-                                    <span class="text-xs text-gray-600 dark:text-gray-400 mt-2">Java</span>
-                                </div>
-                                <div class="flex flex-col items-center">
-                                    <div class="w-8 bg-red-500 rounded-t" style="height: 60px;"></div>
-                                    <span class="text-xs text-gray-600 dark:text-gray-400 mt-2">C++</span>
-                                </div>
-                                <div class="flex flex-col items-center">
-                                    <div class="w-8 bg-purple-500 rounded-t" style="height: 40px;"></div>
-                                    <span class="text-xs text-gray-600 dark:text-gray-400 mt-2">Go</span>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="text-sm text-gray-600 dark:text-gray-300">
-                            Bar chart showing the relative popularity of programming languages based on GitHub activity and job market demand.
-                        </p>
-                    </div>
-
-                    <!-- Chart Example 2 -->
-                    <div class="bg-gray-50 dark:bg-gray-900 p-8 rounded-2xl">
-                        <div class="flex items-center mb-6">
-                            <div class="w-12 h-12 bg-green-100 dark:bg-green-900 rounded-lg flex items-center justify-center mr-4">
-                                <svg class="w-6 h-6 text-green-600 dark:text-green-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z" />
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z" />
-                                </svg>
-                            </div>
-                            <div>
-                                <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Tech Company Market Share</h3>
-                                <p class="text-sm text-gray-600 dark:text-gray-400">From Tech Companies Dataset</p>
-                            </div>
-                        </div>
-                        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg mb-4">
-                            <div class="relative w-48 h-48 mx-auto">
-                                <svg class="w-full h-full transform -rotate-90" viewBox="0 0 100 100">
-                                    <circle cx="50" cy="50" r="40" fill="none" stroke="#e5e7eb" stroke-width="8"/>
-                                    <circle cx="50" cy="50" r="40" fill="none" stroke="#3b82f6" stroke-width="8" stroke-dasharray="125.6" stroke-dashoffset="31.4" stroke-linecap="round"/>
-                                    <circle cx="50" cy="50" r="40" fill="none" stroke="#10b981" stroke-width="8" stroke-dasharray="125.6" stroke-dashoffset="62.8" stroke-linecap="round"/>
-                                    <circle cx="50" cy="50" r="40" fill="none" stroke="#f59e0b" stroke-width="8" stroke-dasharray="125.6" stroke-dashoffset="94.2" stroke-linecap="round"/>
-                                </svg>
-                                <div class="absolute inset-0 flex items-center justify-center">
-                                    <div class="text-center">
-                                        <div class="text-2xl font-bold text-gray-900 dark:text-white">$2.1T</div>
-                                        <div class="text-xs text-gray-600 dark:text-gray-400">Total Market</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="flex justify-center space-x-6 mt-4">
-                                <div class="flex items-center">
-                                    <div class="w-3 h-3 bg-blue-500 rounded-full mr-2"></div>
-                                    <span class="text-sm text-gray-600 dark:text-gray-400">Apple (25%)</span>
-                                </div>
-                                <div class="flex items-center">
-                                    <div class="w-3 h-3 bg-green-500 rounded-full mr-2"></div>
-                                    <span class="text-sm text-gray-600 dark:text-gray-400">Microsoft (20%)</span>
-                                </div>
-                                <div class="flex items-center">
-                                    <div class="w-3 h-3 bg-yellow-500 rounded-full mr-2"></div>
-                                    <span class="text-sm text-gray-600 dark:text-gray-400">Others (55%)</span>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="text-sm text-gray-600 dark:text-gray-300">
-                            Pie chart displaying market capitalization distribution among major technology companies.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
-                    <!-- Chart Example 3 -->
-                    <div class="bg-gray-50 dark:bg-gray-900 p-8 rounded-2xl">
-                        <div class="flex items-center mb-6">
-                            <div class="w-12 h-12 bg-purple-100 dark:bg-purple-900 rounded-lg flex items-center justify-center mr-4">
-                                <svg class="w-6 h-6 text-purple-600 dark:text-purple-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-                                </svg>
-                            </div>
-                            <div>
-                                <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Cryptocurrency Price Trends</h3>
-                                <p class="text-sm text-gray-600 dark:text-gray-400">From Cryptocurrency Dataset</p>
-                            </div>
-                        </div>
-                        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg mb-4">
-                            <div class="h-48 relative">
-                                <svg class="w-full h-full" viewBox="0 0 300 120">
-                                    <polyline fill="none" stroke="#8b5cf6" stroke-width="2" points="10,100 50,80 90,60 130,40 170,50 210,30 250,20 290,10"/>
-                                    <polyline fill="none" stroke="#06b6d4" stroke-width="2" points="10,110 50,90 90,70 130,50 170,60 210,40 250,30 290,20"/>
-                                    <polyline fill="none" stroke="#10b981" stroke-width="2" points="10,120 50,100 90,80 130,60 170,70 210,50 250,40 290,30"/>
-                                </svg>
-                                <div class="absolute bottom-0 left-0 right-0 flex justify-between text-xs text-gray-500">
-                                    <span>Jan</span>
-                                    <span>Mar</span>
-                                    <span>May</span>
-                                    <span>Jul</span>
-                                    <span>Sep</span>
-                                    <span>Nov</span>
-                                </div>
-                            </div>
-                            <div class="flex justify-center space-x-6 mt-4">
-                                <div class="flex items-center">
-                                    <div class="w-3 h-0.5 bg-purple-500 mr-2"></div>
-                                    <span class="text-sm text-gray-600 dark:text-gray-400">Bitcoin</span>
-                                </div>
-                                <div class="flex items-center">
-                                    <div class="w-3 h-0.5 bg-cyan-500 mr-2"></div>
-                                    <span class="text-sm text-gray-600 dark:text-gray-400">Ethereum</span>
-                                </div>
-                                <div class="flex items-center">
-                                    <div class="w-3 h-0.5 bg-green-500 mr-2"></div>
-                                    <span class="text-sm text-gray-600 dark:text-gray-400">Others</span>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="text-sm text-gray-600 dark:text-gray-300">
-                            Line chart showing price trends for major cryptocurrencies over the past year.
-                        </p>
-                    </div>
-
-                    <!-- Chart Example 4 -->
-                    <div class="bg-gray-50 dark:bg-gray-900 p-8 rounded-2xl">
-                        <div class="flex items-center mb-6">
-                            <div class="w-12 h-12 bg-orange-100 dark:bg-orange-900 rounded-lg flex items-center justify-center mr-4">
-                                <svg class="w-6 h-6 text-orange-600 dark:text-orange-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                                </svg>
-                            </div>
-                            <div>
-                                <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Global Population Distribution</h3>
-                                <p class="text-sm text-gray-600 dark:text-gray-400">From Population Dataset</p>
-                            </div>
-                        </div>
-                        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg mb-4">
-                            <div class="space-y-3">
-                                <div class="flex items-center justify-between">
-                                    <span class="text-sm text-gray-600 dark:text-gray-400">Asia</span>
-                                    <div class="flex items-center">
-                                        <div class="w-32 bg-gray-200 dark:bg-gray-700 rounded-full h-2 mr-3">
-                                            <div class="bg-orange-500 h-2 rounded-full" style="width: 60%"></div>
-                                        </div>
-                                        <span class="text-sm font-medium text-gray-900 dark:text-white">60%</span>
-                                    </div>
-                                </div>
-                                <div class="flex items-center justify-between">
-                                    <span class="text-sm text-gray-600 dark:text-gray-400">Africa</span>
-                                    <div class="flex items-center">
-                                        <div class="w-32 bg-gray-200 dark:bg-gray-700 rounded-full h-2 mr-3">
-                                            <div class="bg-green-500 h-2 rounded-full" style="width: 17%"></div>
-                                        </div>
-                                        <span class="text-sm font-medium text-gray-900 dark:text-white">17%</span>
-                                    </div>
-                                </div>
-                                <div class="flex items-center justify-between">
-                                    <span class="text-sm text-gray-600 dark:text-gray-400">Europe</span>
-                                    <div class="flex items-center">
-                                        <div class="w-32 bg-gray-200 dark:bg-gray-700 rounded-full h-2 mr-3">
-                                            <div class="bg-blue-500 h-2 rounded-full" style="width: 10%"></div>
-                                        </div>
-                                        <span class="text-sm font-medium text-gray-900 dark:text-white">10%</span>
-                                    </div>
-                                </div>
-                                <div class="flex items-center justify-between">
-                                    <span class="text-sm text-gray-600 dark:text-gray-400">Americas</span>
-                                    <div class="flex items-center">
-                                        <div class="w-32 bg-gray-200 dark:bg-gray-700 rounded-full h-2 mr-3">
-                                            <div class="bg-purple-500 h-2 rounded-full" style="width: 13%"></div>
-                                        </div>
-                                        <span class="text-sm font-medium text-gray-900 dark:text-white">13%</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="text-sm text-gray-600 dark:text-gray-300">
-                            Horizontal bar chart showing global population distribution across continents.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Additional Visualization Examples -->
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mt-16">
-                    <!-- Chart Example 5 -->
-                    <div class="bg-gray-50 dark:bg-gray-900 p-8 rounded-2xl">
-                        <div class="flex items-center mb-6">
-                            <div class="w-12 h-12 bg-red-100 dark:bg-red-900 rounded-lg flex items-center justify-center mr-4">
-                                <svg class="w-6 h-6 text-red-600 dark:text-red-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
-                                </svg>
-                            </div>
-                            <div>
-                                <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Startup Funding Trends</h3>
-                                <p class="text-sm text-gray-600 dark:text-gray-400">From Startup Dataset</p>
-                            </div>
-                        </div>
-                        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg mb-4">
-                            <div class="h-48 flex items-end justify-between space-x-1">
-                                <div class="flex flex-col items-center">
-                                    <div class="w-6 bg-blue-500 rounded-t" style="height: 80px;"></div>
-                                    <span class="text-xs text-gray-600 dark:text-gray-400 mt-1">Q1</span>
-                                </div>
-                                <div class="flex flex-col items-center">
-                                    <div class="w-6 bg-green-500 rounded-t" style="height: 120px;"></div>
-                                    <span class="text-xs text-gray-600 dark:text-gray-400 mt-1">Q2</span>
-                                </div>
-                                <div class="flex flex-col items-center">
-                                    <div class="w-6 bg-yellow-500 rounded-t" style="height: 100px;"></div>
-                                    <span class="text-xs text-gray-600 dark:text-gray-400 mt-1">Q3</span>
-                                </div>
-                                <div class="flex flex-col items-center">
-                                    <div class="w-6 bg-purple-500 rounded-t" style="height: 140px;"></div>
-                                    <span class="text-xs text-gray-600 dark:text-gray-400 mt-1">Q4</span>
-                                </div>
-                            </div>
-                            <div class="text-center mt-4">
-                                <span class="text-sm text-gray-600 dark:text-gray-400">Funding Rounds by Quarter</span>
-                            </div>
-                        </div>
-                        <p class="text-sm text-gray-600 dark:text-gray-300">
-                            Quarterly funding rounds showing investment trends across different startup stages.
-                        </p>
-                    </div>
-
-                    <!-- Chart Example 6 -->
-                    <div class="bg-gray-50 dark:bg-gray-900 p-8 rounded-2xl">
-                        <div class="flex items-center mb-6">
-                            <div class="w-12 h-12 bg-indigo-100 dark:bg-indigo-900 rounded-lg flex items-center justify-center mr-4">
-                                <svg class="w-6 h-6 text-indigo-600 dark:text-indigo-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-                                </svg>
-                            </div>
-                            <div>
-                                <h3 class="text-xl font-semibold text-gray-900 dark:text-white">Real Estate Price Distribution</h3>
-                                <p class="text-sm text-gray-600 dark:text-gray-400">From Real Estate Dataset</p>
-                            </div>
-                        </div>
-                        <div class="bg-white dark:bg-gray-800 p-6 rounded-lg mb-4">
-                            <div class="space-y-4">
-                                <div class="flex items-center justify-between">
-                                    <span class="text-sm text-gray-600 dark:text-gray-400">Under $200K</span>
-                                    <div class="flex items-center">
-                                        <div class="w-24 bg-gray-200 dark:bg-gray-700 rounded-full h-2 mr-3">
-                                            <div class="bg-green-500 h-2 rounded-full" style="width: 15%"></div>
-                                        </div>
-                                        <span class="text-sm font-medium text-gray-900 dark:text-white">15%</span>
-                                    </div>
-                                </div>
-                                <div class="flex items-center justify-between">
-                                    <span class="text-sm text-gray-600 dark:text-gray-400">$200K - $500K</span>
-                                    <div class="flex items-center">
-                                        <div class="w-24 bg-gray-200 dark:bg-gray-700 rounded-full h-2 mr-3">
-                                            <div class="bg-blue-500 h-2 rounded-full" style="width: 45%"></div>
-                                        </div>
-                                        <span class="text-sm font-medium text-gray-900 dark:text-white">45%</span>
-                                    </div>
-                                </div>
-                                <div class="flex items-center justify-between">
-                                    <span class="text-sm text-gray-600 dark:text-gray-400">$500K - $1M</span>
-                                    <div class="flex items-center">
-                                        <div class="w-24 bg-gray-200 dark:bg-gray-700 rounded-full h-2 mr-3">
-                                            <div class="bg-yellow-500 h-2 rounded-full" style="width: 30%"></div>
-                                        </div>
-                                        <span class="text-sm font-medium text-gray-900 dark:text-white">30%</span>
-                                    </div>
-                                </div>
-                                <div class="flex items-center justify-between">
-                                    <span class="text-sm text-gray-600 dark:text-gray-400">Over $1M</span>
-                                    <div class="flex items-center">
-                                        <div class="w-24 bg-gray-200 dark:bg-gray-700 rounded-full h-2 mr-3">
-                                            <div class="bg-red-500 h-2 rounded-full" style="width: 10%"></div>
-                                        </div>
-                                        <span class="text-sm font-medium text-gray-900 dark:text-white">10%</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="text-sm text-gray-600 dark:text-gray-300">
-                            Property price distribution across different market segments and regions.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- More Examples Row -->
-                <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-16">
-                    <!-- Chart Example 7 -->
-                    <div class="bg-gray-50 dark:bg-gray-900 p-6 rounded-2xl">
-                        <div class="flex items-center mb-4">
-                            <div class="w-10 h-10 bg-pink-100 dark:bg-pink-900 rounded-lg flex items-center justify-center mr-3">
-                                <svg class="w-5 h-5 text-pink-600 dark:text-pink-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                                </svg>
-                            </div>
-                            <div>
-                                <h4 class="text-lg font-semibold text-gray-900 dark:text-white">Movie Ratings</h4>
-                                <p class="text-xs text-gray-600 dark:text-gray-400">Movies Dataset</p>
-                            </div>
-                        </div>
-                        <div class="bg-white dark:bg-gray-800 p-4 rounded-lg mb-3">
-                            <div class="flex items-center justify-between mb-2">
-                                <span class="text-xs text-gray-600 dark:text-gray-400">Average Rating</span>
-                                <span class="text-sm font-bold text-gray-900 dark:text-white">7.2/10</span>
-                            </div>
-                            <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
-                                <div class="bg-pink-500 h-2 rounded-full" style="width: 72%"></div>
-                            </div>
-                        </div>
-                        <p class="text-xs text-gray-600 dark:text-gray-300">
-                            Average movie ratings across different genres and release years.
-                        </p>
-                    </div>
-
-                    <!-- Chart Example 8 -->
-                    <div class="bg-gray-50 dark:bg-gray-900 p-6 rounded-2xl">
-                        <div class="flex items-center mb-4">
-                            <div class="w-10 h-10 bg-teal-100 dark:bg-teal-900 rounded-lg flex items-center justify-center mr-3">
-                                <svg class="w-5 h-5 text-teal-600 dark:text-teal-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                </svg>
-                            </div>
-                            <div>
-                                <h4 class="text-lg font-semibold text-gray-900 dark:text-white">Cybersecurity Incidents</h4>
-                                <p class="text-xs text-gray-600 dark:text-gray-400">Cybersecurity Dataset</p>
-                            </div>
-                        </div>
-                        <div class="bg-white dark:bg-gray-800 p-4 rounded-lg mb-3">
-                            <div class="grid grid-cols-2 gap-2 text-center">
-                                <div class="bg-red-100 dark:bg-red-900 p-2 rounded">
-                                    <div class="text-lg font-bold text-red-600 dark:text-red-300">1,247</div>
-                                    <div class="text-xs text-red-600 dark:text-red-300">High Risk</div>
-                                </div>
-                                <div class="bg-yellow-100 dark:bg-yellow-900 p-2 rounded">
-                                    <div class="text-lg font-bold text-yellow-600 dark:text-yellow-300">3,891</div>
-                                    <div class="text-xs text-yellow-600 dark:text-yellow-300">Medium</div>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="text-xs text-gray-600 dark:text-gray-300">
-                            Security incident classification by severity levels and industry sectors.
-                        </p>
-                    </div>
-
-                    <!-- Chart Example 9 -->
-                    <div class="bg-gray-50 dark:bg-gray-900 p-6 rounded-2xl">
-                        <div class="flex items-center mb-4">
-                            <div class="w-10 h-10 bg-emerald-100 dark:bg-emerald-900 rounded-lg flex items-center justify-center mr-3">
-                                <svg class="w-5 h-5 text-emerald-600 dark:text-emerald-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
-                                </svg>
-                            </div>
-                            <div>
-                                <h4 class="text-lg font-semibold text-gray-900 dark:text-white">Energy Consumption</h4>
-                                <p class="text-xs text-gray-600 dark:text-gray-400">Climate Dataset</p>
-                            </div>
-                        </div>
-                        <div class="bg-white dark:bg-gray-800 p-4 rounded-lg mb-3">
-                            <div class="text-center">
-                                <div class="text-2xl font-bold text-emerald-600 dark:text-emerald-300 mb-1">85%</div>
-                                <div class="text-xs text-gray-600 dark:text-gray-400">Renewable Energy</div>
-                                <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-1 mt-2">
-                                    <div class="bg-emerald-500 h-1 rounded-full" style="width: 85%"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="text-xs text-gray-600 dark:text-gray-300">
-                            Renewable energy adoption rates across different countries and regions.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="text-center mt-16">
-                    <a href="pages/datasets.html" class="inline-flex items-center px-6 py-3 bg-gray-900 dark:bg-white text-white dark:text-black rounded-lg font-medium hover:bg-gray-800 dark:hover:bg-gray-100 transition-colors">
-                        <span>Explore All Datasets</span>
-                        <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                        </svg>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Demo & Resources Section -->
-        <section class="py-16 sm:py-20 lg:py-24 bg-gray-50 dark:bg-black">
-            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="text-center mb-12 sm:mb-16 lg:mb-20">
-                    <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4 sm:mb-6">
-                        See Aqwel AI in Action
-                    </h2>
-                    <p class="text-lg sm:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
-                        Explore our latest demos, presentations, and resources to learn more about our technology and vision.
-                    </p>
-                </div>
-                
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-12">
-                    <!-- Video Demo -->
-                    <div class="bg-white dark:bg-black p-6 sm:p-8 rounded-2xl shadow-sm border border-gray-200 dark:border-gray-800">
-                        <div class="flex flex-col sm:flex-row items-start space-y-4 sm:space-y-0 sm:space-x-4">
-                            <div class="w-12 h-12 bg-gray-100 dark:bg-gray-800 rounded-lg flex items-center justify-center flex-shrink-0">
-                                <svg class="w-6 h-6 text-gray-600 dark:text-gray-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1m4 0h1m-6 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                </svg>
-                            </div>
-                            <div class="flex-1 w-full">
-                                <h3 class="text-lg sm:text-xl font-semibold text-gray-900 dark:text-white mb-3">Product Demo</h3>
-                                <p class="text-sm sm:text-base text-gray-600 dark:text-gray-300 leading-relaxed mb-4 sm:mb-6">
-                                    Watch our latest product demonstration showcasing Aqwel AI's capabilities 
-                                    in real-world scenarios and use cases.
-                                </p>
-                                <div class="space-y-2 sm:space-y-3">
-                                    <a href="#" class="block w-full bg-gray-900 dark:bg-white text-white dark:text-black text-center py-3 px-4 sm:px-6 rounded-lg hover:bg-gray-800 dark:hover:bg-gray-100 transition-colors duration-200 font-medium text-sm sm:text-base">
-                                        Watch Demo Video
-                                    </a>
-                                    <a href="#" class="block w-full border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 text-center py-3 px-4 sm:px-6 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200 font-medium text-sm sm:text-base">
-                                        Try Interactive Demo
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Pitch Deck -->
-                    <div class="bg-white dark:bg-black p-6 sm:p-8 rounded-2xl shadow-sm border border-gray-200 dark:border-gray-800">
-                        <div class="flex flex-col sm:flex-row items-start space-y-4 sm:space-y-0 sm:space-x-4">
-                            <div class="w-12 h-12 bg-gray-100 dark:bg-gray-800 rounded-lg flex items-center justify-center flex-shrink-0">
-                                <svg class="w-6 h-6 text-gray-600 dark:text-gray-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                                </svg>
-                            </div>
-                            <div class="flex-1 w-full">
-                                <h3 class="text-lg sm:text-xl font-semibold text-gray-900 dark:text-white mb-3">Pitch Deck</h3>
-                                <p class="text-sm sm:text-base text-gray-600 dark:text-gray-300 leading-relaxed mb-4 sm:mb-6">
-                                    Download our comprehensive pitch deck to learn about our mission, 
-                                    technology, market opportunity, and investment details.
-                                </p>
-                                <div class="space-y-2 sm:space-y-3">
-                                    <a href="#" class="block w-full bg-gray-900 dark:bg-white text-white dark:text-black text-center py-3 px-4 sm:px-6 rounded-lg hover:bg-gray-800 dark:hover:bg-gray-100 transition-colors duration-200 font-medium text-sm sm:text-base">
-                                        View Pitch Deck
-                                    </a>
-                                    <a href="#" class="block w-full border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 text-center py-3 px-4 sm:px-6 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200 font-medium text-sm sm:text-base">
-                                        Download PDF
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- About Section -->
-        <section id="about" class="py-32 bg-white dark:bg-black">
-            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="text-center mb-24">
-                    <h2 class="text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-8 tracking-tight">
-                        Our mission
-                    </h2>
-                    <p class="text-2xl text-gray-600 dark:text-gray-300 max-w-4xl mx-auto font-light leading-relaxed">
-                        Aqwel AI's mission is to ensure that artificial general intelligence (AGI) 
-                        benefits all of humanity. We are building safe, beneficial AI systems.
-                    </p>
-                </div>
-                
-                <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
-                    <div class="text-center">
-                        <div class="w-20 h-20 bg-gray-50 dark:bg-gray-800 rounded-3xl flex items-center justify-center mx-auto mb-8">
-                            <svg class="w-10 h-10 text-gray-600 dark:text-gray-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg>
-                        </div>
-                        <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-6">Safety First</h3>
-                        <p class="text-lg text-gray-600 dark:text-gray-300 leading-relaxed font-light">
-                            We prioritize safety in AI development, ensuring our systems are aligned 
-                            with human values and beneficial to society.
-                        </p>
-                    </div>
-
-                    <div class="text-center">
-                        <div class="w-20 h-20 bg-gray-50 dark:bg-gray-800 rounded-3xl flex items-center justify-center mx-auto mb-8">
-                            <svg class="w-10 h-10 text-gray-600 dark:text-gray-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z" />
-                            </svg>
-                        </div>
-                        <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-6">Innovation</h3>
-                        <p class="text-lg text-gray-600 dark:text-gray-300 leading-relaxed font-light">
-                            We push the boundaries of what's possible with AI, developing cutting-edge 
-                            technologies that solve real-world problems.
-                        </p>
-                    </div>
-
-                    <div class="text-center">
-                        <div class="w-20 h-20 bg-gray-50 dark:bg-gray-800 rounded-3xl flex items-center justify-center mx-auto mb-8">
-                            <svg class="w-10 h-10 text-gray-600 dark:text-gray-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                            </svg>
-                        </div>
-                        <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-6">Collaboration</h3>
-                        <p class="text-lg text-gray-600 dark:text-gray-300 leading-relaxed font-light">
-                            We work with researchers, policymakers, and organizations worldwide to 
-                            ensure AI development benefits everyone.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Investors Section -->
-        <section id="investors" class="py-32 bg-white dark:bg-black">
-            <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="text-center mb-24">
-                    <h2 class="text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-8 tracking-tight">
-                        Seeking Investment Partners
-                    </h2>
-                    <p class="text-2xl text-gray-600 dark:text-gray-300 max-w-4xl mx-auto font-light leading-relaxed">
-                        We're looking for visionary investors who share our mission to build safe, 
-                        beneficial AI that benefits all of humanity.
-                    </p>
-                </div>
-
-                <div class="bg-gradient-to-r from-gray-900 to-gray-800 rounded-3xl p-12 md:p-16 text-white shadow-2xl">
-                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-                        <div>
-                            <h3 class="text-4xl font-bold mb-8 tracking-tight">Join Our Journey</h3>
-                            <p class="text-xl text-gray-200 mb-8 leading-relaxed font-light">
-                                Aqwel AI is seeking strategic investors to accelerate our mission of building 
-                                safe artificial intelligence for space, mathematics, and health research. We're looking for partners who understand 
-                                the transformative potential of AI and share our commitment to safety and alignment.
-                            </p>
-                            
-                            <div class="mb-8">
-                                <h4 class="text-2xl font-semibold text-white mb-6">Why Partner With Us?</h4>
-                                <div class="space-y-4">
-                                    <div class="flex items-center space-x-3">
-                                        <svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M5 13l4 4L19 7" />
-                                        </svg>
-                                        <span class="text-gray-200">Proven foundation – Our first product, Aion, is already live and growing.</span>
-                                    </div>
-                                    <div class="flex items-center space-x-3">
-                                        <svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M5 13l4 4L19 7" />
-                                        </svg>
-                                        <span class="text-gray-200">Global vision – Targeting the trillion-dollar markets of space, science, and health.</span>
-                                    </div>
-                                    <div class="flex items-center space-x-3">
-                                        <svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M5 13l4 4L19 7" />
-                                        </svg>
-                                        <span class="text-gray-200">Dedicated team – Young, ambitious, and mission-driven innovators.</span>
-                                    </div>
-                                    <div class="flex items-center space-x-3">
-                                        <svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M5 13l4 4L19 7" />
-                                        </svg>
-                                        <span class="text-gray-200">Safety-first approach – Responsible AI and alignment built into our work.</span>
-                                    </div>
-                                    <div class="flex items-center space-x-3">
-                                        <svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M5 13l4 4L19 7" />
-                                        </svg>
-                                        <span class="text-gray-200">Massive opportunity – AI-powered science and research are the next frontier.</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6">
-                            <h4 class="text-xl font-semibold mb-4">Investment Opportunity</h4>
-                            <div class="space-y-3">
-                                <div class="flex justify-between">
-                                    <span class="text-gray-300">Funding Round:</span>
-                                    <span class="text-white font-medium">Pre-Seed</span>
-                                </div>
-                                <div class="flex justify-between">
-                                    <span class="text-gray-300">Target Raise:</span>
-                                    <span class="text-white font-medium">$50,000</span>
-                                </div>
-                                <div class="flex justify-between">
-                                    <span class="text-gray-300">Use of Funds:</span>
-                                    <span class="text-white font-medium">Product development, cloud infrastructure, branding, and early growth</span>
-                                </div>
-                                <div class="flex justify-between">
-                                    <span class="text-gray-300">Minimum Investment:</span>
-                                    <span class="text-white font-medium">$5,000</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Aion Library Section -->
-        <section class="py-32 bg-gray-50 dark:bg-black">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="text-center mb-16">
-                    <h2 class="text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-8 tracking-tight">
-                        Aqwel AI Aion v0.1.7
-                    </h2>
-                    <p class="text-2xl text-gray-600 dark:text-gray-300 max-w-5xl mx-auto mb-12 font-light leading-relaxed">
-                        Aion is an open-source Python utility library by Aqwel AI, designed to empower AI research, 
-                        machine learning development, and advanced data science workflows.
-                    </p>
-                    <div class="flex flex-col sm:flex-row gap-6 justify-center mb-16">
-                        <code class="bg-gray-900 dark:bg-white text-green-400 dark:text-black px-8 py-4 rounded-full font-mono text-lg">
-                            pip install aqwel-aion
-                        </code>
-                        <a href="https://pypi.org/project/aqwel-aion/" target="_blank" rel="noopener noreferrer" class="bg-gray-900 dark:bg-white text-white dark:text-black px-8 py-4 rounded-full font-medium hover:bg-gray-800 dark:hover:bg-gray-100 transition-all duration-300 text-lg">
-                            View on PyPI
-                        </a>
-                        <a href="https://github.com/aqwel-ai/aion" target="_blank" rel="noopener noreferrer" class="border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 px-8 py-4 rounded-full font-medium hover:bg-gray-50 dark:hover:bg-gray-800 transition-all duration-300 text-lg">
-                            View on GitHub
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Features Grid -->
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-                    <div class="bg-white dark:bg-black p-8 rounded-3xl shadow-lg border border-gray-100 dark:border-gray-800 hover:shadow-xl transition-all duration-300">
-                        <div class="w-12 h-12 bg-gray-100 dark:bg-gray-800 rounded-lg flex items-center justify-center mb-6">
-                            <svg class="w-6 h-6 text-gray-600 dark:text-gray-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
-                            </svg>
-                        </div>
-                        <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-4">Complete Mathematics & ML Library</h3>
-                        <p class="text-gray-600 dark:text-gray-300 mb-4">71+ mathematical functions for AI/ML research</p>
-                        <ul class="text-sm text-gray-500 dark:text-gray-400 space-y-1">
-                            <li>• Advanced Statistics & ML Tools</li>
-                            <li>• Signal Processing & FFT</li>
-                            <li>• Data Science Pipeline Tools</li>
-                        </ul>
-                    </div>
-
-                    <div class="bg-white dark:bg-black p-8 rounded-3xl shadow-lg border border-gray-100 dark:border-gray-800 hover:shadow-xl transition-all duration-300">
-                        <div class="w-12 h-12 bg-gray-100 dark:bg-gray-800 rounded-lg flex items-center justify-center mb-6">
-                            <svg class="w-6 h-6 text-gray-600 dark:text-gray-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-                            </svg>
-                        </div>
-                        <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-4">AI Research Capabilities</h3>
-                        <p class="text-gray-600 dark:text-gray-300 mb-4">Text embeddings, prompt engineering, code analysis</p>
-                        <ul class="text-sm text-gray-500 dark:text-gray-400 space-y-1">
-                            <li>• Text Embeddings & Similarity</li>
-                            <li>• 11+ AI Prompt Templates</li>
-                            <li>• Model Evaluation Metrics</li>
-                        </ul>
-                    </div>
-
-                    <div class="bg-white dark:bg-black p-8 rounded-3xl shadow-lg border border-gray-100 dark:border-gray-800 hover:shadow-xl transition-all duration-300">
-                        <div class="w-12 h-12 bg-gray-100 dark:bg-gray-800 rounded-lg flex items-center justify-center mb-6">
-                            <svg class="w-6 h-6 text-gray-600 dark:text-gray-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                            </svg>
-                        </div>
-                        <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-4">Professional Documentation</h3>
-                        <p class="text-gray-600 dark:text-gray-300 mb-4">Automated PDF generation for research papers</p>
-                        <ul class="text-sm text-gray-500 dark:text-gray-400 space-y-1">
-                            <li>• Research Paper Templates</li>
-                            <li>• API Documentation</li>
-                            <li>• User Guides & Tutorials</li>
-                        </ul>
-                    </div>
-
-                    <div class="bg-white dark:bg-black p-8 rounded-3xl shadow-lg border border-gray-100 dark:border-gray-800 hover:shadow-xl transition-all duration-300">
-                        <div class="w-12 h-12 bg-gray-100 dark:bg-gray-800 rounded-lg flex items-center justify-center mb-6">
-                            <svg class="w-6 h-6 text-gray-600 dark:text-gray-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                            </svg>
-                        </div>
-                        <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-4">Enhanced Development Tools</h3>
-                        <p class="text-gray-600 dark:text-gray-300 mb-4">Advanced file management, real-time monitoring, Git integration</p>
-                        <ul class="text-sm text-gray-500 dark:text-gray-400 space-y-1">
-                            <li>• Real-time Monitoring</li>
-                            <li>• Git Integration</li>
-                            <li>• 30+ Language Support</li>
-                        </ul>
-                    </div>
-
-                    <div class="bg-white dark:bg-black p-8 rounded-3xl shadow-lg border border-gray-100 dark:border-gray-800 hover:shadow-xl transition-all duration-300">
-                        <div class="w-12 h-12 bg-gray-100 dark:bg-gray-800 rounded-lg flex items-center justify-center mb-6">
-                            <svg class="w-6 h-6 text-gray-600 dark:text-gray-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                            </svg>
-                        </div>
-                        <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-4">Signal Processing</h3>
-                        <p class="text-gray-600 dark:text-gray-300 mb-4">FFT, convolution, filtering, and frequency analysis</p>
-                        <ul class="text-sm text-gray-500 dark:text-gray-400 space-y-1">
-                            <li>• FFT & Convolution</li>
-                            <li>• Filtering & Analysis</li>
-                            <li>• Frequency Processing</li>
-                        </ul>
-                    </div>
-
-                    <div class="bg-white dark:bg-black p-8 rounded-3xl shadow-lg border border-gray-100 dark:border-gray-800 hover:shadow-xl transition-all duration-300">
-                        <div class="w-12 h-12 bg-gray-100 dark:bg-gray-800 rounded-lg flex items-center justify-center mb-6">
-                            <svg class="w-6 h-6 text-gray-600 dark:text-gray-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                            </svg>
-                        </div>
-                        <h3 class="text-xl font-semibold text-gray-900 dark:text-white mb-4">Revolutionary Features</h3>
-                        <p class="text-gray-600 dark:text-gray-300 mb-4">The most comprehensive AI research library ever created</p>
-                        <ul class="text-sm text-gray-500 dark:text-gray-400 space-y-1">
-                            <li>• 175+ Mathematical Functions</li>
-                            <li>• 96/100 Quality Score</li>
-                            <li>• Production Ready</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Why Choose Aion -->
-                <div class="bg-white dark:bg-black rounded-2xl shadow-sm border border-gray-200 dark:border-gray-800 p-8 mb-16">
-                    <h3 class="text-3xl font-bold text-gray-900 dark:text-white mb-8 text-center">Why Aqwel AI-aion?</h3>
-                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                        <div class="text-center">
-                            <div class="w-16 h-16 bg-gray-100 dark:bg-gray-800 rounded-full flex items-center justify-center mx-auto mb-4">
-                                <svg class="w-8 h-8 text-gray-600 dark:text-gray-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                                </svg>
-                            </div>
-                            <h4 class="font-semibold text-gray-900 dark:text-white mb-2">Revolutionary Breakthrough</h4>
-                            <p class="text-sm text-gray-600 dark:text-gray-300">Now the most comprehensive AI research library available</p>
-                        </div>
-                        <div class="text-center">
-                            <div class="w-16 h-16 bg-gray-100 dark:bg-gray-800 rounded-full flex items-center justify-center mx-auto mb-4">
-                                <svg class="w-8 h-8 text-gray-600 dark:text-gray-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
-                                </svg>
-                            </div>
-                            <h4 class="font-semibold text-gray-900 dark:text-white mb-2">World-Class Mathematics</h4>
-                            <p class="text-sm text-gray-600 dark:text-gray-300">175+ mathematical functions for AI/ML research</p>
-                        </div>
-                        <div class="text-center">
-                            <div class="w-16 h-16 bg-gray-100 dark:bg-gray-800 rounded-full flex items-center justify-center mx-auto mb-4">
-                                <svg class="w-8 h-8 text-gray-600 dark:text-gray-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-                                </svg>
-                            </div>
-                            <h4 class="font-semibold text-gray-900 dark:text-white mb-2">Complete Research Pipeline</h4>
-                            <p class="text-sm text-gray-600 dark:text-gray-300">From data to publication-ready results</p>
-                        </div>
-                        <div class="text-center">
-                            <div class="w-16 h-16 bg-gray-100 dark:bg-gray-800 rounded-full flex items-center justify-center mx-auto mb-4">
-                                <svg class="w-8 h-8 text-gray-600 dark:text-gray-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-                                </svg>
-                            </div>
-                            <h4 class="font-semibold text-gray-900 dark:text-white mb-2">Production Ready</h4>
-                            <p class="text-sm text-gray-600 dark:text-gray-300">96/100 quality score with enterprise-grade reliability</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Library Statistics -->
-                <div class="bg-white dark:bg-black rounded-2xl shadow-sm border border-gray-200 dark:border-gray-800 p-8 mb-16">
-                    <div class="flex items-center justify-center mb-8">
-                        <div class="w-12 h-12 bg-gray-100 dark:bg-gray-800 rounded-lg flex items-center justify-center mr-4">
-                            <svg class="w-6 h-6 text-gray-600 dark:text-gray-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                            </svg>
-                        </div>
-                        <h3 class="text-3xl font-bold text-gray-900 dark:text-white">Library Statistics</h3>
-                    </div>
-                    <p class="text-center text-gray-600 dark:text-gray-300 mb-8">v0.1.7 represents a quantum leap in AI research tools</p>
-                    <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
-                        <div class="text-center">
-                            <div class="text-4xl font-bold text-gray-900 dark:text-white mb-2">13</div>
-                            <div class="text-gray-600 dark:text-gray-300">Core Modules</div>
-                        </div>
-                        <div class="text-center">
-                            <div class="text-4xl font-bold text-gray-900 dark:text-white mb-2">175+</div>
-                            <div class="text-gray-600 dark:text-gray-300">Functions</div>
-                        </div>
-                        <div class="text-center">
-                            <div class="text-4xl font-bold text-gray-900 dark:text-white mb-2">96/100</div>
-                            <div class="text-gray-600 dark:text-gray-300">Quality Score</div>
-                        </div>
-                        <div class="text-center">
-                            <div class="text-4xl font-bold text-gray-900 dark:text-white mb-2">30+</div>
-                            <div class="text-gray-600 dark:text-gray-300">Languages</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <!-- FAQ Section -->
-        <section id="faq" class="py-32 bg-gray-50 dark:bg-black">
-            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="text-center mb-16">
-                    <h2 class="text-5xl md:text-6xl font-bold text-gray-900 dark:text-white mb-8 tracking-tight">
-                        Frequently Asked Questions
-                    </h2>
-                    <p class="text-2xl text-gray-600 dark:text-gray-300 max-w-4xl mx-auto font-light leading-relaxed">
-                        Find answers to common questions about Aqwel AI. Can't find what you're looking for? 
-                        Contact our support team.
-                    </p>
-                </div>
-
-                <div class="space-y-4" id="faq-container">
-                    <!-- FAQ items will be populated by JavaScript -->
-                </div>
-
-                <!-- Contact Support -->
-                <div class="mt-16 text-center">
-                    <h3 class="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
-                        Still Have Questions?
-                    </h3>
-                    <p class="text-gray-600 dark:text-gray-300 mb-8">
-                        Our support team is here to help. Get in touch and we'll get back to you as soon as possible.
-                    </p>
-                    <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                        <a href="mailto:support@aqwel.ai" class="bg-gray-900 dark:bg-white text-white dark:text-black px-6 py-3 rounded-lg hover:bg-gray-800 dark:hover:bg-gray-100 transition-colors duration-200">
-                            Contact Support
-                        </a>
-                        <a href="/docs" class="border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 px-6 py-3 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-200">
-                            View Documentation
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Data Visualization Examples Section -->
-       
-    </main>
-
-    <!-- Footer -->
-    <footer class="bg-white dark:bg-black border-t border-gray-200 dark:border-gray-800 py-6 sm:py-8">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <!-- Mobile-first grid layout -->
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6">
-                <!-- Brand Section - Full width on mobile -->
-                <div class="sm:col-span-2 lg:col-span-1">
-                    <div class="flex items-center space-x-3 mb-4 sm:mb-5">
-                        <div class="w-8 h-8 rounded-xl bg-black flex items-center justify-center p-1.5">
-                            <img src="images/logo_website.png" alt="Aqwel AI Logo" class="w-5 h-5">
-                        </div>
-                        <span class="text-lg font-bold text-gray-900 dark:text-white">Aqwel AI</span>
-                    </div>
-                    <p class="text-sm text-gray-600 dark:text-gray-300 mb-4 sm:mb-5 max-w-xs">
-                        Building safe artificial general intelligence that benefits all of humanity.
-                    </p>
-                </div>
-                
-                <!-- Company Section -->
-                <div>
-                    <h4 class="text-sm font-semibold text-gray-900 dark:text-white mb-3 sm:mb-4">Company</h4>
-                    <ul class="space-y-2 sm:space-y-3">
-                        <li><a href="pages/about.html" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">About</a></li>
-                        <li><a href="#" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">Blog</a></li>
-                        <li><a href="pages/careers.html" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">Careers</a></li>
-                        <li><a href="#" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">Charter</a></li>
-                    </ul>
-                </div>
-                
-                <!-- Research Section -->
-                <div>
-                    <h4 class="text-sm font-semibold text-gray-900 dark:text-white mb-3 sm:mb-4">Research</h4>
-                    <ul class="space-y-2 sm:space-y-3">
-                        <li><a href="pages/research.html" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">Research</a></li>
-                        <li><a href="pages/safety.html" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">Safety</a></li>
-                        <li><a href="pages/datasets.html" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">Datasets</a></li>
-                        <li><a href="#" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">Papers</a></li>
-                    </ul>
-                </div>
-                
-                <!-- Community Section -->
-                <div>
-                    <h4 class="text-sm font-semibold text-gray-900 dark:text-white mb-3 sm:mb-4">Community</h4>
-                    <ul class="space-y-2 sm:space-y-3">
-                        <li><a href="https://github.com/Aqwel-AI" target="_blank" rel="noopener noreferrer" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">GitHub</a></li>
-                        <li><a href="https://www.linkedin.com/company/aqwelaiofficial/" target="_blank" rel="noopener noreferrer" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">LinkedIn</a></li>
-                        <li><a href="#" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">YouTube</a></li>
-                        <li><a href="#" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">Help Center</a></li>
-                    </ul>
-                </div>
-            </div>
-            
-            <!-- Bottom section with better mobile layout -->
-            <div class="border-t border-gray-200 dark:border-gray-800 mt-6 sm:mt-8 pt-4 sm:pt-5">
-                <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center space-y-4 sm:space-y-0">
-                    <p class="text-sm text-gray-600 dark:text-gray-300 order-2 sm:order-1">
-                        © 2025 Aqwel AI. All rights reserved.
-                    </p>
-                    <div class="flex flex-wrap gap-4 sm:gap-6 order-1 sm:order-2">
-                        <a href="#" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">Privacy Policy</a>
-                        <a href="#" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">Terms of Use</a>
-                        <a href="#" class="text-sm text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">Cookie Policy</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- JavaScript -->
-    <script src="js/components.js"></script>
-    <script src="js/script.js"></script>
-    <script>
-        // Farewell party confetti
-        (function() {
-            const btn = document.getElementById('farewell-btn');
-            if (!btn) return;
-
-            btn.addEventListener('click', () => {
-                const overlay = document.createElement('div');
-                overlay.className = 'farewell-overlay';
-                document.body.appendChild(overlay);
-
-                const colors = ['#22c55e', '#34d399', '#60a5fa', '#a5b4fc', '#fbbf24', '#f472b6', '#f87171'];
-                const total = 120;
-
-                for (let i = 0; i < total; i++) {
-                    const piece = document.createElement('div');
-                    piece.className = 'confetti-piece';
-                    const color = colors[Math.floor(Math.random() * colors.length)];
-                    const left = Math.random() * 100;
-                    const endX = (Math.random() * 80 - 40); // -40 to 40
-                    const delay = Math.random() * 0.8;
-                    const duration = 3 + Math.random() * 2; // 3-5s
-
-                    piece.style.left = left + '%';
-                    piece.style.background = color;
-                    piece.style.setProperty('--start-x', `${(Math.random() * 30 - 15)}px`);
-                    piece.style.setProperty('--end-x', `${endX}px`);
-                    piece.style.animationDuration = `${duration}s`;
-                    piece.style.animationDelay = `${delay}s`;
-
-                    overlay.appendChild(piece);
-                }
-
-                setTimeout(() => overlay.remove(), 6000);
-            });
-        })();
-
-        // New Year celebration cinematic
-        (function() {
-            const btn = document.getElementById('farewell-btn');
-            const overlay = document.getElementById('celebration-overlay');
-            if (!btn || !overlay) return;
-
-            btn.addEventListener('click', () => {
-                overlay.classList.add('show');
-                // reset fireworks by forcing reflow on keyframes
-                const fireworks = overlay.querySelectorAll('.firework');
-                fireworks.forEach((fw, idx) => {
-                    fw.style.animation = 'none';
-                    void fw.offsetWidth;
-                    fw.style.animation = `launch 0.9s ease-out forwards, explode 1.1s ease-out forwards ${0.2 * idx + 0.8}s`;
-                });
-
-                // burst more fireworks dynamically
-                const fwContainer = overlay.querySelector('.fireworks');
-                for (let i = 0; i < 8; i++) {
-                    const fw = document.createElement('div');
-                    fw.className = 'firework';
-                    fw.style.left = `${20 + Math.random() * 60}%`;
-                    const delay = 0.5 + i * 0.15;
-                    fw.style.animation = `launch 0.9s ease-out forwards ${delay}s, explode 1.1s ease-out forwards ${delay + 0.8}s`;
-                    fwContainer.appendChild(fw);
-                    setTimeout(() => fw.remove(), 2500);
-                }
-
-                // camera zoom/parallax via hero scale
-                document.body.classList.add('celebration-active');
-                setTimeout(() => {
-                    overlay.classList.remove('show');
-                    document.body.classList.remove('celebration-active');
-                }, 6000);
-            });
-        })();
-    </script>
+    const timer = setInterval(() => {
+      remaining--;
+      el.textContent = format(Math.max(0, remaining));
+      if (remaining <= 0) {
+        clearInterval(timer);
+        window.location.replace(TARGET);
+      }
+    }, 1000);
+  </script>
 </body>
 </html>
